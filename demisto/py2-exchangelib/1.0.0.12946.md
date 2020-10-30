@@ -1,23 +1,24 @@
-# `demisto/google-kms:1.0.0.12965`
+# `demisto/py2-exchangelib:1.0.0.12946`
 ## Docker Metadata
-- Image Size: `58.99 MB`
-- Image ID: `sha256:bffb638b4aec5f3a61e32e8ca8c949b313c7f69a0ae5af6af6a7394ca72dcb91`
-- Created: `2020-10-29T13:50:10.035585212Z`
+- Image Size: `117.13 MB`
+- Image ID: `sha256:f2c7d6dc6cf5560dcf5cd53357dcb7d7a7b9b61911d89e5923890ab30095ad4e`
+- Created: `2020-10-29T11:51:23.831919245Z`
 - Arch: `linux`/`amd64`
-- Command: `["python3"]`
+- Command: `["python2"]`
 - Environment:
   - `PATH=/usr/local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin`
   - `LANG=C.UTF-8`
-  - `GPG_KEY=E3FF2839C048B25C084DEBE9B26995E310250568`
-  - `PYTHON_VERSION=3.8.6`
-  - `PYTHON_PIP_VERSION=20.2.3`
-  - `PYTHON_GET_PIP_URL=https://github.com/pypa/get-pip/raw/fa7dc83944936bf09a0e4cb5d5ec852c0d256599/get-pip.py`
-  - `PYTHON_GET_PIP_SHA256=6e0bb0a2c2533361d7f297ed547237caf1b7507f197835974c0dd7eba998c53c`
-  - `DOCKER_IMAGE=demisto/google-kms:1.0.0.12965`
+  - `PYTHONIOENCODING=UTF-8`
+  - `GPG_KEY=C01E1CAD5EA2C4F0B8E3571504C367C218ADD4FF`
+  - `PYTHON_VERSION=2.7.18`
+  - `PYTHON_PIP_VERSION=20.0.2`
+  - `PYTHON_GET_PIP_URL=https://github.com/pypa/get-pip/raw/d59197a3c169cef378a22428a3fa99d33e080a5d/get-pip.py`
+  - `PYTHON_GET_PIP_SHA256=421ac1d44c0cf9730a088e337867d974b91bdce4ea2636099275071878cc189e`
+  - `DOCKER_IMAGE=demisto/py2-exchangelib:1.0.0.12946`
 - Labels:
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:e57d229ffb57a54a28729400856dda03fe0896c4`
-  - `org.opencontainers.image.version:1.0.0.12965`
+  - `org.opencontainers.image.revision:653bb2886b902ff749e544169012feea5229510b`
+  - `org.opencontainers.image.version:1.0.0.12946`
 
 - OS Release:
   - `PRETTY_NAME="Debian GNU/Linux 10 (buster)"`
@@ -33,29 +34,29 @@
 ## Docker Trust
 ```
 
-Signatures for demisto/google-kms:1.0.0.12965
+Signatures for demisto/py2-exchangelib:1.0.0.12946
 
 SIGNED TAG          DIGEST                                                             SIGNERS
-1.0.0.12965         032c66c267f2a70192310b6814457538881e40472e34d35ba28e9e9314cefae1   (Repo Admin)
+1.0.0.12946         354a8986df8bdf8417db81a1473c3ca4ed9c0b267f5f370170ddf3ee2c80714b   (Repo Admin)
 
-Administrative keys for demisto/google-kms:1.0.0.12965
+Administrative keys for demisto/py2-exchangelib:1.0.0.12946
 
-  Repository Key:	3968c10ba3e31bc8df33d81159ca1fe0b3299a456046b6bf78410ae84ede0850
-  Root Key:	d0fd563a2245b5e45fc961df4aaaa6e8aaca915308df0a0eeb6c829867f63a34
+  Repository Key:	2065cc7a9bab38503377e2f9aac817b8715d0fa6eddb7f69635345d1fc0b2c18
+  Root Key:	09704a56596a03ce45a4f2b98d5d0a10fc5050493f2b24659ba3c62c8507bc9e
 
 ```
 
 ## `Python Packages`
 
 
-### `cachetools`
+### `cached-property`
 
-* Summary: Extensible memoizing collections and decorators
-* Version: 4.1.1
-* Pypi: https://pypi.org/project/cachetools/
-* Homepage: https://github.com/tkem/cachetools/
-* Author: Thomas Kemmer tkemmer@computer.org
-* License :: OSI Approved :: MIT License
+* Summary: A decorator for caching properties in classes.
+* Version: 1.5.2
+* Pypi: https://pypi.org/project/cached-property/
+* Homepage: https://github.com/pydanny/cached-property
+* Author: Daniel Greenfeld pydanny@gmail.com
+* License :: OSI Approved :: BSD License
 
 ### `certifi`
 
@@ -103,6 +104,42 @@ Administrative keys for demisto/google-kms:1.0.0.12965
 * Author: Scrapinghub info@scrapinghub.com
 * License :: OSI Approved :: BSD License
 
+### `defusedxml`
+
+* Summary: XML bomb protection for Python stdlib modules
+* Version: 0.6.0
+* Pypi: https://pypi.org/project/defusedxml/
+* Homepage: https://github.com/tiran/defusedxml
+* Author: Christian Heimes christian@python.org
+* License :: OSI Approved :: Python Software Foundation License
+
+### `dnspython`
+
+* Summary: DNS toolkit
+* Version: 1.16.0
+* Pypi: https://pypi.org/project/dnspython/
+* Homepage: http://www.dnspython.org
+* Author: Bob Halley halley@dnspython.org
+* License :: ISC License
+
+### `enum34`
+
+* Summary: Python 3.4 Enum backported to 3.3, 3.2, 3.1, 2.7, 2.6, 2.5, and 2.4
+* Version: 1.1.10
+* Pypi: https://pypi.org/project/enum34/
+* Homepage: https://bitbucket.org/stoneleaf/enum34
+* Author: Ethan Furman ethan@stoneleaf.us
+* License :: OSI Approved :: BSD License
+
+### `exchangelib`
+
+* Summary: Client for Microsoft Exchange Web Services (EWS)
+* Version: 1.12.5
+* Pypi: https://pypi.org/project/exchangelib/
+* Homepage: https://github.com/ecederstrand/exchangelib
+* Author: Erik Cederstrand erik@cederstrand.dk
+* License :: OSI Approved :: BSD License
+
 ### `funcy`
 
 * Summary: A fancy and practical functional tools
@@ -112,59 +149,14 @@ Administrative keys for demisto/google-kms:1.0.0.12965
 * Author: Alexander Schepanovski suor.web@gmail.com
 * License :: OSI Approved :: BSD License
 
-### `google-api-core`
+### `future`
 
-* Summary: Google API client core library
-* Version: 1.23.0
-* Pypi: https://pypi.org/project/google-api-core/
-* Homepage: https://github.com/googleapis/python-api-core
-* Author: Google LLC googleapis-packages@google.com
-* License :: OSI Approved :: Apache Software License
-
-### `google-auth`
-
-* Summary: Google Authentication Library
-* Version: 1.22.1
-* Pypi: https://pypi.org/project/google-auth/
-* Homepage: https://github.com/googleapis/google-auth-library-python
-* Author: Google Cloud Platform googleapis-packages@google.com
-* License :: OSI Approved :: Apache Software License
-
-### `google-cloud-kms`
-
-* Summary: Cloud Key Management Service (KMS) API client library
-* Version: 2.2.0
-* Pypi: https://pypi.org/project/google-cloud-kms/
-* Homepage: https://github.com/googleapis/python-kms
-* Author: Google LLC googleapis-packages@google.com
-* License :: OSI Approved :: Apache Software License
-
-### `googleapis-common-protos`
-
-* Summary: Common protobufs used in Google APIs
-* Version: 1.52.0
-* Pypi: https://pypi.org/project/googleapis-common-protos/
-* Homepage: https://github.com/googleapis/python-api-common-protos
-* Author: Google LLC googleapis-packages@google.com
-* License :: OSI Approved :: Apache Software License
-
-### `grpc-google-iam-v1`
-
-* Summary: GRPC library for the google-iam-v1 service
-* Version: 0.12.3
-* Pypi: https://pypi.org/project/grpc-google-iam-v1/
-* Homepage: https://github.com/googleapis/googleapis
-* Author: Google Inc googleapis-packages@google.com
-* License :: OSI Approved :: Apache Software License
-
-### `grpcio`
-
-* Summary: HTTP/2-based RPC framework
-* Version: 1.33.2
-* Pypi: https://pypi.org/project/grpcio/
-* Homepage: https://grpc.io
-* Author: The gRPC Authors grpc-io@googlegroups.com
-* License :: OSI Approved :: Apache Software License
+* Summary: Clean single-source support for Python 3 and 2
+* Version: 0.18.2
+* Pypi: https://pypi.org/project/future/
+* Homepage: https://python-future.org
+* Author: Ed Schofield ed@pythoncharmers.com
+* License :: OSI Approved :: MIT License
 
 ### `idna`
 
@@ -175,22 +167,40 @@ Administrative keys for demisto/google-kms:1.0.0.12965
 * Author: Kim Davies kim@cynosure.com.au
 * License :: OSI Approved :: BSD License
 
-### `libcst`
+### `ipaddress`
 
-* Summary: A concrete syntax tree with AST-like properties for Python 3.5, 3.6, 3.7 and 3.8 programs.
-* Version: 0.3.13
-* Pypi: https://pypi.org/project/libcst/
-* Homepage: https://github.com/Instagram/LibCST
-* Author: 
-* License :: OSI Approved :: MIT License
+* Summary: IPv4/IPv6 manipulation library
+* Version: 1.0.23
+* Pypi: https://pypi.org/project/ipaddress/
+* Homepage: https://github.com/phihag/ipaddress
+* Author: Philipp Hagemeister phihag@phihag.de
+* License :: OSI Approved :: Python Software Foundation License
 
-### `mypy-extensions`
+### `isodate`
 
-* Summary: Experimental type system extensions for programs checked with the mypy typechecker.
-* Version: 0.4.3
-* Pypi: https://pypi.org/project/mypy-extensions/
-* Homepage: https://github.com/python/mypy_extensions
-* Author: The mypy developers jukka.lehtosalo@iki.fi
+* Summary: An ISO 8601 date/time/duration parser and formatter
+* Version: 0.6.0
+* Pypi: https://pypi.org/project/isodate/
+* Homepage: https://github.com/gweis/isodate/
+* Author: Gerhard Weis gerhard.weis@proclos.com
+* License :: OSI Approved :: BSD License
+
+### `lxml`
+
+* Summary: Powerful and Pythonic XML processing library combining libxml2/libxslt with the ElementTree API.
+* Version: 4.6.1
+* Pypi: https://pypi.org/project/lxml/
+* Homepage: https://lxml.de/
+* Author: lxml dev team lxml-dev@lxml.de
+* License :: OSI Approved :: BSD License
+
+### `ntlm-auth`
+
+* Summary: Creates NTLM authentication structures
+* Version: 1.5.0
+* Pypi: https://pypi.org/project/ntlm-auth/
+* Homepage: https://github.com/jborean93/ntlm-auth
+* Author: Jordan Borean jborean93@gmail.com
 * License :: OSI Approved :: MIT License
 
 ### `olefile`
@@ -211,42 +221,6 @@ Administrative keys for demisto/google-kms:1.0.0.12965
 * Author: The pip developers distutils-sig@python.org
 * License :: OSI Approved :: MIT License
 
-### `proto-plus`
-
-* Summary: Beautiful, Pythonic protocol buffers.
-* Version: 1.11.0
-* Pypi: https://pypi.org/project/proto-plus/
-* Homepage: https://github.com/googleapis/proto-plus-python.git
-* Author: Google LLC googleapis-packages@google.com
-* License :: OSI Approved :: Apache Software License
-
-### `protobuf`
-
-* Summary: Protocol Buffers
-* Version: 3.13.0
-* Pypi: https://pypi.org/project/protobuf/
-* Homepage: https://developers.google.com/protocol-buffers/
-* Author: 
-* License: 3-Clause BSD License
-
-### `pyasn1`
-
-* Summary: ASN.1 types and codecs
-* Version: 0.4.8
-* Pypi: https://pypi.org/project/pyasn1/
-* Homepage: https://github.com/etingof/pyasn1
-* Author: Ilya Etingof etingof@gmail.com
-* License :: OSI Approved :: BSD License
-
-### `pyasn1-modules`
-
-* Summary: A collection of ASN.1-based protocols modules.
-* Version: 0.2.8
-* Pypi: https://pypi.org/project/pyasn1-modules/
-* Homepage: https://github.com/etingof/pyasn1-modules
-* Author: Ilya Etingof etingof@gmail.com
-* License :: OSI Approved :: BSD License
-
 ### `pycparser`
 
 * Summary: C parser in Python
@@ -254,6 +228,15 @@ Administrative keys for demisto/google-kms:1.0.0.12965
 * Pypi: https://pypi.org/project/pycparser/
 * Homepage: https://github.com/eliben/pycparser
 * Author: Eli Bendersky eliben@gmail.com
+* License :: OSI Approved :: BSD License
+
+### `Pygments`
+
+* Summary: Pygments is a syntax highlighting package written in Python.
+* Version: 2.5.2
+* Pypi: https://pypi.org/project/Pygments/
+* Homepage: https://pygments.org/
+* Author: Georg Brandl georg@python.org
 * License :: OSI Approved :: BSD License
 
 ### `PySocks`
@@ -320,19 +303,19 @@ Administrative keys for demisto/google-kms:1.0.0.12965
 * Author: David Shea reallylongword@gmail.com
 * License :: OSI Approved :: Apache Software License
 
-### `rsa`
+### `requests-ntlm`
 
-* Summary: Pure-Python RSA implementation
-* Version: 4.6
-* Pypi: https://pypi.org/project/rsa/
-* Homepage: https://stuvel.eu/rsa
-* Author: Sybren A. Stuvel sybren@stuvel.eu
-* License :: OSI Approved :: Apache Software License
+* Summary: This package allows for HTTP NTLM authentication using the requests library.
+* Version: 1.1.0
+* Pypi: https://pypi.org/project/requests_ntlm/
+* Homepage: https://github.com/requests/requests-ntlm
+* Author: Ben Toews mastahyeti@gmail.com
+* License :: OSI Approved :: ISC License (ISCL)
 
 ### `setuptools`
 
 * Summary: Easily download, build, install, upgrade, and uninstall Python packages
-* Version: 50.3.0
+* Version: 44.1.1
 * Pypi: https://pypi.org/project/setuptools/
 * Homepage: https://github.com/pypa/setuptools
 * Author: Python Packaging Authority distutils-sig@python.org
@@ -355,24 +338,6 @@ Administrative keys for demisto/google-kms:1.0.0.12965
 * Homepage: https://github.com/john-kurkowski/tldextract
 * Author: John Kurkowski john.kurkowski@gmail.com
 * License :: OSI Approved :: BSD License
-
-### `typing-extensions`
-
-* Summary: Backported and Experimental Type Hints for Python 3.5+
-* Version: 3.7.4.3
-* Pypi: https://pypi.org/project/typing-extensions/
-* Homepage: https://github.com/python/typing/blob/master/typing_extensions/README.rst
-* Author: Guido van Rossum, Jukka Lehtosalo, Lukasz Langa, Michael Lee levkivskyi@gmail.com
-* License :: OSI Approved :: Python Software Foundation License
-
-### `typing-inspect`
-
-* Summary: Runtime inspection utilities for typing module.
-* Version: 0.6.0
-* Pypi: https://pypi.org/project/typing-inspect/
-* Homepage: https://github.com/ilevkivskyi/typing_inspect
-* Author: Ivan Levkivskyi levkivskyi@gmail.com
-* License :: OSI Approved :: MIT License
 
 ### `tzlocal`
 
@@ -439,7 +404,6 @@ Administrative keys for demisto/google-kms:1.0.0.12965
 * libcom-err2:amd64	1.45.5-2~bpo10+1
 * libdb5.3:amd64	5.3.28+dfsg1-0.5
 * libdebconfclient0:amd64	0.249
-* libexpat1:amd64	2.2.6-2+deb10u1
 * libext2fs2:amd64	1.44.5-1+deb10u3
 * libfdisk1:amd64	2.33.1-0.1
 * libffi6:amd64	3.2.1-9

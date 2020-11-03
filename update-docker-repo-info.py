@@ -267,6 +267,16 @@ def list_os_packages(image_name, out_file):
 
 def process_image(image_name, force):
     print("=================\nProcessing: " + image_name)
+    master_dir = f'docker/{image_name.split("/")[1]}'
+    master_date = subprocess.check_output(['git', '--no-pager', 'log', '-1', '--format=%ct', 'origin/master', '--', master_dir], text=True).strip()
+    if not master_date:
+        print(f"Skipping image: {image_name} as it is not in our master repository")
+        return
+    info_date = subprocess.check_output(['git', '--no-pager', 'log', '-1', '--format=%ct', '--', image_name], text=True).strip()
+    if info_date and int(info_date) > int(master_date):
+        print(f"Skipping image: {image_name} as info modify date: {info_date} is greater than master date: {master_date}")
+        return
+    print(f"Checking last tag for: {image_name}. master date: [{master_date}]. info date: [{info_date}]")
     last_tag, last_date = get_latest_tag(image_name)
     full_name = "{}:{}".format(image_name, last_tag)
     dir = "{}/{}".format(sys.path[0], image_name)

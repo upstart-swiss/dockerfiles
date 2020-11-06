@@ -215,11 +215,11 @@
             "demisto/snowflake",
             "demisto/uptycs",
             "demisto/pycef",
-            "demisto/twilio",
             "demisto/pyjwt",
             "demisto/teams",
             "demisto/oauthlib",
-            "demisto/pyjwt3"
+            "demisto/pyjwt3",
+            "demisto/twilio"
         ],
         "home_page": "http://github.com/jpadilla/pyjwt",
         "licenses": [
@@ -312,7 +312,6 @@
             "demisto/nltk",
             "demisto/ldap",
             "demisto/dxl",
-            "demisto/faker3",
             "demisto/readpdf",
             "demisto/vertica",
             "demisto/pcap-miner",
@@ -353,7 +352,6 @@
             "demisto/netutils",
             "demisto/pyotrs",
             "demisto/smartsheet",
-            "demisto/twilio",
             "demisto/threatconnect-tcex",
             "demisto/bs4",
             "demisto/taxii",
@@ -398,7 +396,9 @@
             "demisto/sharepoint",
             "demisto/ansible-runner",
             "demisto/boto3py3",
-            "demisto/boto3"
+            "demisto/boto3",
+            "demisto/faker3",
+            "demisto/twilio"
         ],
         "home_page": "https://github.com/Anorov/PySocks",
         "licenses": [
@@ -456,7 +456,6 @@
             "demisto/nltk",
             "demisto/ldap",
             "demisto/dxl",
-            "demisto/faker3",
             "demisto/readpdf",
             "demisto/vertica",
             "demisto/pcap-miner",
@@ -497,7 +496,6 @@
             "demisto/netutils",
             "demisto/pyotrs",
             "demisto/smartsheet",
-            "demisto/twilio",
             "demisto/threatconnect-tcex",
             "demisto/bs4",
             "demisto/taxii",
@@ -542,7 +540,9 @@
             "demisto/sharepoint",
             "demisto/ansible-runner",
             "demisto/boto3py3",
-            "demisto/boto3"
+            "demisto/boto3",
+            "demisto/faker3",
+            "demisto/twilio"
         ],
         "home_page": "https://github.com/yaml/pyyaml",
         "licenses": [
@@ -1423,7 +1423,6 @@
             "demisto/nltk",
             "demisto/ldap",
             "demisto/dxl",
-            "demisto/faker3",
             "demisto/readpdf",
             "demisto/vertica",
             "demisto/pcap-miner",
@@ -1464,7 +1463,6 @@
             "demisto/netutils",
             "demisto/pyotrs",
             "demisto/smartsheet",
-            "demisto/twilio",
             "demisto/threatconnect-tcex",
             "demisto/bs4",
             "demisto/taxii",
@@ -1509,7 +1507,9 @@
             "demisto/sharepoint",
             "demisto/ansible-runner",
             "demisto/boto3py3",
-            "demisto/boto3"
+            "demisto/boto3",
+            "demisto/faker3",
+            "demisto/twilio"
         ],
         "home_page": "https://certifi.io/",
         "licenses": [
@@ -1613,7 +1613,6 @@
             "demisto/nltk",
             "demisto/ldap",
             "demisto/dxl",
-            "demisto/faker3",
             "demisto/readpdf",
             "demisto/vertica",
             "demisto/pcap-miner",
@@ -1654,7 +1653,6 @@
             "demisto/netutils",
             "demisto/pyotrs",
             "demisto/smartsheet",
-            "demisto/twilio",
             "demisto/threatconnect-tcex",
             "demisto/bs4",
             "demisto/taxii",
@@ -1699,7 +1697,9 @@
             "demisto/sharepoint",
             "demisto/ansible-runner",
             "demisto/boto3py3",
-            "demisto/boto3"
+            "demisto/boto3",
+            "demisto/faker3",
+            "demisto/twilio"
         ],
         "home_page": "https://github.com/chardet/chardet",
         "licenses": [
@@ -2020,7 +2020,6 @@
             "demisto/nltk",
             "demisto/ldap",
             "demisto/dxl",
-            "demisto/faker3",
             "demisto/readpdf",
             "demisto/vertica",
             "demisto/pcap-miner",
@@ -2061,7 +2060,6 @@
             "demisto/netutils",
             "demisto/pyotrs",
             "demisto/smartsheet",
-            "demisto/twilio",
             "demisto/threatconnect-tcex",
             "demisto/bs4",
             "demisto/taxii",
@@ -2106,7 +2104,9 @@
             "demisto/sharepoint",
             "demisto/ansible-runner",
             "demisto/boto3py3",
-            "demisto/boto3"
+            "demisto/boto3",
+            "demisto/faker3",
+            "demisto/twilio"
         ],
         "home_page": "https://github.com/scrapinghub/dateparser",
         "licenses": [
@@ -2624,7 +2624,6 @@
             "demisto/nltk",
             "demisto/ldap",
             "demisto/dxl",
-            "demisto/faker3",
             "demisto/readpdf",
             "demisto/vertica",
             "demisto/pcap-miner",
@@ -2665,7 +2664,6 @@
             "demisto/netutils",
             "demisto/pyotrs",
             "demisto/smartsheet",
-            "demisto/twilio",
             "demisto/threatconnect-tcex",
             "demisto/bs4",
             "demisto/taxii",
@@ -2710,7 +2708,9 @@
             "demisto/sharepoint",
             "demisto/ansible-runner",
             "demisto/boto3py3",
-            "demisto/boto3"
+            "demisto/boto3",
+            "demisto/faker3",
+            "demisto/twilio"
         ],
         "home_page": "http://github.com/Suor/funcy",
         "licenses": [
@@ -3291,7 +3291,6 @@
             "demisto/nltk",
             "demisto/ldap",
             "demisto/dxl",
-            "demisto/faker3",
             "demisto/readpdf",
             "demisto/vertica",
             "demisto/pcap-miner",
@@ -3332,7 +3331,6 @@
             "demisto/netutils",
             "demisto/pyotrs",
             "demisto/smartsheet",
-            "demisto/twilio",
             "demisto/threatconnect-tcex",
             "demisto/bs4",
             "demisto/taxii",
@@ -3377,7 +3375,9 @@
             "demisto/sharepoint",
             "demisto/ansible-runner",
             "demisto/boto3py3",
-            "demisto/boto3"
+            "demisto/boto3",
+            "demisto/faker3",
+            "demisto/twilio"
         ],
         "home_page": "https://github.com/kjd/idna",
         "licenses": [
@@ -4183,7 +4183,6 @@
             "demisto/nltk",
             "demisto/ldap",
             "demisto/dxl",
-            "demisto/faker3",
             "demisto/readpdf",
             "demisto/vertica",
             "demisto/pcap-miner",
@@ -4224,7 +4223,6 @@
             "demisto/netutils",
             "demisto/pyotrs",
             "demisto/smartsheet",
-            "demisto/twilio",
             "demisto/threatconnect-tcex",
             "demisto/bs4",
             "demisto/taxii",
@@ -4269,7 +4267,9 @@
             "demisto/sharepoint",
             "demisto/ansible-runner",
             "demisto/boto3py3",
-            "demisto/boto3"
+            "demisto/boto3",
+            "demisto/faker3",
+            "demisto/twilio"
         ],
         "home_page": "https://www.decalage.info/python/olefileio",
         "licenses": [
@@ -4676,7 +4676,6 @@
             "demisto/nltk",
             "demisto/ldap",
             "demisto/dxl",
-            "demisto/faker3",
             "demisto/readpdf",
             "demisto/vertica",
             "demisto/pcap-miner",
@@ -4717,7 +4716,6 @@
             "demisto/netutils",
             "demisto/pyotrs",
             "demisto/smartsheet",
-            "demisto/twilio",
             "demisto/threatconnect-tcex",
             "demisto/bs4",
             "demisto/taxii",
@@ -4762,7 +4760,9 @@
             "demisto/sharepoint",
             "demisto/ansible-runner",
             "demisto/boto3py3",
-            "demisto/boto3"
+            "demisto/boto3",
+            "demisto/faker3",
+            "demisto/twilio"
         ],
         "home_page": "https://pip.pypa.io/",
         "licenses": [
@@ -5473,7 +5473,6 @@
             "demisto/nltk",
             "demisto/ldap",
             "demisto/dxl",
-            "demisto/faker3",
             "demisto/readpdf",
             "demisto/vertica",
             "demisto/pcap-miner",
@@ -5514,7 +5513,6 @@
             "demisto/netutils",
             "demisto/pyotrs",
             "demisto/smartsheet",
-            "demisto/twilio",
             "demisto/threatconnect-tcex",
             "demisto/bs4",
             "demisto/taxii",
@@ -5559,7 +5557,9 @@
             "demisto/sharepoint",
             "demisto/ansible-runner",
             "demisto/boto3py3",
-            "demisto/boto3"
+            "demisto/boto3",
+            "demisto/faker3",
+            "demisto/twilio"
         ],
         "home_page": "https://dateutil.readthedocs.io",
         "licenses": [
@@ -5705,7 +5705,6 @@
             "demisto/nltk",
             "demisto/ldap",
             "demisto/dxl",
-            "demisto/faker3",
             "demisto/readpdf",
             "demisto/vertica",
             "demisto/pcap-miner",
@@ -5746,7 +5745,6 @@
             "demisto/netutils",
             "demisto/pyotrs",
             "demisto/smartsheet",
-            "demisto/twilio",
             "demisto/threatconnect-tcex",
             "demisto/bs4",
             "demisto/taxii",
@@ -5791,7 +5789,9 @@
             "demisto/sharepoint",
             "demisto/ansible-runner",
             "demisto/boto3py3",
-            "demisto/boto3"
+            "demisto/boto3",
+            "demisto/faker3",
+            "demisto/twilio"
         ],
         "home_page": "http://pythonhosted.org/pytz",
         "licenses": [
@@ -5911,7 +5911,6 @@
             "demisto/nltk",
             "demisto/ldap",
             "demisto/dxl",
-            "demisto/faker3",
             "demisto/readpdf",
             "demisto/vertica",
             "demisto/pcap-miner",
@@ -5952,7 +5951,6 @@
             "demisto/netutils",
             "demisto/pyotrs",
             "demisto/smartsheet",
-            "demisto/twilio",
             "demisto/threatconnect-tcex",
             "demisto/bs4",
             "demisto/taxii",
@@ -5997,7 +5995,9 @@
             "demisto/sharepoint",
             "demisto/ansible-runner",
             "demisto/boto3py3",
-            "demisto/boto3"
+            "demisto/boto3",
+            "demisto/faker3",
+            "demisto/twilio"
         ],
         "home_page": "https://bitbucket.org/mrabarnett/mrab-regex",
         "licenses": [
@@ -6071,7 +6071,6 @@
             "demisto/nltk",
             "demisto/ldap",
             "demisto/dxl",
-            "demisto/faker3",
             "demisto/readpdf",
             "demisto/vertica",
             "demisto/pcap-miner",
@@ -6112,7 +6111,6 @@
             "demisto/netutils",
             "demisto/pyotrs",
             "demisto/smartsheet",
-            "demisto/twilio",
             "demisto/threatconnect-tcex",
             "demisto/bs4",
             "demisto/taxii",
@@ -6157,7 +6155,9 @@
             "demisto/sharepoint",
             "demisto/ansible-runner",
             "demisto/boto3py3",
-            "demisto/boto3"
+            "demisto/boto3",
+            "demisto/faker3",
+            "demisto/twilio"
         ],
         "home_page": "http://python-requests.org",
         "licenses": [
@@ -6241,7 +6241,6 @@
             "demisto/netutils",
             "demisto/pyotrs",
             "demisto/smartsheet",
-            "demisto/twilio",
             "demisto/threatconnect-tcex",
             "demisto/bs4",
             "demisto/taxii",
@@ -6286,7 +6285,8 @@
             "demisto/sharepoint",
             "demisto/ansible-runner",
             "demisto/boto3py3",
-            "demisto/boto3"
+            "demisto/boto3",
+            "demisto/twilio"
         ],
         "home_page": "http://github.com/dashea/requests-file",
         "licenses": [
@@ -6649,7 +6649,6 @@
             "demisto/nltk",
             "demisto/ldap",
             "demisto/dxl",
-            "demisto/faker3",
             "demisto/readpdf",
             "demisto/vertica",
             "demisto/pcap-miner",
@@ -6690,7 +6689,6 @@
             "demisto/netutils",
             "demisto/pyotrs",
             "demisto/smartsheet",
-            "demisto/twilio",
             "demisto/threatconnect-tcex",
             "demisto/bs4",
             "demisto/taxii",
@@ -6735,7 +6733,9 @@
             "demisto/sharepoint",
             "demisto/ansible-runner",
             "demisto/boto3py3",
-            "demisto/boto3"
+            "demisto/boto3",
+            "demisto/faker3",
+            "demisto/twilio"
         ],
         "home_page": "https://github.com/pypa/setuptools",
         "licenses": [
@@ -6838,7 +6838,6 @@
             "demisto/nltk",
             "demisto/ldap",
             "demisto/dxl",
-            "demisto/faker3",
             "demisto/readpdf",
             "demisto/vertica",
             "demisto/pcap-miner",
@@ -6879,7 +6878,6 @@
             "demisto/netutils",
             "demisto/pyotrs",
             "demisto/smartsheet",
-            "demisto/twilio",
             "demisto/threatconnect-tcex",
             "demisto/bs4",
             "demisto/taxii",
@@ -6924,7 +6922,9 @@
             "demisto/sharepoint",
             "demisto/ansible-runner",
             "demisto/boto3py3",
-            "demisto/boto3"
+            "demisto/boto3",
+            "demisto/faker3",
+            "demisto/twilio"
         ],
         "home_page": "https://github.com/benjaminp/six",
         "licenses": [
@@ -7493,7 +7493,6 @@
             "demisto/netutils",
             "demisto/pyotrs",
             "demisto/smartsheet",
-            "demisto/twilio",
             "demisto/threatconnect-tcex",
             "demisto/bs4",
             "demisto/taxii",
@@ -7538,7 +7537,8 @@
             "demisto/sharepoint",
             "demisto/ansible-runner",
             "demisto/boto3py3",
-            "demisto/boto3"
+            "demisto/boto3",
+            "demisto/twilio"
         ],
         "home_page": "https://github.com/john-kurkowski/tldextract",
         "licenses": [
@@ -7681,7 +7681,6 @@
             "demisto/nltk",
             "demisto/ldap",
             "demisto/dxl",
-            "demisto/faker3",
             "demisto/readpdf",
             "demisto/vertica",
             "demisto/pcap-miner",
@@ -7722,7 +7721,6 @@
             "demisto/netutils",
             "demisto/pyotrs",
             "demisto/smartsheet",
-            "demisto/twilio",
             "demisto/threatconnect-tcex",
             "demisto/bs4",
             "demisto/taxii",
@@ -7767,7 +7765,9 @@
             "demisto/sharepoint",
             "demisto/ansible-runner",
             "demisto/boto3py3",
-            "demisto/boto3"
+            "demisto/boto3",
+            "demisto/faker3",
+            "demisto/twilio"
         ],
         "home_page": "https://github.com/regebro/tzlocal",
         "licenses": [
@@ -7861,7 +7861,6 @@
             "demisto/nltk",
             "demisto/ldap",
             "demisto/dxl",
-            "demisto/faker3",
             "demisto/readpdf",
             "demisto/vertica",
             "demisto/pcap-miner",
@@ -7902,7 +7901,6 @@
             "demisto/netutils",
             "demisto/pyotrs",
             "demisto/smartsheet",
-            "demisto/twilio",
             "demisto/threatconnect-tcex",
             "demisto/bs4",
             "demisto/taxii",
@@ -7947,7 +7945,9 @@
             "demisto/sharepoint",
             "demisto/ansible-runner",
             "demisto/boto3py3",
-            "demisto/boto3"
+            "demisto/boto3",
+            "demisto/faker3",
+            "demisto/twilio"
         ],
         "home_page": "https://urllib3.readthedocs.io/",
         "licenses": [
@@ -8225,7 +8225,6 @@
             "demisto/nltk",
             "demisto/ldap",
             "demisto/dxl",
-            "demisto/faker3",
             "demisto/readpdf",
             "demisto/vertica",
             "demisto/pcap-miner",
@@ -8266,7 +8265,6 @@
             "demisto/netutils",
             "demisto/pyotrs",
             "demisto/smartsheet",
-            "demisto/twilio",
             "demisto/threatconnect-tcex",
             "demisto/bs4",
             "demisto/taxii",
@@ -8311,7 +8309,9 @@
             "demisto/sharepoint",
             "demisto/ansible-runner",
             "demisto/boto3py3",
-            "demisto/boto3"
+            "demisto/boto3",
+            "demisto/faker3",
+            "demisto/twilio"
         ],
         "home_page": "https://github.com/pypa/wheel",
         "licenses": [

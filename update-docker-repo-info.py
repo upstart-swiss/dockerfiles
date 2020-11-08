@@ -311,7 +311,7 @@ def process_image(image_name, force):
 
 
 def process_org(org_name, force):
-    url = "https://registry.hub.docker.com/v2/repositories/{}/?page_size=25".format(org_name)
+    url = "https://registry.hub.docker.com/v2/repositories/{}/?page_size=100".format(org_name)
     with open("{}/images_ignore.txt".format(sys.path[0])) as f:
         ignore_list = list(filter(lambda x: not x.startswith('#'), f.read().splitlines()))
         print("ingore list: {}".format(ignore_list))

@@ -1,8 +1,8 @@
-# `demisto/devo:1.0.0.13606`
+# `demisto/graphql:1.0.0.13458`
 ## Docker Metadata
-- Image Size: `112.56 MB`
-- Image ID: `sha256:6d9578d25eca073da879e5bf194117d9f4770ab64c30910efa00ac6e29121e11`
-- Created: `2020-11-12T13:44:06.450048015Z`
+- Image Size: `21.45 MB`
+- Image ID: `sha256:931d9dc46eec05032c1f56b67804616113445faaa4a8fe9f8425c7464794d427`
+- Created: `2020-11-12T09:07:34.440906257Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -13,35 +13,32 @@
   - `PYTHON_PIP_VERSION=20.2.4`
   - `PYTHON_GET_PIP_URL=https://github.com/pypa/get-pip/raw/fa7dc83944936bf09a0e4cb5d5ec852c0d256599/get-pip.py`
   - `PYTHON_GET_PIP_SHA256=6e0bb0a2c2533361d7f297ed547237caf1b7507f197835974c0dd7eba998c53c`
-  - `DOCKER_IMAGE=demisto/devo:1.0.0.13606`
+  - `DOCKER_IMAGE=demisto/graphql:1.0.0.13458`
 - Labels:
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:806816970819332a387f84deabdb7295afdbf1dd`
-  - `org.opencontainers.image.version:1.0.0.13606`
+  - `org.opencontainers.image.revision:7f9fb887a3beab2e8616fdf11a0ac82327a9795c`
+  - `org.opencontainers.image.version:1.0.0.13458`
 
 - OS Release:
-  - `PRETTY_NAME="Debian GNU/Linux 10 (buster)"`
-  - `NAME="Debian GNU/Linux"`
-  - `VERSION_ID="10"`
-  - `VERSION="10 (buster)"`
-  - `VERSION_CODENAME=buster`
-  - `ID=debian`
-  - `HOME_URL="https://www.debian.org/"`
-  - `SUPPORT_URL="https://www.debian.org/support"`
-  - `BUG_REPORT_URL="https://bugs.debian.org/"`
+  - `NAME="Alpine Linux"`
+  - `ID=alpine`
+  - `VERSION_ID=3.12.1`
+  - `PRETTY_NAME="Alpine Linux v3.12"`
+  - `HOME_URL="https://alpinelinux.org/"`
+  - `BUG_REPORT_URL="https://bugs.alpinelinux.org/"`
 
 ## Docker Trust
 ```
 
-Signatures for demisto/devo:1.0.0.13606
+Signatures for demisto/graphql:1.0.0.13458
 
 SIGNED TAG          DIGEST                                                             SIGNERS
-1.0.0.13606         f485426111a7a498b93ae0e61f84516439c5222e3cb2d42fddd8e7889939bc1d   (Repo Admin)
+1.0.0.13458         122453b2ba21fedad3ef4ce434247ad8b08edc23d2232c428b0cb36b60e42657   (Repo Admin)
 
-Administrative keys for demisto/devo:1.0.0.13606
+Administrative keys for demisto/graphql:1.0.0.13458
 
-  Repository Key:	8acbad29258c3af802a3ff19936a5e477ad72cb853dee0373658ff953e5c7acd
-  Root Key:	75e01057889069369a886a938165cc788450448b2d71e1b6a9c611a6bbccecd1
+  Repository Key:	f9b19e79a296b3e394b29ce93d483a1d6dee966f07dfc1ead47f436797b3b505
+  Root Key:	3e75fae1517377de7c78b35af22a0ebf537bfb65c584dc6043ecc10c38b047dc
 
 ```
 
@@ -51,7 +48,7 @@ Administrative keys for demisto/devo:1.0.0.13606
 ### `certifi`
 
 * Summary: Python package for providing Mozilla's CA Bundle.
-* Version: 2019.9.11
+* Version: 2020.11.8
 * Pypi: https://pypi.org/project/certifi/
 * Homepage: https://certifiio.readthedocs.io/en/latest/
 * Author: Kenneth Reitz me@kennethreitz.com
@@ -66,15 +63,6 @@ Administrative keys for demisto/devo:1.0.0.13606
 * Author: Daniel Blanchard dan.blanchard@gmail.com
 * License :: OSI Approved :: GNU Library or Lesser General Public License (LGPL)
 
-### `Click`
-
-* Summary: Composable command line interface toolkit
-* Version: 7.0
-* Pypi: https://pypi.org/project/click/
-* Homepage: https://palletsprojects.com/p/click/
-* Author: 
-* License :: OSI Approved :: BSD License
-
 ### `dateparser`
 
 * Summary: Date parsing library designed to parse dates from HTML pages
@@ -83,24 +71,6 @@ Administrative keys for demisto/devo:1.0.0.13606
 * Homepage: https://github.com/scrapinghub/dateparser
 * Author: Scrapinghub info@scrapinghub.com
 * License :: OSI Approved :: BSD License
-
-### `devo-sdk`
-
-* Summary: Devo Software Development Kit for Python.
-* Version: 3.1.1
-* Pypi: https://pypi.org/project/devo-sdk/
-* Homepage: https://github.com/DevoInc/python-sdk
-* Author: Devo, Inc. support@devo.com
-* License :: OSI Approved :: MIT License
-
-### `devodsconnector`
-
-* Summary: APIs for querying and loading data into Devo
-* Version: 1.3.0
-* Pypi: https://pypi.org/project/devodsconnector/
-* Homepage: https://github.com/DevoInc/python-ds-connector
-* Author: Nick Murphy nick.murphy@devo.com
-* License :: OSI Approved :: MIT License
 
 ### `funcy`
 
@@ -111,23 +81,32 @@ Administrative keys for demisto/devo:1.0.0.13606
 * Author: Alexander Schepanovski suor.web@gmail.com
 * License :: OSI Approved :: BSD License
 
+### `gql`
+
+* Summary: GraphQL client for Python
+* Version: 2.0.0
+* Pypi: https://pypi.org/project/gql/
+* Homepage: https://github.com/graphql-python/gql
+* Author: Syrus Akbary me@syrusakbary.com
+* License: MIT
+
+### `graphql-core`
+
+* Summary: GraphQL implementation for Python, a port of GraphQL.js, the JavaScript reference implementation for GraphQL.
+* Version: 2.3.2
+* Pypi: https://pypi.org/project/graphql-core/
+* Homepage: https://github.com/graphql-python/graphql-core
+* Author: Christoph Zwerschke cito@online.de
+* License :: OSI Approved :: MIT License
+
 ### `idna`
 
 * Summary: Internationalized Domain Names in Applications (IDNA)
-* Version: 2.8
+* Version: 2.10
 * Pypi: https://pypi.org/project/idna/
 * Homepage: https://github.com/kjd/idna
 * Author: Kim Davies kim@cynosure.com.au
 * License :: OSI Approved :: BSD License
-
-### `numpy`
-
-* Summary: NumPy is the fundamental package for array computing with Python.
-* Version: 1.17.4
-* Pypi: https://pypi.org/project/numpy/
-* Homepage: https://www.numpy.org
-* Author: Travis E. Oliphant et al.
-* License: BSD
 
 ### `olefile`
 
@@ -138,15 +117,6 @@ Administrative keys for demisto/devo:1.0.0.13606
 * Author: Philippe Lagadec nospam@decalage.info
 * License :: OSI Approved :: BSD License
 
-### `pandas`
-
-* Summary: Powerful data structures for data analysis, time series, and statistics
-* Version: 0.25.3
-* Pypi: https://pypi.org/project/pandas/
-* Homepage: https://pandas.pydata.org
-* Author: 
-* License: BSD
-
 ### `pip`
 
 * Summary: The PyPA recommended tool for installing Python packages.
@@ -154,6 +124,15 @@ Administrative keys for demisto/devo:1.0.0.13606
 * Pypi: https://pypi.org/project/pip/
 * Homepage: https://pip.pypa.io/
 * Author: The pip developers distutils-sig@python.org
+* License :: OSI Approved :: MIT License
+
+### `promise`
+
+* Summary: Promises/A+ implementation for Python
+* Version: 2.3
+* Pypi: https://pypi.org/project/promise/
+* Homepage: https://github.com/syrusakbary/promise
+* Author: Syrus Akbary me@syrusakbary.com
 * License :: OSI Approved :: MIT License
 
 ### `PySocks`
@@ -178,7 +157,7 @@ Administrative keys for demisto/devo:1.0.0.13606
 ### `pytz`
 
 * Summary: World timezone definitions, modern and historical
-* Version: 2019.3
+* Version: 2020.4
 * Pypi: https://pypi.org/project/pytz/
 * Homepage: http://pythonhosted.org/pytz
 * Author: Stuart Bishop stuart@stuartbishop.net
@@ -187,7 +166,7 @@ Administrative keys for demisto/devo:1.0.0.13606
 ### `PyYAML`
 
 * Summary: YAML parser and emitter for Python
-* Version: 5.1.2
+* Version: 5.3.1
 * Pypi: https://pypi.org/project/PyYAML/
 * Homepage: https://github.com/yaml/pyyaml
 * Author: Kirill Simonov xi@resolvent.net
@@ -205,7 +184,7 @@ Administrative keys for demisto/devo:1.0.0.13606
 ### `requests`
 
 * Summary: Python HTTP for Humans.
-* Version: 2.22.0
+* Version: 2.25.0
 * Pypi: https://pypi.org/project/requests/
 * Homepage: https://requests.readthedocs.io
 * Author: Kenneth Reitz me@kennethreitz.org
@@ -220,14 +199,14 @@ Administrative keys for demisto/devo:1.0.0.13606
 * Author: David Shea reallylongword@gmail.com
 * License :: OSI Approved :: Apache Software License
 
-### `scipy`
+### `Rx`
 
-* Summary: SciPy: Scientific Library for Python
-* Version: 1.3.2
-* Pypi: https://pypi.org/project/scipy/
-* Homepage: https://www.scipy.org
-* Author: 
-* License :: OSI Approved :: BSD License
+* Summary: Reactive Extensions (Rx) for Python
+* Version: 1.6.1
+* Pypi: https://pypi.org/project/Rx/
+* Homepage: http://reactivex.io
+* Author: Dag Brattli dag@brattli.net
+* License :: OSI Approved :: MIT License
 
 ### `setuptools`
 
@@ -241,7 +220,7 @@ Administrative keys for demisto/devo:1.0.0.13606
 ### `six`
 
 * Summary: Python 2 and 3 compatibility utilities
-* Version: 1.13.0
+* Version: 1.15.0
 * Pypi: https://pypi.org/project/six/
 * Homepage: https://github.com/benjaminp/six
 * Author: Benjamin Peterson benjamin@python.org
@@ -268,7 +247,7 @@ Administrative keys for demisto/devo:1.0.0.13606
 ### `urllib3`
 
 * Summary: HTTP library with thread-safe connection pooling, file post, and more.
-* Version: 1.25.7
+* Version: 1.26.1
 * Pypi: https://pypi.org/project/urllib3/
 * Homepage: https://urllib3.readthedocs.io/
 * Author: Andrey Petrov andrey.petrov@shazow.net
@@ -285,100 +264,38 @@ Administrative keys for demisto/devo:1.0.0.13606
 
 ## `OS Packages`
 
-* adduser	3.118
-* apt	1.8.2.1
-* base-files	10.3+deb10u6
-* base-passwd	3.5.46
-* bash	5.0-4
-* bsdutils	1:2.33.1-0.1
-* ca-certificates	20200601~deb10u1
-* coreutils	8.30-3
-* dash	0.5.10.2-5
-* debconf	1.5.71
-* debian-archive-keyring	2019.1
-* debianutils	4.8.6.1
-* diffutils	1:3.7-3
-* dpkg	1.19.7
-* e2fsprogs	1.44.5-1+deb10u3
-* fdisk	2.33.1-0.1
-* findutils	4.6.0+git+20190209-2
-* gcc-8-base:amd64	8.3.0-6
-* gpgv	2.2.20-1~bpo10+1
-* grep	3.3-1
-* gzip	1.9-3
-* hostname	3.21
-* init-system-helpers	1.56+nmu1
-* libacl1:amd64	2.2.53-4
-* libapt-pkg5.0:amd64	1.8.2.1
-* libattr1:amd64	1:2.4.48-4
-* libaudit-common	1:2.8.4-3
-* libaudit1:amd64	1:2.8.4-3
-* libblkid1:amd64	2.33.1-0.1
-* libbz2-1.0:amd64	1.0.6-9.2~deb10u1
-* libc-bin	2.28-10
-* libc6:amd64	2.28-10
-* libcap-ng0:amd64	0.7.9-2
-* libcom-err2:amd64	1.45.5-2~bpo10+1
-* libdb5.3:amd64	5.3.28+dfsg1-0.5
-* libdebconfclient0:amd64	0.249
-* libexpat1:amd64	2.2.6-2+deb10u1
-* libext2fs2:amd64	1.44.5-1+deb10u3
-* libfdisk1:amd64	2.33.1-0.1
-* libffi6:amd64	3.2.1-9
-* libgcc1:amd64	1:8.3.0-6
-* libgcrypt20:amd64	1.8.4-5
-* libgdbm6:amd64	1.18.1-4
-* libgmp10:amd64	2:6.1.2+dfsg-4
-* libgnutls30:amd64	3.6.7-4+deb10u5
-* libgpg-error0:amd64	1.35-1
-* libhogweed4:amd64	3.4.1-1
-* libidn2-0:amd64	2.0.5-1+deb10u1
-* liblz4-1:amd64	1.8.3-1
-* liblzma5:amd64	5.2.4-1
-* libmount1:amd64	2.33.1-0.1
-* libncurses6:amd64	6.1+20181013-2+deb10u2
-* libncursesw6:amd64	6.1+20181013-2+deb10u2
-* libnettle6:amd64	3.4.1-1
-* libp11-kit0:amd64	0.23.15-2
-* libpam-modules-bin	1.3.1-5
-* libpam-modules:amd64	1.3.1-5
-* libpam-runtime	1.3.1-5
-* libpam0g:amd64	1.3.1-5
-* libpcre3:amd64	2:8.39-12
-* libprocps7:amd64	2:3.3.15-2
-* libreadline7:amd64	7.0-5
-* libseccomp2:amd64	2.4.4-1~bpo10+1
-* libselinux1:amd64	2.8-1+b1
-* libsemanage-common	2.8-2
-* libsemanage1:amd64	2.8-2
-* libsepol1:amd64	2.8-1
-* libsmartcols1:amd64	2.33.1-0.1
-* libsqlite3-0:amd64	3.27.2-3
-* libss2:amd64	1.45.5-2~bpo10+1
-* libssl1.1:amd64	1.1.1d-0+deb10u3
-* libstdc++6:amd64	8.3.0-6
-* libsystemd0:amd64	246.6-2~bpo10+1
-* libtasn1-6:amd64	4.13-3
-* libtinfo6:amd64	6.1+20181013-2+deb10u2
-* libudev1:amd64	246.6-2~bpo10+1
-* libunistring2:amd64	0.9.10-1
-* libuuid1:amd64	2.33.1-0.1
-* libzstd1:amd64	1.4.4+dfsg-3~bpo10+1
-* login	1:4.5-1.1
-* lsb-base	10.2019051400
-* mawk	1.3.3-17+b3
-* mount	2.33.1-0.1
-* ncurses-base	6.1+20181013-2+deb10u2
-* ncurses-bin	6.1+20181013-2+deb10u2
-* netbase	6.1~bpo10+1
-* openssl	1.1.1d-0+deb10u3
-* passwd	1:4.5-1.1
-* perl-base	5.28.1-6+deb10u1
-* procps	2:3.3.15-2
-* readline-common	7.0-5
-* sed	4.7-1
-* sysvinit-utils	2.93-8
-* tar	1.30+dfsg-6
-* tzdata	2020d-0+deb10u1
-* util-linux	2.33.1-0.1
-* zlib1g:amd64	1:1.2.11.dfsg-1
+* .python-rundeps-20201022.051259 noarch {.python-rundeps}
+* alpine-baselayout-3.2.0-r7 x86_64 {alpine-baselayout}
+* alpine-keys-2.2-r0 x86_64 {alpine-keys}
+* apk-tools-2.10.5-r1 x86_64 {apk-tools}
+* busybox-1.31.1-r19 x86_64 {busybox}
+* ca-certificates-20191127-r4 x86_64 {ca-certificates}
+* ca-certificates-bundle-20191127-r4 x86_64 {ca-certificates}
+* expat-2.2.9-r1 x86_64 {expat}
+* gdbm-1.13-r1 x86_64 {gdbm}
+* keyutils-libs-1.6.1-r1 x86_64 {keyutils}
+* krb5-conf-1.0-r2 x86_64 {krb5-conf}
+* krb5-libs-1.18.2-r0 x86_64 {krb5}
+* libbz2-1.0.8-r1 x86_64 {bzip2}
+* libc-utils-0.7.2-r3 x86_64 {libc-dev}
+* libcom_err-1.45.6-r0 x86_64 {e2fsprogs}
+* libcrypto1.1-1.1.1g-r0 x86_64 {openssl}
+* libffi-3.3-r2 x86_64 {libffi}
+* libintl-0.20.2-r0 x86_64 {gettext}
+* libnsl-1.2.0-r1 x86_64 {libnsl}
+* libssl1.1-1.1.1g-r0 x86_64 {openssl}
+* libtirpc-1.2.6-r0 x86_64 {libtirpc}
+* libtirpc-conf-1.2.6-r0 x86_64 {libtirpc}
+* libtls-standalone-2.9.1-r1 x86_64 {libtls-standalone}
+* libuuid-2.35.2-r0 x86_64 {util-linux}
+* libverto-0.3.1-r1 x86_64 {libverto}
+* musl-1.1.24-r9 x86_64 {musl}
+* musl-utils-1.1.24-r9 x86_64 {musl}
+* ncurses-libs-6.2_p20200523-r0 x86_64 {ncurses}
+* ncurses-terminfo-base-6.2_p20200523-r0 x86_64 {ncurses}
+* readline-8.0.4-r0 x86_64 {readline}
+* scanelf-1.2.6-r0 x86_64 {pax-utils}
+* sqlite-libs-3.32.1-r0 x86_64 {sqlite}
+* ssl_client-1.31.1-r19 x86_64 {busybox}
+* xz-libs-5.2.5-r0 x86_64 {xz}
+* zlib-1.2.11-r3 x86_64 {zlib}

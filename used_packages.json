@@ -363,7 +363,6 @@
             "demisto/python3-deb",
             "demisto/netutils",
             "demisto/pandas",
-            "demisto/fetch-data",
             "demisto/elasticsearch",
             "demisto/python-deb",
             "demisto/py42",
@@ -400,7 +399,8 @@
             "demisto/google-vision-api",
             "demisto/boto3",
             "demisto/google-kms",
-            "demisto/dl-languages"
+            "demisto/dl-languages",
+            "demisto/fetch-data"
         ],
         "home_page": "https://github.com/Anorov/PySocks",
         "licenses": [
@@ -508,7 +508,6 @@
             "demisto/python3-deb",
             "demisto/netutils",
             "demisto/pandas",
-            "demisto/fetch-data",
             "demisto/elasticsearch",
             "demisto/python-deb",
             "demisto/py42",
@@ -546,7 +545,8 @@
             "demisto/google-vision-api",
             "demisto/boto3",
             "demisto/google-kms",
-            "demisto/dl-languages"
+            "demisto/dl-languages",
+            "demisto/fetch-data"
         ],
         "home_page": "https://github.com/yaml/pyyaml",
         "licenses": [
@@ -1226,8 +1226,8 @@
             "demisto/bs4",
             "demisto/taxii",
             "demisto/btfl-soup",
-            "demisto/fetch-data",
-            "demisto/sklearn"
+            "demisto/sklearn",
+            "demisto/fetch-data"
         ],
         "home_page": "http://www.crummy.com/software/BeautifulSoup/bs4/",
         "licenses": [
@@ -1478,7 +1478,6 @@
             "demisto/python3-deb",
             "demisto/netutils",
             "demisto/pandas",
-            "demisto/fetch-data",
             "demisto/elasticsearch",
             "demisto/python-deb",
             "demisto/py42",
@@ -1516,7 +1515,8 @@
             "demisto/google-vision-api",
             "demisto/boto3",
             "demisto/google-kms",
-            "demisto/dl-languages"
+            "demisto/dl-languages",
+            "demisto/fetch-data"
         ],
         "home_page": "https://certifi.io/",
         "licenses": [
@@ -1670,7 +1670,6 @@
             "demisto/python3-deb",
             "demisto/netutils",
             "demisto/pandas",
-            "demisto/fetch-data",
             "demisto/elasticsearch",
             "demisto/python-deb",
             "demisto/py42",
@@ -1708,7 +1707,8 @@
             "demisto/google-vision-api",
             "demisto/boto3",
             "demisto/google-kms",
-            "demisto/dl-languages"
+            "demisto/dl-languages",
+            "demisto/fetch-data"
         ],
         "home_page": "https://github.com/chardet/chardet",
         "licenses": [
@@ -1739,11 +1739,11 @@
             "demisto/fastapi",
             "demisto/teams",
             "demisto/axonius",
-            "demisto/fetch-data",
             "demisto/sane-doc-reports",
             "demisto/ml",
             "demisto/sklearn",
-            "demisto/dl-languages"
+            "demisto/dl-languages",
+            "demisto/fetch-data"
         ],
         "home_page": "https://palletsprojects.com/p/click/",
         "licenses": [
@@ -2079,7 +2079,6 @@
             "demisto/python3-deb",
             "demisto/netutils",
             "demisto/pandas",
-            "demisto/fetch-data",
             "demisto/elasticsearch",
             "demisto/python-deb",
             "demisto/py42",
@@ -2117,7 +2116,8 @@
             "demisto/google-vision-api",
             "demisto/boto3",
             "demisto/google-kms",
-            "demisto/dl-languages"
+            "demisto/dl-languages",
+            "demisto/fetch-data"
         ],
         "home_page": "https://github.com/scrapinghub/dateparser",
         "licenses": [
@@ -2698,7 +2698,6 @@
             "demisto/python3-deb",
             "demisto/netutils",
             "demisto/pandas",
-            "demisto/fetch-data",
             "demisto/elasticsearch",
             "demisto/python-deb",
             "demisto/py42",
@@ -2735,7 +2734,8 @@
             "demisto/google-vision-api",
             "demisto/boto3",
             "demisto/google-kms",
-            "demisto/dl-languages"
+            "demisto/dl-languages",
+            "demisto/fetch-data"
         ],
         "home_page": "http://github.com/Suor/funcy",
         "licenses": [
@@ -3368,7 +3368,6 @@
             "demisto/python3-deb",
             "demisto/netutils",
             "demisto/pandas",
-            "demisto/fetch-data",
             "demisto/elasticsearch",
             "demisto/python-deb",
             "demisto/py42",
@@ -3406,7 +3405,8 @@
             "demisto/google-vision-api",
             "demisto/boto3",
             "demisto/google-kms",
-            "demisto/dl-languages"
+            "demisto/dl-languages",
+            "demisto/fetch-data"
         ],
         "home_page": "https://github.com/kjd/idna",
         "licenses": [
@@ -3584,10 +3584,10 @@
         "author": "Gael Varoquaux gael.varoquaux@normalesup.org",
         "docker_images": [
             "demisto/nltk",
-            "demisto/fetch-data",
             "demisto/ml",
             "demisto/sklearn",
-            "demisto/dl-languages"
+            "demisto/dl-languages",
+            "demisto/fetch-data"
         ],
         "home_page": "https://joblib.readthedocs.io",
         "licenses": [
@@ -4075,10 +4075,10 @@
         "docker_images": [
             "demisto/dl",
             "demisto/nltk",
-            "demisto/fetch-data",
             "demisto/ml",
             "demisto/sklearn",
-            "demisto/dl-languages"
+            "demisto/dl-languages",
+            "demisto/fetch-data"
         ],
         "home_page": "http://nltk.org/",
         "licenses": [
@@ -4117,7 +4117,6 @@
             "demisto/panads3",
             "demisto/dl",
             "demisto/pandas",
-            "demisto/fetch-data",
             "demisto/sane-doc-reports",
             "demisto/chromium",
             "demisto/devo",
@@ -4125,7 +4124,8 @@
             "demisto/sklearn",
             "demisto/fasttext",
             "demisto/matplotlib",
-            "demisto/dl-languages"
+            "demisto/dl-languages",
+            "demisto/fetch-data"
         ],
         "home_page": "https://www.numpy.org",
         "licenses": [
@@ -4262,7 +4262,6 @@
             "demisto/python3-deb",
             "demisto/netutils",
             "demisto/pandas",
-            "demisto/fetch-data",
             "demisto/elasticsearch",
             "demisto/python-deb",
             "demisto/py42",
@@ -4300,7 +4299,8 @@
             "demisto/google-vision-api",
             "demisto/boto3",
             "demisto/google-kms",
-            "demisto/dl-languages"
+            "demisto/dl-languages",
+            "demisto/fetch-data"
         ],
         "home_page": "https://www.decalage.info/python/olefileio",
         "licenses": [
@@ -4467,11 +4467,11 @@
             "demisto/panads3",
             "demisto/dl",
             "demisto/pandas",
-            "demisto/fetch-data",
             "demisto/devo",
             "demisto/ml",
             "demisto/sklearn",
-            "demisto/dl-languages"
+            "demisto/dl-languages",
+            "demisto/fetch-data"
         ],
         "home_page": "http://pandas.pydata.org",
         "licenses": [
@@ -4757,7 +4757,6 @@
             "demisto/python3-deb",
             "demisto/netutils",
             "demisto/pandas",
-            "demisto/fetch-data",
             "demisto/elasticsearch",
             "demisto/python-deb",
             "demisto/py42",
@@ -4795,7 +4794,8 @@
             "demisto/google-vision-api",
             "demisto/boto3",
             "demisto/google-kms",
-            "demisto/dl-languages"
+            "demisto/dl-languages",
+            "demisto/fetch-data"
         ],
         "home_page": "https://pip.pypa.io/",
         "licenses": [
@@ -5557,7 +5557,6 @@
             "demisto/python3-deb",
             "demisto/netutils",
             "demisto/pandas",
-            "demisto/fetch-data",
             "demisto/elasticsearch",
             "demisto/python-deb",
             "demisto/py42",
@@ -5595,7 +5594,8 @@
             "demisto/google-vision-api",
             "demisto/boto3",
             "demisto/google-kms",
-            "demisto/dl-languages"
+            "demisto/dl-languages",
+            "demisto/fetch-data"
         ],
         "home_page": "https://dateutil.readthedocs.io",
         "licenses": [
@@ -5791,7 +5791,6 @@
             "demisto/python3-deb",
             "demisto/netutils",
             "demisto/pandas",
-            "demisto/fetch-data",
             "demisto/elasticsearch",
             "demisto/python-deb",
             "demisto/py42",
@@ -5829,7 +5828,8 @@
             "demisto/google-vision-api",
             "demisto/boto3",
             "demisto/google-kms",
-            "demisto/dl-languages"
+            "demisto/dl-languages",
+            "demisto/fetch-data"
         ],
         "home_page": "http://pythonhosted.org/pytz",
         "licenses": [
@@ -5999,7 +5999,6 @@
             "demisto/python3-deb",
             "demisto/netutils",
             "demisto/pandas",
-            "demisto/fetch-data",
             "demisto/elasticsearch",
             "demisto/python-deb",
             "demisto/py42",
@@ -6037,7 +6036,8 @@
             "demisto/google-vision-api",
             "demisto/boto3",
             "demisto/google-kms",
-            "demisto/dl-languages"
+            "demisto/dl-languages",
+            "demisto/fetch-data"
         ],
         "home_page": "https://bitbucket.org/mrabarnett/mrab-regex",
         "licenses": [
@@ -6161,7 +6161,6 @@
             "demisto/python3-deb",
             "demisto/netutils",
             "demisto/pandas",
-            "demisto/fetch-data",
             "demisto/elasticsearch",
             "demisto/python-deb",
             "demisto/py42",
@@ -6199,7 +6198,8 @@
             "demisto/google-vision-api",
             "demisto/boto3",
             "demisto/google-kms",
-            "demisto/dl-languages"
+            "demisto/dl-languages",
+            "demisto/fetch-data"
         ],
         "home_page": "http://python-requests.org",
         "licenses": [
@@ -6293,7 +6293,6 @@
             "demisto/python3-deb",
             "demisto/netutils",
             "demisto/pandas",
-            "demisto/fetch-data",
             "demisto/elasticsearch",
             "demisto/python-deb",
             "demisto/py42",
@@ -6330,7 +6329,8 @@
             "demisto/google-vision-api",
             "demisto/boto3",
             "demisto/google-kms",
-            "demisto/dl-languages"
+            "demisto/dl-languages",
+            "demisto/fetch-data"
         ],
         "home_page": "http://github.com/dashea/requests-file",
         "licenses": [
@@ -6743,7 +6743,6 @@
             "demisto/python3-deb",
             "demisto/netutils",
             "demisto/pandas",
-            "demisto/fetch-data",
             "demisto/elasticsearch",
             "demisto/python-deb",
             "demisto/py42",
@@ -6781,7 +6780,8 @@
             "demisto/google-vision-api",
             "demisto/boto3",
             "demisto/google-kms",
-            "demisto/dl-languages"
+            "demisto/dl-languages",
+            "demisto/fetch-data"
         ],
         "home_page": "https://github.com/pypa/setuptools",
         "licenses": [
@@ -6946,7 +6946,6 @@
             "demisto/python3-deb",
             "demisto/netutils",
             "demisto/pandas",
-            "demisto/fetch-data",
             "demisto/elasticsearch",
             "demisto/python-deb",
             "demisto/py42",
@@ -6984,7 +6983,8 @@
             "demisto/google-vision-api",
             "demisto/boto3",
             "demisto/google-kms",
-            "demisto/dl-languages"
+            "demisto/dl-languages",
+            "demisto/fetch-data"
         ],
         "home_page": "https://github.com/benjaminp/six",
         "licenses": [
@@ -7059,8 +7059,8 @@
             "demisto/bs4",
             "demisto/taxii",
             "demisto/btfl-soup",
-            "demisto/fetch-data",
-            "demisto/sklearn"
+            "demisto/sklearn",
+            "demisto/fetch-data"
         ],
         "home_page": "https://github.com/facelessuser/soupsieve",
         "licenses": [
@@ -7252,7 +7252,8 @@
             "demisto/axonius",
             "demisto/ml",
             "demisto/sklearn",
-            "demisto/dl-languages"
+            "demisto/dl-languages",
+            "demisto/fetch-data"
         ],
         "home_page": "https://bitbucket.org/astanin/python-tabulate",
         "licenses": [
@@ -7563,7 +7564,6 @@
             "demisto/python3-deb",
             "demisto/netutils",
             "demisto/pandas",
-            "demisto/fetch-data",
             "demisto/elasticsearch",
             "demisto/python-deb",
             "demisto/py42",
@@ -7600,7 +7600,8 @@
             "demisto/google-vision-api",
             "demisto/boto3",
             "demisto/google-kms",
-            "demisto/dl-languages"
+            "demisto/dl-languages",
+            "demisto/fetch-data"
         ],
         "home_page": "https://github.com/john-kurkowski/tldextract",
         "licenses": [
@@ -7627,10 +7628,10 @@
             "demisto/dl",
             "demisto/nltk",
             "demisto/argus-toolbelt",
-            "demisto/fetch-data",
             "demisto/ml",
             "demisto/sklearn",
-            "demisto/dl-languages"
+            "demisto/dl-languages",
+            "demisto/fetch-data"
         ],
         "home_page": "https://github.com/tqdm/tqdm",
         "licenses": [
@@ -7793,7 +7794,6 @@
             "demisto/python3-deb",
             "demisto/netutils",
             "demisto/pandas",
-            "demisto/fetch-data",
             "demisto/elasticsearch",
             "demisto/python-deb",
             "demisto/py42",
@@ -7831,7 +7831,8 @@
             "demisto/google-vision-api",
             "demisto/boto3",
             "demisto/google-kms",
-            "demisto/dl-languages"
+            "demisto/dl-languages",
+            "demisto/fetch-data"
         ],
         "home_page": "https://github.com/regebro/tzlocal",
         "licenses": [
@@ -7975,7 +7976,6 @@
             "demisto/python3-deb",
             "demisto/netutils",
             "demisto/pandas",
-            "demisto/fetch-data",
             "demisto/elasticsearch",
             "demisto/python-deb",
             "demisto/py42",
@@ -8013,7 +8013,8 @@
             "demisto/google-vision-api",
             "demisto/boto3",
             "demisto/google-kms",
-            "demisto/dl-languages"
+            "demisto/dl-languages",
+            "demisto/fetch-data"
         ],
         "home_page": "https://urllib3.readthedocs.io/",
         "licenses": [
@@ -8341,7 +8342,6 @@
             "demisto/python3-deb",
             "demisto/netutils",
             "demisto/pandas",
-            "demisto/fetch-data",
             "demisto/elasticsearch",
             "demisto/python-deb",
             "demisto/py42",
@@ -8379,7 +8379,8 @@
             "demisto/google-vision-api",
             "demisto/boto3",
             "demisto/google-kms",
-            "demisto/dl-languages"
+            "demisto/dl-languages",
+            "demisto/fetch-data"
         ],
         "home_page": "https://github.com/pypa/wheel",
         "licenses": [

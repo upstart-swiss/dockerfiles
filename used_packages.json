@@ -292,7 +292,6 @@
             "demisto/docxpy",
             "demisto/dxl2",
             "demisto/tld",
-            "demisto/stix2",
             "demisto/iputils",
             "demisto/nltk",
             "demisto/ldap",
@@ -310,7 +309,6 @@
             "demisto/nmap",
             "demisto/geopy",
             "demisto/uptycs",
-            "demisto/taxii2",
             "demisto/xlrd-py3",
             "demisto/unzip",
             "demisto/sixgill",
@@ -395,12 +393,14 @@
             "demisto/google-api",
             "demisto/googleapi-python3",
             "demisto/google-api-py3",
-            "demisto/taxii-server",
             "demisto/aiohttp",
             "demisto/twilio",
+            "demisto/stix2",
             "demisto/boto3py3",
             "demisto/faker3",
-            "demisto/boto3"
+            "demisto/boto3",
+            "demisto/taxii2",
+            "demisto/taxii-server"
         ],
         "home_page": "https://github.com/Anorov/PySocks",
         "licenses": [
@@ -437,7 +437,6 @@
             "demisto/docxpy",
             "demisto/dxl2",
             "demisto/tld",
-            "demisto/stix2",
             "demisto/iputils",
             "demisto/nltk",
             "demisto/ldap",
@@ -455,7 +454,6 @@
             "demisto/nmap",
             "demisto/geopy",
             "demisto/uptycs",
-            "demisto/taxii2",
             "demisto/xlrd-py3",
             "demisto/unzip",
             "demisto/sixgill",
@@ -541,12 +539,14 @@
             "demisto/google-api",
             "demisto/googleapi-python3",
             "demisto/google-api-py3",
-            "demisto/taxii-server",
             "demisto/aiohttp",
             "demisto/twilio",
+            "demisto/stix2",
             "demisto/boto3py3",
             "demisto/faker3",
-            "demisto/boto3"
+            "demisto/boto3",
+            "demisto/taxii2",
+            "demisto/taxii-server"
         ],
         "home_page": "https://github.com/yaml/pyyaml",
         "licenses": [
@@ -918,10 +918,10 @@
     "antlr4-python3-runtime": {
         "author": "Eric Vergnaud, Terence Parr, Sam Harwell eric.vergnaud@wanadoo.fr",
         "docker_images": [
-            "demisto/stix2",
-            "demisto/taxii2",
             "demisto/opencti",
-            "demisto/threatconnect-tcex"
+            "demisto/threatconnect-tcex",
+            "demisto/stix2",
+            "demisto/taxii2"
         ],
         "home_page": "http://www.antlr.org",
         "licenses": [
@@ -1407,7 +1407,6 @@
             "demisto/docxpy",
             "demisto/dxl2",
             "demisto/tld",
-            "demisto/stix2",
             "demisto/iputils",
             "demisto/nltk",
             "demisto/ldap",
@@ -1425,7 +1424,6 @@
             "demisto/nmap",
             "demisto/geopy",
             "demisto/uptycs",
-            "demisto/taxii2",
             "demisto/xlrd-py3",
             "demisto/unzip",
             "demisto/sixgill",
@@ -1511,12 +1509,14 @@
             "demisto/google-api",
             "demisto/googleapi-python3",
             "demisto/google-api-py3",
-            "demisto/taxii-server",
             "demisto/aiohttp",
             "demisto/twilio",
+            "demisto/stix2",
             "demisto/boto3py3",
             "demisto/faker3",
-            "demisto/boto3"
+            "demisto/boto3",
+            "demisto/taxii2",
+            "demisto/taxii-server"
         ],
         "home_page": "https://certifi.io/",
         "licenses": [
@@ -1599,7 +1599,6 @@
             "demisto/docxpy",
             "demisto/dxl2",
             "demisto/tld",
-            "demisto/stix2",
             "demisto/iputils",
             "demisto/nltk",
             "demisto/ldap",
@@ -1617,7 +1616,6 @@
             "demisto/nmap",
             "demisto/geopy",
             "demisto/uptycs",
-            "demisto/taxii2",
             "demisto/xlrd-py3",
             "demisto/unzip",
             "demisto/sixgill",
@@ -1703,12 +1701,14 @@
             "demisto/google-api",
             "demisto/googleapi-python3",
             "demisto/google-api-py3",
-            "demisto/taxii-server",
             "demisto/aiohttp",
             "demisto/twilio",
+            "demisto/stix2",
             "demisto/boto3py3",
             "demisto/faker3",
-            "demisto/boto3"
+            "demisto/boto3",
+            "demisto/taxii2",
+            "demisto/taxii-server"
         ],
         "home_page": "https://github.com/chardet/chardet",
         "licenses": [
@@ -2008,7 +2008,6 @@
             "demisto/docxpy",
             "demisto/dxl2",
             "demisto/tld",
-            "demisto/stix2",
             "demisto/iputils",
             "demisto/nltk",
             "demisto/ldap",
@@ -2026,7 +2025,6 @@
             "demisto/nmap",
             "demisto/geopy",
             "demisto/uptycs",
-            "demisto/taxii2",
             "demisto/xlrd-py3",
             "demisto/unzip",
             "demisto/sixgill",
@@ -2112,12 +2110,14 @@
             "demisto/google-api",
             "demisto/googleapi-python3",
             "demisto/google-api-py3",
-            "demisto/taxii-server",
             "demisto/aiohttp",
             "demisto/twilio",
+            "demisto/stix2",
             "demisto/boto3py3",
             "demisto/faker3",
-            "demisto/boto3"
+            "demisto/boto3",
+            "demisto/taxii2",
+            "demisto/taxii-server"
         ],
         "home_page": "https://github.com/scrapinghub/dateparser",
         "licenses": [
@@ -2627,7 +2627,6 @@
             "demisto/docxpy",
             "demisto/dxl2",
             "demisto/tld",
-            "demisto/stix2",
             "demisto/iputils",
             "demisto/nltk",
             "demisto/ldap",
@@ -2645,7 +2644,6 @@
             "demisto/nmap",
             "demisto/geopy",
             "demisto/uptycs",
-            "demisto/taxii2",
             "demisto/xlrd-py3",
             "demisto/unzip",
             "demisto/sixgill",
@@ -2730,12 +2728,14 @@
             "demisto/google-api",
             "demisto/googleapi-python3",
             "demisto/google-api-py3",
-            "demisto/taxii-server",
             "demisto/aiohttp",
             "demisto/twilio",
+            "demisto/stix2",
             "demisto/boto3py3",
             "demisto/faker3",
-            "demisto/boto3"
+            "demisto/boto3",
+            "demisto/taxii2",
+            "demisto/taxii-server"
         ],
         "home_page": "http://github.com/Suor/funcy",
         "licenses": [
@@ -3297,7 +3297,6 @@
             "demisto/docxpy",
             "demisto/dxl2",
             "demisto/tld",
-            "demisto/stix2",
             "demisto/iputils",
             "demisto/nltk",
             "demisto/ldap",
@@ -3315,7 +3314,6 @@
             "demisto/nmap",
             "demisto/geopy",
             "demisto/uptycs",
-            "demisto/taxii2",
             "demisto/xlrd-py3",
             "demisto/unzip",
             "demisto/sixgill",
@@ -3401,12 +3399,14 @@
             "demisto/google-api",
             "demisto/googleapi-python3",
             "demisto/google-api-py3",
-            "demisto/taxii-server",
             "demisto/aiohttp",
             "demisto/twilio",
+            "demisto/stix2",
             "demisto/boto3py3",
             "demisto/faker3",
-            "demisto/boto3"
+            "demisto/boto3",
+            "demisto/taxii2",
+            "demisto/taxii-server"
         ],
         "home_page": "https://github.com/kjd/idna",
         "licenses": [
@@ -4191,7 +4191,6 @@
             "demisto/docxpy",
             "demisto/dxl2",
             "demisto/tld",
-            "demisto/stix2",
             "demisto/iputils",
             "demisto/nltk",
             "demisto/ldap",
@@ -4209,7 +4208,6 @@
             "demisto/nmap",
             "demisto/geopy",
             "demisto/uptycs",
-            "demisto/taxii2",
             "demisto/xlrd-py3",
             "demisto/unzip",
             "demisto/sixgill",
@@ -4295,12 +4293,14 @@
             "demisto/google-api",
             "demisto/googleapi-python3",
             "demisto/google-api-py3",
-            "demisto/taxii-server",
             "demisto/aiohttp",
             "demisto/twilio",
+            "demisto/stix2",
             "demisto/boto3py3",
             "demisto/faker3",
-            "demisto/boto3"
+            "demisto/boto3",
+            "demisto/taxii2",
+            "demisto/taxii-server"
         ],
         "home_page": "https://www.decalage.info/python/olefileio",
         "licenses": [
@@ -4686,7 +4686,6 @@
             "demisto/docxpy",
             "demisto/dxl2",
             "demisto/tld",
-            "demisto/stix2",
             "demisto/iputils",
             "demisto/nltk",
             "demisto/ldap",
@@ -4704,7 +4703,6 @@
             "demisto/nmap",
             "demisto/geopy",
             "demisto/uptycs",
-            "demisto/taxii2",
             "demisto/xlrd-py3",
             "demisto/unzip",
             "demisto/sixgill",
@@ -4790,12 +4788,14 @@
             "demisto/google-api",
             "demisto/googleapi-python3",
             "demisto/google-api-py3",
-            "demisto/taxii-server",
             "demisto/aiohttp",
             "demisto/twilio",
+            "demisto/stix2",
             "demisto/boto3py3",
             "demisto/faker3",
-            "demisto/boto3"
+            "demisto/boto3",
+            "demisto/taxii2",
+            "demisto/taxii-server"
         ],
         "home_page": "https://pip.pypa.io/",
         "licenses": [
@@ -5486,7 +5486,6 @@
             "demisto/docxpy",
             "demisto/dxl2",
             "demisto/tld",
-            "demisto/stix2",
             "demisto/iputils",
             "demisto/nltk",
             "demisto/ldap",
@@ -5504,7 +5503,6 @@
             "demisto/nmap",
             "demisto/geopy",
             "demisto/uptycs",
-            "demisto/taxii2",
             "demisto/xlrd-py3",
             "demisto/unzip",
             "demisto/sixgill",
@@ -5590,12 +5588,14 @@
             "demisto/google-api",
             "demisto/googleapi-python3",
             "demisto/google-api-py3",
-            "demisto/taxii-server",
             "demisto/aiohttp",
             "demisto/twilio",
+            "demisto/stix2",
             "demisto/boto3py3",
             "demisto/faker3",
-            "demisto/boto3"
+            "demisto/boto3",
+            "demisto/taxii2",
+            "demisto/taxii-server"
         ],
         "home_page": "https://dateutil.readthedocs.io",
         "licenses": [
@@ -5720,7 +5720,6 @@
             "demisto/docxpy",
             "demisto/dxl2",
             "demisto/tld",
-            "demisto/stix2",
             "demisto/iputils",
             "demisto/nltk",
             "demisto/ldap",
@@ -5738,7 +5737,6 @@
             "demisto/nmap",
             "demisto/geopy",
             "demisto/uptycs",
-            "demisto/taxii2",
             "demisto/xlrd-py3",
             "demisto/unzip",
             "demisto/sixgill",
@@ -5824,12 +5822,14 @@
             "demisto/google-api",
             "demisto/googleapi-python3",
             "demisto/google-api-py3",
-            "demisto/taxii-server",
             "demisto/aiohttp",
             "demisto/twilio",
+            "demisto/stix2",
             "demisto/boto3py3",
             "demisto/faker3",
-            "demisto/boto3"
+            "demisto/boto3",
+            "demisto/taxii2",
+            "demisto/taxii-server"
         ],
         "home_page": "http://pythonhosted.org/pytz",
         "licenses": [
@@ -5928,7 +5928,6 @@
             "demisto/docxpy",
             "demisto/dxl2",
             "demisto/tld",
-            "demisto/stix2",
             "demisto/iputils",
             "demisto/nltk",
             "demisto/ldap",
@@ -5946,7 +5945,6 @@
             "demisto/nmap",
             "demisto/geopy",
             "demisto/uptycs",
-            "demisto/taxii2",
             "demisto/xlrd-py3",
             "demisto/unzip",
             "demisto/sixgill",
@@ -6032,12 +6030,14 @@
             "demisto/google-api",
             "demisto/googleapi-python3",
             "demisto/google-api-py3",
-            "demisto/taxii-server",
             "demisto/aiohttp",
             "demisto/twilio",
+            "demisto/stix2",
             "demisto/boto3py3",
             "demisto/faker3",
-            "demisto/boto3"
+            "demisto/boto3",
+            "demisto/taxii2",
+            "demisto/taxii-server"
         ],
         "home_page": "https://bitbucket.org/mrabarnett/mrab-regex",
         "licenses": [
@@ -6090,7 +6090,6 @@
             "demisto/docxpy",
             "demisto/dxl2",
             "demisto/tld",
-            "demisto/stix2",
             "demisto/iputils",
             "demisto/nltk",
             "demisto/ldap",
@@ -6108,7 +6107,6 @@
             "demisto/nmap",
             "demisto/geopy",
             "demisto/uptycs",
-            "demisto/taxii2",
             "demisto/xlrd-py3",
             "demisto/unzip",
             "demisto/sixgill",
@@ -6194,12 +6192,14 @@
             "demisto/google-api",
             "demisto/googleapi-python3",
             "demisto/google-api-py3",
-            "demisto/taxii-server",
             "demisto/aiohttp",
             "demisto/twilio",
+            "demisto/stix2",
             "demisto/boto3py3",
             "demisto/faker3",
-            "demisto/boto3"
+            "demisto/boto3",
+            "demisto/taxii2",
+            "demisto/taxii-server"
         ],
         "home_page": "http://python-requests.org",
         "licenses": [
@@ -6223,7 +6223,6 @@
             "demisto/docxpy",
             "demisto/dxl2",
             "demisto/tld",
-            "demisto/stix2",
             "demisto/iputils",
             "demisto/nltk",
             "demisto/ldap",
@@ -6241,7 +6240,6 @@
             "demisto/nmap",
             "demisto/geopy",
             "demisto/uptycs",
-            "demisto/taxii2",
             "demisto/xlrd-py3",
             "demisto/unzip",
             "demisto/sixgill",
@@ -6326,11 +6324,13 @@
             "demisto/google-api",
             "demisto/googleapi-python3",
             "demisto/google-api-py3",
-            "demisto/taxii-server",
             "demisto/aiohttp",
             "demisto/twilio",
+            "demisto/stix2",
             "demisto/boto3py3",
-            "demisto/boto3"
+            "demisto/boto3",
+            "demisto/taxii2",
+            "demisto/taxii-server"
         ],
         "home_page": "http://github.com/dashea/requests-file",
         "licenses": [
@@ -6672,7 +6672,6 @@
             "demisto/docxpy",
             "demisto/dxl2",
             "demisto/tld",
-            "demisto/stix2",
             "demisto/iputils",
             "demisto/nltk",
             "demisto/ldap",
@@ -6690,7 +6689,6 @@
             "demisto/nmap",
             "demisto/geopy",
             "demisto/uptycs",
-            "demisto/taxii2",
             "demisto/xlrd-py3",
             "demisto/unzip",
             "demisto/sixgill",
@@ -6776,12 +6774,14 @@
             "demisto/google-api",
             "demisto/googleapi-python3",
             "demisto/google-api-py3",
-            "demisto/taxii-server",
             "demisto/aiohttp",
             "demisto/twilio",
+            "demisto/stix2",
             "demisto/boto3py3",
             "demisto/faker3",
-            "demisto/boto3"
+            "demisto/boto3",
+            "demisto/taxii2",
+            "demisto/taxii-server"
         ],
         "home_page": "https://github.com/pypa/setuptools",
         "licenses": [
@@ -6806,11 +6806,11 @@
         "author": "Bob Ippolito bob@redivi.com",
         "docker_images": [
             "demisto/pcap",
-            "demisto/stix2",
-            "demisto/taxii2",
             "demisto/opencti",
             "demisto/threatconnect-tcex",
-            "demisto/imap"
+            "demisto/imap",
+            "demisto/stix2",
+            "demisto/taxii2"
         ],
         "home_page": "https://github.com/simplejson/simplejson",
         "licenses": [
@@ -6875,7 +6875,6 @@
             "demisto/docxpy",
             "demisto/dxl2",
             "demisto/tld",
-            "demisto/stix2",
             "demisto/iputils",
             "demisto/nltk",
             "demisto/ldap",
@@ -6893,7 +6892,6 @@
             "demisto/nmap",
             "demisto/geopy",
             "demisto/uptycs",
-            "demisto/taxii2",
             "demisto/xlrd-py3",
             "demisto/unzip",
             "demisto/sixgill",
@@ -6979,12 +6977,14 @@
             "demisto/google-api",
             "demisto/googleapi-python3",
             "demisto/google-api-py3",
-            "demisto/taxii-server",
             "demisto/aiohttp",
             "demisto/twilio",
+            "demisto/stix2",
             "demisto/boto3py3",
             "demisto/faker3",
-            "demisto/boto3"
+            "demisto/boto3",
+            "demisto/taxii2",
+            "demisto/taxii-server"
         ],
         "home_page": "https://github.com/benjaminp/six",
         "licenses": [
@@ -7180,10 +7180,10 @@
     "stix2": {
         "author": "OASIS Cyber Threat Intelligence Technical Committee cti-users@lists.oasis-open.org",
         "docker_images": [
-            "demisto/stix2",
-            "demisto/taxii2",
             "demisto/opencti",
-            "demisto/threatconnect-tcex"
+            "demisto/threatconnect-tcex",
+            "demisto/stix2",
+            "demisto/taxii2"
         ],
         "home_page": "https://oasis-open.github.io/cti-documentation/",
         "licenses": [
@@ -7195,10 +7195,10 @@
     "stix2-patterns": {
         "author": "Chris Lenk clenk@mitre.org",
         "docker_images": [
-            "demisto/stix2",
-            "demisto/taxii2",
             "demisto/opencti",
-            "demisto/threatconnect-tcex"
+            "demisto/threatconnect-tcex",
+            "demisto/stix2",
+            "demisto/taxii2"
         ],
         "home_page": "https://github.com/oasis-open/cti-pattern-validator",
         "licenses": [
@@ -7494,7 +7494,6 @@
             "demisto/docxpy",
             "demisto/dxl2",
             "demisto/tld",
-            "demisto/stix2",
             "demisto/iputils",
             "demisto/nltk",
             "demisto/ldap",
@@ -7512,7 +7511,6 @@
             "demisto/nmap",
             "demisto/geopy",
             "demisto/uptycs",
-            "demisto/taxii2",
             "demisto/xlrd-py3",
             "demisto/unzip",
             "demisto/sixgill",
@@ -7597,11 +7595,13 @@
             "demisto/google-api",
             "demisto/googleapi-python3",
             "demisto/google-api-py3",
-            "demisto/taxii-server",
             "demisto/aiohttp",
             "demisto/twilio",
+            "demisto/stix2",
             "demisto/boto3py3",
-            "demisto/boto3"
+            "demisto/boto3",
+            "demisto/taxii2",
+            "demisto/taxii-server"
         ],
         "home_page": "https://github.com/john-kurkowski/tldextract",
         "licenses": [
@@ -7723,7 +7723,6 @@
             "demisto/docxpy",
             "demisto/dxl2",
             "demisto/tld",
-            "demisto/stix2",
             "demisto/iputils",
             "demisto/nltk",
             "demisto/ldap",
@@ -7741,7 +7740,6 @@
             "demisto/nmap",
             "demisto/geopy",
             "demisto/uptycs",
-            "demisto/taxii2",
             "demisto/xlrd-py3",
             "demisto/unzip",
             "demisto/sixgill",
@@ -7827,12 +7825,14 @@
             "demisto/google-api",
             "demisto/googleapi-python3",
             "demisto/google-api-py3",
-            "demisto/taxii-server",
             "demisto/aiohttp",
             "demisto/twilio",
+            "demisto/stix2",
             "demisto/boto3py3",
             "demisto/faker3",
-            "demisto/boto3"
+            "demisto/boto3",
+            "demisto/taxii2",
+            "demisto/taxii-server"
         ],
         "home_page": "https://github.com/regebro/tzlocal",
         "licenses": [
@@ -7905,7 +7905,6 @@
             "demisto/docxpy",
             "demisto/dxl2",
             "demisto/tld",
-            "demisto/stix2",
             "demisto/iputils",
             "demisto/nltk",
             "demisto/ldap",
@@ -7923,7 +7922,6 @@
             "demisto/nmap",
             "demisto/geopy",
             "demisto/uptycs",
-            "demisto/taxii2",
             "demisto/xlrd-py3",
             "demisto/unzip",
             "demisto/sixgill",
@@ -8009,12 +8007,14 @@
             "demisto/google-api",
             "demisto/googleapi-python3",
             "demisto/google-api-py3",
-            "demisto/taxii-server",
             "demisto/aiohttp",
             "demisto/twilio",
+            "demisto/stix2",
             "demisto/boto3py3",
             "demisto/faker3",
-            "demisto/boto3"
+            "demisto/boto3",
+            "demisto/taxii2",
+            "demisto/taxii-server"
         ],
         "home_page": "https://urllib3.readthedocs.io/",
         "licenses": [
@@ -8272,7 +8272,6 @@
             "demisto/docxpy",
             "demisto/dxl2",
             "demisto/tld",
-            "demisto/stix2",
             "demisto/iputils",
             "demisto/nltk",
             "demisto/ldap",
@@ -8290,7 +8289,6 @@
             "demisto/nmap",
             "demisto/geopy",
             "demisto/uptycs",
-            "demisto/taxii2",
             "demisto/xlrd-py3",
             "demisto/unzip",
             "demisto/sixgill",
@@ -8376,12 +8374,14 @@
             "demisto/google-api",
             "demisto/googleapi-python3",
             "demisto/google-api-py3",
-            "demisto/taxii-server",
             "demisto/aiohttp",
             "demisto/twilio",
+            "demisto/stix2",
             "demisto/boto3py3",
             "demisto/faker3",
-            "demisto/boto3"
+            "demisto/boto3",
+            "demisto/taxii2",
+            "demisto/taxii-server"
         ],
         "home_page": "https://github.com/pypa/wheel",
         "licenses": [

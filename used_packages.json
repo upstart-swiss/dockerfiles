@@ -195,11 +195,11 @@
         "author": "Alex Clark (Fork Author) aclark@aclark.net",
         "docker_images": [
             "demisto/dl",
-            "demisto/sane-doc-reports",
             "demisto/chromium",
             "demisto/ml",
             "demisto/matplotlib",
-            "demisto/dl-languages"
+            "demisto/dl-languages",
+            "demisto/sane-doc-reports"
         ],
         "home_page": "http://python-pillow.org",
         "licenses": [
@@ -359,7 +359,6 @@
             "demisto/python-deb",
             "demisto/py42",
             "demisto/feed-parser",
-            "demisto/sane-doc-reports",
             "demisto/sane-pdf-reports",
             "demisto/chromium",
             "demisto/tesseract",
@@ -400,7 +399,8 @@
             "demisto/faker3",
             "demisto/boto3",
             "demisto/taxii2",
-            "demisto/taxii-server"
+            "demisto/taxii-server",
+            "demisto/sane-doc-reports"
         ],
         "home_page": "https://github.com/Anorov/PySocks",
         "licenses": [
@@ -505,7 +505,6 @@
             "demisto/py42",
             "demisto/powershell-core",
             "demisto/feed-parser",
-            "demisto/sane-doc-reports",
             "demisto/sane-pdf-reports",
             "demisto/chromium",
             "demisto/tesseract",
@@ -546,7 +545,8 @@
             "demisto/faker3",
             "demisto/boto3",
             "demisto/taxii2",
-            "demisto/taxii-server"
+            "demisto/taxii-server",
+            "demisto/sane-doc-reports"
         ],
         "home_page": "https://github.com/yaml/pyyaml",
         "licenses": [
@@ -1475,7 +1475,6 @@
             "demisto/py42",
             "demisto/powershell-core",
             "demisto/feed-parser",
-            "demisto/sane-doc-reports",
             "demisto/sane-pdf-reports",
             "demisto/chromium",
             "demisto/tesseract",
@@ -1516,7 +1515,8 @@
             "demisto/faker3",
             "demisto/boto3",
             "demisto/taxii2",
-            "demisto/taxii-server"
+            "demisto/taxii-server",
+            "demisto/sane-doc-reports"
         ],
         "home_page": "https://certifi.io/",
         "licenses": [
@@ -1667,7 +1667,6 @@
             "demisto/py42",
             "demisto/powershell-core",
             "demisto/feed-parser",
-            "demisto/sane-doc-reports",
             "demisto/sane-pdf-reports",
             "demisto/chromium",
             "demisto/tesseract",
@@ -1708,7 +1707,8 @@
             "demisto/faker3",
             "demisto/boto3",
             "demisto/taxii2",
-            "demisto/taxii-server"
+            "demisto/taxii-server",
+            "demisto/sane-doc-reports"
         ],
         "home_page": "https://github.com/chardet/chardet",
         "licenses": [
@@ -1738,12 +1738,12 @@
             "demisto/fastapi",
             "demisto/teams",
             "demisto/axonius",
-            "demisto/sane-doc-reports",
             "demisto/ml",
             "demisto/sklearn",
             "demisto/dl-languages",
             "demisto/fetch-data",
-            "demisto/taxii-server"
+            "demisto/taxii-server",
+            "demisto/sane-doc-reports"
         ],
         "home_page": "https://palletsprojects.com/p/click/",
         "licenses": [
@@ -1944,10 +1944,10 @@
         "author": "Thomas A Caswell matplotlib-users@python.org",
         "docker_images": [
             "demisto/dl",
-            "demisto/sane-doc-reports",
             "demisto/ml",
             "demisto/matplotlib",
-            "demisto/dl-languages"
+            "demisto/dl-languages",
+            "demisto/sane-doc-reports"
         ],
         "home_page": "http://github.com/matplotlib/cycler",
         "licenses": [
@@ -2076,7 +2076,6 @@
             "demisto/py42",
             "demisto/powershell-core",
             "demisto/feed-parser",
-            "demisto/sane-doc-reports",
             "demisto/sane-pdf-reports",
             "demisto/chromium",
             "demisto/tesseract",
@@ -2117,7 +2116,8 @@
             "demisto/faker3",
             "demisto/boto3",
             "demisto/taxii2",
-            "demisto/taxii-server"
+            "demisto/taxii-server",
+            "demisto/sane-doc-reports"
         ],
         "home_page": "https://github.com/scrapinghub/dateparser",
         "licenses": [
@@ -2694,7 +2694,6 @@
             "demisto/python-deb",
             "demisto/py42",
             "demisto/feed-parser",
-            "demisto/sane-doc-reports",
             "demisto/sane-pdf-reports",
             "demisto/chromium",
             "demisto/tesseract",
@@ -2735,7 +2734,8 @@
             "demisto/faker3",
             "demisto/boto3",
             "demisto/taxii2",
-            "demisto/taxii-server"
+            "demisto/taxii-server",
+            "demisto/sane-doc-reports"
         ],
         "home_page": "http://github.com/Suor/funcy",
         "licenses": [
@@ -3365,7 +3365,6 @@
             "demisto/py42",
             "demisto/powershell-core",
             "demisto/feed-parser",
-            "demisto/sane-doc-reports",
             "demisto/sane-pdf-reports",
             "demisto/chromium",
             "demisto/tesseract",
@@ -3406,7 +3405,8 @@
             "demisto/faker3",
             "demisto/boto3",
             "demisto/taxii2",
-            "demisto/taxii-server"
+            "demisto/taxii-server",
+            "demisto/sane-doc-reports"
         ],
         "home_page": "https://github.com/kjd/idna",
         "licenses": [
@@ -3663,10 +3663,10 @@
     "kiwisolver": {
         "author": "The Nucleic Development Team sccolbert@gmail.com",
         "docker_images": [
-            "demisto/sane-doc-reports",
             "demisto/ml",
             "demisto/matplotlib",
-            "demisto/dl-languages"
+            "demisto/dl-languages",
+            "demisto/sane-doc-reports"
         ],
         "home_page": "https://github.com/nucleic/kiwi",
         "licenses": [
@@ -3801,11 +3801,11 @@
             "demisto/bs4",
             "demisto/taxii",
             "demisto/py3ews",
-            "demisto/sane-doc-reports",
             "demisto/pcap-http-extractor",
             "demisto/sharepoint",
             "demisto/py2-exchangelib",
-            "demisto/taxii-server"
+            "demisto/taxii-server",
+            "demisto/sane-doc-reports"
         ],
         "home_page": "http://lxml.de/",
         "licenses": [
@@ -3880,10 +3880,10 @@
         "author": "John D. Hunter, Michael Droettboom matplotlib-users@python.org",
         "docker_images": [
             "demisto/dl",
-            "demisto/sane-doc-reports",
             "demisto/ml",
             "demisto/matplotlib",
-            "demisto/dl-languages"
+            "demisto/dl-languages",
+            "demisto/sane-doc-reports"
         ],
         "home_page": "https://matplotlib.org",
         "licenses": [
@@ -4117,7 +4117,6 @@
             "demisto/panads3",
             "demisto/dl",
             "demisto/pandas",
-            "demisto/sane-doc-reports",
             "demisto/chromium",
             "demisto/devo",
             "demisto/ml",
@@ -4125,7 +4124,8 @@
             "demisto/fasttext",
             "demisto/matplotlib",
             "demisto/dl-languages",
-            "demisto/fetch-data"
+            "demisto/fetch-data",
+            "demisto/sane-doc-reports"
         ],
         "home_page": "https://www.numpy.org",
         "licenses": [
@@ -4259,7 +4259,6 @@
             "demisto/py42",
             "demisto/powershell-core",
             "demisto/feed-parser",
-            "demisto/sane-doc-reports",
             "demisto/sane-pdf-reports",
             "demisto/chromium",
             "demisto/tesseract",
@@ -4300,7 +4299,8 @@
             "demisto/faker3",
             "demisto/boto3",
             "demisto/taxii2",
-            "demisto/taxii-server"
+            "demisto/taxii-server",
+            "demisto/sane-doc-reports"
         ],
         "home_page": "https://www.decalage.info/python/olefileio",
         "licenses": [
@@ -4754,7 +4754,6 @@
             "demisto/py42",
             "demisto/powershell-core",
             "demisto/feed-parser",
-            "demisto/sane-doc-reports",
             "demisto/sane-pdf-reports",
             "demisto/chromium",
             "demisto/tesseract",
@@ -4795,7 +4794,8 @@
             "demisto/faker3",
             "demisto/boto3",
             "demisto/taxii2",
-            "demisto/taxii-server"
+            "demisto/taxii-server",
+            "demisto/sane-doc-reports"
         ],
         "home_page": "https://pip.pypa.io/",
         "licenses": [
@@ -5363,10 +5363,10 @@
             "demisto/pcap",
             "demisto/dl",
             "demisto/pyotrs",
-            "demisto/sane-doc-reports",
             "demisto/ml",
             "demisto/matplotlib",
-            "demisto/dl-languages"
+            "demisto/dl-languages",
+            "demisto/sane-doc-reports"
         ],
         "home_page": "https://github.com/pyparsing/pyparsing/",
         "licenses": [
@@ -5554,7 +5554,6 @@
             "demisto/py42",
             "demisto/powershell-core",
             "demisto/feed-parser",
-            "demisto/sane-doc-reports",
             "demisto/sane-pdf-reports",
             "demisto/chromium",
             "demisto/tesseract",
@@ -5595,7 +5594,8 @@
             "demisto/faker3",
             "demisto/boto3",
             "demisto/taxii2",
-            "demisto/taxii-server"
+            "demisto/taxii-server",
+            "demisto/sane-doc-reports"
         ],
         "home_page": "https://dateutil.readthedocs.io",
         "licenses": [
@@ -5788,7 +5788,6 @@
             "demisto/py42",
             "demisto/powershell-core",
             "demisto/feed-parser",
-            "demisto/sane-doc-reports",
             "demisto/sane-pdf-reports",
             "demisto/chromium",
             "demisto/tesseract",
@@ -5829,7 +5828,8 @@
             "demisto/faker3",
             "demisto/boto3",
             "demisto/taxii2",
-            "demisto/taxii-server"
+            "demisto/taxii-server",
+            "demisto/sane-doc-reports"
         ],
         "home_page": "http://pythonhosted.org/pytz",
         "licenses": [
@@ -5996,7 +5996,6 @@
             "demisto/py42",
             "demisto/powershell-core",
             "demisto/feed-parser",
-            "demisto/sane-doc-reports",
             "demisto/sane-pdf-reports",
             "demisto/chromium",
             "demisto/tesseract",
@@ -6037,7 +6036,8 @@
             "demisto/faker3",
             "demisto/boto3",
             "demisto/taxii2",
-            "demisto/taxii-server"
+            "demisto/taxii-server",
+            "demisto/sane-doc-reports"
         ],
         "home_page": "https://bitbucket.org/mrabarnett/mrab-regex",
         "licenses": [
@@ -6158,7 +6158,6 @@
             "demisto/py42",
             "demisto/powershell-core",
             "demisto/feed-parser",
-            "demisto/sane-doc-reports",
             "demisto/sane-pdf-reports",
             "demisto/chromium",
             "demisto/tesseract",
@@ -6199,7 +6198,8 @@
             "demisto/faker3",
             "demisto/boto3",
             "demisto/taxii2",
-            "demisto/taxii-server"
+            "demisto/taxii-server",
+            "demisto/sane-doc-reports"
         ],
         "home_page": "http://python-requests.org",
         "licenses": [
@@ -6290,7 +6290,6 @@
             "demisto/python-deb",
             "demisto/py42",
             "demisto/feed-parser",
-            "demisto/sane-doc-reports",
             "demisto/sane-pdf-reports",
             "demisto/chromium",
             "demisto/tesseract",
@@ -6330,7 +6329,8 @@
             "demisto/boto3py3",
             "demisto/boto3",
             "demisto/taxii2",
-            "demisto/taxii-server"
+            "demisto/taxii-server",
+            "demisto/sane-doc-reports"
         ],
         "home_page": "http://github.com/dashea/requests-file",
         "licenses": [
@@ -6740,7 +6740,6 @@
             "demisto/py42",
             "demisto/powershell-core",
             "demisto/feed-parser",
-            "demisto/sane-doc-reports",
             "demisto/sane-pdf-reports",
             "demisto/chromium",
             "demisto/tesseract",
@@ -6781,7 +6780,8 @@
             "demisto/faker3",
             "demisto/boto3",
             "demisto/taxii2",
-            "demisto/taxii-server"
+            "demisto/taxii-server",
+            "demisto/sane-doc-reports"
         ],
         "home_page": "https://github.com/pypa/setuptools",
         "licenses": [
@@ -6943,7 +6943,6 @@
             "demisto/py42",
             "demisto/powershell-core",
             "demisto/feed-parser",
-            "demisto/sane-doc-reports",
             "demisto/sane-pdf-reports",
             "demisto/chromium",
             "demisto/tesseract",
@@ -6984,7 +6983,8 @@
             "demisto/faker3",
             "demisto/boto3",
             "demisto/taxii2",
-            "demisto/taxii-server"
+            "demisto/taxii-server",
+            "demisto/sane-doc-reports"
         ],
         "home_page": "https://github.com/benjaminp/six",
         "licenses": [
@@ -7561,7 +7561,6 @@
             "demisto/python-deb",
             "demisto/py42",
             "demisto/feed-parser",
-            "demisto/sane-doc-reports",
             "demisto/sane-pdf-reports",
             "demisto/chromium",
             "demisto/tesseract",
@@ -7601,7 +7600,8 @@
             "demisto/boto3py3",
             "demisto/boto3",
             "demisto/taxii2",
-            "demisto/taxii-server"
+            "demisto/taxii-server",
+            "demisto/sane-doc-reports"
         ],
         "home_page": "https://github.com/john-kurkowski/tldextract",
         "licenses": [
@@ -7791,7 +7791,6 @@
             "demisto/py42",
             "demisto/powershell-core",
             "demisto/feed-parser",
-            "demisto/sane-doc-reports",
             "demisto/sane-pdf-reports",
             "demisto/chromium",
             "demisto/tesseract",
@@ -7832,7 +7831,8 @@
             "demisto/faker3",
             "demisto/boto3",
             "demisto/taxii2",
-            "demisto/taxii-server"
+            "demisto/taxii-server",
+            "demisto/sane-doc-reports"
         ],
         "home_page": "https://github.com/regebro/tzlocal",
         "licenses": [
@@ -7973,7 +7973,6 @@
             "demisto/py42",
             "demisto/powershell-core",
             "demisto/feed-parser",
-            "demisto/sane-doc-reports",
             "demisto/sane-pdf-reports",
             "demisto/chromium",
             "demisto/tesseract",
@@ -8014,7 +8013,8 @@
             "demisto/faker3",
             "demisto/boto3",
             "demisto/taxii2",
-            "demisto/taxii-server"
+            "demisto/taxii-server",
+            "demisto/sane-doc-reports"
         ],
         "home_page": "https://urllib3.readthedocs.io/",
         "licenses": [
@@ -8340,7 +8340,6 @@
             "demisto/py42",
             "demisto/powershell-core",
             "demisto/feed-parser",
-            "demisto/sane-doc-reports",
             "demisto/sane-pdf-reports",
             "demisto/chromium",
             "demisto/tesseract",
@@ -8381,7 +8380,8 @@
             "demisto/faker3",
             "demisto/boto3",
             "demisto/taxii2",
-            "demisto/taxii-server"
+            "demisto/taxii-server",
+            "demisto/sane-doc-reports"
         ],
         "home_page": "https://github.com/pypa/wheel",
         "licenses": [

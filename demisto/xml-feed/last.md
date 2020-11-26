@@ -1,8 +1,8 @@
-# `demisto/python_pancloud_v2:1.0.0.13988`
+# `demisto/xml-feed:1.0.0.13966`
 ## Docker Metadata
-- Image Size: `25.66 MB`
-- Image ID: `sha256:c07cb1806955030b68b8c982b32715a1f49df89f11f231f41ef9999c55056262`
-- Created: `2020-11-25T13:30:39.180572038Z`
+- Image Size: `24.96 MB`
+- Image ID: `sha256:616875f1cd5be3a58a6eb719084c128dd47ef2f909332d59cdf422a92423cc23`
+- Created: `2020-11-25T12:40:15.632261547Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -13,11 +13,11 @@
   - `PYTHON_PIP_VERSION=20.2.3`
   - `PYTHON_GET_PIP_URL=https://github.com/pypa/get-pip/raw/fa7dc83944936bf09a0e4cb5d5ec852c0d256599/get-pip.py`
   - `PYTHON_GET_PIP_SHA256=6e0bb0a2c2533361d7f297ed547237caf1b7507f197835974c0dd7eba998c53c`
-  - `DOCKER_IMAGE=demisto/python_pancloud_v2:1.0.0.13988`
+  - `DOCKER_IMAGE=demisto/xml-feed:1.0.0.13966`
 - Labels:
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:6d74efccf7b2c1b226dc86fe12e2b6972ca056ed`
-  - `org.opencontainers.image.version:1.0.0.13988`
+  - `org.opencontainers.image.revision:2bda5bc6ed0a6e1ec1a6e00cbf0cf529b9afd539`
+  - `org.opencontainers.image.version:1.0.0.13966`
 
 - OS Release:
   - `NAME="Alpine Linux"`
@@ -30,29 +30,20 @@
 ## Docker Trust
 ```
 
-Signatures for demisto/python_pancloud_v2:1.0.0.13988
+Signatures for demisto/xml-feed:1.0.0.13966
 
 SIGNED TAG          DIGEST                                                             SIGNERS
-1.0.0.13988         71b5e522f1b58c86957616c86cd26071e32bf88a03fecc0363607fb1bac065d9   (Repo Admin)
+1.0.0.13966         a37ca72f06c7065f25b51cac33e48d1dcde7d0e0947fde6e2da8762be6a40b68   (Repo Admin)
 
-Administrative keys for demisto/python_pancloud_v2:1.0.0.13988
+Administrative keys for demisto/xml-feed:1.0.0.13966
 
-  Repository Key:	3569ef504ba5aae7e0f7811e55d4b6bdf627b21798a99182c2994ce0cf727f99
-  Root Key:	ac2c231cd14fee0b42349f672287965fb7b941d67e899c6548a97f52f1a2769c
+  Repository Key:	d7a3851a8dedb4115adcc29e389c8f4d8da1d1f3e14194f9b8b72d361f790180
+  Root Key:	56e0e4f8c06deea10a7afdef3d7792c83adefa42dd2b4621a72875f1e39241ab
 
 ```
 
 ## `Python Packages`
 
-
-### `arrow`
-
-* Summary: Better dates & times for Python
-* Version: 0.17.0
-* Pypi: https://pypi.org/project/arrow/
-* Homepage: https://arrow.readthedocs.io
-* Author: Chris Smith crsmithdev@gmail.com
-* License :: OSI Approved :: Apache Software License
 
 ### `certifi`
 
@@ -118,15 +109,6 @@ Administrative keys for demisto/python_pancloud_v2:1.0.0.13988
 * Author: Kim Davies kim@cynosure.com.au
 * License :: OSI Approved :: BSD License
 
-### `jmespath`
-
-* Summary: JSON Matching Expressions
-* Version: 0.10.0
-* Pypi: https://pypi.org/project/jmespath/
-* Homepage: https://github.com/jmespath/jmespath.py
-* Author: James Saryerwinnie js@jamesls.com
-* License :: OSI Approved :: MIT License
-
 ### `olefile`
 
 * Summary: Python package to parse, read and write Microsoft OLE2 files (Structured Storage or Compound Document, Microsoft Office)
@@ -135,15 +117,6 @@ Administrative keys for demisto/python_pancloud_v2:1.0.0.13988
 * Homepage: https://www.decalage.info/python/olefileio
 * Author: Philippe Lagadec nospam@decalage.info
 * License :: OSI Approved :: BSD License
-
-### `pancloud`
-
-* Summary: Python idiomatic SDK for the Palo Alto Networks Application Framework.
-* Version: 2.0.0a2
-* Pypi: https://pypi.org/project/pancloud/
-* Homepage: https://github.com/PaloAltoNetworks/pancloud
-* Author: Steven Serrata sserrata@paloaltonetworks.com
-* License :: OSI Approved :: ISC License (ISCL)
 
 ### `pip`
 
@@ -245,15 +218,6 @@ Administrative keys for demisto/python_pancloud_v2:1.0.0.13988
 * Author: Benjamin Peterson benjamin@python.org
 * License :: OSI Approved :: MIT License
 
-### `tinydb`
-
-* Summary: TinyDB is a tiny, document oriented database optimized for your happiness :)
-* Version: 4.2.0
-* Pypi: https://pypi.org/project/tinydb/
-* Homepage: https://github.com/msiemens/tinydb
-* Author: Markus Siemens markus@m-siemens.de
-* License :: OSI Approved :: MIT License
-
 ### `tldextract`
 
 * Summary: Accurately separate the TLD from the registered domain and subdomains of a URL, using the Public Suffix List. By default, this includes the public ICANN TLDs and their exceptions. You can optionally support the Public Suffix List's private domains as well.
@@ -275,7 +239,7 @@ Administrative keys for demisto/python_pancloud_v2:1.0.0.13988
 ### `urllib3`
 
 * Summary: HTTP library with thread-safe connection pooling, file post, and more.
-* Version: 1.25.11
+* Version: 1.25.10
 * Pypi: https://pypi.org/project/urllib3/
 * Homepage: https://urllib3.readthedocs.io/
 * Author: Andrey Petrov andrey.petrov@shazow.net
@@ -288,6 +252,15 @@ Administrative keys for demisto/python_pancloud_v2:1.0.0.13988
 * Pypi: https://pypi.org/project/wheel/
 * Homepage: https://github.com/pypa/wheel
 * Author: Daniel Holth dholth@fastmail.fm
+* License :: OSI Approved :: MIT License
+
+### `xmltodict`
+
+* Summary: Makes working with XML feel like you are working with JSON
+* Version: 0.12.0
+* Pypi: https://pypi.org/project/xmltodict/
+* Homepage: https://github.com/martinblech/xmltodict
+* Author: Martin Blech martinblech@gmail.com
 * License :: OSI Approved :: MIT License
 
 ## `OS Packages`

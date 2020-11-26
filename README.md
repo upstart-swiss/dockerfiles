@@ -175,6 +175,7 @@ If you are searching for a specific package and want to see if it is available i
 * [demisto/word-parser](demisto/word-parser/last.md)
 * [demisto/xlrd](demisto/xlrd/last.md)
 * [demisto/xlrd-py3](demisto/xlrd-py3/last.md)
+* [demisto/xml-feed](demisto/xml-feed/last.md)
 * [demisto/xmlparser](demisto/xmlparser/last.md)
 * [demisto/xslxwriter](demisto/xslxwriter/last.md)
 * [demisto/yarapy](demisto/yarapy/last.md)
@@ -182,4 +183,4 @@ If you are searching for a specific package and want to see if it is available i
 * [demisto/zeep](demisto/zeep/last.md)
 
 ---
-Last updated: 2020-11-25 01:03:02.476167
+Last updated: 2020-11-26 01:06:04.561278

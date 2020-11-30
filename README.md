@@ -28,6 +28,7 @@ If you are searching for a specific package and want to see if it is available i
 * [demisto/crypto](demisto/crypto/last.md)
 * [demisto/cylance_protect_v2](demisto/cylance_protect_v2/last.md)
 * [demisto/dateutil](demisto/dateutil/last.md)
+* [demisto/dempcap](demisto/dempcap/last.md)
 * [demisto/devo](demisto/devo/last.md)
 * [demisto/distorm3](demisto/distorm3/last.md)
 * [demisto/dl](demisto/dl/last.md)
@@ -73,6 +74,7 @@ If you are searching for a specific package and want to see if it is available i
 * [demisto/langdetect](demisto/langdetect/last.md)
 * [demisto/ldap](demisto/ldap/last.md)
 * [demisto/libreoffice](demisto/libreoffice/last.md)
+* [demisto/luminate](demisto/luminate/last.md)
 * [demisto/m2crypto](demisto/m2crypto/last.md)
 * [demisto/machine-learning](demisto/machine-learning/last.md)
 * [demisto/marketo](demisto/marketo/last.md)
@@ -183,4 +185,4 @@ If you are searching for a specific package and want to see if it is available i
 * [demisto/zeep](demisto/zeep/last.md)
 
 ---
-Last updated: 2020-11-29 01:06:24.734683
+Last updated: 2020-11-30 01:04:39.146272

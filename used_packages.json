@@ -389,7 +389,9 @@
             "demisto/marketo",
             "demisto/lacework",
             "demisto/fastapi",
-            "demisto/ansible-runner"
+            "demisto/ansible-runner",
+            "demisto/dempcap",
+            "demisto/luminate"
         ],
         "home_page": "https://github.com/Anorov/PySocks",
         "licenses": [
@@ -536,7 +538,9 @@
             "demisto/marketo",
             "demisto/lacework",
             "demisto/fastapi",
-            "demisto/ansible-runner"
+            "demisto/ansible-runner",
+            "demisto/dempcap",
+            "demisto/luminate"
         ],
         "home_page": "https://github.com/yaml/pyyaml",
         "licenses": [
@@ -1520,7 +1524,9 @@
             "demisto/marketo",
             "demisto/lacework",
             "demisto/fastapi",
-            "demisto/ansible-runner"
+            "demisto/ansible-runner",
+            "demisto/dempcap",
+            "demisto/luminate"
         ],
         "home_page": "https://certifi.io/",
         "licenses": [
@@ -1714,7 +1720,9 @@
             "demisto/marketo",
             "demisto/lacework",
             "demisto/fastapi",
-            "demisto/ansible-runner"
+            "demisto/ansible-runner",
+            "demisto/dempcap",
+            "demisto/luminate"
         ],
         "home_page": "https://github.com/chardet/chardet",
         "licenses": [
@@ -1981,7 +1989,8 @@
     "cymruwhois": {
         "author": "Justin Azoff justin@bouncybouncy.net",
         "docker_images": [
-            "demisto/pcap"
+            "demisto/pcap",
+            "demisto/dempcap"
         ],
         "home_page": "http://packages.python.org/cymruwhois/",
         "licenses": [
@@ -2126,7 +2135,9 @@
             "demisto/marketo",
             "demisto/lacework",
             "demisto/fastapi",
-            "demisto/ansible-runner"
+            "demisto/ansible-runner",
+            "demisto/dempcap",
+            "demisto/luminate"
         ],
         "home_page": "https://github.com/scrapinghub/dateparser",
         "licenses": [
@@ -2290,7 +2301,8 @@
     "dpkt": {
         "author": "Dug Song dugsong@monkey.org",
         "docker_images": [
-            "demisto/pcap"
+            "demisto/pcap",
+            "demisto/dempcap"
         ],
         "home_page": "http://dpkt.googlecode.com/",
         "licenses": [
@@ -2745,7 +2757,9 @@
             "demisto/marketo",
             "demisto/lacework",
             "demisto/fastapi",
-            "demisto/ansible-runner"
+            "demisto/ansible-runner",
+            "demisto/dempcap",
+            "demisto/luminate"
         ],
         "home_page": "http://github.com/Suor/funcy",
         "licenses": [
@@ -3419,7 +3433,9 @@
             "demisto/marketo",
             "demisto/lacework",
             "demisto/fastapi",
-            "demisto/ansible-runner"
+            "demisto/ansible-runner",
+            "demisto/dempcap",
+            "demisto/luminate"
         ],
         "home_page": "https://github.com/kjd/idna",
         "licenses": [
@@ -3787,6 +3803,18 @@
         ],
         "pypi_url": "https://pypi.org/project/lockfile/",
         "summary": "Platform-independent file locking module"
+    },
+    "luminateapi": {
+        "author": "Luminate info@luminate.io",
+        "docker_images": [
+            "demisto/luminate"
+        ],
+        "home_page": "https://github.com/luminatesec/luminate_api",
+        "licenses": [
+            "License: Apache-2.0"
+        ],
+        "pypi_url": null,
+        "summary": "Python implementation of Luminate V2 REST API"
     },
     "lxml": {
         "author": "lxml dev team lxml-dev@lxml.de",
@@ -4171,7 +4199,8 @@
             "demisto/oauthlib",
             "demisto/ml",
             "demisto/dl-languages",
-            "demisto/ansible-runner"
+            "demisto/ansible-runner",
+            "demisto/luminate"
         ],
         "home_page": "https://github.com/oauthlib/oauthlib",
         "licenses": [
@@ -4313,7 +4342,9 @@
             "demisto/marketo",
             "demisto/lacework",
             "demisto/fastapi",
-            "demisto/ansible-runner"
+            "demisto/ansible-runner",
+            "demisto/dempcap",
+            "demisto/luminate"
         ],
         "home_page": "https://www.decalage.info/python/olefileio",
         "licenses": [
@@ -4809,7 +4840,9 @@
             "demisto/marketo",
             "demisto/lacework",
             "demisto/fastapi",
-            "demisto/ansible-runner"
+            "demisto/ansible-runner",
+            "demisto/dempcap",
+            "demisto/luminate"
         ],
         "home_page": "https://pip.pypa.io/",
         "licenses": [
@@ -5624,7 +5657,9 @@
             "demisto/marketo",
             "demisto/lacework",
             "demisto/fastapi",
-            "demisto/ansible-runner"
+            "demisto/ansible-runner",
+            "demisto/dempcap",
+            "demisto/luminate"
         ],
         "home_page": "https://dateutil.readthedocs.io",
         "licenses": [
@@ -5859,7 +5894,9 @@
             "demisto/marketo",
             "demisto/lacework",
             "demisto/fastapi",
-            "demisto/ansible-runner"
+            "demisto/ansible-runner",
+            "demisto/dempcap",
+            "demisto/luminate"
         ],
         "home_page": "http://pythonhosted.org/pytz",
         "licenses": [
@@ -6068,7 +6105,9 @@
             "demisto/marketo",
             "demisto/lacework",
             "demisto/fastapi",
-            "demisto/ansible-runner"
+            "demisto/ansible-runner",
+            "demisto/dempcap",
+            "demisto/luminate"
         ],
         "home_page": "https://bitbucket.org/mrabarnett/mrab-regex",
         "licenses": [
@@ -6231,7 +6270,9 @@
             "demisto/marketo",
             "demisto/lacework",
             "demisto/fastapi",
-            "demisto/ansible-runner"
+            "demisto/ansible-runner",
+            "demisto/dempcap",
+            "demisto/luminate"
         ],
         "home_page": "http://python-requests.org",
         "licenses": [
@@ -6363,7 +6404,9 @@
             "demisto/marketo",
             "demisto/lacework",
             "demisto/fastapi",
-            "demisto/ansible-runner"
+            "demisto/ansible-runner",
+            "demisto/dempcap",
+            "demisto/luminate"
         ],
         "home_page": "http://github.com/dashea/requests-file",
         "licenses": [
@@ -6436,7 +6479,8 @@
             "demisto/oauthlib",
             "demisto/ml",
             "demisto/dl-languages",
-            "demisto/ansible-runner"
+            "demisto/ansible-runner",
+            "demisto/luminate"
         ],
         "home_page": "https://github.com/requests/requests-oauthlib",
         "licenses": [
@@ -6828,7 +6872,9 @@
             "demisto/marketo",
             "demisto/lacework",
             "demisto/fastapi",
-            "demisto/ansible-runner"
+            "demisto/ansible-runner",
+            "demisto/dempcap",
+            "demisto/luminate"
         ],
         "home_page": "https://github.com/pypa/setuptools",
         "licenses": [
@@ -6857,7 +6903,8 @@
             "demisto/threatconnect-tcex",
             "demisto/stix2",
             "demisto/taxii2",
-            "demisto/imap"
+            "demisto/imap",
+            "demisto/dempcap"
         ],
         "home_page": "https://github.com/simplejson/simplejson",
         "licenses": [
@@ -7032,7 +7079,9 @@
             "demisto/marketo",
             "demisto/lacework",
             "demisto/fastapi",
-            "demisto/ansible-runner"
+            "demisto/ansible-runner",
+            "demisto/dempcap",
+            "demisto/luminate"
         ],
         "home_page": "https://github.com/benjaminp/six",
         "licenses": [
@@ -7650,7 +7699,9 @@
             "demisto/marketo",
             "demisto/lacework",
             "demisto/fastapi",
-            "demisto/ansible-runner"
+            "demisto/ansible-runner",
+            "demisto/dempcap",
+            "demisto/luminate"
         ],
         "home_page": "https://github.com/john-kurkowski/tldextract",
         "licenses": [
@@ -7882,7 +7933,9 @@
             "demisto/marketo",
             "demisto/lacework",
             "demisto/fastapi",
-            "demisto/ansible-runner"
+            "demisto/ansible-runner",
+            "demisto/dempcap",
+            "demisto/luminate"
         ],
         "home_page": "https://github.com/regebro/tzlocal",
         "licenses": [
@@ -8065,7 +8118,9 @@
             "demisto/marketo",
             "demisto/lacework",
             "demisto/fastapi",
-            "demisto/ansible-runner"
+            "demisto/ansible-runner",
+            "demisto/dempcap",
+            "demisto/luminate"
         ],
         "home_page": "https://urllib3.readthedocs.io/",
         "licenses": [
@@ -8433,7 +8488,9 @@
             "demisto/marketo",
             "demisto/lacework",
             "demisto/fastapi",
-            "demisto/ansible-runner"
+            "demisto/ansible-runner",
+            "demisto/dempcap",
+            "demisto/luminate"
         ],
         "home_page": "https://github.com/pypa/wheel",
         "licenses": [

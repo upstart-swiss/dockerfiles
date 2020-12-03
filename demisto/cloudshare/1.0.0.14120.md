@@ -1,8 +1,8 @@
-# `demisto/pymongo:1.0.0.14134`
+# `demisto/cloudshare:1.0.0.14120`
 ## Docker Metadata
-- Image Size: `22.92 MB`
-- Image ID: `sha256:bd6cd74b83c53492b255f57df50e77ea77b94d32b9e5e704d2d7a4348d1a67e1`
-- Created: `2020-12-02T23:51:31.583925185Z`
+- Image Size: `22.25 MB`
+- Image ID: `sha256:d95f6437de56f0a4a7e1f5ab29d60e3b95b930d26b6cdf247ddae941b5c2f547`
+- Created: `2020-12-02T15:23:21.159959614Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -13,11 +13,11 @@
   - `PYTHON_PIP_VERSION=20.2.3`
   - `PYTHON_GET_PIP_URL=https://github.com/pypa/get-pip/raw/fa7dc83944936bf09a0e4cb5d5ec852c0d256599/get-pip.py`
   - `PYTHON_GET_PIP_SHA256=6e0bb0a2c2533361d7f297ed547237caf1b7507f197835974c0dd7eba998c53c`
-  - `DOCKER_IMAGE=demisto/pymongo:1.0.0.14134`
+  - `DOCKER_IMAGE=demisto/cloudshare:1.0.0.14120`
 - Labels:
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:c2ff2b55b789ce1c9762877bc97d3c9cd5b9374e`
-  - `org.opencontainers.image.version:1.0.0.14134`
+  - `org.opencontainers.image.revision:fe5acddc1c6de80b0213eeaf953a1efffbee6499`
+  - `org.opencontainers.image.version:1.0.0.14120`
 
 - OS Release:
   - `NAME="Alpine Linux"`
@@ -30,15 +30,15 @@
 ## Docker Trust
 ```
 
-Signatures for demisto/pymongo:1.0.0.14134
+Signatures for demisto/cloudshare:1.0.0.14120
 
 SIGNED TAG          DIGEST                                                             SIGNERS
-1.0.0.14134         1ad6c06ba7d0e78a71bea02f9445edbd5ddf7af4e314bf45cff2fc9a21ae7572   (Repo Admin)
+1.0.0.14120         71d6f53a7106eef99101024d4bc2a25b52a27db6e16916c989dcd2f6ad3f06f0   (Repo Admin)
 
-Administrative keys for demisto/pymongo:1.0.0.14134
+Administrative keys for demisto/cloudshare:1.0.0.14120
 
-  Repository Key:	cbd9bc88a36f4d80f05438ad8bb8f5a45b22be3d5204e7c66d0ff60b2f2a4548
-  Root Key:	1bfb956d6094f343a0911bfd079ccc2b68cc6c140b7e360299c8f57affb3a408
+  Repository Key:	47f294af92e2302cdeabbaed5a52287bcfeb9a62b69ab739bc8049c3130fd65d
+  Root Key:	54ce1112f5984eb061d7b93cc6f13bf7d9f1e7fcb80e57cb64974854460f6d6a
 
 ```
 
@@ -62,6 +62,15 @@ Administrative keys for demisto/pymongo:1.0.0.14134
 * Homepage: https://github.com/chardet/chardet
 * Author: Daniel Blanchard dan.blanchard@gmail.com
 * License :: OSI Approved :: GNU Library or Lesser General Public License (LGPL)
+
+### `cloudshare`
+
+* Summary: A python wrapper for the CloudShare REST API.
+* Version: 0.1.2
+* Pypi: https://pypi.org/project/cloudshare/
+* Homepage: https://github.com/cloudshare/cloudshare-py-sdk
+* Author: Jonathan Sadan jonathan@cloudshare.com
+* License :: Apache License 2.0
 
 ### `dateparser`
 
@@ -107,15 +116,6 @@ Administrative keys for demisto/pymongo:1.0.0.14134
 * Homepage: https://pip.pypa.io/
 * Author: The pip developers distutils-sig@python.org
 * License :: OSI Approved :: MIT License
-
-### `pymongo`
-
-* Summary: Python driver for MongoDB <http://www.mongodb.org>
-* Version: 3.11.2
-* Pypi: https://pypi.org/project/pymongo/
-* Homepage: http://github.com/mongodb/mongo-python-driver
-* Author: Bernie Hackett bernie@mongodb.com
-* License :: OSI Approved :: Apache Software License
 
 ### `PySocks`
 

@@ -375,7 +375,6 @@
             "demisto/xml-feed",
             "demisto/bs4",
             "demisto/argus-toolbelt",
-            "demisto/pymisp",
             "demisto/taxii",
             "demisto/dxl2",
             "demisto/imap",
@@ -396,7 +395,8 @@
             "demisto/boto3",
             "demisto/ml",
             "demisto/distorm3",
-            "demisto/dl-languages"
+            "demisto/dl-languages",
+            "demisto/pymisp"
         ],
         "home_page": "https://github.com/Anorov/PySocks",
         "licenses": [
@@ -525,7 +525,6 @@
             "demisto/xml-feed",
             "demisto/bs4",
             "demisto/argus-toolbelt",
-            "demisto/pymisp",
             "demisto/taxii",
             "demisto/dxl2",
             "demisto/imap",
@@ -546,7 +545,8 @@
             "demisto/boto3",
             "demisto/ml",
             "demisto/distorm3",
-            "demisto/dl-languages"
+            "demisto/dl-languages",
+            "demisto/pymisp"
         ],
         "home_page": "https://github.com/yaml/pyyaml",
         "licenses": [
@@ -1038,9 +1038,9 @@
             "demisto/sklearn",
             "demisto/aiohttp",
             "demisto/argus-toolbelt",
-            "demisto/pymisp",
             "demisto/ml",
-            "demisto/dl-languages"
+            "demisto/dl-languages",
+            "demisto/pymisp"
         ],
         "home_page": "https://www.attrs.org/",
         "licenses": [
@@ -1514,7 +1514,6 @@
             "demisto/xml-feed",
             "demisto/bs4",
             "demisto/argus-toolbelt",
-            "demisto/pymisp",
             "demisto/taxii",
             "demisto/dxl2",
             "demisto/imap",
@@ -1535,7 +1534,8 @@
             "demisto/boto3",
             "demisto/ml",
             "demisto/distorm3",
-            "demisto/dl-languages"
+            "demisto/dl-languages",
+            "demisto/pymisp"
         ],
         "home_page": "https://certifi.io/",
         "licenses": [
@@ -1711,7 +1711,6 @@
             "demisto/xml-feed",
             "demisto/bs4",
             "demisto/argus-toolbelt",
-            "demisto/pymisp",
             "demisto/taxii",
             "demisto/dxl2",
             "demisto/imap",
@@ -1732,7 +1731,8 @@
             "demisto/boto3",
             "demisto/ml",
             "demisto/distorm3",
-            "demisto/dl-languages"
+            "demisto/dl-languages",
+            "demisto/pymisp"
         ],
         "home_page": "https://github.com/chardet/chardet",
         "licenses": [
@@ -2139,7 +2139,6 @@
             "demisto/xml-feed",
             "demisto/bs4",
             "demisto/argus-toolbelt",
-            "demisto/pymisp",
             "demisto/taxii",
             "demisto/dxl2",
             "demisto/imap",
@@ -2160,7 +2159,8 @@
             "demisto/boto3",
             "demisto/ml",
             "demisto/distorm3",
-            "demisto/dl-languages"
+            "demisto/dl-languages",
+            "demisto/pymisp"
         ],
         "home_page": "https://github.com/scrapinghub/dateparser",
         "licenses": [
@@ -2764,7 +2764,6 @@
             "demisto/xml-feed",
             "demisto/bs4",
             "demisto/argus-toolbelt",
-            "demisto/pymisp",
             "demisto/taxii",
             "demisto/dxl2",
             "demisto/imap",
@@ -2785,7 +2784,8 @@
             "demisto/boto3",
             "demisto/ml",
             "demisto/distorm3",
-            "demisto/dl-languages"
+            "demisto/dl-languages",
+            "demisto/pymisp"
         ],
         "home_page": "http://github.com/Suor/funcy",
         "licenses": [
@@ -3441,7 +3441,6 @@
             "demisto/xml-feed",
             "demisto/bs4",
             "demisto/argus-toolbelt",
-            "demisto/pymisp",
             "demisto/taxii",
             "demisto/dxl2",
             "demisto/imap",
@@ -3462,7 +3461,8 @@
             "demisto/boto3",
             "demisto/ml",
             "demisto/distorm3",
-            "demisto/dl-languages"
+            "demisto/dl-languages",
+            "demisto/pymisp"
         ],
         "home_page": "https://github.com/kjd/idna",
         "licenses": [
@@ -4351,7 +4351,6 @@
             "demisto/xml-feed",
             "demisto/bs4",
             "demisto/argus-toolbelt",
-            "demisto/pymisp",
             "demisto/taxii",
             "demisto/dxl2",
             "demisto/imap",
@@ -4372,7 +4371,8 @@
             "demisto/boto3",
             "demisto/ml",
             "demisto/distorm3",
-            "demisto/dl-languages"
+            "demisto/dl-languages",
+            "demisto/pymisp"
         ],
         "home_page": "https://www.decalage.info/python/olefileio",
         "licenses": [
@@ -4850,7 +4850,6 @@
             "demisto/xml-feed",
             "demisto/bs4",
             "demisto/argus-toolbelt",
-            "demisto/pymisp",
             "demisto/taxii",
             "demisto/dxl2",
             "demisto/imap",
@@ -4871,7 +4870,8 @@
             "demisto/boto3",
             "demisto/ml",
             "demisto/distorm3",
-            "demisto/dl-languages"
+            "demisto/dl-languages",
+            "demisto/pymisp"
         ],
         "home_page": "https://pip.pypa.io/",
         "licenses": [
@@ -5668,7 +5668,6 @@
             "demisto/xml-feed",
             "demisto/bs4",
             "demisto/argus-toolbelt",
-            "demisto/pymisp",
             "demisto/taxii",
             "demisto/dxl2",
             "demisto/imap",
@@ -5689,7 +5688,8 @@
             "demisto/boto3",
             "demisto/ml",
             "demisto/distorm3",
-            "demisto/dl-languages"
+            "demisto/dl-languages",
+            "demisto/pymisp"
         ],
         "home_page": "https://dateutil.readthedocs.io",
         "licenses": [
@@ -5906,7 +5906,6 @@
             "demisto/xml-feed",
             "demisto/bs4",
             "demisto/argus-toolbelt",
-            "demisto/pymisp",
             "demisto/taxii",
             "demisto/dxl2",
             "demisto/imap",
@@ -5927,7 +5926,8 @@
             "demisto/boto3",
             "demisto/ml",
             "demisto/distorm3",
-            "demisto/dl-languages"
+            "demisto/dl-languages",
+            "demisto/pymisp"
         ],
         "home_page": "http://pythonhosted.org/pytz",
         "licenses": [
@@ -6118,7 +6118,6 @@
             "demisto/xml-feed",
             "demisto/bs4",
             "demisto/argus-toolbelt",
-            "demisto/pymisp",
             "demisto/taxii",
             "demisto/dxl2",
             "demisto/imap",
@@ -6139,7 +6138,8 @@
             "demisto/boto3",
             "demisto/ml",
             "demisto/distorm3",
-            "demisto/dl-languages"
+            "demisto/dl-languages",
+            "demisto/pymisp"
         ],
         "home_page": "https://bitbucket.org/mrabarnett/mrab-regex",
         "licenses": [
@@ -6284,7 +6284,6 @@
             "demisto/xml-feed",
             "demisto/bs4",
             "demisto/argus-toolbelt",
-            "demisto/pymisp",
             "demisto/taxii",
             "demisto/dxl2",
             "demisto/imap",
@@ -6305,7 +6304,8 @@
             "demisto/boto3",
             "demisto/ml",
             "demisto/distorm3",
-            "demisto/dl-languages"
+            "demisto/dl-languages",
+            "demisto/pymisp"
         ],
         "home_page": "http://python-requests.org",
         "licenses": [
@@ -6420,7 +6420,6 @@
             "demisto/xml-feed",
             "demisto/bs4",
             "demisto/argus-toolbelt",
-            "demisto/pymisp",
             "demisto/taxii",
             "demisto/dxl2",
             "demisto/imap",
@@ -6440,7 +6439,8 @@
             "demisto/boto3",
             "demisto/ml",
             "demisto/distorm3",
-            "demisto/dl-languages"
+            "demisto/dl-languages",
+            "demisto/pymisp"
         ],
         "home_page": "http://github.com/dashea/requests-file",
         "licenses": [
@@ -6888,7 +6888,6 @@
             "demisto/xml-feed",
             "demisto/bs4",
             "demisto/argus-toolbelt",
-            "demisto/pymisp",
             "demisto/taxii",
             "demisto/dxl2",
             "demisto/imap",
@@ -6909,7 +6908,8 @@
             "demisto/boto3",
             "demisto/ml",
             "demisto/distorm3",
-            "demisto/dl-languages"
+            "demisto/dl-languages",
+            "demisto/pymisp"
         ],
         "home_page": "https://github.com/pypa/setuptools",
         "licenses": [
@@ -7096,7 +7096,6 @@
             "demisto/xml-feed",
             "demisto/bs4",
             "demisto/argus-toolbelt",
-            "demisto/pymisp",
             "demisto/taxii",
             "demisto/dxl2",
             "demisto/imap",
@@ -7117,7 +7116,8 @@
             "demisto/boto3",
             "demisto/ml",
             "demisto/distorm3",
-            "demisto/dl-languages"
+            "demisto/dl-languages",
+            "demisto/pymisp"
         ],
         "home_page": "https://github.com/benjaminp/six",
         "licenses": [
@@ -7718,7 +7718,6 @@
             "demisto/xml-feed",
             "demisto/bs4",
             "demisto/argus-toolbelt",
-            "demisto/pymisp",
             "demisto/taxii",
             "demisto/dxl2",
             "demisto/imap",
@@ -7738,7 +7737,8 @@
             "demisto/boto3",
             "demisto/ml",
             "demisto/distorm3",
-            "demisto/dl-languages"
+            "demisto/dl-languages",
+            "demisto/pymisp"
         ],
         "home_page": "https://github.com/john-kurkowski/tldextract",
         "licenses": [
@@ -7952,7 +7952,6 @@
             "demisto/xml-feed",
             "demisto/bs4",
             "demisto/argus-toolbelt",
-            "demisto/pymisp",
             "demisto/taxii",
             "demisto/dxl2",
             "demisto/imap",
@@ -7973,7 +7972,8 @@
             "demisto/boto3",
             "demisto/ml",
             "demisto/distorm3",
-            "demisto/dl-languages"
+            "demisto/dl-languages",
+            "demisto/pymisp"
         ],
         "home_page": "https://github.com/regebro/tzlocal",
         "licenses": [
@@ -8138,7 +8138,6 @@
             "demisto/xml-feed",
             "demisto/bs4",
             "demisto/argus-toolbelt",
-            "demisto/pymisp",
             "demisto/taxii",
             "demisto/dxl2",
             "demisto/imap",
@@ -8159,7 +8158,8 @@
             "demisto/boto3",
             "demisto/ml",
             "demisto/distorm3",
-            "demisto/dl-languages"
+            "demisto/dl-languages",
+            "demisto/pymisp"
         ],
         "home_page": "https://urllib3.readthedocs.io/",
         "licenses": [
@@ -8509,7 +8509,6 @@
             "demisto/xml-feed",
             "demisto/bs4",
             "demisto/argus-toolbelt",
-            "demisto/pymisp",
             "demisto/taxii",
             "demisto/dxl2",
             "demisto/imap",
@@ -8530,7 +8529,8 @@
             "demisto/boto3",
             "demisto/ml",
             "demisto/distorm3",
-            "demisto/dl-languages"
+            "demisto/dl-languages",
+            "demisto/pymisp"
         ],
         "home_page": "https://github.com/pypa/wheel",
         "licenses": [
@@ -8555,9 +8555,9 @@
         "author": "Graham Dumpleton Graham.Dumpleton@gmail.com",
         "docker_images": [
             "demisto/threatconnect-tcex",
-            "demisto/pymisp",
             "demisto/ml",
-            "demisto/dl-languages"
+            "demisto/dl-languages",
+            "demisto/pymisp"
         ],
         "home_page": "https://github.com/GrahamDumpleton/wrapt",
         "licenses": [
@@ -8661,9 +8661,9 @@
         "docker_images": [
             "demisto/pyotrs",
             "demisto/argus-toolbelt",
-            "demisto/pymisp",
             "demisto/ml",
-            "demisto/dl-languages"
+            "demisto/dl-languages",
+            "demisto/pymisp"
         ],
         "home_page": "https://github.com/jaraco/zipp",
         "licenses": [

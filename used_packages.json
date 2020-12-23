@@ -101,12 +101,12 @@
         "docker_images": [
             "demisto/taxii-server",
             "demisto/sklearn",
-            "demisto/teams",
             "demisto/ml",
             "demisto/argus-toolbelt",
             "demisto/dl-languages",
             "demisto/greynoise",
-            "demisto/ansible-runner"
+            "demisto/ansible-runner",
+            "demisto/teams"
         ],
         "home_page": "https://palletsprojects.com/p/jinja/",
         "licenses": [
@@ -171,12 +171,12 @@
         "docker_images": [
             "demisto/taxii-server",
             "demisto/sklearn",
-            "demisto/teams",
             "demisto/ml",
             "demisto/argus-toolbelt",
             "demisto/dl-languages",
             "demisto/greynoise",
-            "demisto/ansible-runner"
+            "demisto/ansible-runner",
+            "demisto/teams"
         ],
         "home_page": "https://palletsprojects.com/p/markupsafe/",
         "licenses": [
@@ -211,9 +211,9 @@
             "demisto/pycef",
             "demisto/pyjwt",
             "demisto/pyjwt3",
-            "demisto/teams",
             "demisto/oauthlib",
-            "demisto/twilio"
+            "demisto/twilio",
+            "demisto/teams"
         ],
         "home_page": "http://github.com/jpadilla/pyjwt",
         "licenses": [
@@ -352,7 +352,6 @@
             "demisto/sklearn",
             "demisto/elasticsearch",
             "demisto/smb",
-            "demisto/teams",
             "demisto/crypto",
             "demisto/python_pancloud",
             "demisto/oauthlib",
@@ -398,6 +397,7 @@
             "demisto/greynoise",
             "demisto/ansible-runner",
             "demisto/sane-pdf-reports",
+            "demisto/teams",
             "demisto/boto3py3",
             "demisto/boto3"
         ],
@@ -502,7 +502,6 @@
             "demisto/sklearn",
             "demisto/elasticsearch",
             "demisto/smb",
-            "demisto/teams",
             "demisto/crypto",
             "demisto/python_pancloud",
             "demisto/oauthlib",
@@ -549,6 +548,7 @@
             "demisto/greynoise",
             "demisto/ansible-runner",
             "demisto/sane-pdf-reports",
+            "demisto/teams",
             "demisto/boto3py3",
             "demisto/boto3"
         ],
@@ -641,9 +641,9 @@
         "author": "Armin Ronacher armin.ronacher@active-4.com",
         "docker_images": [
             "demisto/taxii-server",
-            "demisto/teams",
             "demisto/ml",
-            "demisto/dl-languages"
+            "demisto/dl-languages",
+            "demisto/teams"
         ],
         "home_page": "https://palletsprojects.com/p/werkzeug/",
         "licenses": [
@@ -1505,7 +1505,6 @@
             "demisto/sklearn",
             "demisto/elasticsearch",
             "demisto/smb",
-            "demisto/teams",
             "demisto/crypto",
             "demisto/python_pancloud",
             "demisto/oauthlib",
@@ -1552,6 +1551,7 @@
             "demisto/greynoise",
             "demisto/ansible-runner",
             "demisto/sane-pdf-reports",
+            "demisto/teams",
             "demisto/boto3py3",
             "demisto/boto3"
         ],
@@ -1579,7 +1579,6 @@
             "demisto/py3ews",
             "demisto/resilient",
             "demisto/xml-feed",
-            "demisto/teams",
             "demisto/crypto",
             "demisto/python_pancloud",
             "demisto/oauthlib",
@@ -1592,7 +1591,8 @@
             "demisto/ntlm",
             "demisto/sharepoint",
             "demisto/py2-exchangelib",
-            "demisto/ansible-runner"
+            "demisto/ansible-runner",
+            "demisto/teams"
         ],
         "home_page": "http://cffi.readthedocs.org",
         "licenses": [
@@ -1703,7 +1703,6 @@
             "demisto/sklearn",
             "demisto/elasticsearch",
             "demisto/smb",
-            "demisto/teams",
             "demisto/crypto",
             "demisto/python_pancloud",
             "demisto/oauthlib",
@@ -1750,6 +1749,7 @@
             "demisto/greynoise",
             "demisto/ansible-runner",
             "demisto/sane-pdf-reports",
+            "demisto/teams",
             "demisto/boto3py3",
             "demisto/boto3"
         ],
@@ -1783,12 +1783,12 @@
             "demisto/fastapi",
             "demisto/fetch-data",
             "demisto/sklearn",
-            "demisto/teams",
             "demisto/sane-doc-reports",
             "demisto/ml",
             "demisto/devo",
             "demisto/dl-languages",
-            "demisto/greynoise"
+            "demisto/greynoise",
+            "demisto/teams"
         ],
         "home_page": "https://palletsprojects.com/p/click/",
         "licenses": [
@@ -1956,7 +1956,6 @@
             "demisto/py3ews",
             "demisto/resilient",
             "demisto/xml-feed",
-            "demisto/teams",
             "demisto/crypto",
             "demisto/python_pancloud",
             "demisto/oauthlib",
@@ -1968,7 +1967,8 @@
             "demisto/ntlm",
             "demisto/sharepoint",
             "demisto/py2-exchangelib",
-            "demisto/ansible-runner"
+            "demisto/ansible-runner",
+            "demisto/teams"
         ],
         "home_page": "https://github.com/pyca/cryptography",
         "licenses": [
@@ -2158,7 +2158,6 @@
             "demisto/sklearn",
             "demisto/elasticsearch",
             "demisto/smb",
-            "demisto/teams",
             "demisto/crypto",
             "demisto/python_pancloud",
             "demisto/oauthlib",
@@ -2205,6 +2204,7 @@
             "demisto/greynoise",
             "demisto/ansible-runner",
             "demisto/sane-pdf-reports",
+            "demisto/teams",
             "demisto/boto3py3",
             "demisto/boto3"
         ],
@@ -2797,7 +2797,6 @@
             "demisto/sklearn",
             "demisto/elasticsearch",
             "demisto/smb",
-            "demisto/teams",
             "demisto/crypto",
             "demisto/python_pancloud",
             "demisto/oauthlib",
@@ -2843,6 +2842,7 @@
             "demisto/greynoise",
             "demisto/ansible-runner",
             "demisto/sane-pdf-reports",
+            "demisto/teams",
             "demisto/boto3py3",
             "demisto/boto3"
         ],
@@ -3486,7 +3486,6 @@
             "demisto/sklearn",
             "demisto/elasticsearch",
             "demisto/smb",
-            "demisto/teams",
             "demisto/crypto",
             "demisto/python_pancloud",
             "demisto/oauthlib",
@@ -3533,6 +3532,7 @@
             "demisto/greynoise",
             "demisto/ansible-runner",
             "demisto/sane-pdf-reports",
+            "demisto/teams",
             "demisto/boto3py3",
             "demisto/boto3"
         ],
@@ -3740,8 +3740,8 @@
     "jwt": {
         "author": "Kohei YOSHIDA kohei.yoshida@gehirn.co.jp",
         "docker_images": [
-            "demisto/teams",
-            "demisto/oauthlib"
+            "demisto/oauthlib",
+            "demisto/teams"
         ],
         "home_page": "https://github.com/GehirnInc/python-jwt",
         "licenses": [
@@ -4184,8 +4184,8 @@
             "demisto/netaddr",
             "demisto/taxii-server",
             "demisto/taxii",
-            "demisto/teams",
-            "demisto/netutils"
+            "demisto/netutils",
+            "demisto/teams"
         ],
         "home_page": "https://github.com/drkjam/netaddr/",
         "licenses": [
@@ -4421,7 +4421,6 @@
             "demisto/sklearn",
             "demisto/elasticsearch",
             "demisto/smb",
-            "demisto/teams",
             "demisto/crypto",
             "demisto/python_pancloud",
             "demisto/oauthlib",
@@ -4468,6 +4467,7 @@
             "demisto/greynoise",
             "demisto/ansible-runner",
             "demisto/sane-pdf-reports",
+            "demisto/teams",
             "demisto/boto3py3",
             "demisto/boto3"
         ],
@@ -4921,7 +4921,6 @@
             "demisto/sklearn",
             "demisto/elasticsearch",
             "demisto/smb",
-            "demisto/teams",
             "demisto/crypto",
             "demisto/python_pancloud",
             "demisto/oauthlib",
@@ -4968,6 +4967,7 @@
             "demisto/greynoise",
             "demisto/ansible-runner",
             "demisto/sane-pdf-reports",
+            "demisto/teams",
             "demisto/boto3py3",
             "demisto/boto3"
         ],
@@ -5355,7 +5355,6 @@
             "demisto/py3ews",
             "demisto/resilient",
             "demisto/xml-feed",
-            "demisto/teams",
             "demisto/crypto",
             "demisto/python_pancloud",
             "demisto/oauthlib",
@@ -5368,7 +5367,8 @@
             "demisto/ntlm",
             "demisto/sharepoint",
             "demisto/py2-exchangelib",
-            "demisto/ansible-runner"
+            "demisto/ansible-runner",
+            "demisto/teams"
         ],
         "home_page": "https://github.com/eliben/pycparser",
         "licenses": [
@@ -5741,7 +5741,6 @@
             "demisto/sklearn",
             "demisto/elasticsearch",
             "demisto/smb",
-            "demisto/teams",
             "demisto/crypto",
             "demisto/python_pancloud",
             "demisto/oauthlib",
@@ -5788,6 +5787,7 @@
             "demisto/greynoise",
             "demisto/ansible-runner",
             "demisto/sane-pdf-reports",
+            "demisto/teams",
             "demisto/boto3py3",
             "demisto/boto3"
         ],
@@ -5981,7 +5981,6 @@
             "demisto/sklearn",
             "demisto/elasticsearch",
             "demisto/smb",
-            "demisto/teams",
             "demisto/crypto",
             "demisto/python_pancloud",
             "demisto/oauthlib",
@@ -6028,6 +6027,7 @@
             "demisto/greynoise",
             "demisto/ansible-runner",
             "demisto/sane-pdf-reports",
+            "demisto/teams",
             "demisto/boto3py3",
             "demisto/boto3"
         ],
@@ -6194,7 +6194,6 @@
             "demisto/sklearn",
             "demisto/elasticsearch",
             "demisto/smb",
-            "demisto/teams",
             "demisto/crypto",
             "demisto/python_pancloud",
             "demisto/oauthlib",
@@ -6241,6 +6240,7 @@
             "demisto/greynoise",
             "demisto/ansible-runner",
             "demisto/sane-pdf-reports",
+            "demisto/teams",
             "demisto/boto3py3",
             "demisto/boto3"
         ],
@@ -6361,7 +6361,6 @@
             "demisto/sklearn",
             "demisto/elasticsearch",
             "demisto/smb",
-            "demisto/teams",
             "demisto/crypto",
             "demisto/python_pancloud",
             "demisto/oauthlib",
@@ -6408,6 +6407,7 @@
             "demisto/greynoise",
             "demisto/ansible-runner",
             "demisto/sane-pdf-reports",
+            "demisto/teams",
             "demisto/boto3py3",
             "demisto/boto3"
         ],
@@ -6498,7 +6498,6 @@
             "demisto/sklearn",
             "demisto/elasticsearch",
             "demisto/smb",
-            "demisto/teams",
             "demisto/crypto",
             "demisto/python_pancloud",
             "demisto/oauthlib",
@@ -6544,6 +6543,7 @@
             "demisto/greynoise",
             "demisto/ansible-runner",
             "demisto/sane-pdf-reports",
+            "demisto/teams",
             "demisto/boto3py3",
             "demisto/boto3"
         ],
@@ -6967,7 +6967,6 @@
             "demisto/sklearn",
             "demisto/elasticsearch",
             "demisto/smb",
-            "demisto/teams",
             "demisto/crypto",
             "demisto/python_pancloud",
             "demisto/oauthlib",
@@ -7014,6 +7013,7 @@
             "demisto/greynoise",
             "demisto/ansible-runner",
             "demisto/sane-pdf-reports",
+            "demisto/teams",
             "demisto/boto3py3",
             "demisto/boto3"
         ],
@@ -7176,7 +7176,6 @@
             "demisto/sklearn",
             "demisto/elasticsearch",
             "demisto/smb",
-            "demisto/teams",
             "demisto/crypto",
             "demisto/python_pancloud",
             "demisto/oauthlib",
@@ -7223,6 +7222,7 @@
             "demisto/greynoise",
             "demisto/ansible-runner",
             "demisto/sane-pdf-reports",
+            "demisto/teams",
             "demisto/boto3py3",
             "demisto/boto3"
         ],
@@ -7812,7 +7812,6 @@
             "demisto/sklearn",
             "demisto/elasticsearch",
             "demisto/smb",
-            "demisto/teams",
             "demisto/crypto",
             "demisto/python_pancloud",
             "demisto/oauthlib",
@@ -7858,6 +7857,7 @@
             "demisto/greynoise",
             "demisto/ansible-runner",
             "demisto/sane-pdf-reports",
+            "demisto/teams",
             "demisto/boto3py3",
             "demisto/boto3"
         ],
@@ -8047,7 +8047,6 @@
             "demisto/sklearn",
             "demisto/elasticsearch",
             "demisto/smb",
-            "demisto/teams",
             "demisto/crypto",
             "demisto/python_pancloud",
             "demisto/oauthlib",
@@ -8094,6 +8093,7 @@
             "demisto/greynoise",
             "demisto/ansible-runner",
             "demisto/sane-pdf-reports",
+            "demisto/teams",
             "demisto/boto3py3",
             "demisto/boto3"
         ],
@@ -8234,7 +8234,6 @@
             "demisto/sklearn",
             "demisto/elasticsearch",
             "demisto/smb",
-            "demisto/teams",
             "demisto/crypto",
             "demisto/python_pancloud",
             "demisto/oauthlib",
@@ -8281,6 +8280,7 @@
             "demisto/greynoise",
             "demisto/ansible-runner",
             "demisto/sane-pdf-reports",
+            "demisto/teams",
             "demisto/boto3py3",
             "demisto/boto3"
         ],
@@ -8607,7 +8607,6 @@
             "demisto/sklearn",
             "demisto/elasticsearch",
             "demisto/smb",
-            "demisto/teams",
             "demisto/crypto",
             "demisto/python_pancloud",
             "demisto/oauthlib",
@@ -8654,6 +8653,7 @@
             "demisto/greynoise",
             "demisto/ansible-runner",
             "demisto/sane-pdf-reports",
+            "demisto/teams",
             "demisto/boto3py3",
             "demisto/boto3"
         ],

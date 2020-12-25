@@ -348,7 +348,6 @@
             "demisto/cloudshare",
             "demisto/pymisp",
             "demisto/pandas",
-            "demisto/fetch-data",
             "demisto/sklearn",
             "demisto/elasticsearch",
             "demisto/smb",
@@ -399,7 +398,9 @@
             "demisto/sane-pdf-reports",
             "demisto/teams",
             "demisto/boto3py3",
-            "demisto/boto3"
+            "demisto/boto3",
+            "demisto/fetch-data",
+            "demisto/google-cloud-securitycenter"
         ],
         "home_page": "https://github.com/Anorov/PySocks",
         "licenses": [
@@ -498,7 +499,6 @@
             "demisto/cloudshare",
             "demisto/pymisp",
             "demisto/pandas",
-            "demisto/fetch-data",
             "demisto/sklearn",
             "demisto/elasticsearch",
             "demisto/smb",
@@ -550,7 +550,9 @@
             "demisto/sane-pdf-reports",
             "demisto/teams",
             "demisto/boto3py3",
-            "demisto/boto3"
+            "demisto/boto3",
+            "demisto/fetch-data",
+            "demisto/google-cloud-securitycenter"
         ],
         "home_page": "https://github.com/yaml/pyyaml",
         "licenses": [
@@ -1244,8 +1246,8 @@
             "demisto/btfl-soup",
             "demisto/bs4",
             "demisto/taxii",
-            "demisto/fetch-data",
-            "demisto/sklearn"
+            "demisto/sklearn",
+            "demisto/fetch-data"
         ],
         "home_page": "http://www.crummy.com/software/BeautifulSoup/bs4/",
         "licenses": [
@@ -1369,7 +1371,8 @@
             "demisto/google-k8s-engine",
             "demisto/dl-languages",
             "demisto/greynoise",
-            "demisto/ansible-runner"
+            "demisto/ansible-runner",
+            "demisto/google-cloud-securitycenter"
         ],
         "home_page": "https://github.com/tkem/cachetools",
         "licenses": [
@@ -1501,7 +1504,6 @@
             "demisto/cloudshare",
             "demisto/pymisp",
             "demisto/pandas",
-            "demisto/fetch-data",
             "demisto/sklearn",
             "demisto/elasticsearch",
             "demisto/smb",
@@ -1553,7 +1555,9 @@
             "demisto/sane-pdf-reports",
             "demisto/teams",
             "demisto/boto3py3",
-            "demisto/boto3"
+            "demisto/boto3",
+            "demisto/fetch-data",
+            "demisto/google-cloud-securitycenter"
         ],
         "home_page": "https://certifi.io/",
         "licenses": [
@@ -1699,7 +1703,6 @@
             "demisto/cloudshare",
             "demisto/pymisp",
             "demisto/pandas",
-            "demisto/fetch-data",
             "demisto/sklearn",
             "demisto/elasticsearch",
             "demisto/smb",
@@ -1751,7 +1754,9 @@
             "demisto/sane-pdf-reports",
             "demisto/teams",
             "demisto/boto3py3",
-            "demisto/boto3"
+            "demisto/boto3",
+            "demisto/fetch-data",
+            "demisto/google-cloud-securitycenter"
         ],
         "home_page": "https://github.com/chardet/chardet",
         "licenses": [
@@ -1781,14 +1786,14 @@
             "demisto/axonius",
             "demisto/taxii-server",
             "demisto/fastapi",
-            "demisto/fetch-data",
             "demisto/sklearn",
             "demisto/sane-doc-reports",
             "demisto/ml",
             "demisto/devo",
             "demisto/dl-languages",
             "demisto/greynoise",
-            "demisto/teams"
+            "demisto/teams",
+            "demisto/fetch-data"
         ],
         "home_page": "https://palletsprojects.com/p/click/",
         "licenses": [
@@ -2154,7 +2159,6 @@
             "demisto/cloudshare",
             "demisto/pymisp",
             "demisto/pandas",
-            "demisto/fetch-data",
             "demisto/sklearn",
             "demisto/elasticsearch",
             "demisto/smb",
@@ -2206,7 +2210,9 @@
             "demisto/sane-pdf-reports",
             "demisto/teams",
             "demisto/boto3py3",
-            "demisto/boto3"
+            "demisto/boto3",
+            "demisto/fetch-data",
+            "demisto/google-cloud-securitycenter"
         ],
         "home_page": "https://github.com/scrapinghub/dateparser",
         "licenses": [
@@ -2793,7 +2799,6 @@
             "demisto/cloudshare",
             "demisto/pymisp",
             "demisto/pandas",
-            "demisto/fetch-data",
             "demisto/sklearn",
             "demisto/elasticsearch",
             "demisto/smb",
@@ -2844,7 +2849,9 @@
             "demisto/sane-pdf-reports",
             "demisto/teams",
             "demisto/boto3py3",
-            "demisto/boto3"
+            "demisto/boto3",
+            "demisto/fetch-data",
+            "demisto/google-cloud-securitycenter"
         ],
         "home_page": "http://github.com/Suor/funcy",
         "licenses": [
@@ -2966,7 +2973,8 @@
             "demisto/google-api-py3",
             "demisto/google-kms",
             "demisto/google-cloud-translate",
-            "demisto/google-k8s-engine"
+            "demisto/google-k8s-engine",
+            "demisto/google-cloud-securitycenter"
         ],
         "home_page": "https://github.com/GoogleCloudPlatform/google-cloud-python",
         "licenses": [
@@ -3006,7 +3014,8 @@
             "demisto/google-cloud-translate",
             "demisto/google-k8s-engine",
             "demisto/dl-languages",
-            "demisto/ansible-runner"
+            "demisto/ansible-runner",
+            "demisto/google-cloud-securitycenter"
         ],
         "home_page": "https://github.com/GoogleCloudPlatform/google-auth-library-python",
         "licenses": [
@@ -3109,6 +3118,18 @@
         "pypi_url": "https://pypi.org/project/google-cloud-pubsub/",
         "summary": "Google Cloud Pub/Sub API client library"
     },
+    "google-cloud-securitycenter": {
+        "author": "Google LLC googleapis-packages@google.com",
+        "docker_images": [
+            "demisto/google-cloud-securitycenter"
+        ],
+        "home_page": "https://github.com/googleapis/python-securitycenter",
+        "licenses": [
+            "License :: OSI Approved :: Apache Software License"
+        ],
+        "pypi_url": "https://pypi.org/project/google-cloud-securitycenter/",
+        "summary": "Cloud Security Command Center API client library"
+    },
     "google-cloud-storage": {
         "author": "Google LLC googleapis-packages@google.com",
         "docker_images": [
@@ -3199,7 +3220,8 @@
             "demisto/google-api-py3",
             "demisto/google-kms",
             "demisto/google-cloud-translate",
-            "demisto/google-k8s-engine"
+            "demisto/google-k8s-engine",
+            "demisto/google-cloud-securitycenter"
         ],
         "home_page": "https://github.com/googleapis/googleapis",
         "licenses": [
@@ -3278,7 +3300,8 @@
         "docker_images": [
             "demisto/google-cloud-storage",
             "demisto/google-kms",
-            "demisto/google-k8s-engine"
+            "demisto/google-k8s-engine",
+            "demisto/google-cloud-securitycenter"
         ],
         "home_page": "https://github.com/googleapis/googleapis",
         "licenses": [
@@ -3297,7 +3320,8 @@
             "demisto/ml",
             "demisto/google-cloud-translate",
             "demisto/google-k8s-engine",
-            "demisto/dl-languages"
+            "demisto/dl-languages",
+            "demisto/google-cloud-securitycenter"
         ],
         "home_page": "https://grpc.io",
         "licenses": [
@@ -3482,7 +3506,6 @@
             "demisto/cloudshare",
             "demisto/pymisp",
             "demisto/pandas",
-            "demisto/fetch-data",
             "demisto/sklearn",
             "demisto/elasticsearch",
             "demisto/smb",
@@ -3534,7 +3557,9 @@
             "demisto/sane-pdf-reports",
             "demisto/teams",
             "demisto/boto3py3",
-            "demisto/boto3"
+            "demisto/boto3",
+            "demisto/fetch-data",
+            "demisto/google-cloud-securitycenter"
         ],
         "home_page": "https://github.com/kjd/idna",
         "licenses": [
@@ -3711,10 +3736,10 @@
         "author": "Gael Varoquaux gael.varoquaux@normalesup.org",
         "docker_images": [
             "demisto/nltk",
-            "demisto/fetch-data",
             "demisto/sklearn",
             "demisto/ml",
-            "demisto/dl-languages"
+            "demisto/dl-languages",
+            "demisto/fetch-data"
         ],
         "home_page": "https://joblib.readthedocs.io",
         "licenses": [
@@ -3867,7 +3892,8 @@
         "docker_images": [
             "demisto/google-kms",
             "demisto/google-cloud-translate",
-            "demisto/google-k8s-engine"
+            "demisto/google-k8s-engine",
+            "demisto/google-cloud-securitycenter"
         ],
         "home_page": "https://github.com/Instagram/LibCST",
         "licenses": [
@@ -4157,7 +4183,8 @@
         "docker_images": [
             "demisto/google-kms",
             "demisto/google-cloud-translate",
-            "demisto/google-k8s-engine"
+            "demisto/google-k8s-engine",
+            "demisto/google-cloud-securitycenter"
         ],
         "home_page": "https://github.com/python/mypy_extensions",
         "licenses": [
@@ -4238,10 +4265,10 @@
         "docker_images": [
             "demisto/dl",
             "demisto/nltk",
-            "demisto/fetch-data",
             "demisto/sklearn",
             "demisto/ml",
-            "demisto/dl-languages"
+            "demisto/dl-languages",
+            "demisto/fetch-data"
         ],
         "home_page": "http://nltk.org/",
         "licenses": [
@@ -4282,13 +4309,13 @@
             "demisto/chromium",
             "demisto/matplotlib",
             "demisto/pandas",
-            "demisto/fetch-data",
             "demisto/sklearn",
             "demisto/sane-doc-reports",
             "demisto/ml",
             "demisto/devo",
             "demisto/fasttext",
-            "demisto/dl-languages"
+            "demisto/dl-languages",
+            "demisto/fetch-data"
         ],
         "home_page": "https://www.numpy.org",
         "licenses": [
@@ -4417,7 +4444,6 @@
             "demisto/cloudshare",
             "demisto/pymisp",
             "demisto/pandas",
-            "demisto/fetch-data",
             "demisto/sklearn",
             "demisto/elasticsearch",
             "demisto/smb",
@@ -4469,7 +4495,9 @@
             "demisto/sane-pdf-reports",
             "demisto/teams",
             "demisto/boto3py3",
-            "demisto/boto3"
+            "demisto/boto3",
+            "demisto/fetch-data",
+            "demisto/google-cloud-securitycenter"
         ],
         "home_page": "https://www.decalage.info/python/olefileio",
         "licenses": [
@@ -4636,11 +4664,11 @@
             "demisto/panads3",
             "demisto/dl",
             "demisto/pandas",
-            "demisto/fetch-data",
             "demisto/sklearn",
             "demisto/ml",
             "demisto/devo",
-            "demisto/dl-languages"
+            "demisto/dl-languages",
+            "demisto/fetch-data"
         ],
         "home_page": "http://pandas.pydata.org",
         "licenses": [
@@ -4917,7 +4945,6 @@
             "demisto/cloudshare",
             "demisto/pymisp",
             "demisto/pandas",
-            "demisto/fetch-data",
             "demisto/sklearn",
             "demisto/elasticsearch",
             "demisto/smb",
@@ -4969,7 +4996,9 @@
             "demisto/sane-pdf-reports",
             "demisto/teams",
             "demisto/boto3py3",
-            "demisto/boto3"
+            "demisto/boto3",
+            "demisto/fetch-data",
+            "demisto/google-cloud-securitycenter"
         ],
         "home_page": "https://pip.pypa.io/",
         "licenses": [
@@ -5075,7 +5104,8 @@
             "demisto/bigquery",
             "demisto/google-kms",
             "demisto/google-cloud-translate",
-            "demisto/google-k8s-engine"
+            "demisto/google-k8s-engine",
+            "demisto/google-cloud-securitycenter"
         ],
         "home_page": "https://github.com/googleapis/proto-plus-python.git",
         "licenses": [
@@ -5098,7 +5128,8 @@
             "demisto/ml",
             "demisto/google-cloud-translate",
             "demisto/google-k8s-engine",
-            "demisto/dl-languages"
+            "demisto/dl-languages",
+            "demisto/google-cloud-securitycenter"
         ],
         "home_page": "https://developers.google.com/protocol-buffers/",
         "licenses": [
@@ -5254,7 +5285,8 @@
             "demisto/google-cloud-translate",
             "demisto/google-k8s-engine",
             "demisto/dl-languages",
-            "demisto/ansible-runner"
+            "demisto/ansible-runner",
+            "demisto/google-cloud-securitycenter"
         ],
         "home_page": "https://github.com/etingof/pyasn1",
         "licenses": [
@@ -5278,7 +5310,8 @@
             "demisto/google-cloud-translate",
             "demisto/google-k8s-engine",
             "demisto/dl-languages",
-            "demisto/ansible-runner"
+            "demisto/ansible-runner",
+            "demisto/google-cloud-securitycenter"
         ],
         "home_page": "https://github.com/etingof/pyasn1-modules",
         "licenses": [
@@ -5737,7 +5770,6 @@
             "demisto/cloudshare",
             "demisto/pymisp",
             "demisto/pandas",
-            "demisto/fetch-data",
             "demisto/sklearn",
             "demisto/elasticsearch",
             "demisto/smb",
@@ -5789,7 +5821,9 @@
             "demisto/sane-pdf-reports",
             "demisto/teams",
             "demisto/boto3py3",
-            "demisto/boto3"
+            "demisto/boto3",
+            "demisto/fetch-data",
+            "demisto/google-cloud-securitycenter"
         ],
         "home_page": "https://dateutil.readthedocs.io",
         "licenses": [
@@ -5977,7 +6011,6 @@
             "demisto/cloudshare",
             "demisto/pymisp",
             "demisto/pandas",
-            "demisto/fetch-data",
             "demisto/sklearn",
             "demisto/elasticsearch",
             "demisto/smb",
@@ -6029,7 +6062,9 @@
             "demisto/sane-pdf-reports",
             "demisto/teams",
             "demisto/boto3py3",
-            "demisto/boto3"
+            "demisto/boto3",
+            "demisto/fetch-data",
+            "demisto/google-cloud-securitycenter"
         ],
         "home_page": "http://pythonhosted.org/pytz",
         "licenses": [
@@ -6190,7 +6225,6 @@
             "demisto/cloudshare",
             "demisto/pymisp",
             "demisto/pandas",
-            "demisto/fetch-data",
             "demisto/sklearn",
             "demisto/elasticsearch",
             "demisto/smb",
@@ -6242,7 +6276,9 @@
             "demisto/sane-pdf-reports",
             "demisto/teams",
             "demisto/boto3py3",
-            "demisto/boto3"
+            "demisto/boto3",
+            "demisto/fetch-data",
+            "demisto/google-cloud-securitycenter"
         ],
         "home_page": "https://bitbucket.org/mrabarnett/mrab-regex",
         "licenses": [
@@ -6357,7 +6393,6 @@
             "demisto/cloudshare",
             "demisto/pymisp",
             "demisto/pandas",
-            "demisto/fetch-data",
             "demisto/sklearn",
             "demisto/elasticsearch",
             "demisto/smb",
@@ -6409,7 +6444,9 @@
             "demisto/sane-pdf-reports",
             "demisto/teams",
             "demisto/boto3py3",
-            "demisto/boto3"
+            "demisto/boto3",
+            "demisto/fetch-data",
+            "demisto/google-cloud-securitycenter"
         ],
         "home_page": "http://python-requests.org",
         "licenses": [
@@ -6494,7 +6531,6 @@
             "demisto/cloudshare",
             "demisto/pymisp",
             "demisto/pandas",
-            "demisto/fetch-data",
             "demisto/sklearn",
             "demisto/elasticsearch",
             "demisto/smb",
@@ -6545,7 +6581,9 @@
             "demisto/sane-pdf-reports",
             "demisto/teams",
             "demisto/boto3py3",
-            "demisto/boto3"
+            "demisto/boto3",
+            "demisto/fetch-data",
+            "demisto/google-cloud-securitycenter"
         ],
         "home_page": "http://github.com/dashea/requests-file",
         "licenses": [
@@ -6685,7 +6723,8 @@
             "demisto/google-cloud-translate",
             "demisto/google-k8s-engine",
             "demisto/dl-languages",
-            "demisto/ansible-runner"
+            "demisto/ansible-runner",
+            "demisto/google-cloud-securitycenter"
         ],
         "home_page": "https://stuvel.eu/rsa",
         "licenses": [
@@ -6963,7 +7002,6 @@
             "demisto/cloudshare",
             "demisto/pymisp",
             "demisto/pandas",
-            "demisto/fetch-data",
             "demisto/sklearn",
             "demisto/elasticsearch",
             "demisto/smb",
@@ -7015,7 +7053,9 @@
             "demisto/sane-pdf-reports",
             "demisto/teams",
             "demisto/boto3py3",
-            "demisto/boto3"
+            "demisto/boto3",
+            "demisto/fetch-data",
+            "demisto/google-cloud-securitycenter"
         ],
         "home_page": "https://github.com/pypa/setuptools",
         "licenses": [
@@ -7172,7 +7212,6 @@
             "demisto/cloudshare",
             "demisto/pymisp",
             "demisto/pandas",
-            "demisto/fetch-data",
             "demisto/sklearn",
             "demisto/elasticsearch",
             "demisto/smb",
@@ -7224,7 +7263,9 @@
             "demisto/sane-pdf-reports",
             "demisto/teams",
             "demisto/boto3py3",
-            "demisto/boto3"
+            "demisto/boto3",
+            "demisto/fetch-data",
+            "demisto/google-cloud-securitycenter"
         ],
         "home_page": "https://github.com/benjaminp/six",
         "licenses": [
@@ -7299,8 +7340,8 @@
             "demisto/btfl-soup",
             "demisto/bs4",
             "demisto/taxii",
-            "demisto/fetch-data",
-            "demisto/sklearn"
+            "demisto/sklearn",
+            "demisto/fetch-data"
         ],
         "home_page": "https://github.com/facelessuser/soupsieve",
         "licenses": [
@@ -7503,10 +7544,10 @@
             "demisto/dl",
             "demisto/pykafka",
             "demisto/axonius",
-            "demisto/fetch-data",
             "demisto/sklearn",
             "demisto/ml",
-            "demisto/dl-languages"
+            "demisto/dl-languages",
+            "demisto/fetch-data"
         ],
         "home_page": "https://bitbucket.org/astanin/python-tabulate",
         "licenses": [
@@ -7808,7 +7849,6 @@
             "demisto/cloudshare",
             "demisto/pymisp",
             "demisto/pandas",
-            "demisto/fetch-data",
             "demisto/sklearn",
             "demisto/elasticsearch",
             "demisto/smb",
@@ -7859,7 +7899,9 @@
             "demisto/sane-pdf-reports",
             "demisto/teams",
             "demisto/boto3py3",
-            "demisto/boto3"
+            "demisto/boto3",
+            "demisto/fetch-data",
+            "demisto/google-cloud-securitycenter"
         ],
         "home_page": "https://github.com/john-kurkowski/tldextract",
         "licenses": [
@@ -7885,11 +7927,11 @@
         "docker_images": [
             "demisto/dl",
             "demisto/nltk",
-            "demisto/fetch-data",
             "demisto/sklearn",
             "demisto/ml",
             "demisto/argus-toolbelt",
-            "demisto/dl-languages"
+            "demisto/dl-languages",
+            "demisto/fetch-data"
         ],
         "home_page": "https://github.com/tqdm/tqdm",
         "licenses": [
@@ -7929,7 +7971,8 @@
             "demisto/aiohttp",
             "demisto/google-kms",
             "demisto/google-cloud-translate",
-            "demisto/google-k8s-engine"
+            "demisto/google-k8s-engine",
+            "demisto/google-cloud-securitycenter"
         ],
         "home_page": "https://github.com/python/typing/blob/master/typing_extensions/README.rst",
         "licenses": [
@@ -7943,7 +7986,8 @@
         "docker_images": [
             "demisto/google-kms",
             "demisto/google-cloud-translate",
-            "demisto/google-k8s-engine"
+            "demisto/google-k8s-engine",
+            "demisto/google-cloud-securitycenter"
         ],
         "home_page": "https://github.com/ilevkivskyi/typing_inspect",
         "licenses": [
@@ -8043,7 +8087,6 @@
             "demisto/cloudshare",
             "demisto/pymisp",
             "demisto/pandas",
-            "demisto/fetch-data",
             "demisto/sklearn",
             "demisto/elasticsearch",
             "demisto/smb",
@@ -8095,7 +8138,9 @@
             "demisto/sane-pdf-reports",
             "demisto/teams",
             "demisto/boto3py3",
-            "demisto/boto3"
+            "demisto/boto3",
+            "demisto/fetch-data",
+            "demisto/google-cloud-securitycenter"
         ],
         "home_page": "https://github.com/regebro/tzlocal",
         "licenses": [
@@ -8230,7 +8275,6 @@
             "demisto/cloudshare",
             "demisto/pymisp",
             "demisto/pandas",
-            "demisto/fetch-data",
             "demisto/sklearn",
             "demisto/elasticsearch",
             "demisto/smb",
@@ -8282,7 +8326,9 @@
             "demisto/sane-pdf-reports",
             "demisto/teams",
             "demisto/boto3py3",
-            "demisto/boto3"
+            "demisto/boto3",
+            "demisto/fetch-data",
+            "demisto/google-cloud-securitycenter"
         ],
         "home_page": "https://urllib3.readthedocs.io/",
         "licenses": [
@@ -8603,7 +8649,6 @@
             "demisto/cloudshare",
             "demisto/pymisp",
             "demisto/pandas",
-            "demisto/fetch-data",
             "demisto/sklearn",
             "demisto/elasticsearch",
             "demisto/smb",
@@ -8655,7 +8700,9 @@
             "demisto/sane-pdf-reports",
             "demisto/teams",
             "demisto/boto3py3",
-            "demisto/boto3"
+            "demisto/boto3",
+            "demisto/fetch-data",
+            "demisto/google-cloud-securitycenter"
         ],
         "home_page": "https://github.com/pypa/wheel",
         "licenses": [

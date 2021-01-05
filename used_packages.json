@@ -317,7 +317,6 @@
             "demisto/pyotrs",
             "demisto/smartsheet",
             "demisto/slack",
-            "demisto/btfl-soup",
             "demisto/pyjwt",
             "demisto/pyjwt3",
             "demisto/akamai",
@@ -374,8 +373,6 @@
             "demisto/python3",
             "demisto/python",
             "demisto/python3-deb",
-            "demisto/boto3py3",
-            "demisto/boto3",
             "demisto/python-deb",
             "demisto/sane-pdf-reports",
             "demisto/chromium",
@@ -400,7 +397,10 @@
             "demisto/py2-exchangelib",
             "demisto/distorm3",
             "demisto/ansible-runner",
-            "demisto/sharepoint"
+            "demisto/sharepoint",
+            "demisto/boto3py3",
+            "demisto/btfl-soup",
+            "demisto/boto3"
         ],
         "home_page": "https://github.com/Anorov/PySocks",
         "licenses": [
@@ -468,7 +468,6 @@
             "demisto/pyotrs",
             "demisto/smartsheet",
             "demisto/slack",
-            "demisto/btfl-soup",
             "demisto/pyjwt",
             "demisto/pyjwt3",
             "demisto/akamai",
@@ -526,8 +525,6 @@
             "demisto/python3",
             "demisto/python",
             "demisto/python3-deb",
-            "demisto/boto3py3",
-            "demisto/boto3",
             "demisto/python-deb",
             "demisto/sane-pdf-reports",
             "demisto/chromium",
@@ -552,7 +549,10 @@
             "demisto/py2-exchangelib",
             "demisto/distorm3",
             "demisto/ansible-runner",
-            "demisto/sharepoint"
+            "demisto/sharepoint",
+            "demisto/boto3py3",
+            "demisto/btfl-soup",
+            "demisto/boto3"
         ],
         "home_page": "https://github.com/yaml/pyyaml",
         "licenses": [
@@ -1243,11 +1243,11 @@
         "docker_images": [
             "demisto/pytan",
             "demisto/xmlparser",
-            "demisto/btfl-soup",
             "demisto/bs4",
             "demisto/taxii",
             "demisto/fetch-data",
-            "demisto/sklearn"
+            "demisto/sklearn",
+            "demisto/btfl-soup"
         ],
         "home_page": "http://www.crummy.com/software/BeautifulSoup/bs4/",
         "licenses": [
@@ -1473,7 +1473,6 @@
             "demisto/pyotrs",
             "demisto/smartsheet",
             "demisto/slack",
-            "demisto/btfl-soup",
             "demisto/pyjwt",
             "demisto/pyjwt3",
             "demisto/akamai",
@@ -1531,8 +1530,6 @@
             "demisto/python3",
             "demisto/python",
             "demisto/python3-deb",
-            "demisto/boto3py3",
-            "demisto/boto3",
             "demisto/python-deb",
             "demisto/sane-pdf-reports",
             "demisto/chromium",
@@ -1557,7 +1554,10 @@
             "demisto/py2-exchangelib",
             "demisto/distorm3",
             "demisto/ansible-runner",
-            "demisto/sharepoint"
+            "demisto/sharepoint",
+            "demisto/boto3py3",
+            "demisto/btfl-soup",
+            "demisto/boto3"
         ],
         "home_page": "https://certifi.io/",
         "licenses": [
@@ -1672,7 +1672,6 @@
             "demisto/pyotrs",
             "demisto/smartsheet",
             "demisto/slack",
-            "demisto/btfl-soup",
             "demisto/pyjwt",
             "demisto/pyjwt3",
             "demisto/akamai",
@@ -1730,8 +1729,6 @@
             "demisto/python3",
             "demisto/python",
             "demisto/python3-deb",
-            "demisto/boto3py3",
-            "demisto/boto3",
             "demisto/python-deb",
             "demisto/sane-pdf-reports",
             "demisto/chromium",
@@ -1756,7 +1753,10 @@
             "demisto/py2-exchangelib",
             "demisto/distorm3",
             "demisto/ansible-runner",
-            "demisto/sharepoint"
+            "demisto/sharepoint",
+            "demisto/boto3py3",
+            "demisto/btfl-soup",
+            "demisto/boto3"
         ],
         "home_page": "https://github.com/chardet/chardet",
         "licenses": [
@@ -2128,7 +2128,6 @@
             "demisto/pyotrs",
             "demisto/smartsheet",
             "demisto/slack",
-            "demisto/btfl-soup",
             "demisto/pyjwt",
             "demisto/pyjwt3",
             "demisto/akamai",
@@ -2186,8 +2185,6 @@
             "demisto/python3",
             "demisto/python",
             "demisto/python3-deb",
-            "demisto/boto3py3",
-            "demisto/boto3",
             "demisto/python-deb",
             "demisto/sane-pdf-reports",
             "demisto/chromium",
@@ -2212,7 +2209,10 @@
             "demisto/py2-exchangelib",
             "demisto/distorm3",
             "demisto/ansible-runner",
-            "demisto/sharepoint"
+            "demisto/sharepoint",
+            "demisto/boto3py3",
+            "demisto/btfl-soup",
+            "demisto/boto3"
         ],
         "home_page": "https://github.com/scrapinghub/dateparser",
         "licenses": [
@@ -2768,7 +2768,6 @@
             "demisto/pyotrs",
             "demisto/smartsheet",
             "demisto/slack",
-            "demisto/btfl-soup",
             "demisto/pyjwt",
             "demisto/pyjwt3",
             "demisto/akamai",
@@ -2825,8 +2824,6 @@
             "demisto/python3",
             "demisto/python",
             "demisto/python3-deb",
-            "demisto/boto3py3",
-            "demisto/boto3",
             "demisto/python-deb",
             "demisto/sane-pdf-reports",
             "demisto/chromium",
@@ -2851,7 +2848,10 @@
             "demisto/py2-exchangelib",
             "demisto/distorm3",
             "demisto/ansible-runner",
-            "demisto/sharepoint"
+            "demisto/sharepoint",
+            "demisto/boto3py3",
+            "demisto/btfl-soup",
+            "demisto/boto3"
         ],
         "home_page": "http://github.com/Suor/funcy",
         "licenses": [
@@ -2900,9 +2900,9 @@
         "author": "Brian Quinlan brian@sweetapp.com",
         "docker_images": [
             "demisto/ml-telemetry",
-            "demisto/boto3",
             "demisto/gvault",
-            "demisto/google-api"
+            "demisto/google-api",
+            "demisto/boto3"
         ],
         "home_page": "https://github.com/agronholm/pythonfutures",
         "licenses": [
@@ -3475,7 +3475,6 @@
             "demisto/pyotrs",
             "demisto/smartsheet",
             "demisto/slack",
-            "demisto/btfl-soup",
             "demisto/pyjwt",
             "demisto/pyjwt3",
             "demisto/akamai",
@@ -3533,8 +3532,6 @@
             "demisto/python3",
             "demisto/python",
             "demisto/python3-deb",
-            "demisto/boto3py3",
-            "demisto/boto3",
             "demisto/python-deb",
             "demisto/sane-pdf-reports",
             "demisto/chromium",
@@ -3559,7 +3556,10 @@
             "demisto/py2-exchangelib",
             "demisto/distorm3",
             "demisto/ansible-runner",
-            "demisto/sharepoint"
+            "demisto/sharepoint",
+            "demisto/boto3py3",
+            "demisto/btfl-soup",
+            "demisto/boto3"
         ],
         "home_page": "https://github.com/kjd/idna",
         "licenses": [
@@ -3721,9 +3721,9 @@
             "demisto/python_pancloud",
             "demisto/python_pancloud_v2",
             "demisto/threatconnect-tcex",
+            "demisto/ansible-runner",
             "demisto/boto3py3",
-            "demisto/boto3",
-            "demisto/ansible-runner"
+            "demisto/boto3"
         ],
         "home_page": "https://github.com/jmespath/jmespath.py",
         "licenses": [
@@ -4031,8 +4031,8 @@
     "markdownify": {
         "author": "Matthew Tretter m@tthewwithanm.com",
         "docker_images": [
-            "demisto/btfl-soup",
-            "demisto/taxii"
+            "demisto/taxii",
+            "demisto/btfl-soup"
         ],
         "home_page": "http://github.com/matthewwithanm/python-markdownify",
         "licenses": [
@@ -4413,7 +4413,6 @@
             "demisto/pyotrs",
             "demisto/smartsheet",
             "demisto/slack",
-            "demisto/btfl-soup",
             "demisto/pyjwt",
             "demisto/pyjwt3",
             "demisto/akamai",
@@ -4471,8 +4470,6 @@
             "demisto/python3",
             "demisto/python",
             "demisto/python3-deb",
-            "demisto/boto3py3",
-            "demisto/boto3",
             "demisto/python-deb",
             "demisto/sane-pdf-reports",
             "demisto/chromium",
@@ -4497,7 +4494,10 @@
             "demisto/py2-exchangelib",
             "demisto/distorm3",
             "demisto/ansible-runner",
-            "demisto/sharepoint"
+            "demisto/sharepoint",
+            "demisto/boto3py3",
+            "demisto/btfl-soup",
+            "demisto/boto3"
         ],
         "home_page": "https://www.decalage.info/python/olefileio",
         "licenses": [
@@ -4914,7 +4914,6 @@
             "demisto/pyotrs",
             "demisto/smartsheet",
             "demisto/slack",
-            "demisto/btfl-soup",
             "demisto/pyjwt",
             "demisto/pyjwt3",
             "demisto/akamai",
@@ -4972,8 +4971,6 @@
             "demisto/python3",
             "demisto/python",
             "demisto/python3-deb",
-            "demisto/boto3py3",
-            "demisto/boto3",
             "demisto/python-deb",
             "demisto/sane-pdf-reports",
             "demisto/chromium",
@@ -4998,7 +4995,10 @@
             "demisto/py2-exchangelib",
             "demisto/distorm3",
             "demisto/ansible-runner",
-            "demisto/sharepoint"
+            "demisto/sharepoint",
+            "demisto/boto3py3",
+            "demisto/btfl-soup",
+            "demisto/boto3"
         ],
         "home_page": "https://pip.pypa.io/",
         "licenses": [
@@ -5270,7 +5270,6 @@
             "demisto/pysmb",
             "demisto/ldap",
             "demisto/google-cloud-storage",
-            "demisto/btfl-soup",
             "demisto/akamai",
             "demisto/taxii",
             "demisto/smb",
@@ -5286,7 +5285,8 @@
             "demisto/google-kms",
             "demisto/google-cloud-translate",
             "demisto/google-k8s-engine",
-            "demisto/ansible-runner"
+            "demisto/ansible-runner",
+            "demisto/btfl-soup"
         ],
         "home_page": "https://github.com/etingof/pyasn1",
         "licenses": [
@@ -5427,9 +5427,9 @@
     "pycryptodome": {
         "author": "Helder Eijs helderijs@gmail.com",
         "docker_images": [
-            "demisto/btfl-soup",
             "demisto/taxii",
-            "demisto/ansible-runner"
+            "demisto/ansible-runner",
+            "demisto/btfl-soup"
         ],
         "home_page": "https://www.pycryptodome.org",
         "licenses": [
@@ -5739,7 +5739,6 @@
             "demisto/pyotrs",
             "demisto/smartsheet",
             "demisto/slack",
-            "demisto/btfl-soup",
             "demisto/pyjwt",
             "demisto/pyjwt3",
             "demisto/akamai",
@@ -5797,8 +5796,6 @@
             "demisto/python3",
             "demisto/python",
             "demisto/python3-deb",
-            "demisto/boto3py3",
-            "demisto/boto3",
             "demisto/python-deb",
             "demisto/sane-pdf-reports",
             "demisto/chromium",
@@ -5823,7 +5820,10 @@
             "demisto/py2-exchangelib",
             "demisto/distorm3",
             "demisto/ansible-runner",
-            "demisto/sharepoint"
+            "demisto/sharepoint",
+            "demisto/boto3py3",
+            "demisto/btfl-soup",
+            "demisto/boto3"
         ],
         "home_page": "https://dateutil.readthedocs.io",
         "licenses": [
@@ -5980,7 +5980,6 @@
             "demisto/pyotrs",
             "demisto/smartsheet",
             "demisto/slack",
-            "demisto/btfl-soup",
             "demisto/pyjwt",
             "demisto/pyjwt3",
             "demisto/akamai",
@@ -6038,8 +6037,6 @@
             "demisto/python3",
             "demisto/python",
             "demisto/python3-deb",
-            "demisto/boto3py3",
-            "demisto/boto3",
             "demisto/python-deb",
             "demisto/sane-pdf-reports",
             "demisto/chromium",
@@ -6064,7 +6061,10 @@
             "demisto/py2-exchangelib",
             "demisto/distorm3",
             "demisto/ansible-runner",
-            "demisto/sharepoint"
+            "demisto/sharepoint",
+            "demisto/boto3py3",
+            "demisto/btfl-soup",
+            "demisto/boto3"
         ],
         "home_page": "http://pythonhosted.org/pytz",
         "licenses": [
@@ -6194,7 +6194,6 @@
             "demisto/pyotrs",
             "demisto/smartsheet",
             "demisto/slack",
-            "demisto/btfl-soup",
             "demisto/pyjwt",
             "demisto/pyjwt3",
             "demisto/akamai",
@@ -6252,8 +6251,6 @@
             "demisto/python3",
             "demisto/python",
             "demisto/python3-deb",
-            "demisto/boto3py3",
-            "demisto/boto3",
             "demisto/python-deb",
             "demisto/sane-pdf-reports",
             "demisto/chromium",
@@ -6278,7 +6275,10 @@
             "demisto/py2-exchangelib",
             "demisto/distorm3",
             "demisto/ansible-runner",
-            "demisto/sharepoint"
+            "demisto/sharepoint",
+            "demisto/boto3py3",
+            "demisto/btfl-soup",
+            "demisto/boto3"
         ],
         "home_page": "https://bitbucket.org/mrabarnett/mrab-regex",
         "licenses": [
@@ -6362,7 +6362,6 @@
             "demisto/pyotrs",
             "demisto/smartsheet",
             "demisto/slack",
-            "demisto/btfl-soup",
             "demisto/pyjwt",
             "demisto/pyjwt3",
             "demisto/akamai",
@@ -6420,8 +6419,6 @@
             "demisto/python3",
             "demisto/python",
             "demisto/python3-deb",
-            "demisto/boto3py3",
-            "demisto/boto3",
             "demisto/python-deb",
             "demisto/sane-pdf-reports",
             "demisto/chromium",
@@ -6446,7 +6443,10 @@
             "demisto/py2-exchangelib",
             "demisto/distorm3",
             "demisto/ansible-runner",
-            "demisto/sharepoint"
+            "demisto/sharepoint",
+            "demisto/boto3py3",
+            "demisto/btfl-soup",
+            "demisto/boto3"
         ],
         "home_page": "http://python-requests.org",
         "licenses": [
@@ -6501,7 +6501,6 @@
             "demisto/pyotrs",
             "demisto/smartsheet",
             "demisto/slack",
-            "demisto/btfl-soup",
             "demisto/pyjwt",
             "demisto/pyjwt3",
             "demisto/akamai",
@@ -6557,8 +6556,6 @@
             "demisto/python3",
             "demisto/python",
             "demisto/python3-deb",
-            "demisto/boto3py3",
-            "demisto/boto3",
             "demisto/python-deb",
             "demisto/sane-pdf-reports",
             "demisto/chromium",
@@ -6583,7 +6580,10 @@
             "demisto/py2-exchangelib",
             "demisto/distorm3",
             "demisto/ansible-runner",
-            "demisto/sharepoint"
+            "demisto/sharepoint",
+            "demisto/boto3py3",
+            "demisto/btfl-soup",
+            "demisto/boto3"
         ],
         "home_page": "http://github.com/dashea/requests-file",
         "licenses": [
@@ -6710,7 +6710,6 @@
         "author": "Sybren A. Stuvel sybren@stuvel.eu",
         "docker_images": [
             "demisto/google-cloud-storage",
-            "demisto/btfl-soup",
             "demisto/taxii",
             "demisto/ml",
             "demisto/dl-languages",
@@ -6724,7 +6723,8 @@
             "demisto/google-kms",
             "demisto/google-cloud-translate",
             "demisto/google-k8s-engine",
-            "demisto/ansible-runner"
+            "demisto/ansible-runner",
+            "demisto/btfl-soup"
         ],
         "home_page": "https://stuvel.eu/rsa",
         "licenses": [
@@ -6959,7 +6959,6 @@
             "demisto/pyotrs",
             "demisto/smartsheet",
             "demisto/slack",
-            "demisto/btfl-soup",
             "demisto/pyjwt",
             "demisto/pyjwt3",
             "demisto/akamai",
@@ -7017,8 +7016,6 @@
             "demisto/python3",
             "demisto/python",
             "demisto/python3-deb",
-            "demisto/boto3py3",
-            "demisto/boto3",
             "demisto/python-deb",
             "demisto/sane-pdf-reports",
             "demisto/chromium",
@@ -7043,7 +7040,10 @@
             "demisto/py2-exchangelib",
             "demisto/distorm3",
             "demisto/ansible-runner",
-            "demisto/sharepoint"
+            "demisto/sharepoint",
+            "demisto/boto3py3",
+            "demisto/btfl-soup",
+            "demisto/boto3"
         ],
         "home_page": "https://github.com/pypa/setuptools",
         "licenses": [
@@ -7169,7 +7169,6 @@
             "demisto/pyotrs",
             "demisto/smartsheet",
             "demisto/slack",
-            "demisto/btfl-soup",
             "demisto/pyjwt",
             "demisto/pyjwt3",
             "demisto/akamai",
@@ -7227,8 +7226,6 @@
             "demisto/python3",
             "demisto/python",
             "demisto/python3-deb",
-            "demisto/boto3py3",
-            "demisto/boto3",
             "demisto/python-deb",
             "demisto/sane-pdf-reports",
             "demisto/chromium",
@@ -7253,7 +7250,10 @@
             "demisto/py2-exchangelib",
             "demisto/distorm3",
             "demisto/ansible-runner",
-            "demisto/sharepoint"
+            "demisto/sharepoint",
+            "demisto/boto3py3",
+            "demisto/btfl-soup",
+            "demisto/boto3"
         ],
         "home_page": "https://github.com/benjaminp/six",
         "licenses": [
@@ -7325,11 +7325,11 @@
     "soupsieve": {
         "author": "Isaac Muse Isaac.Muse@gmail.com",
         "docker_images": [
-            "demisto/btfl-soup",
             "demisto/bs4",
             "demisto/taxii",
             "demisto/fetch-data",
-            "demisto/sklearn"
+            "demisto/sklearn",
+            "demisto/btfl-soup"
         ],
         "home_page": "https://github.com/facelessuser/soupsieve",
         "licenses": [
@@ -7807,7 +7807,6 @@
             "demisto/pyotrs",
             "demisto/smartsheet",
             "demisto/slack",
-            "demisto/btfl-soup",
             "demisto/pyjwt",
             "demisto/pyjwt3",
             "demisto/akamai",
@@ -7863,8 +7862,6 @@
             "demisto/python3",
             "demisto/python",
             "demisto/python3-deb",
-            "demisto/boto3py3",
-            "demisto/boto3",
             "demisto/python-deb",
             "demisto/sane-pdf-reports",
             "demisto/chromium",
@@ -7889,7 +7886,10 @@
             "demisto/py2-exchangelib",
             "demisto/distorm3",
             "demisto/ansible-runner",
-            "demisto/sharepoint"
+            "demisto/sharepoint",
+            "demisto/boto3py3",
+            "demisto/btfl-soup",
+            "demisto/boto3"
         ],
         "home_page": "https://github.com/john-kurkowski/tldextract",
         "licenses": [
@@ -8044,7 +8044,6 @@
             "demisto/pyotrs",
             "demisto/smartsheet",
             "demisto/slack",
-            "demisto/btfl-soup",
             "demisto/pyjwt",
             "demisto/pyjwt3",
             "demisto/akamai",
@@ -8102,8 +8101,6 @@
             "demisto/python3",
             "demisto/python",
             "demisto/python3-deb",
-            "demisto/boto3py3",
-            "demisto/boto3",
             "demisto/python-deb",
             "demisto/sane-pdf-reports",
             "demisto/chromium",
@@ -8128,7 +8125,10 @@
             "demisto/py2-exchangelib",
             "demisto/distorm3",
             "demisto/ansible-runner",
-            "demisto/sharepoint"
+            "demisto/sharepoint",
+            "demisto/boto3py3",
+            "demisto/btfl-soup",
+            "demisto/boto3"
         ],
         "home_page": "https://github.com/regebro/tzlocal",
         "licenses": [
@@ -8232,7 +8232,6 @@
             "demisto/pyotrs",
             "demisto/smartsheet",
             "demisto/slack",
-            "demisto/btfl-soup",
             "demisto/pyjwt",
             "demisto/pyjwt3",
             "demisto/akamai",
@@ -8290,8 +8289,6 @@
             "demisto/python3",
             "demisto/python",
             "demisto/python3-deb",
-            "demisto/boto3py3",
-            "demisto/boto3",
             "demisto/python-deb",
             "demisto/sane-pdf-reports",
             "demisto/chromium",
@@ -8316,7 +8313,10 @@
             "demisto/py2-exchangelib",
             "demisto/distorm3",
             "demisto/ansible-runner",
-            "demisto/sharepoint"
+            "demisto/sharepoint",
+            "demisto/boto3py3",
+            "demisto/btfl-soup",
+            "demisto/boto3"
         ],
         "home_page": "https://urllib3.readthedocs.io/",
         "licenses": [
@@ -8606,7 +8606,6 @@
             "demisto/pyotrs",
             "demisto/smartsheet",
             "demisto/slack",
-            "demisto/btfl-soup",
             "demisto/pyjwt",
             "demisto/pyjwt3",
             "demisto/akamai",
@@ -8664,8 +8663,6 @@
             "demisto/python3",
             "demisto/python",
             "demisto/python3-deb",
-            "demisto/boto3py3",
-            "demisto/boto3",
             "demisto/python-deb",
             "demisto/sane-pdf-reports",
             "demisto/chromium",
@@ -8690,7 +8687,10 @@
             "demisto/py2-exchangelib",
             "demisto/distorm3",
             "demisto/ansible-runner",
-            "demisto/sharepoint"
+            "demisto/sharepoint",
+            "demisto/boto3py3",
+            "demisto/btfl-soup",
+            "demisto/boto3"
         ],
         "home_page": "https://github.com/pypa/wheel",
         "licenses": [

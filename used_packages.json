@@ -349,7 +349,6 @@
             "demisto/oauthlib",
             "demisto/python_pancloud_v2",
             "demisto/algorithmia",
-            "demisto/threatconnect-tcex",
             "demisto/netutils",
             "demisto/py42",
             "demisto/feed-parser",
@@ -398,9 +397,10 @@
             "demisto/sharepoint",
             "demisto/btfl-soup",
             "demisto/chromium",
+            "demisto/sklearn",
             "demisto/boto3py3",
             "demisto/boto3",
-            "demisto/sklearn"
+            "demisto/threatconnect-tcex"
         ],
         "home_page": "https://github.com/Anorov/PySocks",
         "licenses": [
@@ -500,7 +500,6 @@
             "demisto/oauthlib",
             "demisto/python_pancloud_v2",
             "demisto/algorithmia",
-            "demisto/threatconnect-tcex",
             "demisto/netutils",
             "demisto/py42",
             "demisto/powershell-core",
@@ -550,9 +549,10 @@
             "demisto/sharepoint",
             "demisto/btfl-soup",
             "demisto/chromium",
+            "demisto/sklearn",
             "demisto/boto3py3",
             "demisto/boto3",
-            "demisto/sklearn"
+            "demisto/threatconnect-tcex"
         ],
         "home_page": "https://github.com/yaml/pyyaml",
         "licenses": [
@@ -1054,11 +1054,11 @@
             "demisto/slack",
             "demisto/aiohttp",
             "demisto/pymisp",
-            "demisto/threatconnect-tcex",
             "demisto/ml",
             "demisto/argus-toolbelt",
             "demisto/dl-languages",
-            "demisto/sklearn"
+            "demisto/sklearn",
+            "demisto/threatconnect-tcex"
         ],
         "home_page": "https://www.attrs.org/",
         "licenses": [
@@ -1505,7 +1505,6 @@
             "demisto/oauthlib",
             "demisto/python_pancloud_v2",
             "demisto/algorithmia",
-            "demisto/threatconnect-tcex",
             "demisto/netutils",
             "demisto/py42",
             "demisto/powershell-core",
@@ -1555,9 +1554,10 @@
             "demisto/sharepoint",
             "demisto/btfl-soup",
             "demisto/chromium",
+            "demisto/sklearn",
             "demisto/boto3py3",
             "demisto/boto3",
-            "demisto/sklearn"
+            "demisto/threatconnect-tcex"
         ],
         "home_page": "https://certifi.io/",
         "licenses": [
@@ -1704,7 +1704,6 @@
             "demisto/oauthlib",
             "demisto/python_pancloud_v2",
             "demisto/algorithmia",
-            "demisto/threatconnect-tcex",
             "demisto/netutils",
             "demisto/py42",
             "demisto/powershell-core",
@@ -1754,9 +1753,10 @@
             "demisto/sharepoint",
             "demisto/btfl-soup",
             "demisto/chromium",
+            "demisto/sklearn",
             "demisto/boto3py3",
             "demisto/boto3",
-            "demisto/sklearn"
+            "demisto/threatconnect-tcex"
         ],
         "home_page": "https://github.com/chardet/chardet",
         "licenses": [
@@ -1867,10 +1867,10 @@
         "docker_images": [
             "demisto/keepercommander",
             "demisto/pyotrs",
-            "demisto/threatconnect-tcex",
             "demisto/argus-toolbelt",
             "demisto/greynoise",
-            "demisto/chromium"
+            "demisto/chromium",
+            "demisto/threatconnect-tcex"
         ],
         "home_page": "https://github.com/tartley/colorama",
         "licenses": [
@@ -2160,7 +2160,6 @@
             "demisto/oauthlib",
             "demisto/python_pancloud_v2",
             "demisto/algorithmia",
-            "demisto/threatconnect-tcex",
             "demisto/netutils",
             "demisto/py42",
             "demisto/powershell-core",
@@ -2210,9 +2209,10 @@
             "demisto/sharepoint",
             "demisto/btfl-soup",
             "demisto/chromium",
+            "demisto/sklearn",
             "demisto/boto3py3",
             "demisto/boto3",
-            "demisto/sklearn"
+            "demisto/threatconnect-tcex"
         ],
         "home_page": "https://github.com/scrapinghub/dateparser",
         "licenses": [
@@ -2800,7 +2800,6 @@
             "demisto/oauthlib",
             "demisto/python_pancloud_v2",
             "demisto/algorithmia",
-            "demisto/threatconnect-tcex",
             "demisto/netutils",
             "demisto/py42",
             "demisto/feed-parser",
@@ -2849,9 +2848,10 @@
             "demisto/sharepoint",
             "demisto/btfl-soup",
             "demisto/chromium",
+            "demisto/sklearn",
             "demisto/boto3py3",
             "demisto/boto3",
-            "demisto/sklearn"
+            "demisto/threatconnect-tcex"
         ],
         "home_page": "http://github.com/Suor/funcy",
         "licenses": [
@@ -2881,13 +2881,13 @@
             "demisto/py-ews",
             "demisto/pykafka",
             "demisto/pycef",
-            "demisto/threatconnect-tcex",
             "demisto/ippysocks",
             "demisto/trustar",
             "demisto/netmiko",
             "demisto/py2-exchangelib",
             "demisto/distorm3",
-            "demisto/ansible-runner"
+            "demisto/ansible-runner",
+            "demisto/threatconnect-tcex"
         ],
         "home_page": "https://python-future.org",
         "licenses": [
@@ -3507,7 +3507,6 @@
             "demisto/oauthlib",
             "demisto/python_pancloud_v2",
             "demisto/algorithmia",
-            "demisto/threatconnect-tcex",
             "demisto/netutils",
             "demisto/py42",
             "demisto/powershell-core",
@@ -3557,9 +3556,10 @@
             "demisto/sharepoint",
             "demisto/btfl-soup",
             "demisto/chromium",
+            "demisto/sklearn",
             "demisto/boto3py3",
             "demisto/boto3",
-            "demisto/sklearn"
+            "demisto/threatconnect-tcex"
         ],
         "home_page": "https://github.com/kjd/idna",
         "licenses": [
@@ -3720,10 +3720,10 @@
             "demisto/jmespath",
             "demisto/python_pancloud",
             "demisto/python_pancloud_v2",
-            "demisto/threatconnect-tcex",
             "demisto/ansible-runner",
             "demisto/boto3py3",
-            "demisto/boto3"
+            "demisto/boto3",
+            "demisto/threatconnect-tcex"
         ],
         "home_page": "https://github.com/jmespath/jmespath.py",
         "licenses": [
@@ -3752,8 +3752,8 @@
         "author": "Julian Berman Julian@GrayVines.com",
         "docker_images": [
             "demisto/pymisp",
-            "demisto/threatconnect-tcex",
-            "demisto/argus-toolbelt"
+            "demisto/argus-toolbelt",
+            "demisto/threatconnect-tcex"
         ],
         "home_page": "https://github.com/Julian/jsonschema",
         "licenses": [
@@ -4445,7 +4445,6 @@
             "demisto/oauthlib",
             "demisto/python_pancloud_v2",
             "demisto/algorithmia",
-            "demisto/threatconnect-tcex",
             "demisto/netutils",
             "demisto/py42",
             "demisto/powershell-core",
@@ -4495,9 +4494,10 @@
             "demisto/sharepoint",
             "demisto/btfl-soup",
             "demisto/chromium",
+            "demisto/sklearn",
             "demisto/boto3py3",
             "demisto/boto3",
-            "demisto/sklearn"
+            "demisto/threatconnect-tcex"
         ],
         "home_page": "https://www.decalage.info/python/olefileio",
         "licenses": [
@@ -4946,7 +4946,6 @@
             "demisto/oauthlib",
             "demisto/python_pancloud_v2",
             "demisto/algorithmia",
-            "demisto/threatconnect-tcex",
             "demisto/netutils",
             "demisto/py42",
             "demisto/powershell-core",
@@ -4996,9 +4995,10 @@
             "demisto/sharepoint",
             "demisto/btfl-soup",
             "demisto/chromium",
+            "demisto/sklearn",
             "demisto/boto3py3",
             "demisto/boto3",
-            "demisto/sklearn"
+            "demisto/threatconnect-tcex"
         ],
         "home_page": "https://pip.pypa.io/",
         "licenses": [
@@ -5614,8 +5614,8 @@
         "author": "Tobias Gustafsson tobias.l.gustafsson@gmail.com",
         "docker_images": [
             "demisto/pymisp",
-            "demisto/threatconnect-tcex",
-            "demisto/argus-toolbelt"
+            "demisto/argus-toolbelt",
+            "demisto/threatconnect-tcex"
         ],
         "home_page": "http://github.com/tobgu/pyrsistent/",
         "licenses": [
@@ -5771,7 +5771,6 @@
             "demisto/oauthlib",
             "demisto/python_pancloud_v2",
             "demisto/algorithmia",
-            "demisto/threatconnect-tcex",
             "demisto/netutils",
             "demisto/py42",
             "demisto/powershell-core",
@@ -5821,9 +5820,10 @@
             "demisto/sharepoint",
             "demisto/btfl-soup",
             "demisto/chromium",
+            "demisto/sklearn",
             "demisto/boto3py3",
             "demisto/boto3",
-            "demisto/sklearn"
+            "demisto/threatconnect-tcex"
         ],
         "home_page": "https://dateutil.readthedocs.io",
         "licenses": [
@@ -6012,7 +6012,6 @@
             "demisto/oauthlib",
             "demisto/python_pancloud_v2",
             "demisto/algorithmia",
-            "demisto/threatconnect-tcex",
             "demisto/netutils",
             "demisto/py42",
             "demisto/powershell-core",
@@ -6062,9 +6061,10 @@
             "demisto/sharepoint",
             "demisto/btfl-soup",
             "demisto/chromium",
+            "demisto/sklearn",
             "demisto/boto3py3",
             "demisto/boto3",
-            "demisto/sklearn"
+            "demisto/threatconnect-tcex"
         ],
         "home_page": "http://pythonhosted.org/pytz",
         "licenses": [
@@ -6226,7 +6226,6 @@
             "demisto/oauthlib",
             "demisto/python_pancloud_v2",
             "demisto/algorithmia",
-            "demisto/threatconnect-tcex",
             "demisto/netutils",
             "demisto/py42",
             "demisto/powershell-core",
@@ -6276,9 +6275,10 @@
             "demisto/sharepoint",
             "demisto/btfl-soup",
             "demisto/chromium",
+            "demisto/sklearn",
             "demisto/boto3py3",
             "demisto/boto3",
-            "demisto/sklearn"
+            "demisto/threatconnect-tcex"
         ],
         "home_page": "https://bitbucket.org/mrabarnett/mrab-regex",
         "licenses": [
@@ -6394,7 +6394,6 @@
             "demisto/oauthlib",
             "demisto/python_pancloud_v2",
             "demisto/algorithmia",
-            "demisto/threatconnect-tcex",
             "demisto/netutils",
             "demisto/py42",
             "demisto/powershell-core",
@@ -6444,9 +6443,10 @@
             "demisto/sharepoint",
             "demisto/btfl-soup",
             "demisto/chromium",
+            "demisto/sklearn",
             "demisto/boto3py3",
             "demisto/boto3",
-            "demisto/sklearn"
+            "demisto/threatconnect-tcex"
         ],
         "home_page": "http://python-requests.org",
         "licenses": [
@@ -6532,7 +6532,6 @@
             "demisto/oauthlib",
             "demisto/python_pancloud_v2",
             "demisto/algorithmia",
-            "demisto/threatconnect-tcex",
             "demisto/netutils",
             "demisto/py42",
             "demisto/feed-parser",
@@ -6581,9 +6580,10 @@
             "demisto/sharepoint",
             "demisto/btfl-soup",
             "demisto/chromium",
+            "demisto/sklearn",
             "demisto/boto3py3",
             "demisto/boto3",
-            "demisto/sklearn"
+            "demisto/threatconnect-tcex"
         ],
         "home_page": "http://github.com/dashea/requests-file",
         "licenses": [
@@ -6991,7 +6991,6 @@
             "demisto/oauthlib",
             "demisto/python_pancloud_v2",
             "demisto/algorithmia",
-            "demisto/threatconnect-tcex",
             "demisto/netutils",
             "demisto/py42",
             "demisto/powershell-core",
@@ -7041,9 +7040,10 @@
             "demisto/sharepoint",
             "demisto/btfl-soup",
             "demisto/chromium",
+            "demisto/sklearn",
             "demisto/boto3py3",
             "demisto/boto3",
-            "demisto/sklearn"
+            "demisto/threatconnect-tcex"
         ],
         "home_page": "https://github.com/pypa/setuptools",
         "licenses": [
@@ -7072,8 +7072,8 @@
             "demisto/stix2",
             "demisto/taxii2",
             "demisto/dempcap",
-            "demisto/threatconnect-tcex",
-            "demisto/imap"
+            "demisto/imap",
+            "demisto/threatconnect-tcex"
         ],
         "home_page": "https://github.com/simplejson/simplejson",
         "licenses": [
@@ -7201,7 +7201,6 @@
             "demisto/oauthlib",
             "demisto/python_pancloud_v2",
             "demisto/algorithmia",
-            "demisto/threatconnect-tcex",
             "demisto/netutils",
             "demisto/py42",
             "demisto/powershell-core",
@@ -7251,9 +7250,10 @@
             "demisto/sharepoint",
             "demisto/btfl-soup",
             "demisto/chromium",
+            "demisto/sklearn",
             "demisto/boto3py3",
             "demisto/boto3",
-            "demisto/sklearn"
+            "demisto/threatconnect-tcex"
         ],
         "home_page": "https://github.com/benjaminp/six",
         "licenses": [
@@ -7838,7 +7838,6 @@
             "demisto/oauthlib",
             "demisto/python_pancloud_v2",
             "demisto/algorithmia",
-            "demisto/threatconnect-tcex",
             "demisto/netutils",
             "demisto/py42",
             "demisto/feed-parser",
@@ -7887,9 +7886,10 @@
             "demisto/sharepoint",
             "demisto/btfl-soup",
             "demisto/chromium",
+            "demisto/sklearn",
             "demisto/boto3py3",
             "demisto/boto3",
-            "demisto/sklearn"
+            "demisto/threatconnect-tcex"
         ],
         "home_page": "https://github.com/john-kurkowski/tldextract",
         "licenses": [
@@ -8076,7 +8076,6 @@
             "demisto/oauthlib",
             "demisto/python_pancloud_v2",
             "demisto/algorithmia",
-            "demisto/threatconnect-tcex",
             "demisto/netutils",
             "demisto/py42",
             "demisto/powershell-core",
@@ -8126,9 +8125,10 @@
             "demisto/sharepoint",
             "demisto/btfl-soup",
             "demisto/chromium",
+            "demisto/sklearn",
             "demisto/boto3py3",
             "demisto/boto3",
-            "demisto/sklearn"
+            "demisto/threatconnect-tcex"
         ],
         "home_page": "https://github.com/regebro/tzlocal",
         "licenses": [
@@ -8264,7 +8264,6 @@
             "demisto/oauthlib",
             "demisto/python_pancloud_v2",
             "demisto/algorithmia",
-            "demisto/threatconnect-tcex",
             "demisto/netutils",
             "demisto/py42",
             "demisto/powershell-core",
@@ -8314,9 +8313,10 @@
             "demisto/sharepoint",
             "demisto/btfl-soup",
             "demisto/chromium",
+            "demisto/sklearn",
             "demisto/boto3py3",
             "demisto/boto3",
-            "demisto/sklearn"
+            "demisto/threatconnect-tcex"
         ],
         "home_page": "https://urllib3.readthedocs.io/",
         "licenses": [
@@ -8638,7 +8638,6 @@
             "demisto/oauthlib",
             "demisto/python_pancloud_v2",
             "demisto/algorithmia",
-            "demisto/threatconnect-tcex",
             "demisto/netutils",
             "demisto/py42",
             "demisto/powershell-core",
@@ -8688,9 +8687,10 @@
             "demisto/sharepoint",
             "demisto/btfl-soup",
             "demisto/chromium",
+            "demisto/sklearn",
             "demisto/boto3py3",
             "demisto/boto3",
-            "demisto/sklearn"
+            "demisto/threatconnect-tcex"
         ],
         "home_page": "https://github.com/pypa/wheel",
         "licenses": [
@@ -8715,9 +8715,9 @@
         "author": "Graham Dumpleton Graham.Dumpleton@gmail.com",
         "docker_images": [
             "demisto/pymisp",
-            "demisto/threatconnect-tcex",
             "demisto/ml",
-            "demisto/dl-languages"
+            "demisto/dl-languages",
+            "demisto/threatconnect-tcex"
         ],
         "home_page": "https://github.com/GrahamDumpleton/wrapt",
         "licenses": [

@@ -27,6 +27,7 @@ If you are searching for a specific package and want to see if it is available i
 * [demisto/cloaken](demisto/cloaken/last.md)
 * [demisto/cloudshare](demisto/cloudshare/last.md)
 * [demisto/crypto](demisto/crypto/last.md)
+* [demisto/cyjax](demisto/cyjax/last.md)
 * [demisto/cylance_protect_v2](demisto/cylance_protect_v2/last.md)
 * [demisto/dateutil](demisto/dateutil/last.md)
 * [demisto/dempcap](demisto/dempcap/last.md)
@@ -188,4 +189,4 @@ If you are searching for a specific package and want to see if it is available i
 * [demisto/zeep](demisto/zeep/last.md)
 
 ---
-Last updated: 2021-01-07 01:09:02.804037
+Last updated: 2021-01-08 01:10:01.982293

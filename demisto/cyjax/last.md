@@ -1,29 +1,28 @@
-# `demisto/pykafka:1.0.0.15212`
+# `demisto/cyjax:1.0.0.15205`
 ## Docker Metadata
-- Image Size: `34.69 MB`
-- Image ID: `sha256:d27b70596a925703ac5cdc5d8560edc50fd072670410eda6d7f174f106270cd2`
-- Created: `2021-01-07T15:16:09.495702303Z`
+- Image Size: `21.52 MB`
+- Image ID: `sha256:bdb4581080d86a7fe99f132abba882be65d23c7515c905a55e3d803a6c98b817`
+- Created: `2021-01-07T13:52:25.943597508Z`
 - Arch: `linux`/`amd64`
-- Command: `["python2"]`
+- Command: `["python3"]`
 - Environment:
   - `PATH=/usr/local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin`
   - `LANG=C.UTF-8`
-  - `PYTHONIOENCODING=UTF-8`
-  - `GPG_KEY=C01E1CAD5EA2C4F0B8E3571504C367C218ADD4FF`
-  - `PYTHON_VERSION=2.7.18`
-  - `PYTHON_PIP_VERSION=20.0.2`
-  - `PYTHON_GET_PIP_URL=https://github.com/pypa/get-pip/raw/d59197a3c169cef378a22428a3fa99d33e080a5d/get-pip.py`
-  - `PYTHON_GET_PIP_SHA256=421ac1d44c0cf9730a088e337867d974b91bdce4ea2636099275071878cc189e`
-  - `DOCKER_IMAGE=demisto/pykafka:1.0.0.15212`
+  - `GPG_KEY=E3FF2839C048B25C084DEBE9B26995E310250568`
+  - `PYTHON_VERSION=3.8.6`
+  - `PYTHON_PIP_VERSION=20.2.4`
+  - `PYTHON_GET_PIP_URL=https://github.com/pypa/get-pip/raw/fa7dc83944936bf09a0e4cb5d5ec852c0d256599/get-pip.py`
+  - `PYTHON_GET_PIP_SHA256=6e0bb0a2c2533361d7f297ed547237caf1b7507f197835974c0dd7eba998c53c`
+  - `DOCKER_IMAGE=demisto/cyjax:1.0.0.15205`
 - Labels:
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:bf48e156fac4d4f97d58b0637c8dece891acb39c`
-  - `org.opencontainers.image.version:1.0.0.15212`
+  - `org.opencontainers.image.revision:4a5dadd03bd64bfdf64269cc8757a1df054f8374`
+  - `org.opencontainers.image.version:1.0.0.15205`
 
 - OS Release:
   - `NAME="Alpine Linux"`
   - `ID=alpine`
-  - `VERSION_ID=3.12.0`
+  - `VERSION_ID=3.12.1`
   - `PRETTY_NAME="Alpine Linux v3.12"`
   - `HOME_URL="https://alpinelinux.org/"`
   - `BUG_REPORT_URL="https://bugs.alpinelinux.org/"`
@@ -31,15 +30,15 @@
 ## Docker Trust
 ```
 
-Signatures for demisto/pykafka:1.0.0.15212
+Signatures for demisto/cyjax:1.0.0.15205
 
 SIGNED TAG          DIGEST                                                             SIGNERS
-1.0.0.15212         1aa02adba54deb080caa4b94adca4b4ff5786b72fbe676dff6e07c6368280c85   (Repo Admin)
+1.0.0.15205         9215d4baf2b90ad3276ed1db51d508b3ee9285ce412be39bd3b4832869fbfa90   (Repo Admin)
 
-Administrative keys for demisto/pykafka:1.0.0.15212
+Administrative keys for demisto/cyjax:1.0.0.15205
 
-  Repository Key:	2fa1fefdeca15d0398849490b96b020fb774264ec0266d8f6d9c5ab313383777
-  Root Key:	7b05976ed29c5cf7482fad0813aede8c719177ed52c24bfd33fee5b7b94689de
+  Repository Key:	8e64daf2e09e8f670eeef10862ad7db2c5275144e468a32362e62f3c9e49482d
+  Root Key:	f9a6fb506781c146d33372d719037e425a385a386f71ffb68ce1ab2b4f52d19b
 
 ```
 
@@ -49,7 +48,7 @@ Administrative keys for demisto/pykafka:1.0.0.15212
 ### `certifi`
 
 * Summary: Python package for providing Mozilla's CA Bundle.
-* Version: 2020.6.20
+* Version: 2020.12.5
 * Pypi: https://pypi.org/project/certifi/
 * Homepage: https://certifiio.readthedocs.io/en/latest/
 * Author: Kenneth Reitz me@kennethreitz.com
@@ -63,6 +62,15 @@ Administrative keys for demisto/pykafka:1.0.0.15212
 * Homepage: https://github.com/chardet/chardet
 * Author: Mark Pilgrim mark@diveintomark.org
 * License :: OSI Approved :: GNU Library or Lesser General Public License (LGPL)
+
+### `cyjax-cti`
+
+* Summary: cyjax-cti provides a Python library to use Cyjax platform API.
+* Version: 1.0.1
+* Pypi: https://pypi.org/project/cyjax-cti/
+* Homepage: https://www.cyjax.com
+* Author: Cyjax Ltd. github@cyjax.com
+* License :: OSI Approved :: MIT License
 
 ### `dateparser`
 
@@ -82,15 +90,6 @@ Administrative keys for demisto/pykafka:1.0.0.15212
 * Author: Alexander Schepanovski suor.web@gmail.com
 * License :: OSI Approved :: BSD License
 
-### `future`
-
-* Summary: Clean single-source support for Python 3 and 2
-* Version: 0.18.2
-* Pypi: https://pypi.org/project/future/
-* Homepage: https://python-future.org
-* Author: Ed Schofield ed@pythoncharmers.com
-* License :: OSI Approved :: MIT License
-
 ### `idna`
 
 * Summary: Internationalized Domain Names in Applications (IDNA)
@@ -98,33 +97,6 @@ Administrative keys for demisto/pykafka:1.0.0.15212
 * Pypi: https://pypi.org/project/idna/
 * Homepage: https://github.com/kjd/idna
 * Author: Kim Davies kim@cynosure.com.au
-* License :: OSI Approved :: BSD License
-
-### `kazoo`
-
-* Summary: Higher Level Zookeeper Client
-* Version: 2.5.0
-* Pypi: https://pypi.org/project/kazoo/
-* Homepage: https://kazoo.readthedocs.io
-* Author: Kazoo team python-zk@googlegroups.com
-* License :: OSI Approved :: Apache Software License
-
-### `lz4`
-
-* Summary: LZ4 Bindings for Python
-* Version: 2.2.1
-* Pypi: https://pypi.org/project/lz4/
-* Homepage: https://github.com/python-lz4/python-lz4
-* Author: Jonathan Underwood jonathan.underwood@gmail.com
-* License :: OSI Approved :: BSD License
-
-### `lz4tools`
-
-* Summary: LZ4Frame Bindings and tools for Python
-* Version: 1.3.1.2
-* Pypi: https://pypi.org/project/lz4tools/
-* Homepage: https://github.com/darkdragn/lz4file
-* Author: Christopher Jackson darkdragn.cj@gmail.com
 * License :: OSI Approved :: BSD License
 
 ### `olefile`
@@ -145,15 +117,6 @@ Administrative keys for demisto/pykafka:1.0.0.15212
 * Author: The pip developers distutils-sig@python.org
 * License :: OSI Approved :: MIT License
 
-### `pykafka`
-
-* Summary: Full-Featured Pure-Python Kafka Client
-* Version: 2.8.0
-* Pypi: https://pypi.org/project/pykafka/
-* Homepage: https://github.com/Parsely/pykafka
-* Author: Keith Bourgoin and Emmett Butler pykafka-user@googlegroups.com
-* License :: OSI Approved :: Apache Software License
-
 ### `PySocks`
 
 * Summary: A Python SOCKS client module. See https://github.com/Anorov/PySocks for more information.
@@ -173,19 +136,10 @@ Administrative keys for demisto/pykafka:1.0.0.15212
 * License :: OSI Approved :: Apache Software License
 * License :: OSI Approved :: BSD License
 
-### `python-snappy`
-
-* Summary: Python library for the snappy compression library from Google
-* Version: 0.6.0
-* Pypi: https://pypi.org/project/python-snappy/
-* Homepage: http://github.com/andrix/python-snappy
-* Author: Andres Moreira andres@andresmoreira.com
-* License :: OSI Approved :: BSD License
-
 ### `pytz`
 
 * Summary: World timezone definitions, modern and historical
-* Version: 2020.1
+* Version: 2020.4
 * Pypi: https://pypi.org/project/pytz/
 * Homepage: http://pythonhosted.org/pytz
 * Author: Stuart Bishop stuart@stuartbishop.net
@@ -203,7 +157,7 @@ Administrative keys for demisto/pykafka:1.0.0.15212
 ### `regex`
 
 * Summary: Alternative regular expression module, to replace re.
-* Version: 2020.7.14
+* Version: 2020.11.11
 * Pypi: https://pypi.org/project/regex/
 * Homepage: https://bitbucket.org/mrabarnett/mrab-regex
 * Author: Matthew Barnett regex@mrabarnett.plus.com
@@ -212,7 +166,7 @@ Administrative keys for demisto/pykafka:1.0.0.15212
 ### `requests`
 
 * Summary: Python HTTP for Humans.
-* Version: 2.24.0
+* Version: 2.25.0
 * Pypi: https://pypi.org/project/requests/
 * Homepage: https://requests.readthedocs.io
 * Author: Kenneth Reitz me@kennethreitz.org
@@ -227,10 +181,19 @@ Administrative keys for demisto/pykafka:1.0.0.15212
 * Author: David Shea reallylongword@gmail.com
 * License :: OSI Approved :: Apache Software License
 
+### `responses`
+
+* Summary: A utility library for mocking out the `requests` Python library.
+* Version: 0.12.1
+* Pypi: https://pypi.org/project/responses/
+* Homepage: https://github.com/getsentry/responses
+* Author: David Cramer
+* License: Apache 2.0
+
 ### `setuptools`
 
 * Summary: Easily download, build, install, upgrade, and uninstall Python packages
-* Version: 44.1.1
+* Version: 50.3.2
 * Pypi: https://pypi.org/project/setuptools/
 * Homepage: https://github.com/pypa/setuptools
 * Author: Python Packaging Authority distutils-sig@python.org
@@ -243,15 +206,6 @@ Administrative keys for demisto/pykafka:1.0.0.15212
 * Pypi: https://pypi.org/project/six/
 * Homepage: https://github.com/benjaminp/six
 * Author: Benjamin Peterson benjamin@python.org
-* License :: OSI Approved :: MIT License
-
-### `tabulate`
-
-* Summary: Pretty-print tabular data
-* Version: 0.8.7
-* Pypi: https://pypi.org/project/tabulate/
-* Homepage: https://github.com/astanin/python-tabulate
-* Author: Sergey Astanin s.astanin@gmail.com
 * License :: OSI Approved :: MIT License
 
 ### `tldextract`
@@ -275,7 +229,7 @@ Administrative keys for demisto/pykafka:1.0.0.15212
 ### `urllib3`
 
 * Summary: HTTP library with thread-safe connection pooling, file post, and more.
-* Version: 1.25.10
+* Version: 1.26.2
 * Pypi: https://pypi.org/project/urllib3/
 * Homepage: https://urllib3.readthedocs.io/
 * Author: Andrey Petrov andrey.petrov@shazow.net
@@ -290,18 +244,9 @@ Administrative keys for demisto/pykafka:1.0.0.15212
 * Author: Daniel Holth dholth@fastmail.fm
 * License :: OSI Approved :: MIT License
 
-### `xxhash`
-
-* Summary: Python binding for xxHash
-* Version: 2.0.0
-* Pypi: https://pypi.org/project/xxhash/
-* Homepage: https://github.com/ifduyue/python-xxhash
-* Author: Yue Du ifduyue@gmail.com
-* License :: OSI Approved :: BSD License
-
 ## `OS Packages`
 
-* .python-rundeps-20200928.160852 noarch {.python-rundeps}
+* .python-rundeps-20201022.051259 noarch {.python-rundeps}
 * alpine-baselayout-3.2.0-r7 x86_64 {alpine-baselayout}
 * alpine-keys-2.2-r0 x86_64 {alpine-keys}
 * apk-tools-2.10.5-r1 x86_64 {apk-tools}
@@ -318,14 +263,13 @@ Administrative keys for demisto/pykafka:1.0.0.15212
 * libcom_err-1.45.6-r0 x86_64 {e2fsprogs}
 * libcrypto1.1-1.1.1g-r0 x86_64 {openssl}
 * libffi-3.3-r2 x86_64 {libffi}
-* libgcc-9.3.0-r2 x86_64 {gcc}
 * libintl-0.20.2-r0 x86_64 {gettext}
 * libnsl-1.2.0-r1 x86_64 {libnsl}
 * libssl1.1-1.1.1g-r0 x86_64 {openssl}
-* libstdc++-9.3.0-r2 x86_64 {gcc}
 * libtirpc-1.2.6-r0 x86_64 {libtirpc}
 * libtirpc-conf-1.2.6-r0 x86_64 {libtirpc}
 * libtls-standalone-2.9.1-r1 x86_64 {libtls-standalone}
+* libuuid-2.35.2-r0 x86_64 {util-linux}
 * libverto-0.3.1-r1 x86_64 {libverto}
 * musl-1.1.24-r10 x86_64 {musl}
 * musl-utils-1.1.24-r9 x86_64 {musl}
@@ -333,7 +277,7 @@ Administrative keys for demisto/pykafka:1.0.0.15212
 * ncurses-terminfo-base-6.2_p20200523-r0 x86_64 {ncurses}
 * readline-8.0.4-r0 x86_64 {readline}
 * scanelf-1.2.6-r0 x86_64 {pax-utils}
-* snappy-1.1.8-r2 x86_64 {snappy}
 * sqlite-libs-3.32.1-r0 x86_64 {sqlite}
 * ssl_client-1.31.1-r19 x86_64 {busybox}
+* xz-libs-5.2.5-r0 x86_64 {xz}
 * zlib-1.2.11-r3 x86_64 {zlib}

@@ -369,7 +369,6 @@
             "demisto/pcap-miner",
             "demisto/python_pancloud",
             "demisto/oauthlib",
-            "demisto/pcap-http-extractor",
             "demisto/zeep",
             "demisto/uptycs",
             "demisto/python_pancloud_v2",
@@ -397,11 +396,13 @@
             "demisto/argus-toolbelt",
             "demisto/algorithmia",
             "demisto/cyjax",
+            "demisto/btfl-soup",
+            "demisto/twilio",
             "demisto/boto3py3",
             "demisto/google-vision-api",
-            "demisto/btfl-soup",
             "demisto/boto3",
-            "demisto/twilio"
+            "demisto/pcap-http-extractor",
+            "demisto/opencv"
         ],
         "home_page": "https://github.com/Anorov/PySocks",
         "licenses": [
@@ -522,7 +523,6 @@
             "demisto/pcap-miner",
             "demisto/python_pancloud",
             "demisto/oauthlib",
-            "demisto/pcap-http-extractor",
             "demisto/zeep",
             "demisto/uptycs",
             "demisto/python_pancloud_v2",
@@ -550,11 +550,13 @@
             "demisto/argus-toolbelt",
             "demisto/algorithmia",
             "demisto/cyjax",
+            "demisto/btfl-soup",
+            "demisto/twilio",
             "demisto/boto3py3",
             "demisto/google-vision-api",
-            "demisto/btfl-soup",
             "demisto/boto3",
-            "demisto/twilio"
+            "demisto/pcap-http-extractor",
+            "demisto/opencv"
         ],
         "home_page": "https://github.com/yaml/pyyaml",
         "licenses": [
@@ -1541,7 +1543,6 @@
             "demisto/pcap-miner",
             "demisto/python_pancloud",
             "demisto/oauthlib",
-            "demisto/pcap-http-extractor",
             "demisto/zeep",
             "demisto/uptycs",
             "demisto/python_pancloud_v2",
@@ -1569,11 +1570,13 @@
             "demisto/argus-toolbelt",
             "demisto/algorithmia",
             "demisto/cyjax",
+            "demisto/btfl-soup",
+            "demisto/twilio",
             "demisto/boto3py3",
             "demisto/google-vision-api",
-            "demisto/btfl-soup",
             "demisto/boto3",
-            "demisto/twilio"
+            "demisto/pcap-http-extractor",
+            "demisto/opencv"
         ],
         "home_page": "https://certifi.io/",
         "licenses": [
@@ -1741,7 +1744,6 @@
             "demisto/pcap-miner",
             "demisto/python_pancloud",
             "demisto/oauthlib",
-            "demisto/pcap-http-extractor",
             "demisto/zeep",
             "demisto/uptycs",
             "demisto/python_pancloud_v2",
@@ -1769,11 +1771,13 @@
             "demisto/argus-toolbelt",
             "demisto/algorithmia",
             "demisto/cyjax",
+            "demisto/btfl-soup",
+            "demisto/twilio",
             "demisto/boto3py3",
             "demisto/google-vision-api",
-            "demisto/btfl-soup",
             "demisto/boto3",
-            "demisto/twilio"
+            "demisto/pcap-http-extractor",
+            "demisto/opencv"
         ],
         "home_page": "https://github.com/chardet/chardet",
         "licenses": [
@@ -2210,7 +2214,6 @@
             "demisto/pcap-miner",
             "demisto/python_pancloud",
             "demisto/oauthlib",
-            "demisto/pcap-http-extractor",
             "demisto/zeep",
             "demisto/uptycs",
             "demisto/python_pancloud_v2",
@@ -2238,11 +2241,13 @@
             "demisto/argus-toolbelt",
             "demisto/algorithmia",
             "demisto/cyjax",
+            "demisto/btfl-soup",
+            "demisto/twilio",
             "demisto/boto3py3",
             "demisto/google-vision-api",
-            "demisto/btfl-soup",
             "demisto/boto3",
-            "demisto/twilio"
+            "demisto/pcap-http-extractor",
+            "demisto/opencv"
         ],
         "home_page": "https://github.com/scrapinghub/dateparser",
         "licenses": [
@@ -2861,7 +2866,6 @@
             "demisto/pcap-miner",
             "demisto/python_pancloud",
             "demisto/oauthlib",
-            "demisto/pcap-http-extractor",
             "demisto/zeep",
             "demisto/uptycs",
             "demisto/python_pancloud_v2",
@@ -2889,11 +2893,13 @@
             "demisto/argus-toolbelt",
             "demisto/algorithmia",
             "demisto/cyjax",
+            "demisto/btfl-soup",
+            "demisto/twilio",
             "demisto/boto3py3",
             "demisto/google-vision-api",
-            "demisto/btfl-soup",
             "demisto/boto3",
-            "demisto/twilio"
+            "demisto/pcap-http-extractor",
+            "demisto/opencv"
         ],
         "home_page": "http://github.com/Suor/funcy",
         "licenses": [
@@ -3582,7 +3588,6 @@
             "demisto/pcap-miner",
             "demisto/python_pancloud",
             "demisto/oauthlib",
-            "demisto/pcap-http-extractor",
             "demisto/zeep",
             "demisto/uptycs",
             "demisto/python_pancloud_v2",
@@ -3610,11 +3615,13 @@
             "demisto/argus-toolbelt",
             "demisto/algorithmia",
             "demisto/cyjax",
+            "demisto/btfl-soup",
+            "demisto/twilio",
             "demisto/boto3py3",
             "demisto/google-vision-api",
-            "demisto/btfl-soup",
             "demisto/boto3",
-            "demisto/twilio"
+            "demisto/pcap-http-extractor",
+            "demisto/opencv"
         ],
         "home_page": "https://github.com/kjd/idna",
         "licenses": [
@@ -3672,6 +3679,18 @@
         ],
         "pypi_url": "https://pypi.org/project/importlib-metadata/",
         "summary": "Read metadata from Python packages"
+    },
+    "imutils": {
+        "author": "Adrian Rosebrock adrian@pyimagesearch.com",
+        "docker_images": [
+            "demisto/opencv"
+        ],
+        "home_page": "https://github.com/jrosebr1/imutils",
+        "licenses": [
+            "License :: MIT License"
+        ],
+        "pypi_url": "https://pypi.org/project/imutils/",
+        "summary": "A series of convenience functions to make basic image processing functions such as translation, rotation, resizing, skeletonization, displaying Matplotlib images, sorting contours, detecting edges, and much more easier with OpenCV and both Python 2.7 and Python 3."
     },
     "inflect": {
         "author": "Paul Dyson pwdyson@yahoo.com",
@@ -4030,14 +4049,14 @@
             "demisto/sane-doc-reports",
             "demisto/office-utils",
             "demisto/pcap-miner",
-            "demisto/pcap-http-extractor",
             "demisto/zeep",
             "demisto/py3ews",
             "demisto/docxpy",
             "demisto/py2-exchangelib",
             "demisto/sharepoint",
             "demisto/taxii",
-            "demisto/taxii-server"
+            "demisto/taxii-server",
+            "demisto/pcap-http-extractor"
         ],
         "home_page": "http://lxml.de/",
         "licenses": [
@@ -4370,7 +4389,8 @@
             "demisto/fasttext",
             "demisto/chromium",
             "demisto/sklearn",
-            "demisto/matplotlib"
+            "demisto/matplotlib",
+            "demisto/opencv"
         ],
         "home_page": "https://www.numpy.org",
         "licenses": [
@@ -4521,7 +4541,6 @@
             "demisto/pcap-miner",
             "demisto/python_pancloud",
             "demisto/oauthlib",
-            "demisto/pcap-http-extractor",
             "demisto/zeep",
             "demisto/uptycs",
             "demisto/python_pancloud_v2",
@@ -4549,11 +4568,13 @@
             "demisto/argus-toolbelt",
             "demisto/algorithmia",
             "demisto/cyjax",
+            "demisto/btfl-soup",
+            "demisto/twilio",
             "demisto/boto3py3",
             "demisto/google-vision-api",
-            "demisto/btfl-soup",
             "demisto/boto3",
-            "demisto/twilio"
+            "demisto/pcap-http-extractor",
+            "demisto/opencv"
         ],
         "home_page": "https://www.decalage.info/python/olefileio",
         "licenses": [
@@ -4561,6 +4582,18 @@
         ],
         "pypi_url": "https://pypi.org/project/olefile/",
         "summary": "Python package to parse, read and write Microsoft OLE2 files (Structured Storage or Compound Document, Microsoft Office)"
+    },
+    "opencv-contrib-python": {
+        "author": "",
+        "docker_images": [
+            "demisto/opencv"
+        ],
+        "home_page": "https://github.com/skvark/opencv-python",
+        "licenses": [
+            "License :: OSI Approved :: MIT License"
+        ],
+        "pypi_url": "https://pypi.org/project/opencv-contrib-python/",
+        "summary": "Wrapper package for OpenCV python bindings."
     },
     "openpyxl": {
         "author": "See AUTHORS charlie.clark@clark-consulting.eu",
@@ -5036,7 +5069,6 @@
             "demisto/pcap-miner",
             "demisto/python_pancloud",
             "demisto/oauthlib",
-            "demisto/pcap-http-extractor",
             "demisto/zeep",
             "demisto/uptycs",
             "demisto/python_pancloud_v2",
@@ -5064,11 +5096,13 @@
             "demisto/argus-toolbelt",
             "demisto/algorithmia",
             "demisto/cyjax",
+            "demisto/btfl-soup",
+            "demisto/twilio",
             "demisto/boto3py3",
             "demisto/google-vision-api",
-            "demisto/btfl-soup",
             "demisto/boto3",
-            "demisto/twilio"
+            "demisto/pcap-http-extractor",
+            "demisto/opencv"
         ],
         "home_page": "https://pip.pypa.io/",
         "licenses": [
@@ -5355,8 +5389,8 @@
             "demisto/akamai",
             "demisto/taxii",
             "demisto/ansible-runner",
-            "demisto/google-vision-api",
-            "demisto/btfl-soup"
+            "demisto/btfl-soup",
+            "demisto/google-vision-api"
         ],
         "home_page": "https://github.com/etingof/pyasn1",
         "licenses": [
@@ -5863,7 +5897,6 @@
             "demisto/pcap-miner",
             "demisto/python_pancloud",
             "demisto/oauthlib",
-            "demisto/pcap-http-extractor",
             "demisto/zeep",
             "demisto/uptycs",
             "demisto/python_pancloud_v2",
@@ -5891,11 +5924,13 @@
             "demisto/argus-toolbelt",
             "demisto/algorithmia",
             "demisto/cyjax",
+            "demisto/btfl-soup",
+            "demisto/twilio",
             "demisto/boto3py3",
             "demisto/google-vision-api",
-            "demisto/btfl-soup",
             "demisto/boto3",
-            "demisto/twilio"
+            "demisto/pcap-http-extractor",
+            "demisto/opencv"
         ],
         "home_page": "https://dateutil.readthedocs.io",
         "licenses": [
@@ -6105,7 +6140,6 @@
             "demisto/pcap-miner",
             "demisto/python_pancloud",
             "demisto/oauthlib",
-            "demisto/pcap-http-extractor",
             "demisto/zeep",
             "demisto/uptycs",
             "demisto/python_pancloud_v2",
@@ -6133,11 +6167,13 @@
             "demisto/argus-toolbelt",
             "demisto/algorithmia",
             "demisto/cyjax",
+            "demisto/btfl-soup",
+            "demisto/twilio",
             "demisto/boto3py3",
             "demisto/google-vision-api",
-            "demisto/btfl-soup",
             "demisto/boto3",
-            "demisto/twilio"
+            "demisto/pcap-http-extractor",
+            "demisto/opencv"
         ],
         "home_page": "http://pythonhosted.org/pytz",
         "licenses": [
@@ -6320,7 +6356,6 @@
             "demisto/pcap-miner",
             "demisto/python_pancloud",
             "demisto/oauthlib",
-            "demisto/pcap-http-extractor",
             "demisto/zeep",
             "demisto/uptycs",
             "demisto/python_pancloud_v2",
@@ -6348,11 +6383,13 @@
             "demisto/argus-toolbelt",
             "demisto/algorithmia",
             "demisto/cyjax",
+            "demisto/btfl-soup",
+            "demisto/twilio",
             "demisto/boto3py3",
             "demisto/google-vision-api",
-            "demisto/btfl-soup",
             "demisto/boto3",
-            "demisto/twilio"
+            "demisto/pcap-http-extractor",
+            "demisto/opencv"
         ],
         "home_page": "https://bitbucket.org/mrabarnett/mrab-regex",
         "licenses": [
@@ -6489,7 +6526,6 @@
             "demisto/pcap-miner",
             "demisto/python_pancloud",
             "demisto/oauthlib",
-            "demisto/pcap-http-extractor",
             "demisto/zeep",
             "demisto/uptycs",
             "demisto/python_pancloud_v2",
@@ -6517,11 +6553,13 @@
             "demisto/argus-toolbelt",
             "demisto/algorithmia",
             "demisto/cyjax",
+            "demisto/btfl-soup",
+            "demisto/twilio",
             "demisto/boto3py3",
             "demisto/google-vision-api",
-            "demisto/btfl-soup",
             "demisto/boto3",
-            "demisto/twilio"
+            "demisto/pcap-http-extractor",
+            "demisto/opencv"
         ],
         "home_page": "http://python-requests.org",
         "licenses": [
@@ -6627,7 +6665,6 @@
             "demisto/pcap-miner",
             "demisto/python_pancloud",
             "demisto/oauthlib",
-            "demisto/pcap-http-extractor",
             "demisto/zeep",
             "demisto/uptycs",
             "demisto/python_pancloud_v2",
@@ -6655,11 +6692,13 @@
             "demisto/argus-toolbelt",
             "demisto/algorithmia",
             "demisto/cyjax",
+            "demisto/btfl-soup",
+            "demisto/twilio",
             "demisto/boto3py3",
             "demisto/google-vision-api",
-            "demisto/btfl-soup",
             "demisto/boto3",
-            "demisto/twilio"
+            "demisto/pcap-http-extractor",
+            "demisto/opencv"
         ],
         "home_page": "http://github.com/dashea/requests-file",
         "licenses": [
@@ -6811,8 +6850,8 @@
             "demisto/google-k8s-engine",
             "demisto/taxii",
             "demisto/ansible-runner",
-            "demisto/google-vision-api",
-            "demisto/btfl-soup"
+            "demisto/btfl-soup",
+            "demisto/google-vision-api"
         ],
         "home_page": "https://stuvel.eu/rsa",
         "licenses": [
@@ -7100,7 +7139,6 @@
             "demisto/pcap-miner",
             "demisto/python_pancloud",
             "demisto/oauthlib",
-            "demisto/pcap-http-extractor",
             "demisto/zeep",
             "demisto/uptycs",
             "demisto/python_pancloud_v2",
@@ -7128,11 +7166,13 @@
             "demisto/argus-toolbelt",
             "demisto/algorithmia",
             "demisto/cyjax",
+            "demisto/btfl-soup",
+            "demisto/twilio",
             "demisto/boto3py3",
             "demisto/google-vision-api",
-            "demisto/btfl-soup",
             "demisto/boto3",
-            "demisto/twilio"
+            "demisto/pcap-http-extractor",
+            "demisto/opencv"
         ],
         "home_page": "https://github.com/pypa/setuptools",
         "licenses": [
@@ -7311,7 +7351,6 @@
             "demisto/pcap-miner",
             "demisto/python_pancloud",
             "demisto/oauthlib",
-            "demisto/pcap-http-extractor",
             "demisto/zeep",
             "demisto/uptycs",
             "demisto/python_pancloud_v2",
@@ -7339,11 +7378,13 @@
             "demisto/argus-toolbelt",
             "demisto/algorithmia",
             "demisto/cyjax",
+            "demisto/btfl-soup",
+            "demisto/twilio",
             "demisto/boto3py3",
             "demisto/google-vision-api",
-            "demisto/btfl-soup",
             "demisto/boto3",
-            "demisto/twilio"
+            "demisto/pcap-http-extractor",
+            "demisto/opencv"
         ],
         "home_page": "https://github.com/benjaminp/six",
         "licenses": [
@@ -7948,7 +7989,6 @@
             "demisto/pcap-miner",
             "demisto/python_pancloud",
             "demisto/oauthlib",
-            "demisto/pcap-http-extractor",
             "demisto/zeep",
             "demisto/uptycs",
             "demisto/python_pancloud_v2",
@@ -7976,11 +8016,13 @@
             "demisto/argus-toolbelt",
             "demisto/algorithmia",
             "demisto/cyjax",
+            "demisto/btfl-soup",
+            "demisto/twilio",
             "demisto/boto3py3",
             "demisto/google-vision-api",
-            "demisto/btfl-soup",
             "demisto/boto3",
-            "demisto/twilio"
+            "demisto/pcap-http-extractor",
+            "demisto/opencv"
         ],
         "home_page": "https://github.com/john-kurkowski/tldextract",
         "licenses": [
@@ -8188,7 +8230,6 @@
             "demisto/pcap-miner",
             "demisto/python_pancloud",
             "demisto/oauthlib",
-            "demisto/pcap-http-extractor",
             "demisto/zeep",
             "demisto/uptycs",
             "demisto/python_pancloud_v2",
@@ -8216,11 +8257,13 @@
             "demisto/argus-toolbelt",
             "demisto/algorithmia",
             "demisto/cyjax",
+            "demisto/btfl-soup",
+            "demisto/twilio",
             "demisto/boto3py3",
             "demisto/google-vision-api",
-            "demisto/btfl-soup",
             "demisto/boto3",
-            "demisto/twilio"
+            "demisto/pcap-http-extractor",
+            "demisto/opencv"
         ],
         "home_page": "https://github.com/regebro/tzlocal",
         "licenses": [
@@ -8377,7 +8420,6 @@
             "demisto/pcap-miner",
             "demisto/python_pancloud",
             "demisto/oauthlib",
-            "demisto/pcap-http-extractor",
             "demisto/zeep",
             "demisto/uptycs",
             "demisto/python_pancloud_v2",
@@ -8405,11 +8447,13 @@
             "demisto/argus-toolbelt",
             "demisto/algorithmia",
             "demisto/cyjax",
+            "demisto/btfl-soup",
+            "demisto/twilio",
             "demisto/boto3py3",
             "demisto/google-vision-api",
-            "demisto/btfl-soup",
             "demisto/boto3",
-            "demisto/twilio"
+            "demisto/pcap-http-extractor",
+            "demisto/opencv"
         ],
         "home_page": "https://urllib3.readthedocs.io/",
         "licenses": [
@@ -8752,7 +8796,6 @@
             "demisto/pcap-miner",
             "demisto/python_pancloud",
             "demisto/oauthlib",
-            "demisto/pcap-http-extractor",
             "demisto/zeep",
             "demisto/uptycs",
             "demisto/python_pancloud_v2",
@@ -8780,11 +8823,13 @@
             "demisto/argus-toolbelt",
             "demisto/algorithmia",
             "demisto/cyjax",
+            "demisto/btfl-soup",
+            "demisto/twilio",
             "demisto/boto3py3",
             "demisto/google-vision-api",
-            "demisto/btfl-soup",
             "demisto/boto3",
-            "demisto/twilio"
+            "demisto/pcap-http-extractor",
+            "demisto/opencv"
         ],
         "home_page": "https://github.com/pypa/wheel",
         "licenses": [

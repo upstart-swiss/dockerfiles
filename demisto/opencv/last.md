@@ -1,8 +1,8 @@
-# `demisto/google-vision-api:1.0.0.15447`
+# `demisto/opencv:1.0.0.15432`
 ## Docker Metadata
-- Image Size: `56.04 MB`
-- Image ID: `sha256:3fd25c3b65ef4e6aca6a5ba543abd364cf225bd5a4fd01195e983544a1e95834`
-- Created: `2021-01-14T22:27:29.588943878Z`
+- Image Size: `167.11 MB`
+- Image ID: `sha256:7f0b7c9d90c37a23c448cb552a966084c0d30ba67df939d2b31af8e086973865`
+- Created: `2021-01-14T15:58:52.644423312Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -13,11 +13,11 @@
   - `PYTHON_PIP_VERSION=20.3.3`
   - `PYTHON_GET_PIP_URL=https://github.com/pypa/get-pip/raw/5f38681f7f5872e4032860b54e9cc11cf0374932/get-pip.py`
   - `PYTHON_GET_PIP_SHA256=6a0b13826862f33c13b614a921d36253bfa1ae779c5fbf569876f3585057e9d2`
-  - `DOCKER_IMAGE=demisto/google-vision-api:1.0.0.15447`
+  - `DOCKER_IMAGE=demisto/opencv:1.0.0.15432`
 - Labels:
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:dcb4c58d2ae61e5e7b1d25e27e92fc86cf1c89b7`
-  - `org.opencontainers.image.version:1.0.0.15447`
+  - `org.opencontainers.image.revision:725e1647edf1fd8b5c302e6d417759833eabd8bf`
+  - `org.opencontainers.image.version:1.0.0.15432`
 
 - OS Release:
   - `PRETTY_NAME="Debian GNU/Linux 10 (buster)"`
@@ -33,34 +33,25 @@
 ## Docker Trust
 ```
 
-Signatures for demisto/google-vision-api:1.0.0.15447
+Signatures for demisto/opencv:1.0.0.15432
 
 SIGNED TAG          DIGEST                                                             SIGNERS
-1.0.0.15447         d83141c1dc4b42f4b5550fa112895f8c5c12cbac687decda21573ff1177bb69a   (Repo Admin)
+1.0.0.15432         170699caf03d17b9a0791044ca1eb1c25b9dc56d12c4c53808f1e5eddc10a1c1   (Repo Admin)
 
-Administrative keys for demisto/google-vision-api:1.0.0.15447
+Administrative keys for demisto/opencv:1.0.0.15432
 
-  Repository Key:	8f699c169d21da1343c2ea4f465fe5f19ace3822c0fd85c2d1a054379abf30dd
-  Root Key:	23130201a9ea6e060cceb9cf5a1998649873c190c980fe0d6c487df1fadbc6ef
+  Repository Key:	7509c1e0c9d86eac11cd66a4c95a32d49015aecdd8dbac6c9ac7994b8b93f9ce
+  Root Key:	86af2af4921ad57bfadcc6cc1a9ee2a3713909194e8f087dbb12a906b73e55d7
 
 ```
 
 ## `Python Packages`
 
 
-### `cachetools`
-
-* Summary: Extensible memoizing collections and decorators
-* Version: 4.2.0
-* Pypi: https://pypi.org/project/cachetools/
-* Homepage: https://github.com/tkem/cachetools/
-* Author: Thomas Kemmer tkemmer@computer.org
-* License :: OSI Approved :: MIT License
-
 ### `certifi`
 
 * Summary: Python package for providing Mozilla's CA Bundle.
-* Version: 2020.6.20
+* Version: 2020.12.5
 * Pypi: https://pypi.org/project/certifi/
 * Homepage: https://certifiio.readthedocs.io/en/latest/
 * Author: Kenneth Reitz me@kennethreitz.com
@@ -93,87 +84,6 @@ Administrative keys for demisto/google-vision-api:1.0.0.15447
 * Author: Alexander Schepanovski suor.web@gmail.com
 * License :: OSI Approved :: BSD License
 
-### `google-api-core`
-
-* Summary: Google API client core library
-* Version: 1.25.0
-* Pypi: https://pypi.org/project/google-api-core/
-* Homepage: https://github.com/googleapis/python-api-core
-* Author: Google LLC googleapis-packages@google.com
-* License :: OSI Approved :: Apache Software License
-
-### `google-api-python-client`
-
-* Summary: Google API Client Library for Python
-* Version: 1.12.8
-* Pypi: https://pypi.org/project/google-api-python-client/
-* Homepage: https://github.com/googleapis/google-api-python-client/
-* Author: Google LLC googleapis-packages@google.com
-* License :: OSI Approved :: Apache Software License
-
-### `google-auth`
-
-* Summary: Google Authentication Library
-* Version: 1.24.0
-* Pypi: https://pypi.org/project/google-auth/
-* Homepage: https://github.com/googleapis/google-auth-library-python
-* Author: Google Cloud Platform googleapis-packages@google.com
-* License :: OSI Approved :: Apache Software License
-
-### `google-auth-httplib2`
-
-* Summary: Google Authentication Library: httplib2 transport
-* Version: 0.0.4
-* Pypi: https://pypi.org/project/google-auth-httplib2/
-* Homepage: https://github.com/GoogleCloudPlatform/google-auth-library-python-httplib2
-* Author: Google Cloud Platform jonwayne+google-auth@google.com
-* License :: OSI Approved :: Apache Software License
-
-### `google-auth-oauthlib`
-
-* Summary: Google Authentication Library
-* Version: 0.4.1
-* Pypi: https://pypi.org/project/google-auth-oauthlib/
-* Homepage: https://github.com/GoogleCloudPlatform/google-auth-library-python-oauthlib
-* Author: Google Cloud Platform jonwayne+google-auth@google.com
-* License :: OSI Approved :: Apache Software License
-
-### `google-cloud-vision`
-
-* Summary: Cloud Vision API API client library
-* Version: 0.42.0
-* Pypi: https://pypi.org/project/google-cloud-vision/
-* Homepage: https://github.com/googleapis/python-vision
-* Author: Google LLC googleapis-packages@google.com
-* License :: OSI Approved :: Apache Software License
-
-### `googleapis-common-protos`
-
-* Summary: Common protobufs used in Google APIs
-* Version: 1.52.0
-* Pypi: https://pypi.org/project/googleapis-common-protos/
-* Homepage: https://github.com/googleapis/python-api-common-protos
-* Author: Google LLC googleapis-packages@google.com
-* License :: OSI Approved :: Apache Software License
-
-### `grpcio`
-
-* Summary: HTTP/2-based RPC framework
-* Version: 1.34.1
-* Pypi: https://pypi.org/project/grpcio/
-* Homepage: https://grpc.io
-* Author: The gRPC Authors grpc-io@googlegroups.com
-* License :: OSI Approved :: Apache Software License
-
-### `httplib2`
-
-* Summary: A comprehensive HTTP client library.
-* Version: 0.18.1
-* Pypi: https://pypi.org/project/httplib2/
-* Homepage: https://github.com/httplib2/httplib2
-* Author: Joe Gregorio joe@bitworking.org
-* License :: OSI Approved :: MIT License
-
 ### `idna`
 
 * Summary: Internationalized Domain Names in Applications (IDNA)
@@ -183,23 +93,23 @@ Administrative keys for demisto/google-vision-api:1.0.0.15447
 * Author: Kim Davies kim@cynosure.com.au
 * License :: OSI Approved :: BSD License
 
-### `oauth2client`
+### `imutils`
 
-* Summary: OAuth 2.0 client library
-* Version: 4.1.3
-* Pypi: https://pypi.org/project/oauth2client/
-* Homepage: http://github.com/google/oauth2client/
-* Author: Google Inc. jonwayne+oauth2client@google.com
-* License :: OSI Approved :: Apache Software License
+* Summary: A series of convenience functions to make basic image processing functions such as translation, rotation, resizing, skeletonization, displaying Matplotlib images, sorting contours, detecting edges, and much more easier with OpenCV and both Python 2.7 and Python 3.
+* Version: 0.5.3
+* Pypi: https://pypi.org/project/imutils/
+* Homepage: https://github.com/jrosebr1/imutils
+* Author: Adrian Rosebrock adrian@pyimagesearch.com
+* License :: MIT License
 
-### `oauthlib`
+### `numpy`
 
-* Summary: A generic, spec-compliant, thorough implementation of the OAuth request-signing logic
-* Version: 3.1.0
-* Pypi: https://pypi.org/project/oauthlib/
-* Homepage: https://github.com/oauthlib/oauthlib
-* Author: The OAuthlib Community idan@gazit.me
-* License :: OSI Approved :: BSD License
+* Summary: NumPy is the fundamental package for array computing with Python.
+* Version: 1.19.5
+* Pypi: https://pypi.org/project/numpy/
+* Homepage: https://www.numpy.org
+* Author: Travis E. Oliphant et al.
+* License: BSD
 
 ### `olefile`
 
@@ -210,6 +120,15 @@ Administrative keys for demisto/google-vision-api:1.0.0.15447
 * Author: Philippe Lagadec nospam@decalage.info
 * License :: OSI Approved :: BSD License
 
+### `opencv-contrib-python`
+
+* Summary: Wrapper package for OpenCV python bindings.
+* Version: 4.5.1.48
+* Pypi: https://pypi.org/project/opencv-contrib-python/
+* Homepage: https://github.com/skvark/opencv-python
+* Author: 
+* License :: OSI Approved :: MIT License
+
 ### `pip`
 
 * Summary: The PyPA recommended tool for installing Python packages.
@@ -218,33 +137,6 @@ Administrative keys for demisto/google-vision-api:1.0.0.15447
 * Homepage: https://pip.pypa.io/
 * Author: The pip developers distutils-sig@python.org
 * License :: OSI Approved :: MIT License
-
-### `protobuf`
-
-* Summary: Protocol Buffers
-* Version: 3.14.0
-* Pypi: https://pypi.org/project/protobuf/
-* Homepage: https://developers.google.com/protocol-buffers/
-* Author: 
-* License: 3-Clause BSD License
-
-### `pyasn1`
-
-* Summary: ASN.1 types and codecs
-* Version: 0.4.8
-* Pypi: https://pypi.org/project/pyasn1/
-* Homepage: https://github.com/etingof/pyasn1
-* Author: Ilya Etingof etingof@gmail.com
-* License :: OSI Approved :: BSD License
-
-### `pyasn1-modules`
-
-* Summary: A collection of ASN.1-based protocols modules.
-* Version: 0.2.8
-* Pypi: https://pypi.org/project/pyasn1-modules/
-* Homepage: https://github.com/etingof/pyasn1-modules
-* Author: Ilya Etingof etingof@gmail.com
-* License :: OSI Approved :: BSD License
 
 ### `PySocks`
 
@@ -268,7 +160,7 @@ Administrative keys for demisto/google-vision-api:1.0.0.15447
 ### `pytz`
 
 * Summary: World timezone definitions, modern and historical
-* Version: 2020.5
+* Version: 2020.4
 * Pypi: https://pypi.org/project/pytz/
 * Homepage: http://pythonhosted.org/pytz
 * Author: Stuart Bishop stuart@stuartbishop.net
@@ -310,24 +202,6 @@ Administrative keys for demisto/google-vision-api:1.0.0.15447
 * Author: David Shea reallylongword@gmail.com
 * License :: OSI Approved :: Apache Software License
 
-### `requests-oauthlib`
-
-* Summary: OAuthlib authentication support for Requests.
-* Version: 1.3.0
-* Pypi: https://pypi.org/project/requests-oauthlib/
-* Homepage: https://github.com/requests/requests-oauthlib
-* Author: Kenneth Reitz me@kennethreitz.com
-* License :: OSI Approved :: BSD License
-
-### `rsa`
-
-* Summary: Pure-Python RSA implementation
-* Version: 4.0
-* Pypi: https://pypi.org/project/rsa/
-* Homepage: https://stuvel.eu/rsa
-* Author: Sybren A. Stuvel sybren@stuvel.eu
-* License :: OSI Approved :: Apache Software License
-
 ### `setuptools`
 
 * Summary: Easily download, build, install, upgrade, and uninstall Python packages
@@ -363,16 +237,6 @@ Administrative keys for demisto/google-vision-api:1.0.0.15447
 * Homepage: https://github.com/regebro/tzlocal
 * Author: Lennart Regebro regebro@gmail.com
 * License :: OSI Approved :: MIT License
-
-### `uritemplate`
-
-* Summary: URI templates
-* Version: 3.0.1
-* Pypi: https://pypi.org/project/uritemplate/
-* Homepage: https://uritemplate.readthedocs.org
-* Author: Ian Stapleton Cordasco graffatcolmingov@gmail.com
-* License :: OSI Approved :: Apache Software License
-* License :: OSI Approved :: BSD License
 
 ### `urllib3`
 
@@ -423,6 +287,7 @@ Administrative keys for demisto/google-vision-api:1.0.0.15447
 * libaudit-common	1:2.8.4-3
 * libaudit1:amd64	1:2.8.4-3
 * libblkid1:amd64	2.33.1-0.1
+* libbsd0:amd64	0.9.1-2
 * libbz2-1.0:amd64	1.0.6-9.2~deb10u1
 * libc-bin	2.28-10
 * libc6:amd64	2.28-10
@@ -430,6 +295,14 @@ Administrative keys for demisto/google-vision-api:1.0.0.15447
 * libcom-err2:amd64	1.45.5-2~bpo10+1
 * libdb5.3:amd64	5.3.28+dfsg1-0.5
 * libdebconfclient0:amd64	0.249
+* libdrm-amdgpu1:amd64	2.4.97-1
+* libdrm-common	2.4.97-1
+* libdrm-intel1:amd64	2.4.97-1
+* libdrm-nouveau2:amd64	2.4.97-1
+* libdrm-radeon1:amd64	2.4.97-1
+* libdrm2:amd64	2.4.97-1
+* libedit2:amd64	3.1-20181209-1
+* libelf1:amd64	0.176-1.1
 * libexpat1:amd64	2.2.6-2+deb10u1
 * libext2fs2:amd64	1.44.5-1+deb10u3
 * libfdisk1:amd64	2.33.1-0.1
@@ -437,11 +310,23 @@ Administrative keys for demisto/google-vision-api:1.0.0.15447
 * libgcc1:amd64	1:8.3.0-6
 * libgcrypt20:amd64	1.8.4-5
 * libgdbm6:amd64	1.18.1-4
+* libgl1-mesa-dri:amd64	18.3.6-2+deb10u1
+* libgl1-mesa-glx:amd64	18.3.6-2+deb10u1
+* libgl1:amd64	1.1.0-1
+* libglapi-mesa:amd64	18.3.6-2+deb10u1
+* libglib2.0-0:amd64	2.58.3-2+deb10u2
+* libglib2.0-data	2.58.3-2+deb10u2
+* libglvnd0:amd64	1.1.0-1
+* libglx-mesa0:amd64	18.3.6-2+deb10u1
+* libglx0:amd64	1.1.0-1
 * libgmp10:amd64	2:6.1.2+dfsg-4
 * libgnutls30:amd64	3.6.7-4+deb10u5
 * libgpg-error0:amd64	1.35-1
 * libhogweed4:amd64	3.4.1-1
+* libice6:amd64	2:1.0.9-2
+* libicu63:amd64	63.1-6+deb10u1
 * libidn2-0:amd64	2.0.5-1+deb10u1
+* libllvm7:amd64	1:7.0.1-8+deb10u2
 * liblz4-1:amd64	1.8.3-1
 * liblzma5:amd64	5.2.4-1
 * libmount1:amd64	2.33.1-0.1
@@ -453,14 +338,20 @@ Administrative keys for demisto/google-vision-api:1.0.0.15447
 * libpam-modules:amd64	1.3.1-5
 * libpam-runtime	1.3.1-5
 * libpam0g:amd64	1.3.1-5
+* libpciaccess0:amd64	0.14-1
+* libpcre2-8-0:amd64	10.32-5
 * libpcre3:amd64	2:8.39-12
 * libprocps7:amd64	2:3.3.15-2
+* libpsl5:amd64	0.20.2-2
 * libreadline7:amd64	7.0-5
 * libseccomp2:amd64	2.4.4-1~bpo10+1
 * libselinux1:amd64	2.8-1+b1
 * libsemanage-common	2.8-2
 * libsemanage1:amd64	2.8-2
+* libsensors-config	1:3.5.0-3
+* libsensors5:amd64	1:3.5.0-3
 * libsepol1:amd64	2.8-1
+* libsm6:amd64	2:1.2.3-1
 * libsmartcols1:amd64	2.33.1-0.1
 * libsqlite3-0:amd64	3.27.2-3+deb10u1
 * libss2:amd64	1.45.5-2~bpo10+1
@@ -472,6 +363,24 @@ Administrative keys for demisto/google-vision-api:1.0.0.15447
 * libudev1:amd64	247.2-1~bpo10+1
 * libunistring2:amd64	0.9.10-1
 * libuuid1:amd64	2.33.1-0.1
+* libx11-6:amd64	2:1.6.7-1+deb10u1
+* libx11-data	2:1.6.7-1+deb10u1
+* libx11-xcb1:amd64	2:1.6.7-1+deb10u1
+* libxau6:amd64	1:1.0.8-1+b2
+* libxcb-dri2-0:amd64	1.13.1-2
+* libxcb-dri3-0:amd64	1.13.1-2
+* libxcb-glx0:amd64	1.13.1-2
+* libxcb-present0:amd64	1.13.1-2
+* libxcb-sync1:amd64	1.13.1-2
+* libxcb1:amd64	1.13.1-2
+* libxdamage1:amd64	1:1.1.4-3+b3
+* libxdmcp6:amd64	1:1.1.2-3
+* libxext6:amd64	2:1.3.3-1+b2
+* libxfixes3:amd64	1:5.0.3-1
+* libxml2:amd64	2.9.4+dfsg1-7+deb10u1
+* libxrender1:amd64	1:0.9.10-1
+* libxshmfence1:amd64	1.3-1
+* libxxf86vm1:amd64	1:1.1.4-1+b2
 * libzstd1:amd64	1.4.4+dfsg-3~bpo10+1
 * login	1:4.5-1.1
 * lsb-base	10.2019051400
@@ -484,10 +393,15 @@ Administrative keys for demisto/google-vision-api:1.0.0.15447
 * passwd	1:4.5-1.1
 * perl-base	5.28.1-6+deb10u1
 * procps	2:3.3.15-2
+* publicsuffix	20190415.1030-1
 * readline-common	7.0-5
 * sed	4.7-1
+* shared-mime-info	1.10-1
 * sysvinit-utils	2.93-8
 * tar	1.30+dfsg-6
 * tzdata	2020e-0+deb10u1
 * util-linux	2.33.1-0.1
+* wget	1.20.1-1.1
+* x11-common	1:7.7+19
+* xdg-user-dirs	0.17-2
 * zlib1g:amd64	1:1.2.11.dfsg-1

@@ -104,9 +104,9 @@
             "demisto/sklearn",
             "demisto/teams",
             "demisto/greynoise",
-            "demisto/taxii-server",
             "demisto/ansible-runner",
-            "demisto/argus-toolbelt"
+            "demisto/argus-toolbelt",
+            "demisto/taxii-server"
         ],
         "home_page": "https://palletsprojects.com/p/jinja/",
         "licenses": [
@@ -174,9 +174,9 @@
             "demisto/sklearn",
             "demisto/teams",
             "demisto/greynoise",
-            "demisto/taxii-server",
             "demisto/ansible-runner",
-            "demisto/argus-toolbelt"
+            "demisto/argus-toolbelt",
+            "demisto/taxii-server"
         ],
         "home_page": "https://palletsprojects.com/p/markupsafe/",
         "licenses": [
@@ -386,7 +386,6 @@
             "demisto/vertica",
             "demisto/taxii",
             "demisto/m2crypto",
-            "demisto/taxii-server",
             "demisto/lacework",
             "demisto/matplotlib",
             "demisto/fastapi",
@@ -398,11 +397,13 @@
             "demisto/cyjax",
             "demisto/btfl-soup",
             "demisto/twilio",
-            "demisto/boto3py3",
             "demisto/google-vision-api",
-            "demisto/boto3",
             "demisto/pcap-http-extractor",
-            "demisto/opencv"
+            "demisto/opencv",
+            "demisto/boto3py3",
+            "demisto/boto3",
+            "demisto/taxii-server",
+            "demisto/pyjarm"
         ],
         "home_page": "https://github.com/Anorov/PySocks",
         "licenses": [
@@ -540,7 +541,6 @@
             "demisto/vertica",
             "demisto/taxii",
             "demisto/m2crypto",
-            "demisto/taxii-server",
             "demisto/lacework",
             "demisto/matplotlib",
             "demisto/fastapi",
@@ -552,11 +552,13 @@
             "demisto/cyjax",
             "demisto/btfl-soup",
             "demisto/twilio",
-            "demisto/boto3py3",
             "demisto/google-vision-api",
-            "demisto/boto3",
             "demisto/pcap-http-extractor",
-            "demisto/opencv"
+            "demisto/opencv",
+            "demisto/boto3py3",
+            "demisto/boto3",
+            "demisto/taxii-server",
+            "demisto/pyjarm"
         ],
         "home_page": "https://github.com/yaml/pyyaml",
         "licenses": [
@@ -1560,7 +1562,6 @@
             "demisto/vertica",
             "demisto/taxii",
             "demisto/m2crypto",
-            "demisto/taxii-server",
             "demisto/lacework",
             "demisto/matplotlib",
             "demisto/fastapi",
@@ -1572,11 +1573,13 @@
             "demisto/cyjax",
             "demisto/btfl-soup",
             "demisto/twilio",
-            "demisto/boto3py3",
             "demisto/google-vision-api",
-            "demisto/boto3",
             "demisto/pcap-http-extractor",
-            "demisto/opencv"
+            "demisto/opencv",
+            "demisto/boto3py3",
+            "demisto/boto3",
+            "demisto/taxii-server",
+            "demisto/pyjarm"
         ],
         "home_page": "https://certifi.io/",
         "licenses": [
@@ -1761,7 +1764,6 @@
             "demisto/vertica",
             "demisto/taxii",
             "demisto/m2crypto",
-            "demisto/taxii-server",
             "demisto/lacework",
             "demisto/matplotlib",
             "demisto/fastapi",
@@ -1773,11 +1775,13 @@
             "demisto/cyjax",
             "demisto/btfl-soup",
             "demisto/twilio",
-            "demisto/boto3py3",
             "demisto/google-vision-api",
-            "demisto/boto3",
             "demisto/pcap-http-extractor",
-            "demisto/opencv"
+            "demisto/opencv",
+            "demisto/boto3py3",
+            "demisto/boto3",
+            "demisto/taxii-server",
+            "demisto/pyjarm"
         ],
         "home_page": "https://github.com/chardet/chardet",
         "licenses": [
@@ -1812,9 +1816,9 @@
             "demisto/sklearn",
             "demisto/teams",
             "demisto/greynoise",
-            "demisto/taxii-server",
             "demisto/fastapi",
-            "demisto/axonius"
+            "demisto/axonius",
+            "demisto/taxii-server"
         ],
         "home_page": "https://palletsprojects.com/p/click/",
         "licenses": [
@@ -2231,7 +2235,6 @@
             "demisto/vertica",
             "demisto/taxii",
             "demisto/m2crypto",
-            "demisto/taxii-server",
             "demisto/lacework",
             "demisto/matplotlib",
             "demisto/fastapi",
@@ -2243,11 +2246,13 @@
             "demisto/cyjax",
             "demisto/btfl-soup",
             "demisto/twilio",
-            "demisto/boto3py3",
             "demisto/google-vision-api",
-            "demisto/boto3",
             "demisto/pcap-http-extractor",
-            "demisto/opencv"
+            "demisto/opencv",
+            "demisto/boto3py3",
+            "demisto/boto3",
+            "demisto/taxii-server",
+            "demisto/pyjarm"
         ],
         "home_page": "https://github.com/scrapinghub/dateparser",
         "licenses": [
@@ -2883,7 +2888,6 @@
             "demisto/vertica",
             "demisto/taxii",
             "demisto/m2crypto",
-            "demisto/taxii-server",
             "demisto/lacework",
             "demisto/matplotlib",
             "demisto/fastapi",
@@ -2895,11 +2899,13 @@
             "demisto/cyjax",
             "demisto/btfl-soup",
             "demisto/twilio",
-            "demisto/boto3py3",
             "demisto/google-vision-api",
-            "demisto/boto3",
             "demisto/pcap-http-extractor",
-            "demisto/opencv"
+            "demisto/opencv",
+            "demisto/boto3py3",
+            "demisto/boto3",
+            "demisto/taxii-server",
+            "demisto/pyjarm"
         ],
         "home_page": "http://github.com/Suor/funcy",
         "licenses": [
@@ -3605,7 +3611,6 @@
             "demisto/vertica",
             "demisto/taxii",
             "demisto/m2crypto",
-            "demisto/taxii-server",
             "demisto/lacework",
             "demisto/matplotlib",
             "demisto/fastapi",
@@ -3617,11 +3622,13 @@
             "demisto/cyjax",
             "demisto/btfl-soup",
             "demisto/twilio",
-            "demisto/boto3py3",
             "demisto/google-vision-api",
-            "demisto/boto3",
             "demisto/pcap-http-extractor",
-            "demisto/opencv"
+            "demisto/opencv",
+            "demisto/boto3py3",
+            "demisto/boto3",
+            "demisto/taxii-server",
+            "demisto/pyjarm"
         ],
         "home_page": "https://github.com/kjd/idna",
         "licenses": [
@@ -4055,8 +4062,8 @@
             "demisto/py2-exchangelib",
             "demisto/sharepoint",
             "demisto/taxii",
-            "demisto/taxii-server",
-            "demisto/pcap-http-extractor"
+            "demisto/pcap-http-extractor",
+            "demisto/taxii-server"
         ],
         "home_page": "http://lxml.de/",
         "licenses": [
@@ -4558,7 +4565,6 @@
             "demisto/vertica",
             "demisto/taxii",
             "demisto/m2crypto",
-            "demisto/taxii-server",
             "demisto/lacework",
             "demisto/matplotlib",
             "demisto/fastapi",
@@ -4570,11 +4576,13 @@
             "demisto/cyjax",
             "demisto/btfl-soup",
             "demisto/twilio",
-            "demisto/boto3py3",
             "demisto/google-vision-api",
-            "demisto/boto3",
             "demisto/pcap-http-extractor",
-            "demisto/opencv"
+            "demisto/opencv",
+            "demisto/boto3py3",
+            "demisto/boto3",
+            "demisto/taxii-server",
+            "demisto/pyjarm"
         ],
         "home_page": "https://www.decalage.info/python/olefileio",
         "licenses": [
@@ -5086,7 +5094,6 @@
             "demisto/vertica",
             "demisto/taxii",
             "demisto/m2crypto",
-            "demisto/taxii-server",
             "demisto/lacework",
             "demisto/matplotlib",
             "demisto/fastapi",
@@ -5098,11 +5105,13 @@
             "demisto/cyjax",
             "demisto/btfl-soup",
             "demisto/twilio",
-            "demisto/boto3py3",
             "demisto/google-vision-api",
-            "demisto/boto3",
             "demisto/pcap-http-extractor",
-            "demisto/opencv"
+            "demisto/opencv",
+            "demisto/boto3py3",
+            "demisto/boto3",
+            "demisto/taxii-server",
+            "demisto/pyjarm"
         ],
         "home_page": "https://pip.pypa.io/",
         "licenses": [
@@ -5607,6 +5616,18 @@
         "pypi_url": "https://pypi.org/project/pyhcl/",
         "summary": "HCL configuration parser for python"
     },
+    "pyjarm": {
+        "author": "Andrew Scott",
+        "docker_images": [
+            "demisto/pyjarm"
+        ],
+        "home_page": "",
+        "licenses": [
+            "License: ISC"
+        ],
+        "pypi_url": "https://pypi.org/project/pyjarm/",
+        "summary": "pyJarm is a convenience library for the JARM fingerprinting tool."
+    },
     "pykafka": {
         "author": "Keith Bourgoin and Emmett Butler pykafka-user@googlegroups.com",
         "docker_images": [
@@ -5914,7 +5935,6 @@
             "demisto/vertica",
             "demisto/taxii",
             "demisto/m2crypto",
-            "demisto/taxii-server",
             "demisto/lacework",
             "demisto/matplotlib",
             "demisto/fastapi",
@@ -5926,11 +5946,13 @@
             "demisto/cyjax",
             "demisto/btfl-soup",
             "demisto/twilio",
-            "demisto/boto3py3",
             "demisto/google-vision-api",
-            "demisto/boto3",
             "demisto/pcap-http-extractor",
-            "demisto/opencv"
+            "demisto/opencv",
+            "demisto/boto3py3",
+            "demisto/boto3",
+            "demisto/taxii-server",
+            "demisto/pyjarm"
         ],
         "home_page": "https://dateutil.readthedocs.io",
         "licenses": [
@@ -6157,7 +6179,6 @@
             "demisto/vertica",
             "demisto/taxii",
             "demisto/m2crypto",
-            "demisto/taxii-server",
             "demisto/lacework",
             "demisto/matplotlib",
             "demisto/fastapi",
@@ -6169,11 +6190,13 @@
             "demisto/cyjax",
             "demisto/btfl-soup",
             "demisto/twilio",
-            "demisto/boto3py3",
             "demisto/google-vision-api",
-            "demisto/boto3",
             "demisto/pcap-http-extractor",
-            "demisto/opencv"
+            "demisto/opencv",
+            "demisto/boto3py3",
+            "demisto/boto3",
+            "demisto/taxii-server",
+            "demisto/pyjarm"
         ],
         "home_page": "http://pythonhosted.org/pytz",
         "licenses": [
@@ -6373,7 +6396,6 @@
             "demisto/vertica",
             "demisto/taxii",
             "demisto/m2crypto",
-            "demisto/taxii-server",
             "demisto/lacework",
             "demisto/matplotlib",
             "demisto/fastapi",
@@ -6385,11 +6407,13 @@
             "demisto/cyjax",
             "demisto/btfl-soup",
             "demisto/twilio",
-            "demisto/boto3py3",
             "demisto/google-vision-api",
-            "demisto/boto3",
             "demisto/pcap-http-extractor",
-            "demisto/opencv"
+            "demisto/opencv",
+            "demisto/boto3py3",
+            "demisto/boto3",
+            "demisto/taxii-server",
+            "demisto/pyjarm"
         ],
         "home_page": "https://bitbucket.org/mrabarnett/mrab-regex",
         "licenses": [
@@ -6543,7 +6567,6 @@
             "demisto/vertica",
             "demisto/taxii",
             "demisto/m2crypto",
-            "demisto/taxii-server",
             "demisto/lacework",
             "demisto/matplotlib",
             "demisto/fastapi",
@@ -6555,11 +6578,13 @@
             "demisto/cyjax",
             "demisto/btfl-soup",
             "demisto/twilio",
-            "demisto/boto3py3",
             "demisto/google-vision-api",
-            "demisto/boto3",
             "demisto/pcap-http-extractor",
-            "demisto/opencv"
+            "demisto/opencv",
+            "demisto/boto3py3",
+            "demisto/boto3",
+            "demisto/taxii-server",
+            "demisto/pyjarm"
         ],
         "home_page": "http://python-requests.org",
         "licenses": [
@@ -6682,7 +6707,6 @@
             "demisto/vertica",
             "demisto/taxii",
             "demisto/m2crypto",
-            "demisto/taxii-server",
             "demisto/lacework",
             "demisto/matplotlib",
             "demisto/fastapi",
@@ -6694,11 +6718,13 @@
             "demisto/cyjax",
             "demisto/btfl-soup",
             "demisto/twilio",
-            "demisto/boto3py3",
             "demisto/google-vision-api",
-            "demisto/boto3",
             "demisto/pcap-http-extractor",
-            "demisto/opencv"
+            "demisto/opencv",
+            "demisto/boto3py3",
+            "demisto/boto3",
+            "demisto/taxii-server",
+            "demisto/pyjarm"
         ],
         "home_page": "http://github.com/dashea/requests-file",
         "licenses": [
@@ -7156,7 +7182,6 @@
             "demisto/vertica",
             "demisto/taxii",
             "demisto/m2crypto",
-            "demisto/taxii-server",
             "demisto/lacework",
             "demisto/matplotlib",
             "demisto/fastapi",
@@ -7168,11 +7193,13 @@
             "demisto/cyjax",
             "demisto/btfl-soup",
             "demisto/twilio",
-            "demisto/boto3py3",
             "demisto/google-vision-api",
-            "demisto/boto3",
             "demisto/pcap-http-extractor",
-            "demisto/opencv"
+            "demisto/opencv",
+            "demisto/boto3py3",
+            "demisto/boto3",
+            "demisto/taxii-server",
+            "demisto/pyjarm"
         ],
         "home_page": "https://github.com/pypa/setuptools",
         "licenses": [
@@ -7368,7 +7395,6 @@
             "demisto/vertica",
             "demisto/taxii",
             "demisto/m2crypto",
-            "demisto/taxii-server",
             "demisto/lacework",
             "demisto/matplotlib",
             "demisto/fastapi",
@@ -7380,11 +7406,13 @@
             "demisto/cyjax",
             "demisto/btfl-soup",
             "demisto/twilio",
-            "demisto/boto3py3",
             "demisto/google-vision-api",
-            "demisto/boto3",
             "demisto/pcap-http-extractor",
-            "demisto/opencv"
+            "demisto/opencv",
+            "demisto/boto3py3",
+            "demisto/boto3",
+            "demisto/taxii-server",
+            "demisto/pyjarm"
         ],
         "home_page": "https://github.com/benjaminp/six",
         "licenses": [
@@ -8006,7 +8034,6 @@
             "demisto/vertica",
             "demisto/taxii",
             "demisto/m2crypto",
-            "demisto/taxii-server",
             "demisto/lacework",
             "demisto/matplotlib",
             "demisto/fastapi",
@@ -8018,11 +8045,13 @@
             "demisto/cyjax",
             "demisto/btfl-soup",
             "demisto/twilio",
-            "demisto/boto3py3",
             "demisto/google-vision-api",
-            "demisto/boto3",
             "demisto/pcap-http-extractor",
-            "demisto/opencv"
+            "demisto/opencv",
+            "demisto/boto3py3",
+            "demisto/boto3",
+            "demisto/taxii-server",
+            "demisto/pyjarm"
         ],
         "home_page": "https://github.com/john-kurkowski/tldextract",
         "licenses": [
@@ -8247,7 +8276,6 @@
             "demisto/vertica",
             "demisto/taxii",
             "demisto/m2crypto",
-            "demisto/taxii-server",
             "demisto/lacework",
             "demisto/matplotlib",
             "demisto/fastapi",
@@ -8259,11 +8287,13 @@
             "demisto/cyjax",
             "demisto/btfl-soup",
             "demisto/twilio",
-            "demisto/boto3py3",
             "demisto/google-vision-api",
-            "demisto/boto3",
             "demisto/pcap-http-extractor",
-            "demisto/opencv"
+            "demisto/opencv",
+            "demisto/boto3py3",
+            "demisto/boto3",
+            "demisto/taxii-server",
+            "demisto/pyjarm"
         ],
         "home_page": "https://github.com/regebro/tzlocal",
         "licenses": [
@@ -8437,7 +8467,6 @@
             "demisto/vertica",
             "demisto/taxii",
             "demisto/m2crypto",
-            "demisto/taxii-server",
             "demisto/lacework",
             "demisto/matplotlib",
             "demisto/fastapi",
@@ -8449,11 +8478,13 @@
             "demisto/cyjax",
             "demisto/btfl-soup",
             "demisto/twilio",
-            "demisto/boto3py3",
             "demisto/google-vision-api",
-            "demisto/boto3",
             "demisto/pcap-http-extractor",
-            "demisto/opencv"
+            "demisto/opencv",
+            "demisto/boto3py3",
+            "demisto/boto3",
+            "demisto/taxii-server",
+            "demisto/pyjarm"
         ],
         "home_page": "https://urllib3.readthedocs.io/",
         "licenses": [
@@ -8813,7 +8844,6 @@
             "demisto/vertica",
             "demisto/taxii",
             "demisto/m2crypto",
-            "demisto/taxii-server",
             "demisto/lacework",
             "demisto/matplotlib",
             "demisto/fastapi",
@@ -8825,11 +8855,13 @@
             "demisto/cyjax",
             "demisto/btfl-soup",
             "demisto/twilio",
-            "demisto/boto3py3",
             "demisto/google-vision-api",
-            "demisto/boto3",
             "demisto/pcap-http-extractor",
-            "demisto/opencv"
+            "demisto/opencv",
+            "demisto/boto3py3",
+            "demisto/boto3",
+            "demisto/taxii-server",
+            "demisto/pyjarm"
         ],
         "home_page": "https://github.com/pypa/wheel",
         "licenses": [

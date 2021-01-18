@@ -1,28 +1,28 @@
-# `demisto/uptycs:1.0.0.15503`
+# `demisto/paho-mqtt:1.0.0.15491`
 ## Docker Metadata
-- Image Size: `22.27 MB`
-- Image ID: `sha256:a9d6d8b46519d6a954dd0bc167b0b7d3e11ba0fb0bcf58fc77bac899db3f0a3d`
-- Created: `2021-01-17T18:16:53.607679396Z`
+- Image Size: `21.65 MB`
+- Image ID: `sha256:89e1c60b2b56dd470d21f908938fce437d7ff971c49ab20c4fe34a59a6befc78`
+- Created: `2021-01-17T16:02:22.923101136Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
   - `PATH=/usr/local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin`
   - `LANG=C.UTF-8`
   - `GPG_KEY=E3FF2839C048B25C084DEBE9B26995E310250568`
-  - `PYTHON_VERSION=3.8.6`
-  - `PYTHON_PIP_VERSION=20.2.3`
-  - `PYTHON_GET_PIP_URL=https://github.com/pypa/get-pip/raw/fa7dc83944936bf09a0e4cb5d5ec852c0d256599/get-pip.py`
-  - `PYTHON_GET_PIP_SHA256=6e0bb0a2c2533361d7f297ed547237caf1b7507f197835974c0dd7eba998c53c`
-  - `DOCKER_IMAGE=demisto/uptycs:1.0.0.15503`
+  - `PYTHON_VERSION=3.9.1`
+  - `PYTHON_PIP_VERSION=20.3.3`
+  - `PYTHON_GET_PIP_URL=https://github.com/pypa/get-pip/raw/5f38681f7f5872e4032860b54e9cc11cf0374932/get-pip.py`
+  - `PYTHON_GET_PIP_SHA256=6a0b13826862f33c13b614a921d36253bfa1ae779c5fbf569876f3585057e9d2`
+  - `DOCKER_IMAGE=demisto/paho-mqtt:1.0.0.15491`
 - Labels:
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:30240af0e5d80e5cf080b6542c0209d166199c57`
-  - `org.opencontainers.image.version:1.0.0.15503`
+  - `org.opencontainers.image.revision:c0a1f89c79da61dbeaeb1abb24fd1322be715dbf`
+  - `org.opencontainers.image.version:1.0.0.15491`
 
 - OS Release:
   - `NAME="Alpine Linux"`
   - `ID=alpine`
-  - `VERSION_ID=3.12.0`
+  - `VERSION_ID=3.12.3`
   - `PRETTY_NAME="Alpine Linux v3.12"`
   - `HOME_URL="https://alpinelinux.org/"`
   - `BUG_REPORT_URL="https://bugs.alpinelinux.org/"`
@@ -30,15 +30,15 @@
 ## Docker Trust
 ```
 
-Signatures for demisto/uptycs:1.0.0.15503
+Signatures for demisto/paho-mqtt:1.0.0.15491
 
 SIGNED TAG          DIGEST                                                             SIGNERS
-1.0.0.15503         7c5a285c280dde0aa6f2d6846a3f9c40799930cdc3b6245621ee9fa9f10e72a3   (Repo Admin)
+1.0.0.15491         f1a1831654b0cf188e0bd1915e3b8094305740437c9685ca00355d1eda326433   (Repo Admin)
 
-Administrative keys for demisto/uptycs:1.0.0.15503
+Administrative keys for demisto/paho-mqtt:1.0.0.15491
 
-  Repository Key:	aac9d4af7c93ddd9e49e51ccbabf7f2c0ca4774d1039403d55843eee87748669
-  Root Key:	dba0a1219d7efb170a5001b4e8569e3b889cca839b8d1f5fc6c8b243942deb32
+  Repository Key:	b22dee8689cac8f70499ba589f228c096954c5c5281ca4bf4b6dfcc4c797dad7
+  Root Key:	82784b9d3b634f66b8d91d881defddf1c050908c682df286bcc4fa3cbc895678
 
 ```
 
@@ -48,7 +48,7 @@ Administrative keys for demisto/uptycs:1.0.0.15503
 ### `certifi`
 
 * Summary: Python package for providing Mozilla's CA Bundle.
-* Version: 2020.6.20
+* Version: 2020.12.5
 * Pypi: https://pypi.org/project/certifi/
 * Homepage: https://certifiio.readthedocs.io/en/latest/
 * Author: Kenneth Reitz me@kennethreitz.com
@@ -57,7 +57,7 @@ Administrative keys for demisto/uptycs:1.0.0.15503
 ### `chardet`
 
 * Summary: Universal encoding detector for Python 2 and 3
-* Version: 3.0.4
+* Version: 4.0.0
 * Pypi: https://pypi.org/project/chardet/
 * Homepage: https://github.com/chardet/chardet
 * Author: Mark Pilgrim mark@diveintomark.org
@@ -99,6 +99,15 @@ Administrative keys for demisto/uptycs:1.0.0.15503
 * Author: Philippe Lagadec nospam@decalage.info
 * License :: OSI Approved :: BSD License
 
+### `paho-mqtt`
+
+* Summary: MQTT version 5.0/3.1.1 client class
+* Version: 1.5.1
+* Pypi: https://pypi.org/project/paho-mqtt/
+* Homepage: http://eclipse.org/paho
+* Author: Roger Light roger@atchoo.org
+* License: Eclipse Public License v1.0 / Eclipse Distribution License v1.0
+
 ### `pip`
 
 * Summary: The PyPA recommended tool for installing Python packages.
@@ -106,15 +115,6 @@ Administrative keys for demisto/uptycs:1.0.0.15503
 * Pypi: https://pypi.org/project/pip/
 * Homepage: https://pip.pypa.io/
 * Author: The pip developers distutils-sig@python.org
-* License :: OSI Approved :: MIT License
-
-### `PyJWT`
-
-* Summary: JSON Web Token implementation in Python
-* Version: 2.0.1
-* Pypi: https://pypi.org/project/PyJWT/
-* Homepage: https://github.com/jpadilla/pyjwt
-* Author: Jose Padilla hello@jpadilla.com
 * License :: OSI Approved :: MIT License
 
 ### `PySocks`
@@ -139,7 +139,7 @@ Administrative keys for demisto/uptycs:1.0.0.15503
 ### `pytz`
 
 * Summary: World timezone definitions, modern and historical
-* Version: 2020.1
+* Version: 2020.4
 * Pypi: https://pypi.org/project/pytz/
 * Homepage: http://pythonhosted.org/pytz
 * Author: Stuart Bishop stuart@stuartbishop.net
@@ -157,7 +157,7 @@ Administrative keys for demisto/uptycs:1.0.0.15503
 ### `regex`
 
 * Summary: Alternative regular expression module, to replace re.
-* Version: 2020.9.27
+* Version: 2020.11.13
 * Pypi: https://pypi.org/project/regex/
 * Homepage: https://bitbucket.org/mrabarnett/mrab-regex
 * Author: Matthew Barnett regex@mrabarnett.plus.com
@@ -166,7 +166,7 @@ Administrative keys for demisto/uptycs:1.0.0.15503
 ### `requests`
 
 * Summary: Python HTTP for Humans.
-* Version: 2.24.0
+* Version: 2.25.1
 * Pypi: https://pypi.org/project/requests/
 * Homepage: https://requests.readthedocs.io
 * Author: Kenneth Reitz me@kennethreitz.org
@@ -184,7 +184,7 @@ Administrative keys for demisto/uptycs:1.0.0.15503
 ### `setuptools`
 
 * Summary: Easily download, build, install, upgrade, and uninstall Python packages
-* Version: 50.3.0
+* Version: 51.0.0
 * Pypi: https://pypi.org/project/setuptools/
 * Homepage: https://github.com/pypa/setuptools
 * Author: Python Packaging Authority distutils-sig@python.org
@@ -220,7 +220,7 @@ Administrative keys for demisto/uptycs:1.0.0.15503
 ### `urllib3`
 
 * Summary: HTTP library with thread-safe connection pooling, file post, and more.
-* Version: 1.25.10
+* Version: 1.26.2
 * Pypi: https://pypi.org/project/urllib3/
 * Homepage: https://urllib3.readthedocs.io/
 * Author: Andrey Petrov andrey.petrov@shazow.net
@@ -229,7 +229,7 @@ Administrative keys for demisto/uptycs:1.0.0.15503
 ### `wheel`
 
 * Summary: A built-package format for Python
-* Version: 0.35.1
+* Version: 0.36.2
 * Pypi: https://pypi.org/project/wheel/
 * Homepage: https://github.com/pypa/wheel
 * Author: Daniel Holth dholth@fastmail.fm
@@ -237,7 +237,7 @@ Administrative keys for demisto/uptycs:1.0.0.15503
 
 ## `OS Packages`
 
-* .python-rundeps-20200924.220258 noarch {.python-rundeps}
+* .python-rundeps-20201217.020155 noarch {.python-rundeps}
 * alpine-baselayout-3.2.0-r7 x86_64 {alpine-baselayout}
 * alpine-keys-2.2-r0 x86_64 {alpine-keys}
 * apk-tools-2.10.5-r1 x86_64 {apk-tools}
@@ -248,27 +248,28 @@ Administrative keys for demisto/uptycs:1.0.0.15503
 * gdbm-1.13-r1 x86_64 {gdbm}
 * keyutils-libs-1.6.1-r1 x86_64 {keyutils}
 * krb5-conf-1.0-r2 x86_64 {krb5-conf}
-* krb5-libs-1.18.2-r0 x86_64 {krb5}
+* krb5-libs-1.18.3-r0 x86_64 {krb5}
 * libbz2-1.0.8-r1 x86_64 {bzip2}
 * libc-utils-0.7.2-r3 x86_64 {libc-dev}
 * libcom_err-1.45.6-r0 x86_64 {e2fsprogs}
-* libcrypto1.1-1.1.1g-r0 x86_64 {openssl}
+* libcrypto1.1-1.1.1i-r0 x86_64 {openssl}
 * libffi-3.3-r2 x86_64 {libffi}
 * libintl-0.20.2-r0 x86_64 {gettext}
 * libnsl-1.2.0-r1 x86_64 {libnsl}
-* libssl1.1-1.1.1g-r0 x86_64 {openssl}
+* libssl1.1-1.1.1i-r0 x86_64 {openssl}
 * libtirpc-1.2.6-r0 x86_64 {libtirpc}
 * libtirpc-conf-1.2.6-r0 x86_64 {libtirpc}
 * libtls-standalone-2.9.1-r1 x86_64 {libtls-standalone}
 * libuuid-2.35.2-r0 x86_64 {util-linux}
 * libverto-0.3.1-r1 x86_64 {libverto}
 * musl-1.1.24-r10 x86_64 {musl}
-* musl-utils-1.1.24-r9 x86_64 {musl}
+* musl-utils-1.1.24-r10 x86_64 {musl}
 * ncurses-libs-6.2_p20200523-r0 x86_64 {ncurses}
 * ncurses-terminfo-base-6.2_p20200523-r0 x86_64 {ncurses}
 * readline-8.0.4-r0 x86_64 {readline}
 * scanelf-1.2.6-r0 x86_64 {pax-utils}
 * sqlite-libs-3.32.1-r0 x86_64 {sqlite}
 * ssl_client-1.31.1-r19 x86_64 {busybox}
+* tzdata-2020c-r1 x86_64 {tzdata}
 * xz-libs-5.2.5-r0 x86_64 {xz}
 * zlib-1.2.11-r3 x86_64 {zlib}

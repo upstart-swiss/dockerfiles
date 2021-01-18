@@ -97,6 +97,7 @@ If you are searching for a specific package and want to see if it is available i
 * [demisto/opencv](demisto/opencv/last.md)
 * [demisto/openpyxl](demisto/openpyxl/last.md)
 * [demisto/openssh](demisto/openssh/last.md)
+* [demisto/paho-mqtt](demisto/paho-mqtt/last.md)
 * [demisto/panads3](demisto/panads3/last.md)
 * [demisto/pandas](demisto/pandas/last.md)
 * [demisto/pcap](demisto/pcap/last.md)
@@ -186,9 +187,10 @@ If you are searching for a specific package and want to see if it is available i
 * [demisto/xml-feed](demisto/xml-feed/last.md)
 * [demisto/xmlparser](demisto/xmlparser/last.md)
 * [demisto/xslxwriter](demisto/xslxwriter/last.md)
+* [demisto/xsoar-tools](demisto/xsoar-tools/last.md)
 * [demisto/yarapy](demisto/yarapy/last.md)
 * [demisto/zabbix](demisto/zabbix/last.md)
 * [demisto/zeep](demisto/zeep/last.md)
 
 ---
-Last updated: 2021-01-17 01:08:35.877815
+Last updated: 2021-01-18 01:09:21.413656

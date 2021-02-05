@@ -1,86 +1,89 @@
-# `demisto/boto3:2.0.0.16123`
+# `demisto/smbprotocol:1.0.0.16104`
 ## Docker Metadata
-- Image Size: `37.97 MB`
-- Image ID: `sha256:ae205928cbe10ded9cd88dc88ca314b3df72a15479d7c0f374591637a50a71e7`
-- Created: `2021-02-04T22:44:14.362058131Z`
+- Image Size: `52.69 MB`
+- Image ID: `sha256:3767e6a5e0e70b8d11726406f83d074e2d306c9833a3aee4f0d4147f7e6c03cd`
+- Created: `2021-02-04T15:04:18.192994154Z`
 - Arch: `linux`/`amd64`
-- Command: `["python2"]`
+- Command: `["python3"]`
 - Environment:
   - `PATH=/usr/local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin`
   - `LANG=C.UTF-8`
-  - `PYTHONIOENCODING=UTF-8`
-  - `GPG_KEY=C01E1CAD5EA2C4F0B8E3571504C367C218ADD4FF`
-  - `PYTHON_VERSION=2.7.18`
-  - `PYTHON_PIP_VERSION=20.0.2`
-  - `PYTHON_GET_PIP_URL=https://github.com/pypa/get-pip/raw/d59197a3c169cef378a22428a3fa99d33e080a5d/get-pip.py`
-  - `PYTHON_GET_PIP_SHA256=421ac1d44c0cf9730a088e337867d974b91bdce4ea2636099275071878cc189e`
-  - `DOCKER_IMAGE=demisto/boto3:2.0.0.16123`
+  - `GPG_KEY=E3FF2839C048B25C084DEBE9B26995E310250568`
+  - `PYTHON_VERSION=3.9.1`
+  - `PYTHON_PIP_VERSION=21.0`
+  - `PYTHON_GET_PIP_URL=https://github.com/pypa/get-pip/raw/8cc88aca7d9775fce279e8b84ef163cf1d3e8a2e/get-pip.py`
+  - `PYTHON_GET_PIP_SHA256=ffb67da2e976f48dd29714fc64812d1ac419eb7d48079737166dd95640d1debd`
+  - `DOCKER_IMAGE=demisto/smbprotocol:1.0.0.16104`
 - Labels:
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:74c499bd4cff76dd59bbd06d2e0434628f64dbcb`
-  - `org.opencontainers.image.version:2.0.0.16123`
+  - `org.opencontainers.image.revision:759c78622aa1306c8ea9cf5d800af994c2e6049b`
+  - `org.opencontainers.image.version:1.0.0.16104`
 
 - OS Release:
-  - `NAME="Alpine Linux"`
-  - `ID=alpine`
-  - `VERSION_ID=3.12.0`
-  - `PRETTY_NAME="Alpine Linux v3.12"`
-  - `HOME_URL="https://alpinelinux.org/"`
-  - `BUG_REPORT_URL="https://bugs.alpinelinux.org/"`
+  - `PRETTY_NAME="Debian GNU/Linux 10 (buster)"`
+  - `NAME="Debian GNU/Linux"`
+  - `VERSION_ID="10"`
+  - `VERSION="10 (buster)"`
+  - `VERSION_CODENAME=buster`
+  - `ID=debian`
+  - `HOME_URL="https://www.debian.org/"`
+  - `SUPPORT_URL="https://www.debian.org/support"`
+  - `BUG_REPORT_URL="https://bugs.debian.org/"`
 
 ## Docker Trust
 ```
 
-Signatures for demisto/boto3:2.0.0.16123
+Signatures for demisto/smbprotocol:1.0.0.16104
 
 SIGNED TAG          DIGEST                                                             SIGNERS
-2.0.0.16123         519c66fc63b8b5f5ddc86ced70f1527c2072135e7ff96d71e007b5e11f1b4452   (Repo Admin)
+1.0.0.16104         2301c5eff5f8417d39df82bd8bc579b3c87463e19948e489fb11486ec90e3824   (Repo Admin)
 
-Administrative keys for demisto/boto3:2.0.0.16123
+Administrative keys for demisto/smbprotocol:1.0.0.16104
 
-  Repository Key:	be48f70b63ad2aa3ac6ed1e0c1eef4797ed2a7d46047b0ff75a248ef32615849
-  Root Key:	06decd513f39c90d00f1b3c7c0d8979f9954bdc7a53385a1ac5c80c33564dfc3
+  Repository Key:	088b156df1057ad79031b6a6bd730531013970ad5f0f2e576658c981d26f4afd
+  Root Key:	0240316bb804a52f9541f18c9c15faf8aa8914a0bd9c291f797123ef57f2e258
 
 ```
 
 ## `Python Packages`
 
 
-### `boto3`
-
-* Summary: The AWS SDK for Python
-* Version: 1.17.2
-* Pypi: https://pypi.org/project/boto3/
-* Homepage: https://github.com/boto/boto3
-* Author: Amazon Web Services
-* License :: OSI Approved :: Apache Software License
-
-### `botocore`
-
-* Summary: Low-level, data-driven core of boto 3.
-* Version: 1.20.2
-* Pypi: https://pypi.org/project/botocore/
-* Homepage: https://github.com/boto/botocore
-* Author: Amazon Web Services
-* License :: OSI Approved :: Apache Software License
-
 ### `certifi`
 
 * Summary: Python package for providing Mozilla's CA Bundle.
-* Version: 2020.6.20
+* Version: 2020.12.5
 * Pypi: https://pypi.org/project/certifi/
 * Homepage: https://certifiio.readthedocs.io/en/latest/
 * Author: Kenneth Reitz me@kennethreitz.com
 * License :: OSI Approved :: Mozilla Public License 2.0 (MPL 2.0)
 
+### `cffi`
+
+* Summary: Foreign Function Interface for Python calling C code.
+* Version: 1.14.4
+* Pypi: https://pypi.org/project/cffi/
+* Homepage: http://cffi.readthedocs.org
+* Author: Armin Rigo, Maciej Fijalkowski python-cffi@googlegroups.com
+* License :: OSI Approved :: MIT License
+
 ### `chardet`
 
 * Summary: Universal encoding detector for Python 2 and 3
-* Version: 3.0.4
+* Version: 4.0.0
 * Pypi: https://pypi.org/project/chardet/
 * Homepage: https://github.com/chardet/chardet
 * Author: Mark Pilgrim mark@diveintomark.org
 * License :: OSI Approved :: GNU Library or Lesser General Public License (LGPL)
+
+### `cryptography`
+
+* Summary: cryptography is a package which provides cryptographic recipes and primitives to Python developers.
+* Version: 3.3.1
+* Pypi: https://pypi.org/project/cryptography/
+* Homepage: https://github.com/pyca/cryptography
+* Author: The cryptography developers cryptography-dev@python.org
+* License :: OSI Approved :: Apache Software License
+* License :: OSI Approved :: BSD License
 
 ### `dateparser`
 
@@ -100,15 +103,6 @@ Administrative keys for demisto/boto3:2.0.0.16123
 * Author: Alexander Schepanovski suor.web@gmail.com
 * License :: OSI Approved :: BSD License
 
-### `futures`
-
-* Summary: Backport of the concurrent.futures package from Python 3
-* Version: 3.3.0
-* Pypi: https://pypi.org/project/futures/
-* Homepage: https://github.com/agronholm/pythonfutures
-* Author: Brian Quinlan brian@sweetapp.com
-* License :: OSI Approved :: Python Software Foundation License
-
 ### `idna`
 
 * Summary: Internationalized Domain Names in Applications (IDNA)
@@ -117,15 +111,6 @@ Administrative keys for demisto/boto3:2.0.0.16123
 * Homepage: https://github.com/kjd/idna
 * Author: Kim Davies kim@cynosure.com.au
 * License :: OSI Approved :: BSD License
-
-### `jmespath`
-
-* Summary: JSON Matching Expressions
-* Version: 0.10.0
-* Pypi: https://pypi.org/project/jmespath/
-* Homepage: https://github.com/jmespath/jmespath.py
-* Author: James Saryerwinnie js@jamesls.com
-* License :: OSI Approved :: MIT License
 
 ### `olefile`
 
@@ -139,11 +124,20 @@ Administrative keys for demisto/boto3:2.0.0.16123
 ### `pip`
 
 * Summary: The PyPA recommended tool for installing Python packages.
-* Version: 20.3.4
+* Version: 21.0.1
 * Pypi: https://pypi.org/project/pip/
 * Homepage: https://pip.pypa.io/
 * Author: The pip developers distutils-sig@python.org
 * License :: OSI Approved :: MIT License
+
+### `pycparser`
+
+* Summary: C parser in Python
+* Version: 2.20
+* Pypi: https://pypi.org/project/pycparser/
+* Homepage: https://github.com/eliben/pycparser
+* Author: Eli Bendersky eliben@gmail.com
+* License :: OSI Approved :: BSD License
 
 ### `PySocks`
 
@@ -153,6 +147,15 @@ Administrative keys for demisto/boto3:2.0.0.16123
 * Homepage: https://github.com/Anorov/PySocks
 * Author: Anorov anorov.vorona@gmail.com
 * License: BSD
+
+### `pyspnego`
+
+* Summary: Windows Negotiate Authentication Client and Server
+* Version: 0.1.5
+* Pypi: https://pypi.org/project/pyspnego/
+* Homepage: https://github.com/jborean93/pyspnego
+* Author: Jordan Borean jborean93@gmail.com
+* License :: OSI Approved :: MIT License
 
 ### `python-dateutil`
 
@@ -167,7 +170,7 @@ Administrative keys for demisto/boto3:2.0.0.16123
 ### `pytz`
 
 * Summary: World timezone definitions, modern and historical
-* Version: 2020.1
+* Version: 2020.5
 * Pypi: https://pypi.org/project/pytz/
 * Homepage: http://pythonhosted.org/pytz
 * Author: Stuart Bishop stuart@stuartbishop.net
@@ -176,7 +179,7 @@ Administrative keys for demisto/boto3:2.0.0.16123
 ### `PyYAML`
 
 * Summary: YAML parser and emitter for Python
-* Version: 5.3.1
+* Version: 5.4.1
 * Pypi: https://pypi.org/project/PyYAML/
 * Homepage: https://pyyaml.org/
 * Author: Kirill Simonov xi@resolvent.net
@@ -185,7 +188,7 @@ Administrative keys for demisto/boto3:2.0.0.16123
 ### `regex`
 
 * Summary: Alternative regular expression module, to replace re.
-* Version: 2020.7.14
+* Version: 2020.11.13
 * Pypi: https://pypi.org/project/regex/
 * Homepage: https://bitbucket.org/mrabarnett/mrab-regex
 * Author: Matthew Barnett regex@mrabarnett.plus.com
@@ -194,7 +197,7 @@ Administrative keys for demisto/boto3:2.0.0.16123
 ### `requests`
 
 * Summary: Python HTTP for Humans.
-* Version: 2.24.0
+* Version: 2.25.1
 * Pypi: https://pypi.org/project/requests/
 * Homepage: https://requests.readthedocs.io
 * Author: Kenneth Reitz me@kennethreitz.org
@@ -209,19 +212,10 @@ Administrative keys for demisto/boto3:2.0.0.16123
 * Author: David Shea reallylongword@gmail.com
 * License :: OSI Approved :: Apache Software License
 
-### `s3transfer`
-
-* Summary: An Amazon S3 Transfer Manager
-* Version: 0.3.4
-* Pypi: https://pypi.org/project/s3transfer/
-* Homepage: https://github.com/boto/s3transfer
-* Author: Amazon Web Services kyknapp1@gmail.com
-* License :: OSI Approved :: Apache Software License
-
 ### `setuptools`
 
 * Summary: Easily download, build, install, upgrade, and uninstall Python packages
-* Version: 44.1.1
+* Version: 52.0.0
 * Pypi: https://pypi.org/project/setuptools/
 * Homepage: https://github.com/pypa/setuptools
 * Author: Python Packaging Authority distutils-sig@python.org
@@ -234,6 +228,15 @@ Administrative keys for demisto/boto3:2.0.0.16123
 * Pypi: https://pypi.org/project/six/
 * Homepage: https://github.com/benjaminp/six
 * Author: Benjamin Peterson benjamin@python.org
+* License :: OSI Approved :: MIT License
+
+### `smbprotocol`
+
+* Summary: Interact with a server using the SMB 2/3 Protocol
+* Version: 1.4.0
+* Pypi: https://pypi.org/project/smbprotocol/
+* Homepage: https://github.com/jborean93/smbprotocol
+* Author: Jordan Borean jborean93@gmail.com
 * License :: OSI Approved :: MIT License
 
 ### `tldextract`
@@ -266,7 +269,7 @@ Administrative keys for demisto/boto3:2.0.0.16123
 ### `wheel`
 
 * Summary: A built-package format for Python
-* Version: 0.35.1
+* Version: 0.36.2
 * Pypi: https://pypi.org/project/wheel/
 * Homepage: https://github.com/pypa/wheel
 * Author: Daniel Holth dholth@fastmail.fm
@@ -274,36 +277,100 @@ Administrative keys for demisto/boto3:2.0.0.16123
 
 ## `OS Packages`
 
-* .python-rundeps-20200928.160852 noarch {.python-rundeps}
-* alpine-baselayout-3.2.0-r7 x86_64 {alpine-baselayout}
-* alpine-keys-2.2-r0 x86_64 {alpine-keys}
-* apk-tools-2.10.5-r1 x86_64 {apk-tools}
-* busybox-1.31.1-r19 x86_64 {busybox}
-* ca-certificates-20191127-r4 x86_64 {ca-certificates}
-* ca-certificates-bundle-20191127-r4 x86_64 {ca-certificates}
-* expat-2.2.9-r1 x86_64 {expat}
-* gdbm-1.13-r1 x86_64 {gdbm}
-* keyutils-libs-1.6.1-r1 x86_64 {keyutils}
-* krb5-conf-1.0-r2 x86_64 {krb5-conf}
-* krb5-libs-1.18.2-r0 x86_64 {krb5}
-* libbz2-1.0.8-r1 x86_64 {bzip2}
-* libc-utils-0.7.2-r3 x86_64 {libc-dev}
-* libcom_err-1.45.6-r0 x86_64 {e2fsprogs}
-* libcrypto1.1-1.1.1g-r0 x86_64 {openssl}
-* libffi-3.3-r2 x86_64 {libffi}
-* libintl-0.20.2-r0 x86_64 {gettext}
-* libnsl-1.2.0-r1 x86_64 {libnsl}
-* libssl1.1-1.1.1g-r0 x86_64 {openssl}
-* libtirpc-1.2.6-r0 x86_64 {libtirpc}
-* libtirpc-conf-1.2.6-r0 x86_64 {libtirpc}
-* libtls-standalone-2.9.1-r1 x86_64 {libtls-standalone}
-* libverto-0.3.1-r1 x86_64 {libverto}
-* musl-1.1.24-r10 x86_64 {musl}
-* musl-utils-1.1.24-r9 x86_64 {musl}
-* ncurses-libs-6.2_p20200523-r0 x86_64 {ncurses}
-* ncurses-terminfo-base-6.2_p20200523-r0 x86_64 {ncurses}
-* readline-8.0.4-r0 x86_64 {readline}
-* scanelf-1.2.6-r0 x86_64 {pax-utils}
-* sqlite-libs-3.32.1-r0 x86_64 {sqlite}
-* ssl_client-1.31.1-r19 x86_64 {busybox}
-* zlib-1.2.11-r3 x86_64 {zlib}
+* adduser	3.118
+* apt	1.8.2.2
+* base-files	10.3+deb10u7
+* base-passwd	3.5.46
+* bash	5.0-4
+* bsdutils	1:2.33.1-0.1
+* ca-certificates	20200601~deb10u1
+* coreutils	8.30-3
+* dash	0.5.10.2-5
+* debconf	1.5.71
+* debian-archive-keyring	2019.1
+* debianutils	4.8.6.1
+* diffutils	1:3.7-3
+* dpkg	1.19.7
+* e2fsprogs	1.44.5-1+deb10u3
+* fdisk	2.33.1-0.1
+* findutils	4.6.0+git+20190209-2
+* gcc-8-base:amd64	8.3.0-6
+* gpgv	2.2.20-1~bpo10+1
+* grep	3.3-1
+* gzip	1.9-3
+* hostname	3.21
+* init-system-helpers	1.56+nmu1
+* libacl1:amd64	2.2.53-4
+* libapt-pkg5.0:amd64	1.8.2.2
+* libattr1:amd64	1:2.4.48-4
+* libaudit-common	1:2.8.4-3
+* libaudit1:amd64	1:2.8.4-3
+* libblkid1:amd64	2.33.1-0.1
+* libbz2-1.0:amd64	1.0.6-9.2~deb10u1
+* libc-bin	2.28-10
+* libc6:amd64	2.28-10
+* libcap-ng0:amd64	0.7.9-2
+* libcom-err2:amd64	1.45.5-2~bpo10+1
+* libdb5.3:amd64	5.3.28+dfsg1-0.5
+* libdebconfclient0:amd64	0.249
+* libexpat1:amd64	2.2.6-2+deb10u1
+* libext2fs2:amd64	1.44.5-1+deb10u3
+* libfdisk1:amd64	2.33.1-0.1
+* libffi6:amd64	3.2.1-9
+* libgcc1:amd64	1:8.3.0-6
+* libgcrypt20:amd64	1.8.4-5
+* libgdbm6:amd64	1.18.1-4
+* libgmp10:amd64	2:6.1.2+dfsg-4
+* libgnutls30:amd64	3.6.7-4+deb10u5
+* libgpg-error0:amd64	1.35-1
+* libhogweed4:amd64	3.4.1-1
+* libidn2-0:amd64	2.0.5-1+deb10u1
+* liblz4-1:amd64	1.8.3-1
+* liblzma5:amd64	5.2.4-1
+* libmount1:amd64	2.33.1-0.1
+* libncurses6:amd64	6.1+20181013-2+deb10u2
+* libncursesw6:amd64	6.1+20181013-2+deb10u2
+* libnettle6:amd64	3.4.1-1
+* libp11-kit0:amd64	0.23.15-2+deb10u1
+* libpam-modules-bin	1.3.1-5
+* libpam-modules:amd64	1.3.1-5
+* libpam-runtime	1.3.1-5
+* libpam0g:amd64	1.3.1-5
+* libpcre3:amd64	2:8.39-12
+* libprocps7:amd64	2:3.3.15-2
+* libreadline7:amd64	7.0-5
+* libseccomp2:amd64	2.4.4-1~bpo10+1
+* libselinux1:amd64	2.8-1+b1
+* libsemanage-common	2.8-2
+* libsemanage1:amd64	2.8-2
+* libsepol1:amd64	2.8-1
+* libsmartcols1:amd64	2.33.1-0.1
+* libsqlite3-0:amd64	3.27.2-3+deb10u1
+* libss2:amd64	1.45.5-2~bpo10+1
+* libssl1.1:amd64	1.1.1d-0+deb10u4
+* libstdc++6:amd64	8.3.0-6
+* libsystemd0:amd64	247.2-5~bpo10+1
+* libtasn1-6:amd64	4.13-3
+* libtinfo6:amd64	6.1+20181013-2+deb10u2
+* libudev1:amd64	247.2-5~bpo10+1
+* libunistring2:amd64	0.9.10-1
+* libuuid1:amd64	2.33.1-0.1
+* libzstd1:amd64	1.4.4+dfsg-3~bpo10+1
+* login	1:4.5-1.1
+* lsb-base	10.2019051400
+* mawk	1.3.3-17+b3
+* mount	2.33.1-0.1
+* ncurses-base	6.1+20181013-2+deb10u2
+* ncurses-bin	6.1+20181013-2+deb10u2
+* netbase	6.1~bpo10+1
+* openssl	1.1.1d-0+deb10u4
+* passwd	1:4.5-1.1
+* perl-base	5.28.1-6+deb10u1
+* procps	2:3.3.15-2
+* readline-common	7.0-5
+* sed	4.7-1
+* sysvinit-utils	2.93-8
+* tar	1.30+dfsg-6
+* tzdata	2020e-0+deb10u1
+* util-linux	2.33.1-0.1
+* zlib1g:amd64	1:1.2.11.dfsg-1

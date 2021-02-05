@@ -430,11 +430,12 @@
             "demisto/gvault",
             "demisto/google-api",
             "demisto/py42",
-            "demisto/boto3py3",
             "demisto/google-vision-api",
-            "demisto/boto3",
             "demisto/pymongo",
-            "demisto/argus-toolbelt"
+            "demisto/boto3py3",
+            "demisto/boto3",
+            "demisto/argus-toolbelt",
+            "demisto/smbprotocol"
         ],
         "home_page": "https://github.com/Anorov/PySocks",
         "licenses": [
@@ -589,11 +590,12 @@
             "demisto/gvault",
             "demisto/google-api",
             "demisto/py42",
-            "demisto/boto3py3",
             "demisto/google-vision-api",
-            "demisto/boto3",
             "demisto/pymongo",
-            "demisto/argus-toolbelt"
+            "demisto/boto3py3",
+            "demisto/boto3",
+            "demisto/argus-toolbelt",
+            "demisto/smbprotocol"
         ],
         "home_page": "https://github.com/yaml/pyyaml",
         "licenses": [
@@ -1677,11 +1679,12 @@
             "demisto/gvault",
             "demisto/google-api",
             "demisto/py42",
-            "demisto/boto3py3",
             "demisto/google-vision-api",
-            "demisto/boto3",
             "demisto/pymongo",
-            "demisto/argus-toolbelt"
+            "demisto/boto3py3",
+            "demisto/boto3",
+            "demisto/argus-toolbelt",
+            "demisto/smbprotocol"
         ],
         "home_page": "https://certifi.io/",
         "licenses": [
@@ -1720,7 +1723,8 @@
             "demisto/ntlm",
             "demisto/ansible-runner",
             "demisto/sharepoint",
-            "demisto/py2-exchangelib"
+            "demisto/py2-exchangelib",
+            "demisto/smbprotocol"
         ],
         "home_page": "http://cffi.readthedocs.org",
         "licenses": [
@@ -1883,11 +1887,12 @@
             "demisto/gvault",
             "demisto/google-api",
             "demisto/py42",
-            "demisto/boto3py3",
             "demisto/google-vision-api",
-            "demisto/boto3",
             "demisto/pymongo",
-            "demisto/argus-toolbelt"
+            "demisto/boto3py3",
+            "demisto/boto3",
+            "demisto/argus-toolbelt",
+            "demisto/smbprotocol"
         ],
         "home_page": "https://github.com/chardet/chardet",
         "licenses": [
@@ -2107,7 +2112,8 @@
             "demisto/ntlm",
             "demisto/ansible-runner",
             "demisto/sharepoint",
-            "demisto/py2-exchangelib"
+            "demisto/py2-exchangelib",
+            "demisto/smbprotocol"
         ],
         "home_page": "https://github.com/pyca/cryptography",
         "licenses": [
@@ -2361,11 +2367,12 @@
             "demisto/gvault",
             "demisto/google-api",
             "demisto/py42",
-            "demisto/boto3py3",
             "demisto/google-vision-api",
-            "demisto/boto3",
             "demisto/pymongo",
-            "demisto/argus-toolbelt"
+            "demisto/boto3py3",
+            "demisto/boto3",
+            "demisto/argus-toolbelt",
+            "demisto/smbprotocol"
         ],
         "home_page": "https://github.com/scrapinghub/dateparser",
         "licenses": [
@@ -3116,11 +3123,12 @@
             "demisto/gvault",
             "demisto/google-api",
             "demisto/py42",
-            "demisto/boto3py3",
             "demisto/google-vision-api",
-            "demisto/boto3",
             "demisto/pymongo",
-            "demisto/argus-toolbelt"
+            "demisto/boto3py3",
+            "demisto/boto3",
+            "demisto/argus-toolbelt",
+            "demisto/smbprotocol"
         ],
         "home_page": "http://github.com/Suor/funcy",
         "licenses": [
@@ -3855,11 +3863,12 @@
             "demisto/gvault",
             "demisto/google-api",
             "demisto/py42",
-            "demisto/boto3py3",
             "demisto/google-vision-api",
-            "demisto/boto3",
             "demisto/pymongo",
-            "demisto/argus-toolbelt"
+            "demisto/boto3py3",
+            "demisto/boto3",
+            "demisto/argus-toolbelt",
+            "demisto/smbprotocol"
         ],
         "home_page": "https://github.com/kjd/idna",
         "licenses": [
@@ -4890,11 +4899,12 @@
             "demisto/gvault",
             "demisto/google-api",
             "demisto/py42",
-            "demisto/boto3py3",
             "demisto/google-vision-api",
-            "demisto/boto3",
             "demisto/pymongo",
-            "demisto/argus-toolbelt"
+            "demisto/boto3py3",
+            "demisto/boto3",
+            "demisto/argus-toolbelt",
+            "demisto/smbprotocol"
         ],
         "home_page": "https://www.decalage.info/python/olefileio",
         "licenses": [
@@ -5451,11 +5461,12 @@
             "demisto/gvault",
             "demisto/google-api",
             "demisto/py42",
-            "demisto/boto3py3",
             "demisto/google-vision-api",
-            "demisto/boto3",
             "demisto/pymongo",
-            "demisto/argus-toolbelt"
+            "demisto/boto3py3",
+            "demisto/boto3",
+            "demisto/argus-toolbelt",
+            "demisto/smbprotocol"
         ],
         "home_page": "https://pip.pypa.io/",
         "licenses": [
@@ -5882,7 +5893,8 @@
             "demisto/ntlm",
             "demisto/ansible-runner",
             "demisto/sharepoint",
-            "demisto/py2-exchangelib"
+            "demisto/py2-exchangelib",
+            "demisto/smbprotocol"
         ],
         "home_page": "https://github.com/eliben/pycparser",
         "licenses": [
@@ -6182,6 +6194,18 @@
         "pypi_url": "https://pypi.org/project/pysmb/",
         "summary": "pysmb is an experimental SMB/CIFS library written in Python to support file sharing between Windows and Linux machines"
     },
+    "pyspnego": {
+        "author": "Jordan Borean jborean93@gmail.com",
+        "docker_images": [
+            "demisto/smbprotocol"
+        ],
+        "home_page": "https://github.com/jborean93/pyspnego",
+        "licenses": [
+            "License :: OSI Approved :: MIT License"
+        ],
+        "pypi_url": "https://pypi.org/project/pyspnego/",
+        "summary": "Windows Negotiate Authentication Client and Server"
+    },
     "python-daemon": {
         "author": "Ben Finney ben+python@benfinney.id.au",
         "docker_images": [
@@ -6346,11 +6370,12 @@
             "demisto/gvault",
             "demisto/google-api",
             "demisto/py42",
-            "demisto/boto3py3",
             "demisto/google-vision-api",
-            "demisto/boto3",
             "demisto/pymongo",
-            "demisto/argus-toolbelt"
+            "demisto/boto3py3",
+            "demisto/boto3",
+            "demisto/argus-toolbelt",
+            "demisto/smbprotocol"
         ],
         "home_page": "https://dateutil.readthedocs.io",
         "licenses": [
@@ -6594,11 +6619,12 @@
             "demisto/gvault",
             "demisto/google-api",
             "demisto/py42",
-            "demisto/boto3py3",
             "demisto/google-vision-api",
-            "demisto/boto3",
             "demisto/pymongo",
-            "demisto/argus-toolbelt"
+            "demisto/boto3py3",
+            "demisto/boto3",
+            "demisto/argus-toolbelt",
+            "demisto/smbprotocol"
         ],
         "home_page": "http://pythonhosted.org/pytz",
         "licenses": [
@@ -6815,11 +6841,12 @@
             "demisto/gvault",
             "demisto/google-api",
             "demisto/py42",
-            "demisto/boto3py3",
             "demisto/google-vision-api",
-            "demisto/boto3",
             "demisto/pymongo",
-            "demisto/argus-toolbelt"
+            "demisto/boto3py3",
+            "demisto/boto3",
+            "demisto/argus-toolbelt",
+            "demisto/smbprotocol"
         ],
         "home_page": "https://bitbucket.org/mrabarnett/mrab-regex",
         "licenses": [
@@ -6990,11 +7017,12 @@
             "demisto/gvault",
             "demisto/google-api",
             "demisto/py42",
-            "demisto/boto3py3",
             "demisto/google-vision-api",
-            "demisto/boto3",
             "demisto/pymongo",
-            "demisto/argus-toolbelt"
+            "demisto/boto3py3",
+            "demisto/boto3",
+            "demisto/argus-toolbelt",
+            "demisto/smbprotocol"
         ],
         "home_page": "http://python-requests.org",
         "licenses": [
@@ -7135,11 +7163,12 @@
             "demisto/gvault",
             "demisto/google-api",
             "demisto/py42",
-            "demisto/boto3py3",
             "demisto/google-vision-api",
-            "demisto/boto3",
             "demisto/pymongo",
-            "demisto/argus-toolbelt"
+            "demisto/boto3py3",
+            "demisto/boto3",
+            "demisto/argus-toolbelt",
+            "demisto/smbprotocol"
         ],
         "home_page": "http://github.com/dashea/requests-file",
         "licenses": [
@@ -7615,11 +7644,12 @@
             "demisto/gvault",
             "demisto/google-api",
             "demisto/py42",
-            "demisto/boto3py3",
             "demisto/google-vision-api",
-            "demisto/boto3",
             "demisto/pymongo",
-            "demisto/argus-toolbelt"
+            "demisto/boto3py3",
+            "demisto/boto3",
+            "demisto/argus-toolbelt",
+            "demisto/smbprotocol"
         ],
         "home_page": "https://github.com/pypa/setuptools",
         "licenses": [
@@ -7832,11 +7862,12 @@
             "demisto/gvault",
             "demisto/google-api",
             "demisto/py42",
-            "demisto/boto3py3",
             "demisto/google-vision-api",
-            "demisto/boto3",
             "demisto/pymongo",
-            "demisto/argus-toolbelt"
+            "demisto/boto3py3",
+            "demisto/boto3",
+            "demisto/argus-toolbelt",
+            "demisto/smbprotocol"
         ],
         "home_page": "https://github.com/benjaminp/six",
         "licenses": [
@@ -7880,6 +7911,18 @@
         ],
         "pypi_url": "https://pypi.org/project/smartsheet-python-sdk/",
         "summary": "Library that uses Python to connect to Smartsheet services (using API 2.0)."
+    },
+    "smbprotocol": {
+        "author": "Jordan Borean jborean93@gmail.com",
+        "docker_images": [
+            "demisto/smbprotocol"
+        ],
+        "home_page": "https://github.com/jborean93/smbprotocol",
+        "licenses": [
+            "License :: OSI Approved :: MIT License"
+        ],
+        "pypi_url": "https://pypi.org/project/smbprotocol/",
+        "summary": "Interact with a server using the SMB 2/3 Protocol"
     },
     "smime": {
         "author": "G. B. Versiani guibv@yahoo.com",
@@ -8502,11 +8545,12 @@
             "demisto/gvault",
             "demisto/google-api",
             "demisto/py42",
-            "demisto/boto3py3",
             "demisto/google-vision-api",
-            "demisto/boto3",
             "demisto/pymongo",
-            "demisto/argus-toolbelt"
+            "demisto/boto3py3",
+            "demisto/boto3",
+            "demisto/argus-toolbelt",
+            "demisto/smbprotocol"
         ],
         "home_page": "https://github.com/john-kurkowski/tldextract",
         "licenses": [
@@ -8762,11 +8806,12 @@
             "demisto/gvault",
             "demisto/google-api",
             "demisto/py42",
-            "demisto/boto3py3",
             "demisto/google-vision-api",
-            "demisto/boto3",
             "demisto/pymongo",
-            "demisto/argus-toolbelt"
+            "demisto/boto3py3",
+            "demisto/boto3",
+            "demisto/argus-toolbelt",
+            "demisto/smbprotocol"
         ],
         "home_page": "https://github.com/regebro/tzlocal",
         "licenses": [
@@ -8969,11 +9014,12 @@
             "demisto/gvault",
             "demisto/google-api",
             "demisto/py42",
-            "demisto/boto3py3",
             "demisto/google-vision-api",
-            "demisto/boto3",
             "demisto/pymongo",
-            "demisto/argus-toolbelt"
+            "demisto/boto3py3",
+            "demisto/boto3",
+            "demisto/argus-toolbelt",
+            "demisto/smbprotocol"
         ],
         "home_page": "https://urllib3.readthedocs.io/",
         "licenses": [
@@ -9388,11 +9434,12 @@
             "demisto/gvault",
             "demisto/google-api",
             "demisto/py42",
-            "demisto/boto3py3",
             "demisto/google-vision-api",
-            "demisto/boto3",
             "demisto/pymongo",
-            "demisto/argus-toolbelt"
+            "demisto/boto3py3",
+            "demisto/boto3",
+            "demisto/argus-toolbelt",
+            "demisto/smbprotocol"
         ],
         "home_page": "https://github.com/pypa/wheel",
         "licenses": [

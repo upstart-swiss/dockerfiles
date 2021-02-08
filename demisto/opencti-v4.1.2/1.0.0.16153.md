@@ -1,28 +1,28 @@
-# `demisto/crypto:1.0.0.16220`
+# `demisto/opencti-v4.1.2:1.0.0.16153`
 ## Docker Metadata
-- Image Size: `26.46 MB`
-- Image ID: `sha256:9ba233876f92d7ed00e75212c2ac59ded53a33e94bd4015f370e5c6d5ee7038c`
-- Created: `2021-02-07T17:51:32.894581573Z`
+- Image Size: `26.12 MB`
+- Image ID: `sha256:622eb7e005673428056e2c7347282f36a79f455671b9bc1152b90adecfd98d4e`
+- Created: `2021-02-07T08:45:27.78551994Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
   - `PATH=/usr/local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin`
   - `LANG=C.UTF-8`
   - `GPG_KEY=E3FF2839C048B25C084DEBE9B26995E310250568`
-  - `PYTHON_VERSION=3.8.6`
-  - `PYTHON_PIP_VERSION=20.2.3`
-  - `PYTHON_GET_PIP_URL=https://github.com/pypa/get-pip/raw/fa7dc83944936bf09a0e4cb5d5ec852c0d256599/get-pip.py`
-  - `PYTHON_GET_PIP_SHA256=6e0bb0a2c2533361d7f297ed547237caf1b7507f197835974c0dd7eba998c53c`
-  - `DOCKER_IMAGE=demisto/crypto:1.0.0.16220`
+  - `PYTHON_VERSION=3.9.1`
+  - `PYTHON_PIP_VERSION=21.0`
+  - `PYTHON_GET_PIP_URL=https://github.com/pypa/get-pip/raw/8cc88aca7d9775fce279e8b84ef163cf1d3e8a2e/get-pip.py`
+  - `PYTHON_GET_PIP_SHA256=ffb67da2e976f48dd29714fc64812d1ac419eb7d48079737166dd95640d1debd`
+  - `DOCKER_IMAGE=demisto/opencti-v4.1.2:1.0.0.16153`
 - Labels:
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:0ce633e3c5aaf953ed5939afefdfa23c2c4b7757`
-  - `org.opencontainers.image.version:1.0.0.16220`
+  - `org.opencontainers.image.revision:810449ffee2786b353105f092f6c57e4da5df965`
+  - `org.opencontainers.image.version:1.0.0.16153`
 
 - OS Release:
   - `NAME="Alpine Linux"`
   - `ID=alpine`
-  - `VERSION_ID=3.12.0`
+  - `VERSION_ID=3.12.3`
   - `PRETTY_NAME="Alpine Linux v3.12"`
   - `HOME_URL="https://alpinelinux.org/"`
   - `BUG_REPORT_URL="https://bugs.alpinelinux.org/"`
@@ -30,38 +30,38 @@
 ## Docker Trust
 ```
 
-Signatures for demisto/crypto:1.0.0.16220
+Signatures for demisto/opencti-v4.1.2:1.0.0.16153
 
 SIGNED TAG          DIGEST                                                             SIGNERS
-1.0.0.16220         0c328047db8fc8038e0a14cc4e0e39672e2dac6b0c0f575cd2baecc4af68f510   (Repo Admin)
+1.0.0.16153         72b2d79c8ebdafba4573ae9f6595ee6f314e83eaffd7b860da81f780e1e843ee   (Repo Admin)
 
-Administrative keys for demisto/crypto:1.0.0.16220
+Administrative keys for demisto/opencti-v4.1.2:1.0.0.16153
 
-  Repository Key:	220ec19f346d59cc2cd852f42c8e3b659f963a92d6981d7ca1f4ca77409d6a6c
-  Root Key:	ee857216bbb94fc0d393463890ba6b4e0a8945b3fee2eb1caee5027b76b21570
+  Repository Key:	021be5abfe75238885dabdbd48bd53ba2e732af03c4fe25704ff31a5dfb76b5d
+  Root Key:	f16e45e15b9082738150ec857c553f185a9e4811b03156744aa335f59d5067d2
 
 ```
 
 ## `Python Packages`
 
 
+### `antlr4-python3-runtime`
+
+* Summary: ANTLR 4.9.1 runtime for Python 3.7
+* Version: 4.8
+* Pypi: https://pypi.org/project/antlr4-python3-runtime/
+* Homepage: http://www.antlr.org
+* Author: Eric Vergnaud, Terence Parr, Sam Harwell eric.vergnaud@wanadoo.fr
+* License: BSD
+
 ### `certifi`
 
 * Summary: Python package for providing Mozilla's CA Bundle.
-* Version: 2020.6.20
+* Version: 2020.12.5
 * Pypi: https://pypi.org/project/certifi/
 * Homepage: https://certifiio.readthedocs.io/en/latest/
 * Author: Kenneth Reitz me@kennethreitz.com
 * License :: OSI Approved :: Mozilla Public License 2.0 (MPL 2.0)
-
-### `cffi`
-
-* Summary: Foreign Function Interface for Python calling C code.
-* Version: 1.14.4
-* Pypi: https://pypi.org/project/cffi/
-* Homepage: http://cffi.readthedocs.org
-* Author: Armin Rigo, Maciej Fijalkowski python-cffi@googlegroups.com
-* License :: OSI Approved :: MIT License
 
 ### `chardet`
 
@@ -72,15 +72,14 @@ Administrative keys for demisto/crypto:1.0.0.16220
 * Author: Mark Pilgrim mark@diveintomark.org
 * License :: OSI Approved :: GNU Library or Lesser General Public License (LGPL)
 
-### `cryptography`
+### `datefinder`
 
-* Summary: cryptography is a package which provides cryptographic recipes and primitives to Python developers.
-* Version: 3.3.2
-* Pypi: https://pypi.org/project/cryptography/
-* Homepage: https://github.com/pyca/cryptography
-* Author: The Python Cryptographic Authority and individual contributors cryptography-dev@python.org
-* License :: OSI Approved :: Apache Software License
-* License :: OSI Approved :: BSD License
+* Summary: Extract datetime objects from strings
+* Version: 0.7.1
+* Pypi: https://pypi.org/project/datefinder/
+* Homepage: https://github.com/akoumjian/datefinder
+* Author: Alec Koumjian akoumjian@gmail.com
+* License :: OSI Approved :: MIT License
 
 ### `dateparser`
 
@@ -118,6 +117,15 @@ Administrative keys for demisto/crypto:1.0.0.16220
 * Author: Philippe Lagadec nospam@decalage.info
 * License :: OSI Approved :: BSD License
 
+### `pika`
+
+* Summary: Pika Python AMQP Client Library
+* Version: 1.1.0
+* Pypi: https://pypi.org/project/pika/
+* Homepage: https://pika.readthedocs.io
+* Author: 
+* License :: OSI Approved :: BSD License
+
 ### `pip`
 
 * Summary: The PyPA recommended tool for installing Python packages.
@@ -127,14 +135,14 @@ Administrative keys for demisto/crypto:1.0.0.16220
 * Author: The pip developers distutils-sig@python.org
 * License :: OSI Approved :: MIT License
 
-### `pycparser`
+### `pycti`
 
-* Summary: C parser in Python
-* Version: 2.20
-* Pypi: https://pypi.org/project/pycparser/
-* Homepage: https://github.com/eliben/pycparser
-* Author: Eli Bendersky eliben@gmail.com
-* License :: OSI Approved :: BSD License
+* Summary: Python API client for OpenCTI.
+* Version: 4.1.2
+* Pypi: https://pypi.org/project/pycti/
+* Homepage: https://github.com/OpenCTI-Platform/client-python
+* Author: OpenCTI contact@opencti.io
+* License :: OSI Approved :: Apache Software License
 
 ### `PySocks`
 
@@ -155,10 +163,19 @@ Administrative keys for demisto/crypto:1.0.0.16220
 * License :: OSI Approved :: Apache Software License
 * License :: OSI Approved :: BSD License
 
+### `python-magic`
+
+* Summary: File type identification using libmagic
+* Version: 0.4.18
+* Pypi: https://pypi.org/project/python-magic/
+* Homepage: http://github.com/ahupp/python-magic
+* Author: Adam Hupp adam@hupp.org
+* License :: OSI Approved :: MIT License
+
 ### `pytz`
 
 * Summary: World timezone definitions, modern and historical
-* Version: 2020.1
+* Version: 2020.4
 * Pypi: https://pypi.org/project/pytz/
 * Homepage: http://pythonhosted.org/pytz
 * Author: Stuart Bishop stuart@stuartbishop.net
@@ -176,7 +193,7 @@ Administrative keys for demisto/crypto:1.0.0.16220
 ### `regex`
 
 * Summary: Alternative regular expression module, to replace re.
-* Version: 2020.9.27
+* Version: 2020.11.13
 * Pypi: https://pypi.org/project/regex/
 * Homepage: https://bitbucket.org/mrabarnett/mrab-regex
 * Author: Matthew Barnett regex@mrabarnett.plus.com
@@ -185,7 +202,7 @@ Administrative keys for demisto/crypto:1.0.0.16220
 ### `requests`
 
 * Summary: Python HTTP for Humans.
-* Version: 2.24.0
+* Version: 2.25.0
 * Pypi: https://pypi.org/project/requests/
 * Homepage: https://requests.readthedocs.io
 * Author: Kenneth Reitz me@kennethreitz.org
@@ -203,10 +220,20 @@ Administrative keys for demisto/crypto:1.0.0.16220
 ### `setuptools`
 
 * Summary: Easily download, build, install, upgrade, and uninstall Python packages
-* Version: 50.3.0
+* Version: 52.0.0
 * Pypi: https://pypi.org/project/setuptools/
 * Homepage: https://github.com/pypa/setuptools
 * Author: Python Packaging Authority distutils-sig@python.org
+* License :: OSI Approved :: MIT License
+
+### `simplejson`
+
+* Summary: Simple, fast, extensible JSON encoder/decoder for Python
+* Version: 3.17.2
+* Pypi: https://pypi.org/project/simplejson/
+* Homepage: https://github.com/simplejson/simplejson
+* Author: Bob Ippolito bob@redivi.com
+* License :: OSI Approved :: Academic Free License (AFL)
 * License :: OSI Approved :: MIT License
 
 ### `six`
@@ -217,6 +244,33 @@ Administrative keys for demisto/crypto:1.0.0.16220
 * Homepage: https://github.com/benjaminp/six
 * Author: Benjamin Peterson benjamin@python.org
 * License :: OSI Approved :: MIT License
+
+### `sseclient`
+
+* Summary: Python client library for reading Server Sent Event streams.
+* Version: 0.0.27
+* Pypi: https://pypi.org/project/sseclient/
+* Homepage: https://github.com/btubbs/sseclient
+* Author: Brent Tubbs brent.tubbs@gmail.com
+* License :: OSI Approved :: MIT License
+
+### `stix2`
+
+* Summary: Produce and consume STIX 2 JSON content
+* Version: 2.1.0
+* Pypi: https://pypi.org/project/stix2/
+* Homepage: https://oasis-open.github.io/cti-documentation/
+* Author: OASIS Cyber Threat Intelligence Technical Committee cti-users@lists.oasis-open.org
+* License :: OSI Approved :: BSD License
+
+### `stix2-patterns`
+
+* Summary: Validate STIX 2 Patterns.
+* Version: 1.3.2
+* Pypi: https://pypi.org/project/stix2-patterns/
+* Homepage: https://github.com/oasis-open/cti-pattern-validator
+* Author: OASIS Cyber Threat Intelligence Technical Committee cti-users@lists.oasis-open.org
+* License :: OSI Approved :: BSD License
 
 ### `tldextract`
 
@@ -239,7 +293,7 @@ Administrative keys for demisto/crypto:1.0.0.16220
 ### `urllib3`
 
 * Summary: HTTP library with thread-safe connection pooling, file post, and more.
-* Version: 1.25.10
+* Version: 1.26.3
 * Pypi: https://pypi.org/project/urllib3/
 * Homepage: https://urllib3.readthedocs.io/
 * Author: Andrey Petrov andrey.petrov@shazow.net
@@ -248,7 +302,7 @@ Administrative keys for demisto/crypto:1.0.0.16220
 ### `wheel`
 
 * Summary: A built-package format for Python
-* Version: 0.35.1
+* Version: 0.36.2
 * Pypi: https://pypi.org/project/wheel/
 * Homepage: https://github.com/pypa/wheel
 * Author: Daniel Holth dholth@fastmail.fm
@@ -256,7 +310,7 @@ Administrative keys for demisto/crypto:1.0.0.16220
 
 ## `OS Packages`
 
-* .python-rundeps-20200924.220258 noarch {.python-rundeps}
+* .python-rundeps-20201217.020155 noarch {.python-rundeps}
 * alpine-baselayout-3.2.0-r7 x86_64 {alpine-baselayout}
 * alpine-keys-2.2-r0 x86_64 {alpine-keys}
 * apk-tools-2.10.5-r1 x86_64 {apk-tools}
@@ -267,13 +321,14 @@ Administrative keys for demisto/crypto:1.0.0.16220
 * gdbm-1.13-r1 x86_64 {gdbm}
 * keyutils-libs-1.6.1-r1 x86_64 {keyutils}
 * krb5-conf-1.0-r2 x86_64 {krb5-conf}
-* krb5-libs-1.18.2-r0 x86_64 {krb5}
+* krb5-libs-1.18.3-r0 x86_64 {krb5}
 * libbz2-1.0.8-r1 x86_64 {bzip2}
 * libc-utils-0.7.2-r3 x86_64 {libc-dev}
 * libcom_err-1.45.6-r0 x86_64 {e2fsprogs}
 * libcrypto1.1-1.1.1i-r0 x86_64 {openssl}
 * libffi-3.3-r2 x86_64 {libffi}
 * libintl-0.20.2-r0 x86_64 {gettext}
+* libmagic-5.38-r0 x86_64 {file}
 * libnsl-1.2.0-r1 x86_64 {libnsl}
 * libssl1.1-1.1.1i-r0 x86_64 {openssl}
 * libtirpc-1.2.6-r0 x86_64 {libtirpc}
@@ -282,12 +337,13 @@ Administrative keys for demisto/crypto:1.0.0.16220
 * libuuid-2.35.2-r0 x86_64 {util-linux}
 * libverto-0.3.1-r1 x86_64 {libverto}
 * musl-1.1.24-r10 x86_64 {musl}
-* musl-utils-1.1.24-r9 x86_64 {musl}
+* musl-utils-1.1.24-r10 x86_64 {musl}
 * ncurses-libs-6.2_p20200523-r0 x86_64 {ncurses}
 * ncurses-terminfo-base-6.2_p20200523-r0 x86_64 {ncurses}
 * readline-8.0.4-r0 x86_64 {readline}
 * scanelf-1.2.6-r0 x86_64 {pax-utils}
 * sqlite-libs-3.32.1-r0 x86_64 {sqlite}
 * ssl_client-1.31.1-r19 x86_64 {busybox}
+* tzdata-2020f-r0 x86_64 {tzdata}
 * xz-libs-5.2.5-r0 x86_64 {xz}
 * zlib-1.2.11-r3 x86_64 {zlib}

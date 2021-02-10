@@ -1,8 +1,8 @@
-# `demisto/google-kms:1.0.0.16437`
+# `demisto/unifi-video:1.0.0.16385`
 ## Docker Metadata
-- Image Size: `59.63 MB`
-- Image ID: `sha256:56302e72fc391210dda496d3d566495c7b41e897ab1e692aa8cfac3c7291320e`
-- Created: `2021-02-09T22:28:46.014726884Z`
+- Image Size: `167.28 MB`
+- Image ID: `sha256:4139a83baaea148afbcabbe1b05531fe980884db993557a5664fda55c6c2384c`
+- Created: `2021-02-09T08:03:47.055716931Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -10,14 +10,14 @@
   - `LANG=C.UTF-8`
   - `GPG_KEY=E3FF2839C048B25C084DEBE9B26995E310250568`
   - `PYTHON_VERSION=3.9.1`
-  - `PYTHON_PIP_VERSION=21.0`
-  - `PYTHON_GET_PIP_URL=https://github.com/pypa/get-pip/raw/8cc88aca7d9775fce279e8b84ef163cf1d3e8a2e/get-pip.py`
-  - `PYTHON_GET_PIP_SHA256=ffb67da2e976f48dd29714fc64812d1ac419eb7d48079737166dd95640d1debd`
-  - `DOCKER_IMAGE=demisto/google-kms:1.0.0.16437`
+  - `PYTHON_PIP_VERSION=20.3.3`
+  - `PYTHON_GET_PIP_URL=https://github.com/pypa/get-pip/raw/5f38681f7f5872e4032860b54e9cc11cf0374932/get-pip.py`
+  - `PYTHON_GET_PIP_SHA256=6a0b13826862f33c13b614a921d36253bfa1ae779c5fbf569876f3585057e9d2`
+  - `DOCKER_IMAGE=demisto/unifi-video:1.0.0.16385`
 - Labels:
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:9b7bc632ac197582af9b87704c70a989386b4ade`
-  - `org.opencontainers.image.version:1.0.0.16437`
+  - `org.opencontainers.image.revision:0ad25058431a5cff8a6b478a3a182a2c5321ff3a`
+  - `org.opencontainers.image.version:1.0.0.16385`
 
 - OS Release:
   - `PRETTY_NAME="Debian GNU/Linux 10 (buster)"`
@@ -33,29 +33,20 @@
 ## Docker Trust
 ```
 
-Signatures for demisto/google-kms:1.0.0.16437
+Signatures for demisto/unifi-video:1.0.0.16385
 
 SIGNED TAG          DIGEST                                                             SIGNERS
-1.0.0.16437         81d5bd65deecd77f525a2caccdb055b6ab079dfa73e6d7d9b04194c518e127e5   (Repo Admin)
+1.0.0.16385         fc6aa48a7910dc8922d35e3b472ca27cd99606ca176abfc90f0be1df5a60481c   (Repo Admin)
 
-Administrative keys for demisto/google-kms:1.0.0.16437
+Administrative keys for demisto/unifi-video:1.0.0.16385
 
-  Repository Key:	3968c10ba3e31bc8df33d81159ca1fe0b3299a456046b6bf78410ae84ede0850
-  Root Key:	d0fd563a2245b5e45fc961df4aaaa6e8aaca915308df0a0eeb6c829867f63a34
+  Repository Key:	e972be77ca864ed5e650ef2eb72d354a93ae8117f099d8b990ec59c3f901cd06
+  Root Key:	8880f0994c7c47d9059dbb45eead1e0071907356eb3b991fb65130f02162953a
 
 ```
 
 ## `Python Packages`
 
-
-### `cachetools`
-
-* Summary: Extensible memoizing collections and decorators
-* Version: 4.2.1
-* Pypi: https://pypi.org/project/cachetools/
-* Homepage: https://github.com/tkem/cachetools/
-* Author: Thomas Kemmer tkemmer@computer.org
-* License :: OSI Approved :: MIT License
 
 ### `certifi`
 
@@ -66,15 +57,6 @@ Administrative keys for demisto/google-kms:1.0.0.16437
 * Author: Kenneth Reitz me@kennethreitz.com
 * License :: OSI Approved :: Mozilla Public License 2.0 (MPL 2.0)
 
-### `cffi`
-
-* Summary: Foreign Function Interface for Python calling C code.
-* Version: 1.14.4
-* Pypi: https://pypi.org/project/cffi/
-* Homepage: http://cffi.readthedocs.org
-* Author: Armin Rigo, Maciej Fijalkowski python-cffi@googlegroups.com
-* License :: OSI Approved :: MIT License
-
 ### `chardet`
 
 * Summary: Universal encoding detector for Python 2 and 3
@@ -83,16 +65,6 @@ Administrative keys for demisto/google-kms:1.0.0.16437
 * Homepage: https://github.com/chardet/chardet
 * Author: Mark Pilgrim mark@diveintomark.org
 * License :: OSI Approved :: GNU Library or Lesser General Public License (LGPL)
-
-### `cryptography`
-
-* Summary: cryptography is a package which provides cryptographic recipes and primitives to Python developers.
-* Version: 3.4.4
-* Pypi: https://pypi.org/project/cryptography/
-* Homepage: https://github.com/pyca/cryptography
-* Author: The Python Cryptographic Authority and individual contributors cryptography-dev@python.org
-* License :: OSI Approved :: Apache Software License
-* License :: OSI Approved :: BSD License
 
 ### `dateparser`
 
@@ -112,60 +84,6 @@ Administrative keys for demisto/google-kms:1.0.0.16437
 * Author: Alexander Schepanovski suor.web@gmail.com
 * License :: OSI Approved :: BSD License
 
-### `google-api-core`
-
-* Summary: Google API client core library
-* Version: 1.26.0
-* Pypi: https://pypi.org/project/google-api-core/
-* Homepage: https://github.com/googleapis/python-api-core
-* Author: Google LLC googleapis-packages@google.com
-* License :: OSI Approved :: Apache Software License
-
-### `google-auth`
-
-* Summary: Google Authentication Library
-* Version: 1.25.0
-* Pypi: https://pypi.org/project/google-auth/
-* Homepage: https://github.com/googleapis/google-auth-library-python
-* Author: Google Cloud Platform googleapis-packages@google.com
-* License :: OSI Approved :: Apache Software License
-
-### `google-cloud-kms`
-
-* Summary: Cloud Key Management Service (KMS) API client library
-* Version: 2.2.0
-* Pypi: https://pypi.org/project/google-cloud-kms/
-* Homepage: https://github.com/googleapis/python-kms
-* Author: Google LLC googleapis-packages@google.com
-* License :: OSI Approved :: Apache Software License
-
-### `googleapis-common-protos`
-
-* Summary: Common protobufs used in Google APIs
-* Version: 1.52.0
-* Pypi: https://pypi.org/project/googleapis-common-protos/
-* Homepage: https://github.com/googleapis/python-api-common-protos
-* Author: Google LLC googleapis-packages@google.com
-* License :: OSI Approved :: Apache Software License
-
-### `grpc-google-iam-v1`
-
-* Summary: GRPC library for the google-iam-v1 service
-* Version: 0.12.3
-* Pypi: https://pypi.org/project/grpc-google-iam-v1/
-* Homepage: https://github.com/googleapis/googleapis
-* Author: Google Inc googleapis-packages@google.com
-* License :: OSI Approved :: Apache Software License
-
-### `grpcio`
-
-* Summary: HTTP/2-based RPC framework
-* Version: 1.35.0
-* Pypi: https://pypi.org/project/grpcio/
-* Homepage: https://grpc.io
-* Author: The gRPC Authors grpc-io@googlegroups.com
-* License :: OSI Approved :: Apache Software License
-
 ### `idna`
 
 * Summary: Internationalized Domain Names in Applications (IDNA)
@@ -175,23 +93,23 @@ Administrative keys for demisto/google-kms:1.0.0.16437
 * Author: Kim Davies kim@cynosure.com.au
 * License :: OSI Approved :: BSD License
 
-### `libcst`
+### `imutils`
 
-* Summary: A concrete syntax tree with AST-like properties for Python 3.5, 3.6, 3.7 and 3.8 programs.
-* Version: 0.3.17
-* Pypi: https://pypi.org/project/libcst/
-* Homepage: https://github.com/Instagram/LibCST
-* Author: 
-* License :: OSI Approved :: MIT License
+* Summary: A series of convenience functions to make basic image processing functions such as translation, rotation, resizing, skeletonization, displaying Matplotlib images, sorting contours, detecting edges, and much more easier with OpenCV and both Python 2.7 and Python 3.
+* Version: 0.5.3
+* Pypi: https://pypi.org/project/imutils/
+* Homepage: https://github.com/jrosebr1/imutils
+* Author: Adrian Rosebrock adrian@pyimagesearch.com
+* License :: MIT License
 
-### `mypy-extensions`
+### `numpy`
 
-* Summary: Experimental type system extensions for programs checked with the mypy typechecker.
-* Version: 0.4.3
-* Pypi: https://pypi.org/project/mypy-extensions/
-* Homepage: https://github.com/python/mypy_extensions
-* Author: The mypy developers jukka.lehtosalo@iki.fi
-* License :: OSI Approved :: MIT License
+* Summary: NumPy is the fundamental package for array computing with Python.
+* Version: 1.19.5
+* Pypi: https://pypi.org/project/numpy/
+* Homepage: https://www.numpy.org
+* Author: Travis E. Oliphant et al.
+* License :: OSI Approved :: BSD License
 
 ### `olefile`
 
@@ -202,15 +120,14 @@ Administrative keys for demisto/google-kms:1.0.0.16437
 * Author: Philippe Lagadec nospam@decalage.info
 * License :: OSI Approved :: BSD License
 
-### `packaging`
+### `opencv-contrib-python`
 
-* Summary: Core utilities for Python packages
-* Version: 20.9
-* Pypi: https://pypi.org/project/packaging/
-* Homepage: https://github.com/pypa/packaging
-* Author: Donald Stufft and individual contributors donald@stufft.io
-* License :: OSI Approved :: Apache Software License
-* License :: OSI Approved :: BSD License
+* Summary: Wrapper package for OpenCV python bindings.
+* Version: 4.5.1.48
+* Pypi: https://pypi.org/project/opencv-contrib-python/
+* Homepage: https://github.com/skvark/opencv-python
+* Author: 
+* License :: OSI Approved :: MIT License
 
 ### `pip`
 
@@ -219,60 +136,6 @@ Administrative keys for demisto/google-kms:1.0.0.16437
 * Pypi: https://pypi.org/project/pip/
 * Homepage: https://pip.pypa.io/
 * Author: The pip developers distutils-sig@python.org
-* License :: OSI Approved :: MIT License
-
-### `proto-plus`
-
-* Summary: Beautiful, Pythonic protocol buffers.
-* Version: 1.13.0
-* Pypi: https://pypi.org/project/proto-plus/
-* Homepage: https://github.com/googleapis/proto-plus-python.git
-* Author: Google LLC googleapis-packages@google.com
-* License :: OSI Approved :: Apache Software License
-
-### `protobuf`
-
-* Summary: Protocol Buffers
-* Version: 3.14.0
-* Pypi: https://pypi.org/project/protobuf/
-* Homepage: https://developers.google.com/protocol-buffers/
-* Author: 
-* License: 3-Clause BSD License
-
-### `pyasn1`
-
-* Summary: ASN.1 types and codecs
-* Version: 0.4.8
-* Pypi: https://pypi.org/project/pyasn1/
-* Homepage: https://github.com/etingof/pyasn1
-* Author: Ilya Etingof etingof@gmail.com
-* License :: OSI Approved :: BSD License
-
-### `pyasn1-modules`
-
-* Summary: A collection of ASN.1-based protocols modules.
-* Version: 0.2.8
-* Pypi: https://pypi.org/project/pyasn1-modules/
-* Homepage: https://github.com/etingof/pyasn1-modules
-* Author: Ilya Etingof etingof@gmail.com
-* License :: OSI Approved :: BSD License
-
-### `pycparser`
-
-* Summary: C parser in Python
-* Version: 2.20
-* Pypi: https://pypi.org/project/pycparser/
-* Homepage: https://github.com/eliben/pycparser
-* Author: Eli Bendersky eliben@gmail.com
-* License :: OSI Approved :: BSD License
-
-### `pyparsing`
-
-* Summary: Python parsing module
-* Version: 2.4.7
-* Pypi: https://pypi.org/project/pyparsing/
-* Homepage: https://github.com/pyparsing/pyparsing/
-* Author: Paul McGuire ptmcg@users.sourceforge.net
 * License :: OSI Approved :: MIT License
 
 ### `PySocks`
@@ -297,7 +160,7 @@ Administrative keys for demisto/google-kms:1.0.0.16437
 ### `pytz`
 
 * Summary: World timezone definitions, modern and historical
-* Version: 2021.1
+* Version: 2020.4
 * Pypi: https://pypi.org/project/pytz/
 * Homepage: http://pythonhosted.org/pytz
 * Author: Stuart Bishop stuart@stuartbishop.net
@@ -306,7 +169,7 @@ Administrative keys for demisto/google-kms:1.0.0.16437
 ### `PyYAML`
 
 * Summary: YAML parser and emitter for Python
-* Version: 5.4.1
+* Version: 5.3.1
 * Pypi: https://pypi.org/project/PyYAML/
 * Homepage: https://pyyaml.org/
 * Author: Kirill Simonov xi@resolvent.net
@@ -339,19 +202,10 @@ Administrative keys for demisto/google-kms:1.0.0.16437
 * Author: David Shea reallylongword@gmail.com
 * License :: OSI Approved :: Apache Software License
 
-### `rsa`
-
-* Summary: Pure-Python RSA implementation
-* Version: 4.7
-* Pypi: https://pypi.org/project/rsa/
-* Homepage: https://stuvel.eu/rsa
-* Author: Sybren A. Stuvel sybren@stuvel.eu
-* License :: OSI Approved :: Apache Software License
-
 ### `setuptools`
 
 * Summary: Easily download, build, install, upgrade, and uninstall Python packages
-* Version: 52.0.0
+* Version: 51.0.0
 * Pypi: https://pypi.org/project/setuptools/
 * Homepage: https://github.com/pypa/setuptools
 * Author: Python Packaging Authority distutils-sig@python.org
@@ -375,24 +229,6 @@ Administrative keys for demisto/google-kms:1.0.0.16437
 * Author: John Kurkowski john.kurkowski@gmail.com
 * License :: OSI Approved :: BSD License
 
-### `typing-extensions`
-
-* Summary: Backported and Experimental Type Hints for Python 3.5+
-* Version: 3.7.4.3
-* Pypi: https://pypi.org/project/typing-extensions/
-* Homepage: https://github.com/python/typing/blob/master/typing_extensions/README.rst
-* Author: Guido van Rossum, Jukka Lehtosalo, Lukasz Langa, Michael Lee levkivskyi@gmail.com
-* License :: OSI Approved :: Python Software Foundation License
-
-### `typing-inspect`
-
-* Summary: Runtime inspection utilities for typing module.
-* Version: 0.6.0
-* Pypi: https://pypi.org/project/typing-inspect/
-* Homepage: https://github.com/ilevkivskyi/typing_inspect
-* Author: Ivan Levkivskyi levkivskyi@gmail.com
-* License :: OSI Approved :: MIT License
-
 ### `tzlocal`
 
 * Summary: tzinfo object for the local timezone
@@ -402,10 +238,19 @@ Administrative keys for demisto/google-kms:1.0.0.16437
 * Author: Lennart Regebro regebro@gmail.com
 * License :: OSI Approved :: MIT License
 
+### `unifi-video`
+
+* Summary: Python API for UniFi Video
+* Version: 0.2.0
+* Pypi: https://pypi.org/project/unifi-video/
+* Homepage: https://github.com/yuppity/unifi-video-api
+* Author: yuppity yuppity_pypi@wubbalubba.com
+* License :: OSI Approved :: MIT License
+
 ### `urllib3`
 
 * Summary: HTTP library with thread-safe connection pooling, file post, and more.
-* Version: 1.26.3
+* Version: 1.26.2
 * Pypi: https://pypi.org/project/urllib3/
 * Homepage: https://urllib3.readthedocs.io/
 * Author: Andrey Petrov andrey.petrov@shazow.net
@@ -451,6 +296,7 @@ Administrative keys for demisto/google-kms:1.0.0.16437
 * libaudit-common	1:2.8.4-3
 * libaudit1:amd64	1:2.8.4-3
 * libblkid1:amd64	2.33.1-0.1
+* libbsd0:amd64	0.9.1-2
 * libbz2-1.0:amd64	1.0.6-9.2~deb10u1
 * libc-bin	2.28-10
 * libc6:amd64	2.28-10
@@ -458,6 +304,14 @@ Administrative keys for demisto/google-kms:1.0.0.16437
 * libcom-err2:amd64	1.45.5-2~bpo10+1
 * libdb5.3:amd64	5.3.28+dfsg1-0.5
 * libdebconfclient0:amd64	0.249
+* libdrm-amdgpu1:amd64	2.4.97-1
+* libdrm-common	2.4.97-1
+* libdrm-intel1:amd64	2.4.97-1
+* libdrm-nouveau2:amd64	2.4.97-1
+* libdrm-radeon1:amd64	2.4.97-1
+* libdrm2:amd64	2.4.97-1
+* libedit2:amd64	3.1-20181209-1
+* libelf1:amd64	0.176-1.1
 * libexpat1:amd64	2.2.6-2+deb10u1
 * libext2fs2:amd64	1.44.5-1+deb10u3
 * libfdisk1:amd64	2.33.1-0.1
@@ -465,41 +319,77 @@ Administrative keys for demisto/google-kms:1.0.0.16437
 * libgcc1:amd64	1:8.3.0-6
 * libgcrypt20:amd64	1.8.4-5
 * libgdbm6:amd64	1.18.1-4
+* libgl1-mesa-dri:amd64	18.3.6-2+deb10u1
+* libgl1-mesa-glx:amd64	18.3.6-2+deb10u1
+* libgl1:amd64	1.1.0-1
+* libglapi-mesa:amd64	18.3.6-2+deb10u1
+* libglib2.0-0:amd64	2.58.3-2+deb10u2
+* libglib2.0-data	2.58.3-2+deb10u2
+* libglvnd0:amd64	1.1.0-1
+* libglx-mesa0:amd64	18.3.6-2+deb10u1
+* libglx0:amd64	1.1.0-1
 * libgmp10:amd64	2:6.1.2+dfsg-4
 * libgnutls30:amd64	3.6.7-4+deb10u5
 * libgpg-error0:amd64	1.35-1
 * libhogweed4:amd64	3.4.1-1
+* libice6:amd64	2:1.0.9-2
+* libicu63:amd64	63.1-6+deb10u1
 * libidn2-0:amd64	2.0.5-1+deb10u1
+* libllvm7:amd64	1:7.0.1-8+deb10u2
 * liblz4-1:amd64	1.8.3-1
 * liblzma5:amd64	5.2.4-1
 * libmount1:amd64	2.33.1-0.1
 * libncurses6:amd64	6.1+20181013-2+deb10u2
 * libncursesw6:amd64	6.1+20181013-2+deb10u2
 * libnettle6:amd64	3.4.1-1
-* libp11-kit0:amd64	0.23.15-2+deb10u1
+* libp11-kit0:amd64	0.23.15-2
 * libpam-modules-bin	1.3.1-5
 * libpam-modules:amd64	1.3.1-5
 * libpam-runtime	1.3.1-5
 * libpam0g:amd64	1.3.1-5
+* libpciaccess0:amd64	0.14-1
+* libpcre2-8-0:amd64	10.32-5
 * libpcre3:amd64	2:8.39-12
 * libprocps7:amd64	2:3.3.15-2
+* libpsl5:amd64	0.20.2-2
 * libreadline7:amd64	7.0-5
 * libseccomp2:amd64	2.4.4-1~bpo10+1
 * libselinux1:amd64	2.8-1+b1
 * libsemanage-common	2.8-2
 * libsemanage1:amd64	2.8-2
+* libsensors-config	1:3.5.0-3
+* libsensors5:amd64	1:3.5.0-3
 * libsepol1:amd64	2.8-1
+* libsm6:amd64	2:1.2.3-1
 * libsmartcols1:amd64	2.33.1-0.1
 * libsqlite3-0:amd64	3.27.2-3+deb10u1
 * libss2:amd64	1.45.5-2~bpo10+1
 * libssl1.1:amd64	1.1.1d-0+deb10u4
 * libstdc++6:amd64	8.3.0-6
-* libsystemd0:amd64	247.2-5~bpo10+1
+* libsystemd0:amd64	247.2-1~bpo10+1
 * libtasn1-6:amd64	4.13-3
 * libtinfo6:amd64	6.1+20181013-2+deb10u2
-* libudev1:amd64	247.2-5~bpo10+1
+* libudev1:amd64	247.2-1~bpo10+1
 * libunistring2:amd64	0.9.10-1
 * libuuid1:amd64	2.33.1-0.1
+* libx11-6:amd64	2:1.6.7-1+deb10u1
+* libx11-data	2:1.6.7-1+deb10u1
+* libx11-xcb1:amd64	2:1.6.7-1+deb10u1
+* libxau6:amd64	1:1.0.8-1+b2
+* libxcb-dri2-0:amd64	1.13.1-2
+* libxcb-dri3-0:amd64	1.13.1-2
+* libxcb-glx0:amd64	1.13.1-2
+* libxcb-present0:amd64	1.13.1-2
+* libxcb-sync1:amd64	1.13.1-2
+* libxcb1:amd64	1.13.1-2
+* libxdamage1:amd64	1:1.1.4-3+b3
+* libxdmcp6:amd64	1:1.1.2-3
+* libxext6:amd64	2:1.3.3-1+b2
+* libxfixes3:amd64	1:5.0.3-1
+* libxml2:amd64	2.9.4+dfsg1-7+deb10u1
+* libxrender1:amd64	1:0.9.10-1
+* libxshmfence1:amd64	1.3-1
+* libxxf86vm1:amd64	1:1.1.4-1+b2
 * libzstd1:amd64	1.4.4+dfsg-3~bpo10+1
 * login	1:4.5-1.1
 * lsb-base	10.2019051400
@@ -512,10 +402,15 @@ Administrative keys for demisto/google-kms:1.0.0.16437
 * passwd	1:4.5-1.1
 * perl-base	5.28.1-6+deb10u1
 * procps	2:3.3.15-2
+* publicsuffix	20190415.1030-1
 * readline-common	7.0-5
 * sed	4.7-1
+* shared-mime-info	1.10-1
 * sysvinit-utils	2.93-8
 * tar	1.30+dfsg-6
 * tzdata	2020e-0+deb10u1
 * util-linux	2.33.1-0.1
+* wget	1.20.1-1.1
+* x11-common	1:7.7+19
+* xdg-user-dirs	0.17-2
 * zlib1g:amd64	1:1.2.11.dfsg-1

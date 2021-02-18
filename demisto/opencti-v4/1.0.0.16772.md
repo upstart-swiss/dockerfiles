@@ -1,8 +1,8 @@
-# `demisto/python_pancloud_v2:1.0.0.16816`
+# `demisto/opencti-v4:1.0.0.16772`
 ## Docker Metadata
-- Image Size: `32.11 MB`
-- Image ID: `sha256:094e498f8787010601123696e8872fae89eff458ffdcb822ec77c33ea3c4064a`
-- Created: `2021-02-17T13:45:38.272807751Z`
+- Image Size: `25.74 MB`
+- Image ID: `sha256:bfe65cf405d2c6fd492f0494ea17d33e552650bf1278d801098be8558d52de0f`
+- Created: `2021-02-17T10:36:25.319557661Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -13,11 +13,11 @@
   - `PYTHON_PIP_VERSION=21.0`
   - `PYTHON_GET_PIP_URL=https://github.com/pypa/get-pip/raw/8cc88aca7d9775fce279e8b84ef163cf1d3e8a2e/get-pip.py`
   - `PYTHON_GET_PIP_SHA256=ffb67da2e976f48dd29714fc64812d1ac419eb7d48079737166dd95640d1debd`
-  - `DOCKER_IMAGE=demisto/python_pancloud_v2:1.0.0.16816`
+  - `DOCKER_IMAGE=demisto/opencti-v4:1.0.0.16772`
 - Labels:
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:f14f1b1ab35c3af104f09ca0b5ca6171a2330e79`
-  - `org.opencontainers.image.version:1.0.0.16816`
+  - `org.opencontainers.image.revision:32c4fa85ffb2ce102ed5f6366f9bd1dc266f2396`
+  - `org.opencontainers.image.version:1.0.0.16772`
 
 - OS Release:
   - `NAME="Alpine Linux"`
@@ -30,29 +30,29 @@
 ## Docker Trust
 ```
 
-Signatures for demisto/python_pancloud_v2:1.0.0.16816
+Signatures for demisto/opencti-v4:1.0.0.16772
 
 SIGNED TAG          DIGEST                                                             SIGNERS
-1.0.0.16816         c3edfb23bbfca02ce2c0b7128eee1a0767a8cda4e9120141018d63bdb4a21b6a   (Repo Admin)
+1.0.0.16772         181efcd1ae13e365d78435ed46f6c0c5dc03cfc489ba0579b3ce4182bc817a15   (Repo Admin)
 
-Administrative keys for demisto/python_pancloud_v2:1.0.0.16816
+Administrative keys for demisto/opencti-v4:1.0.0.16772
 
-  Repository Key:	3569ef504ba5aae7e0f7811e55d4b6bdf627b21798a99182c2994ce0cf727f99
-  Root Key:	ac2c231cd14fee0b42349f672287965fb7b941d67e899c6548a97f52f1a2769c
+  Repository Key:	b41ce04bf578b496e31711e41544a376783a7e108608f124a2e871f89df6853f
+  Root Key:	76b201ff04f8bb2411cb059b1a6e425d550e04a0745cd78dff42498c43b03669
 
 ```
 
 ## `Python Packages`
 
 
-### `arrow`
+### `antlr4-python3-runtime`
 
-* Summary: Better dates & times for Python
-* Version: 0.17.0
-* Pypi: https://pypi.org/project/arrow/
-* Homepage: https://arrow.readthedocs.io
-* Author: Chris Smith crsmithdev@gmail.com
-* License :: OSI Approved :: Apache Software License
+* Summary: ANTLR 4.9.1 runtime for Python 3.7
+* Version: 4.8
+* Pypi: https://pypi.org/project/antlr4-python3-runtime/
+* Homepage: http://www.antlr.org
+* Author: Eric Vergnaud, Terence Parr, Sam Harwell eric.vergnaud@wanadoo.fr
+* License: BSD
 
 ### `certifi`
 
@@ -63,15 +63,6 @@ Administrative keys for demisto/python_pancloud_v2:1.0.0.16816
 * Author: Kenneth Reitz me@kennethreitz.com
 * License :: OSI Approved :: Mozilla Public License 2.0 (MPL 2.0)
 
-### `cffi`
-
-* Summary: Foreign Function Interface for Python calling C code.
-* Version: 1.14.4
-* Pypi: https://pypi.org/project/cffi/
-* Homepage: http://cffi.readthedocs.org
-* Author: Armin Rigo, Maciej Fijalkowski python-cffi@googlegroups.com
-* License :: OSI Approved :: MIT License
-
 ### `chardet`
 
 * Summary: Universal encoding detector for Python 2 and 3
@@ -81,15 +72,14 @@ Administrative keys for demisto/python_pancloud_v2:1.0.0.16816
 * Author: Mark Pilgrim mark@diveintomark.org
 * License :: OSI Approved :: GNU Library or Lesser General Public License (LGPL)
 
-### `cryptography`
+### `datefinder`
 
-* Summary: cryptography is a package which provides cryptographic recipes and primitives to Python developers.
-* Version: 3.3.2
-* Pypi: https://pypi.org/project/cryptography/
-* Homepage: https://github.com/pyca/cryptography
-* Author: The Python Cryptographic Authority and individual contributors cryptography-dev@python.org
-* License :: OSI Approved :: Apache Software License
-* License :: OSI Approved :: BSD License
+* Summary: Extract datetime objects from strings
+* Version: 0.7.1
+* Pypi: https://pypi.org/project/datefinder/
+* Homepage: https://github.com/akoumjian/datefinder
+* Author: Alec Koumjian akoumjian@gmail.com
+* License :: OSI Approved :: MIT License
 
 ### `dateparser`
 
@@ -118,15 +108,6 @@ Administrative keys for demisto/python_pancloud_v2:1.0.0.16816
 * Author: Kim Davies kim@cynosure.com.au
 * License :: OSI Approved :: BSD License
 
-### `jmespath`
-
-* Summary: JSON Matching Expressions
-* Version: 0.10.0
-* Pypi: https://pypi.org/project/jmespath/
-* Homepage: https://github.com/jmespath/jmespath.py
-* Author: James Saryerwinnie js@jamesls.com
-* License :: OSI Approved :: MIT License
-
 ### `olefile`
 
 * Summary: Python package to parse, read and write Microsoft OLE2 files (Structured Storage or Compound Document, Microsoft Office)
@@ -136,14 +117,14 @@ Administrative keys for demisto/python_pancloud_v2:1.0.0.16816
 * Author: Philippe Lagadec nospam@decalage.info
 * License :: OSI Approved :: BSD License
 
-### `pancloud`
+### `pika`
 
-* Summary: Python idiomatic SDK for the Palo Alto Networks Application Framework.
-* Version: 2.0.0a2
-* Pypi: https://pypi.org/project/pancloud/
-* Homepage: https://github.com/PaloAltoNetworks/pancloud
-* Author: Steven Serrata sserrata@paloaltonetworks.com
-* License :: OSI Approved :: ISC License (ISCL)
+* Summary: Pika Python AMQP Client Library
+* Version: 1.2.0
+* Pypi: https://pypi.org/project/pika/
+* Homepage: https://pika.readthedocs.io
+* Author: 
+* License :: OSI Approved :: BSD License
 
 ### `pip`
 
@@ -154,14 +135,14 @@ Administrative keys for demisto/python_pancloud_v2:1.0.0.16816
 * Author: The pip developers distutils-sig@python.org
 * License :: OSI Approved :: MIT License
 
-### `pycparser`
+### `pycti`
 
-* Summary: C parser in Python
-* Version: 2.20
-* Pypi: https://pypi.org/project/pycparser/
-* Homepage: https://github.com/eliben/pycparser
-* Author: Eli Bendersky eliben@gmail.com
-* License :: OSI Approved :: BSD License
+* Summary: Python API client for OpenCTI.
+* Version: 4.2.2
+* Pypi: https://pypi.org/project/pycti/
+* Homepage: https://github.com/OpenCTI-Platform/client-python
+* Author: OpenCTI contact@opencti.io
+* License :: OSI Approved :: Apache Software License
 
 ### `PySocks`
 
@@ -182,10 +163,19 @@ Administrative keys for demisto/python_pancloud_v2:1.0.0.16816
 * License :: OSI Approved :: Apache Software License
 * License :: OSI Approved :: BSD License
 
+### `python-magic`
+
+* Summary: File type identification using libmagic
+* Version: 0.4.18
+* Pypi: https://pypi.org/project/python-magic/
+* Homepage: http://github.com/ahupp/python-magic
+* Author: Adam Hupp adam@hupp.org
+* License :: OSI Approved :: MIT License
+
 ### `pytz`
 
 * Summary: World timezone definitions, modern and historical
-* Version: 2020.5
+* Version: 2021.1
 * Pypi: https://pypi.org/project/pytz/
 * Homepage: http://pythonhosted.org/pytz
 * Author: Stuart Bishop stuart@stuartbishop.net
@@ -236,6 +226,16 @@ Administrative keys for demisto/python_pancloud_v2:1.0.0.16816
 * Author: Python Packaging Authority distutils-sig@python.org
 * License :: OSI Approved :: MIT License
 
+### `simplejson`
+
+* Summary: Simple, fast, extensible JSON encoder/decoder for Python
+* Version: 3.17.2
+* Pypi: https://pypi.org/project/simplejson/
+* Homepage: https://github.com/simplejson/simplejson
+* Author: Bob Ippolito bob@redivi.com
+* License :: OSI Approved :: Academic Free License (AFL)
+* License :: OSI Approved :: MIT License
+
 ### `six`
 
 * Summary: Python 2 and 3 compatibility utilities
@@ -245,14 +245,32 @@ Administrative keys for demisto/python_pancloud_v2:1.0.0.16816
 * Author: Benjamin Peterson benjamin@python.org
 * License :: OSI Approved :: MIT License
 
-### `tinydb`
+### `sseclient`
 
-* Summary: TinyDB is a tiny, document oriented database optimized for your happiness :)
-* Version: 4.3.0
-* Pypi: https://pypi.org/project/tinydb/
-* Homepage: https://github.com/msiemens/tinydb
-* Author: Markus Siemens markus@m-siemens.de
+* Summary: Python client library for reading Server Sent Event streams.
+* Version: 0.0.27
+* Pypi: https://pypi.org/project/sseclient/
+* Homepage: https://github.com/btubbs/sseclient
+* Author: Brent Tubbs brent.tubbs@gmail.com
 * License :: OSI Approved :: MIT License
+
+### `stix2`
+
+* Summary: Produce and consume STIX 2 JSON content
+* Version: 2.1.0
+* Pypi: https://pypi.org/project/stix2/
+* Homepage: https://oasis-open.github.io/cti-documentation/
+* Author: OASIS Cyber Threat Intelligence Technical Committee cti-users@lists.oasis-open.org
+* License :: OSI Approved :: BSD License
+
+### `stix2-patterns`
+
+* Summary: Validate STIX 2 Patterns.
+* Version: 1.3.2
+* Pypi: https://pypi.org/project/stix2-patterns/
+* Homepage: https://github.com/oasis-open/cti-pattern-validator
+* Author: OASIS Cyber Threat Intelligence Technical Committee cti-users@lists.oasis-open.org
+* License :: OSI Approved :: BSD License
 
 ### `tldextract`
 
@@ -307,11 +325,12 @@ Administrative keys for demisto/python_pancloud_v2:1.0.0.16816
 * libbz2-1.0.8-r1 x86_64 {bzip2}
 * libc-utils-0.7.2-r3 x86_64 {libc-dev}
 * libcom_err-1.45.6-r0 x86_64 {e2fsprogs}
-* libcrypto1.1-1.1.1j-r0 x86_64 {openssl}
+* libcrypto1.1-1.1.1i-r0 x86_64 {openssl}
 * libffi-3.3-r2 x86_64 {libffi}
 * libintl-0.20.2-r0 x86_64 {gettext}
+* libmagic-5.38-r0 x86_64 {file}
 * libnsl-1.2.0-r1 x86_64 {libnsl}
-* libssl1.1-1.1.1j-r0 x86_64 {openssl}
+* libssl1.1-1.1.1i-r0 x86_64 {openssl}
 * libtirpc-1.2.6-r0 x86_64 {libtirpc}
 * libtirpc-conf-1.2.6-r0 x86_64 {libtirpc}
 * libtls-standalone-2.9.1-r1 x86_64 {libtls-standalone}

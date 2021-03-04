@@ -334,7 +334,6 @@
             "demisto/xslxwriter",
             "demisto/pyotrs",
             "demisto/smartsheet",
-            "demisto/slack",
             "demisto/pyjwt",
             "demisto/graphql",
             "demisto/stix2",
@@ -438,13 +437,14 @@
             "demisto/ansible-runner",
             "demisto/sharepoint",
             "demisto/pyjarm",
-            "demisto/google-vision-api",
             "demisto/imap",
-            "demisto/boto3py3",
             "demisto/fetch-data",
-            "demisto/boto3",
             "demisto/pandas",
-            "demisto/sklearn"
+            "demisto/sklearn",
+            "demisto/boto3py3",
+            "demisto/google-vision-api",
+            "demisto/boto3",
+            "demisto/slack"
         ],
         "home_page": "https://github.com/Anorov/PySocks",
         "licenses": [
@@ -498,7 +498,6 @@
             "demisto/xslxwriter",
             "demisto/pyotrs",
             "demisto/smartsheet",
-            "demisto/slack",
             "demisto/pyjwt",
             "demisto/graphql",
             "demisto/stix2",
@@ -603,13 +602,14 @@
             "demisto/ansible-runner",
             "demisto/sharepoint",
             "demisto/pyjarm",
-            "demisto/google-vision-api",
             "demisto/imap",
-            "demisto/boto3py3",
             "demisto/fetch-data",
-            "demisto/boto3",
             "demisto/pandas",
-            "demisto/sklearn"
+            "demisto/sklearn",
+            "demisto/boto3py3",
+            "demisto/google-vision-api",
+            "demisto/boto3",
+            "demisto/slack"
         ],
         "home_page": "https://github.com/yaml/pyyaml",
         "licenses": [
@@ -752,9 +752,9 @@
     "aiohttp": {
         "author": "Nikolay Kim fafhrd91@gmail.com",
         "docker_images": [
-            "demisto/slack",
             "demisto/xsoar-tools",
-            "demisto/aiohttp"
+            "demisto/aiohttp",
+            "demisto/slack"
         ],
         "home_page": "https://github.com/aio-libs/aiohttp",
         "licenses": [
@@ -1101,9 +1101,9 @@
     "async-timeout": {
         "author": "Andrew Svetlov andrew.svetlov@gmail.com",
         "docker_images": [
-            "demisto/slack",
             "demisto/xsoar-tools",
-            "demisto/aiohttp"
+            "demisto/aiohttp",
+            "demisto/slack"
         ],
         "home_page": "https://github.com/aio-libs/async_timeout/",
         "licenses": [
@@ -1115,7 +1115,6 @@
     "attrs": {
         "author": "Hynek Schlawack hs@ox.cx",
         "docker_images": [
-            "demisto/slack",
             "demisto/threatconnect-tcex",
             "demisto/zeep",
             "demisto/pymisp",
@@ -1125,7 +1124,8 @@
             "demisto/argus-toolbelt",
             "demisto/xsoar-tools",
             "demisto/aiohttp",
-            "demisto/sklearn"
+            "demisto/sklearn",
+            "demisto/slack"
         ],
         "home_page": "https://www.attrs.org/",
         "licenses": [
@@ -1555,7 +1555,6 @@
             "demisto/xslxwriter",
             "demisto/pyotrs",
             "demisto/smartsheet",
-            "demisto/slack",
             "demisto/pyjwt",
             "demisto/graphql",
             "demisto/stix2",
@@ -1660,13 +1659,14 @@
             "demisto/ansible-runner",
             "demisto/sharepoint",
             "demisto/pyjarm",
-            "demisto/google-vision-api",
             "demisto/imap",
-            "demisto/boto3py3",
             "demisto/fetch-data",
-            "demisto/boto3",
             "demisto/pandas",
-            "demisto/sklearn"
+            "demisto/sklearn",
+            "demisto/boto3py3",
+            "demisto/google-vision-api",
+            "demisto/boto3",
+            "demisto/slack"
         ],
         "home_page": "https://certifi.io/",
         "licenses": [
@@ -1683,7 +1683,6 @@
             "demisto/ews",
             "demisto/snowflake",
             "demisto/py-ews",
-            "demisto/slack",
             "demisto/smbprotocol",
             "demisto/google-api-py3",
             "demisto/google-kms",
@@ -1707,7 +1706,8 @@
             "demisto/ntlm",
             "demisto/py2-exchangelib",
             "demisto/ansible-runner",
-            "demisto/sharepoint"
+            "demisto/sharepoint",
+            "demisto/slack"
         ],
         "home_page": "http://cffi.readthedocs.org",
         "licenses": [
@@ -1769,7 +1769,6 @@
             "demisto/xslxwriter",
             "demisto/pyotrs",
             "demisto/smartsheet",
-            "demisto/slack",
             "demisto/pyjwt",
             "demisto/graphql",
             "demisto/stix2",
@@ -1874,13 +1873,14 @@
             "demisto/ansible-runner",
             "demisto/sharepoint",
             "demisto/pyjarm",
-            "demisto/google-vision-api",
             "demisto/imap",
-            "demisto/boto3py3",
             "demisto/fetch-data",
-            "demisto/boto3",
             "demisto/pandas",
-            "demisto/sklearn"
+            "demisto/sklearn",
+            "demisto/boto3py3",
+            "demisto/google-vision-api",
+            "demisto/boto3",
+            "demisto/slack"
         ],
         "home_page": "https://github.com/chardet/chardet",
         "licenses": [
@@ -2267,7 +2267,6 @@
             "demisto/xslxwriter",
             "demisto/pyotrs",
             "demisto/smartsheet",
-            "demisto/slack",
             "demisto/pyjwt",
             "demisto/graphql",
             "demisto/stix2",
@@ -2372,13 +2371,14 @@
             "demisto/ansible-runner",
             "demisto/sharepoint",
             "demisto/pyjarm",
-            "demisto/google-vision-api",
             "demisto/imap",
-            "demisto/boto3py3",
             "demisto/fetch-data",
-            "demisto/boto3",
             "demisto/pandas",
-            "demisto/sklearn"
+            "demisto/sklearn",
+            "demisto/boto3py3",
+            "demisto/google-vision-api",
+            "demisto/boto3",
+            "demisto/slack"
         ],
         "home_page": "https://github.com/scrapinghub/dateparser",
         "licenses": [
@@ -3033,7 +3033,6 @@
             "demisto/xslxwriter",
             "demisto/pyotrs",
             "demisto/smartsheet",
-            "demisto/slack",
             "demisto/pyjwt",
             "demisto/graphql",
             "demisto/stix2",
@@ -3137,13 +3136,14 @@
             "demisto/ansible-runner",
             "demisto/sharepoint",
             "demisto/pyjarm",
-            "demisto/google-vision-api",
             "demisto/imap",
-            "demisto/boto3py3",
             "demisto/fetch-data",
-            "demisto/boto3",
             "demisto/pandas",
-            "demisto/sklearn"
+            "demisto/sklearn",
+            "demisto/boto3py3",
+            "demisto/google-vision-api",
+            "demisto/boto3",
+            "demisto/slack"
         ],
         "home_page": "http://github.com/Suor/funcy",
         "licenses": [
@@ -3808,7 +3808,6 @@
             "demisto/xslxwriter",
             "demisto/pyotrs",
             "demisto/smartsheet",
-            "demisto/slack",
             "demisto/pyjwt",
             "demisto/graphql",
             "demisto/stix2",
@@ -3913,13 +3912,14 @@
             "demisto/ansible-runner",
             "demisto/sharepoint",
             "demisto/pyjarm",
-            "demisto/google-vision-api",
             "demisto/imap",
-            "demisto/boto3py3",
             "demisto/fetch-data",
-            "demisto/boto3",
             "demisto/pandas",
-            "demisto/sklearn"
+            "demisto/sklearn",
+            "demisto/boto3py3",
+            "demisto/google-vision-api",
+            "demisto/boto3",
+            "demisto/slack"
         ],
         "home_page": "https://github.com/kjd/idna",
         "licenses": [
@@ -4602,9 +4602,9 @@
     "multidict": {
         "author": "Andrew Svetlov andrew.svetlov@gmail.com",
         "docker_images": [
-            "demisto/slack",
             "demisto/xsoar-tools",
-            "demisto/aiohttp"
+            "demisto/aiohttp",
+            "demisto/slack"
         ],
         "home_page": "https://github.com/aio-libs/multidict",
         "licenses": [
@@ -4869,7 +4869,6 @@
             "demisto/xslxwriter",
             "demisto/pyotrs",
             "demisto/smartsheet",
-            "demisto/slack",
             "demisto/pyjwt",
             "demisto/graphql",
             "demisto/stix2",
@@ -4974,13 +4973,14 @@
             "demisto/ansible-runner",
             "demisto/sharepoint",
             "demisto/pyjarm",
-            "demisto/google-vision-api",
             "demisto/imap",
-            "demisto/boto3py3",
             "demisto/fetch-data",
-            "demisto/boto3",
             "demisto/pandas",
-            "demisto/sklearn"
+            "demisto/sklearn",
+            "demisto/boto3py3",
+            "demisto/google-vision-api",
+            "demisto/boto3",
+            "demisto/slack"
         ],
         "home_page": "https://www.decalage.info/python/olefileio",
         "licenses": [
@@ -5451,7 +5451,6 @@
             "demisto/xslxwriter",
             "demisto/pyotrs",
             "demisto/smartsheet",
-            "demisto/slack",
             "demisto/pyjwt",
             "demisto/graphql",
             "demisto/stix2",
@@ -5556,13 +5555,14 @@
             "demisto/ansible-runner",
             "demisto/sharepoint",
             "demisto/pyjarm",
-            "demisto/google-vision-api",
             "demisto/imap",
-            "demisto/boto3py3",
             "demisto/fetch-data",
-            "demisto/boto3",
             "demisto/pandas",
-            "demisto/sklearn"
+            "demisto/sklearn",
+            "demisto/boto3py3",
+            "demisto/google-vision-api",
+            "demisto/boto3",
+            "demisto/slack"
         ],
         "home_page": "https://pip.pypa.io/",
         "licenses": [
@@ -5984,7 +5984,6 @@
             "demisto/ews",
             "demisto/snowflake",
             "demisto/py-ews",
-            "demisto/slack",
             "demisto/smbprotocol",
             "demisto/google-api-py3",
             "demisto/google-kms",
@@ -6008,7 +6007,8 @@
             "demisto/ntlm",
             "demisto/py2-exchangelib",
             "demisto/ansible-runner",
-            "demisto/sharepoint"
+            "demisto/sharepoint",
+            "demisto/slack"
         ],
         "home_page": "https://github.com/eliben/pycparser",
         "licenses": [
@@ -6395,7 +6395,6 @@
             "demisto/xslxwriter",
             "demisto/pyotrs",
             "demisto/smartsheet",
-            "demisto/slack",
             "demisto/pyjwt",
             "demisto/graphql",
             "demisto/stix2",
@@ -6500,13 +6499,14 @@
             "demisto/ansible-runner",
             "demisto/sharepoint",
             "demisto/pyjarm",
-            "demisto/google-vision-api",
             "demisto/imap",
-            "demisto/boto3py3",
             "demisto/fetch-data",
-            "demisto/boto3",
             "demisto/pandas",
-            "demisto/sklearn"
+            "demisto/sklearn",
+            "demisto/boto3py3",
+            "demisto/google-vision-api",
+            "demisto/boto3",
+            "demisto/slack"
         ],
         "home_page": "https://dateutil.readthedocs.io",
         "licenses": [
@@ -6651,7 +6651,6 @@
             "demisto/xslxwriter",
             "demisto/pyotrs",
             "demisto/smartsheet",
-            "demisto/slack",
             "demisto/pyjwt",
             "demisto/graphql",
             "demisto/stix2",
@@ -6756,13 +6755,14 @@
             "demisto/ansible-runner",
             "demisto/sharepoint",
             "demisto/pyjarm",
-            "demisto/google-vision-api",
             "demisto/imap",
-            "demisto/boto3py3",
             "demisto/fetch-data",
-            "demisto/boto3",
             "demisto/pandas",
-            "demisto/sklearn"
+            "demisto/sklearn",
+            "demisto/boto3py3",
+            "demisto/google-vision-api",
+            "demisto/boto3",
+            "demisto/slack"
         ],
         "home_page": "http://pythonhosted.org/pytz",
         "licenses": [
@@ -6879,7 +6879,6 @@
             "demisto/xslxwriter",
             "demisto/pyotrs",
             "demisto/smartsheet",
-            "demisto/slack",
             "demisto/pyjwt",
             "demisto/graphql",
             "demisto/stix2",
@@ -6984,13 +6983,14 @@
             "demisto/ansible-runner",
             "demisto/sharepoint",
             "demisto/pyjarm",
-            "demisto/google-vision-api",
             "demisto/imap",
-            "demisto/boto3py3",
             "demisto/fetch-data",
-            "demisto/boto3",
             "demisto/pandas",
-            "demisto/sklearn"
+            "demisto/sklearn",
+            "demisto/boto3py3",
+            "demisto/google-vision-api",
+            "demisto/boto3",
+            "demisto/slack"
         ],
         "home_page": "https://bitbucket.org/mrabarnett/mrab-regex",
         "licenses": [
@@ -7060,7 +7060,6 @@
             "demisto/xslxwriter",
             "demisto/pyotrs",
             "demisto/smartsheet",
-            "demisto/slack",
             "demisto/pyjwt",
             "demisto/graphql",
             "demisto/stix2",
@@ -7165,13 +7164,14 @@
             "demisto/ansible-runner",
             "demisto/sharepoint",
             "demisto/pyjarm",
-            "demisto/google-vision-api",
             "demisto/imap",
-            "demisto/boto3py3",
             "demisto/fetch-data",
-            "demisto/boto3",
             "demisto/pandas",
-            "demisto/sklearn"
+            "demisto/sklearn",
+            "demisto/boto3py3",
+            "demisto/google-vision-api",
+            "demisto/boto3",
+            "demisto/slack"
         ],
         "home_page": "http://python-requests.org",
         "licenses": [
@@ -7213,7 +7213,6 @@
             "demisto/xslxwriter",
             "demisto/pyotrs",
             "demisto/smartsheet",
-            "demisto/slack",
             "demisto/pyjwt",
             "demisto/graphql",
             "demisto/stix2",
@@ -7316,13 +7315,14 @@
             "demisto/ansible-runner",
             "demisto/sharepoint",
             "demisto/pyjarm",
-            "demisto/google-vision-api",
             "demisto/imap",
-            "demisto/boto3py3",
             "demisto/fetch-data",
-            "demisto/boto3",
             "demisto/pandas",
-            "demisto/sklearn"
+            "demisto/sklearn",
+            "demisto/boto3py3",
+            "demisto/google-vision-api",
+            "demisto/boto3",
+            "demisto/slack"
         ],
         "home_page": "http://github.com/dashea/requests-file",
         "licenses": [
@@ -7701,7 +7701,6 @@
             "demisto/xslxwriter",
             "demisto/pyotrs",
             "demisto/smartsheet",
-            "demisto/slack",
             "demisto/pyjwt",
             "demisto/graphql",
             "demisto/stix2",
@@ -7806,13 +7805,14 @@
             "demisto/ansible-runner",
             "demisto/sharepoint",
             "demisto/pyjarm",
-            "demisto/google-vision-api",
             "demisto/imap",
-            "demisto/boto3py3",
             "demisto/fetch-data",
-            "demisto/boto3",
             "demisto/pandas",
-            "demisto/sklearn"
+            "demisto/sklearn",
+            "demisto/boto3py3",
+            "demisto/google-vision-api",
+            "demisto/boto3",
+            "demisto/slack"
         ],
         "home_page": "https://github.com/pypa/setuptools",
         "licenses": [
@@ -7926,7 +7926,6 @@
             "demisto/xslxwriter",
             "demisto/pyotrs",
             "demisto/smartsheet",
-            "demisto/slack",
             "demisto/pyjwt",
             "demisto/graphql",
             "demisto/stix2",
@@ -8031,13 +8030,14 @@
             "demisto/ansible-runner",
             "demisto/sharepoint",
             "demisto/pyjarm",
-            "demisto/google-vision-api",
             "demisto/imap",
-            "demisto/boto3py3",
             "demisto/fetch-data",
-            "demisto/boto3",
             "demisto/pandas",
-            "demisto/sklearn"
+            "demisto/sklearn",
+            "demisto/boto3py3",
+            "demisto/google-vision-api",
+            "demisto/boto3",
+            "demisto/slack"
         ],
         "home_page": "https://github.com/benjaminp/six",
         "licenses": [
@@ -8061,8 +8061,8 @@
     "slackclient": {
         "author": "Slack Technologies, Inc. opensource@slack.com",
         "docker_images": [
-            "demisto/slack",
-            "demisto/xsoar-tools"
+            "demisto/xsoar-tools",
+            "demisto/slack"
         ],
         "home_page": "https://github.com/slackapi/python-slackclient",
         "licenses": [
@@ -8624,7 +8624,6 @@
             "demisto/xslxwriter",
             "demisto/pyotrs",
             "demisto/smartsheet",
-            "demisto/slack",
             "demisto/pyjwt",
             "demisto/graphql",
             "demisto/stix2",
@@ -8727,13 +8726,14 @@
             "demisto/ansible-runner",
             "demisto/sharepoint",
             "demisto/pyjarm",
-            "demisto/google-vision-api",
             "demisto/imap",
-            "demisto/boto3py3",
             "demisto/fetch-data",
-            "demisto/boto3",
             "demisto/pandas",
-            "demisto/sklearn"
+            "demisto/sklearn",
+            "demisto/boto3py3",
+            "demisto/google-vision-api",
+            "demisto/boto3",
+            "demisto/slack"
         ],
         "home_page": "https://github.com/john-kurkowski/tldextract",
         "licenses": [
@@ -8817,7 +8817,8 @@
             "demisto/google-kms",
             "demisto/google-k8s-engine",
             "demisto/xsoar-tools",
-            "demisto/aiohttp"
+            "demisto/aiohttp",
+            "demisto/slack"
         ],
         "home_page": "https://github.com/python/typing/blob/master/typing_extensions/README.rst",
         "licenses": [
@@ -8887,7 +8888,6 @@
             "demisto/xslxwriter",
             "demisto/pyotrs",
             "demisto/smartsheet",
-            "demisto/slack",
             "demisto/pyjwt",
             "demisto/graphql",
             "demisto/stix2",
@@ -8992,13 +8992,14 @@
             "demisto/ansible-runner",
             "demisto/sharepoint",
             "demisto/pyjarm",
-            "demisto/google-vision-api",
             "demisto/imap",
-            "demisto/boto3py3",
             "demisto/fetch-data",
-            "demisto/boto3",
             "demisto/pandas",
-            "demisto/sklearn"
+            "demisto/sklearn",
+            "demisto/boto3py3",
+            "demisto/google-vision-api",
+            "demisto/boto3",
+            "demisto/slack"
         ],
         "home_page": "https://github.com/regebro/tzlocal",
         "licenses": [
@@ -9112,7 +9113,6 @@
             "demisto/xslxwriter",
             "demisto/pyotrs",
             "demisto/smartsheet",
-            "demisto/slack",
             "demisto/pyjwt",
             "demisto/graphql",
             "demisto/stix2",
@@ -9217,13 +9217,14 @@
             "demisto/ansible-runner",
             "demisto/sharepoint",
             "demisto/pyjarm",
-            "demisto/google-vision-api",
             "demisto/imap",
-            "demisto/boto3py3",
             "demisto/fetch-data",
-            "demisto/boto3",
             "demisto/pandas",
-            "demisto/sklearn"
+            "demisto/sklearn",
+            "demisto/boto3py3",
+            "demisto/google-vision-api",
+            "demisto/boto3",
+            "demisto/slack"
         ],
         "home_page": "https://urllib3.readthedocs.io/",
         "licenses": [
@@ -9537,7 +9538,6 @@
             "demisto/xslxwriter",
             "demisto/pyotrs",
             "demisto/smartsheet",
-            "demisto/slack",
             "demisto/pyjwt",
             "demisto/graphql",
             "demisto/stix2",
@@ -9642,13 +9642,14 @@
             "demisto/ansible-runner",
             "demisto/sharepoint",
             "demisto/pyjarm",
-            "demisto/google-vision-api",
             "demisto/imap",
-            "demisto/boto3py3",
             "demisto/fetch-data",
-            "demisto/boto3",
             "demisto/pandas",
-            "demisto/sklearn"
+            "demisto/sklearn",
+            "demisto/boto3py3",
+            "demisto/google-vision-api",
+            "demisto/boto3",
+            "demisto/slack"
         ],
         "home_page": "https://github.com/pypa/wheel",
         "licenses": [
@@ -9779,9 +9780,9 @@
     "yarl": {
         "author": "Andrew Svetlov andrew.svetlov@gmail.com",
         "docker_images": [
-            "demisto/slack",
             "demisto/xsoar-tools",
-            "demisto/aiohttp"
+            "demisto/aiohttp",
+            "demisto/slack"
         ],
         "home_page": "https://github.com/aio-libs/yarl/",
         "licenses": [

@@ -1,8 +1,8 @@
-# `demisto/pwsh-exchange:1.0.0.17451`
+# `demisto/powershell-teams:1.0.0.17428`
 ## Docker Metadata
-- Image Size: `150.21 MB`
-- Image ID: `sha256:e665305556b8f938eddaf11fe5553df0d0945bcc7a09a96ca744d58c464d9572`
-- Created: `2021-03-09T18:58:51.016495135Z`
+- Image Size: `153.03 MB`
+- Image ID: `sha256:48403125f45f7347485c27320dfe90f73ed8b06eba220d34041f3550c2fcbbb9`
+- Created: `2021-03-09T09:58:37.358821885Z`
 - Arch: `linux`/`amd64`
 - Command: `["pwsh"]`
 - Environment:
@@ -12,11 +12,11 @@
   - `LANG=en_US.UTF-8`
   - `PSModuleAnalysisCachePath=/var/cache/microsoft/powershell/PSModuleAnalysisCache/ModuleAnalysisCache`
   - `POWERSHELL_DISTRIBUTION_CHANNEL=PSDocker-Ubuntu-18.04`
-  - `DOCKER_IMAGE=demisto/pwsh-exchange:1.0.0.17451`
+  - `DOCKER_IMAGE=demisto/powershell-teams:1.0.0.17428`
 - Labels:
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:1465eb0efd1af55fd65717d210d92ce2a2bf594a`
-  - `org.opencontainers.image.version:1.0.0.17451`
+  - `org.opencontainers.image.revision:7513ebdfae2277fb0342d04c6f45493b09ba5d69`
+  - `org.opencontainers.image.version:1.0.0.17428`
 
 - OS Release:
   - `NAME="Ubuntu"`
@@ -35,15 +35,15 @@
 ## Docker Trust
 ```
 
-Signatures for demisto/pwsh-exchange:1.0.0.17451
+Signatures for demisto/powershell-teams:1.0.0.17428
 
 SIGNED TAG          DIGEST                                                             SIGNERS
-1.0.0.17451         ef7d57912100d33d01bbd55da64817c9244fedef34bffd4174b5f90418541b8f   (Repo Admin)
+1.0.0.17428         17e65785492032dec6750145206f87254dc31411c1b5ac6ce65c2bdc398cac1d   (Repo Admin)
 
-Administrative keys for demisto/pwsh-exchange:1.0.0.17451
+Administrative keys for demisto/powershell-teams:1.0.0.17428
 
-  Repository Key:	e7bfb8eaeea39f5cc80ac414ad2a50aaed80401d25c12a9ce48ec205598840e7
-  Root Key:	17987cfbcdd1d3a063154ebee37070e80cca6c8f5dae9e5ef77ba45ae7874215
+  Repository Key:	5e913c4d8843b55db0a9a0e6e34eae4a929eaa9981fcc8b780bf53ff6d608c5c
+  Root Key:	4fcfa937053ba7692c2f9130bb758203e261106a3f161a072548f3baf27ee3d6
 
 ```
 

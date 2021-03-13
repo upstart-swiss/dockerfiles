@@ -336,7 +336,6 @@
             "demisto/smartsheet",
             "demisto/pyjwt",
             "demisto/stix2",
-            "demisto/taxii2",
             "demisto/bs4",
             "demisto/dxl2",
             "demisto/dempcap",
@@ -440,11 +439,12 @@
             "demisto/sharepoint",
             "demisto/bigquery",
             "demisto/distorm3",
-            "demisto/boto3py3",
             "demisto/google-vision-api",
-            "demisto/boto3",
             "demisto/ansible-runner",
-            "demisto/graphql"
+            "demisto/graphql",
+            "demisto/boto3py3",
+            "demisto/boto3",
+            "demisto/taxii2"
         ],
         "home_page": "https://github.com/Anorov/PySocks",
         "licenses": [
@@ -500,7 +500,6 @@
             "demisto/smartsheet",
             "demisto/pyjwt",
             "demisto/stix2",
-            "demisto/taxii2",
             "demisto/bs4",
             "demisto/dxl2",
             "demisto/dempcap",
@@ -605,11 +604,12 @@
             "demisto/sharepoint",
             "demisto/bigquery",
             "demisto/distorm3",
-            "demisto/boto3py3",
             "demisto/google-vision-api",
-            "demisto/boto3",
             "demisto/ansible-runner",
-            "demisto/graphql"
+            "demisto/graphql",
+            "demisto/boto3py3",
+            "demisto/boto3",
+            "demisto/taxii2"
         ],
         "home_page": "https://github.com/yaml/pyyaml",
         "licenses": [
@@ -998,10 +998,10 @@
         "docker_images": [
             "demisto/opencti",
             "demisto/stix2",
-            "demisto/taxii2",
             "demisto/threatconnect-tcex",
             "demisto/opencti-v4.1.2",
-            "demisto/opencti-v4"
+            "demisto/opencti-v4",
+            "demisto/taxii2"
         ],
         "home_page": "http://www.antlr.org",
         "licenses": [
@@ -1556,7 +1556,6 @@
             "demisto/smartsheet",
             "demisto/pyjwt",
             "demisto/stix2",
-            "demisto/taxii2",
             "demisto/bs4",
             "demisto/dxl2",
             "demisto/dempcap",
@@ -1661,11 +1660,12 @@
             "demisto/sharepoint",
             "demisto/bigquery",
             "demisto/distorm3",
-            "demisto/boto3py3",
             "demisto/google-vision-api",
-            "demisto/boto3",
             "demisto/ansible-runner",
-            "demisto/graphql"
+            "demisto/graphql",
+            "demisto/boto3py3",
+            "demisto/boto3",
+            "demisto/taxii2"
         ],
         "home_page": "https://certifi.io/",
         "licenses": [
@@ -1770,7 +1770,6 @@
             "demisto/smartsheet",
             "demisto/pyjwt",
             "demisto/stix2",
-            "demisto/taxii2",
             "demisto/bs4",
             "demisto/dxl2",
             "demisto/dempcap",
@@ -1875,11 +1874,12 @@
             "demisto/sharepoint",
             "demisto/bigquery",
             "demisto/distorm3",
-            "demisto/boto3py3",
             "demisto/google-vision-api",
-            "demisto/boto3",
             "demisto/ansible-runner",
-            "demisto/graphql"
+            "demisto/graphql",
+            "demisto/boto3py3",
+            "demisto/boto3",
+            "demisto/taxii2"
         ],
         "home_page": "https://github.com/chardet/chardet",
         "licenses": [
@@ -2268,7 +2268,6 @@
             "demisto/smartsheet",
             "demisto/pyjwt",
             "demisto/stix2",
-            "demisto/taxii2",
             "demisto/bs4",
             "demisto/dxl2",
             "demisto/dempcap",
@@ -2373,11 +2372,12 @@
             "demisto/sharepoint",
             "demisto/bigquery",
             "demisto/distorm3",
-            "demisto/boto3py3",
             "demisto/google-vision-api",
-            "demisto/boto3",
             "demisto/ansible-runner",
-            "demisto/graphql"
+            "demisto/graphql",
+            "demisto/boto3py3",
+            "demisto/boto3",
+            "demisto/taxii2"
         ],
         "home_page": "https://github.com/scrapinghub/dateparser",
         "licenses": [
@@ -3034,7 +3034,6 @@
             "demisto/smartsheet",
             "demisto/pyjwt",
             "demisto/stix2",
-            "demisto/taxii2",
             "demisto/bs4",
             "demisto/dxl2",
             "demisto/dempcap",
@@ -3138,11 +3137,12 @@
             "demisto/sharepoint",
             "demisto/bigquery",
             "demisto/distorm3",
-            "demisto/boto3py3",
             "demisto/google-vision-api",
-            "demisto/boto3",
             "demisto/ansible-runner",
-            "demisto/graphql"
+            "demisto/graphql",
+            "demisto/boto3py3",
+            "demisto/boto3",
+            "demisto/taxii2"
         ],
         "home_page": "http://github.com/Suor/funcy",
         "licenses": [
@@ -3809,7 +3809,6 @@
             "demisto/smartsheet",
             "demisto/pyjwt",
             "demisto/stix2",
-            "demisto/taxii2",
             "demisto/bs4",
             "demisto/dxl2",
             "demisto/dempcap",
@@ -3914,11 +3913,12 @@
             "demisto/sharepoint",
             "demisto/bigquery",
             "demisto/distorm3",
-            "demisto/boto3py3",
             "demisto/google-vision-api",
-            "demisto/boto3",
             "demisto/ansible-runner",
-            "demisto/graphql"
+            "demisto/graphql",
+            "demisto/boto3py3",
+            "demisto/boto3",
+            "demisto/taxii2"
         ],
         "home_page": "https://github.com/kjd/idna",
         "licenses": [
@@ -4130,9 +4130,9 @@
             "demisto/threatconnect-tcex",
             "demisto/python_pancloud",
             "demisto/python_pancloud_v2",
+            "demisto/ansible-runner",
             "demisto/boto3py3",
-            "demisto/boto3",
-            "demisto/ansible-runner"
+            "demisto/boto3"
         ],
         "home_page": "https://github.com/jmespath/jmespath.py",
         "licenses": [
@@ -4871,7 +4871,6 @@
             "demisto/smartsheet",
             "demisto/pyjwt",
             "demisto/stix2",
-            "demisto/taxii2",
             "demisto/bs4",
             "demisto/dxl2",
             "demisto/dempcap",
@@ -4976,11 +4975,12 @@
             "demisto/sharepoint",
             "demisto/bigquery",
             "demisto/distorm3",
-            "demisto/boto3py3",
             "demisto/google-vision-api",
-            "demisto/boto3",
             "demisto/ansible-runner",
-            "demisto/graphql"
+            "demisto/graphql",
+            "demisto/boto3py3",
+            "demisto/boto3",
+            "demisto/taxii2"
         ],
         "home_page": "https://www.decalage.info/python/olefileio",
         "licenses": [
@@ -5453,7 +5453,6 @@
             "demisto/smartsheet",
             "demisto/pyjwt",
             "demisto/stix2",
-            "demisto/taxii2",
             "demisto/bs4",
             "demisto/dxl2",
             "demisto/dempcap",
@@ -5558,11 +5557,12 @@
             "demisto/sharepoint",
             "demisto/bigquery",
             "demisto/distorm3",
-            "demisto/boto3py3",
             "demisto/google-vision-api",
-            "demisto/boto3",
             "demisto/ansible-runner",
-            "demisto/graphql"
+            "demisto/graphql",
+            "demisto/boto3py3",
+            "demisto/boto3",
+            "demisto/taxii2"
         ],
         "home_page": "https://pip.pypa.io/",
         "licenses": [
@@ -6396,7 +6396,6 @@
             "demisto/smartsheet",
             "demisto/pyjwt",
             "demisto/stix2",
-            "demisto/taxii2",
             "demisto/bs4",
             "demisto/dxl2",
             "demisto/dempcap",
@@ -6501,11 +6500,12 @@
             "demisto/sharepoint",
             "demisto/bigquery",
             "demisto/distorm3",
-            "demisto/boto3py3",
             "demisto/google-vision-api",
-            "demisto/boto3",
             "demisto/ansible-runner",
-            "demisto/graphql"
+            "demisto/graphql",
+            "demisto/boto3py3",
+            "demisto/boto3",
+            "demisto/taxii2"
         ],
         "home_page": "https://dateutil.readthedocs.io",
         "licenses": [
@@ -6652,7 +6652,6 @@
             "demisto/smartsheet",
             "demisto/pyjwt",
             "demisto/stix2",
-            "demisto/taxii2",
             "demisto/bs4",
             "demisto/dxl2",
             "demisto/dempcap",
@@ -6757,11 +6756,12 @@
             "demisto/sharepoint",
             "demisto/bigquery",
             "demisto/distorm3",
-            "demisto/boto3py3",
             "demisto/google-vision-api",
-            "demisto/boto3",
             "demisto/ansible-runner",
-            "demisto/graphql"
+            "demisto/graphql",
+            "demisto/boto3py3",
+            "demisto/boto3",
+            "demisto/taxii2"
         ],
         "home_page": "http://pythonhosted.org/pytz",
         "licenses": [
@@ -6880,7 +6880,6 @@
             "demisto/smartsheet",
             "demisto/pyjwt",
             "demisto/stix2",
-            "demisto/taxii2",
             "demisto/bs4",
             "demisto/dxl2",
             "demisto/dempcap",
@@ -6985,11 +6984,12 @@
             "demisto/sharepoint",
             "demisto/bigquery",
             "demisto/distorm3",
-            "demisto/boto3py3",
             "demisto/google-vision-api",
-            "demisto/boto3",
             "demisto/ansible-runner",
-            "demisto/graphql"
+            "demisto/graphql",
+            "demisto/boto3py3",
+            "demisto/boto3",
+            "demisto/taxii2"
         ],
         "home_page": "https://bitbucket.org/mrabarnett/mrab-regex",
         "licenses": [
@@ -7061,7 +7061,6 @@
             "demisto/smartsheet",
             "demisto/pyjwt",
             "demisto/stix2",
-            "demisto/taxii2",
             "demisto/bs4",
             "demisto/dxl2",
             "demisto/dempcap",
@@ -7166,11 +7165,12 @@
             "demisto/sharepoint",
             "demisto/bigquery",
             "demisto/distorm3",
-            "demisto/boto3py3",
             "demisto/google-vision-api",
-            "demisto/boto3",
             "demisto/ansible-runner",
-            "demisto/graphql"
+            "demisto/graphql",
+            "demisto/boto3py3",
+            "demisto/boto3",
+            "demisto/taxii2"
         ],
         "home_page": "http://python-requests.org",
         "licenses": [
@@ -7214,7 +7214,6 @@
             "demisto/smartsheet",
             "demisto/pyjwt",
             "demisto/stix2",
-            "demisto/taxii2",
             "demisto/bs4",
             "demisto/dxl2",
             "demisto/dempcap",
@@ -7317,11 +7316,12 @@
             "demisto/sharepoint",
             "demisto/bigquery",
             "demisto/distorm3",
-            "demisto/boto3py3",
             "demisto/google-vision-api",
-            "demisto/boto3",
             "demisto/ansible-runner",
-            "demisto/graphql"
+            "demisto/graphql",
+            "demisto/boto3py3",
+            "demisto/boto3",
+            "demisto/taxii2"
         ],
         "home_page": "http://github.com/dashea/requests-file",
         "licenses": [
@@ -7714,7 +7714,6 @@
             "demisto/smartsheet",
             "demisto/pyjwt",
             "demisto/stix2",
-            "demisto/taxii2",
             "demisto/bs4",
             "demisto/dxl2",
             "demisto/dempcap",
@@ -7819,11 +7818,12 @@
             "demisto/sharepoint",
             "demisto/bigquery",
             "demisto/distorm3",
-            "demisto/boto3py3",
             "demisto/google-vision-api",
-            "demisto/boto3",
             "demisto/ansible-runner",
-            "demisto/graphql"
+            "demisto/graphql",
+            "demisto/boto3py3",
+            "demisto/boto3",
+            "demisto/taxii2"
         ],
         "home_page": "https://github.com/pypa/setuptools",
         "licenses": [
@@ -7850,12 +7850,12 @@
             "demisto/pcap",
             "demisto/opencti",
             "demisto/stix2",
-            "demisto/taxii2",
             "demisto/dempcap",
             "demisto/threatconnect-tcex",
             "demisto/opencti-v4.1.2",
             "demisto/opencti-v4",
-            "demisto/imap"
+            "demisto/imap",
+            "demisto/taxii2"
         ],
         "home_page": "https://github.com/simplejson/simplejson",
         "licenses": [
@@ -7939,7 +7939,6 @@
             "demisto/smartsheet",
             "demisto/pyjwt",
             "demisto/stix2",
-            "demisto/taxii2",
             "demisto/bs4",
             "demisto/dxl2",
             "demisto/dempcap",
@@ -8044,11 +8043,12 @@
             "demisto/sharepoint",
             "demisto/bigquery",
             "demisto/distorm3",
-            "demisto/boto3py3",
             "demisto/google-vision-api",
-            "demisto/boto3",
             "demisto/ansible-runner",
-            "demisto/graphql"
+            "demisto/graphql",
+            "demisto/boto3py3",
+            "demisto/boto3",
+            "demisto/taxii2"
         ],
         "home_page": "https://github.com/benjaminp/six",
         "licenses": [
@@ -8297,10 +8297,10 @@
         "docker_images": [
             "demisto/opencti",
             "demisto/stix2",
-            "demisto/taxii2",
             "demisto/threatconnect-tcex",
             "demisto/opencti-v4.1.2",
-            "demisto/opencti-v4"
+            "demisto/opencti-v4",
+            "demisto/taxii2"
         ],
         "home_page": "https://oasis-open.github.io/cti-documentation/",
         "licenses": [
@@ -8314,10 +8314,10 @@
         "docker_images": [
             "demisto/opencti",
             "demisto/stix2",
-            "demisto/taxii2",
             "demisto/threatconnect-tcex",
             "demisto/opencti-v4.1.2",
-            "demisto/opencti-v4"
+            "demisto/opencti-v4",
+            "demisto/taxii2"
         ],
         "home_page": "https://github.com/oasis-open/cti-pattern-validator",
         "licenses": [
@@ -8637,7 +8637,6 @@
             "demisto/smartsheet",
             "demisto/pyjwt",
             "demisto/stix2",
-            "demisto/taxii2",
             "demisto/bs4",
             "demisto/dxl2",
             "demisto/dempcap",
@@ -8740,11 +8739,12 @@
             "demisto/sharepoint",
             "demisto/bigquery",
             "demisto/distorm3",
-            "demisto/boto3py3",
             "demisto/google-vision-api",
-            "demisto/boto3",
             "demisto/ansible-runner",
-            "demisto/graphql"
+            "demisto/graphql",
+            "demisto/boto3py3",
+            "demisto/boto3",
+            "demisto/taxii2"
         ],
         "home_page": "https://github.com/john-kurkowski/tldextract",
         "licenses": [
@@ -8901,7 +8901,6 @@
             "demisto/smartsheet",
             "demisto/pyjwt",
             "demisto/stix2",
-            "demisto/taxii2",
             "demisto/bs4",
             "demisto/dxl2",
             "demisto/dempcap",
@@ -9006,11 +9005,12 @@
             "demisto/sharepoint",
             "demisto/bigquery",
             "demisto/distorm3",
-            "demisto/boto3py3",
             "demisto/google-vision-api",
-            "demisto/boto3",
             "demisto/ansible-runner",
-            "demisto/graphql"
+            "demisto/graphql",
+            "demisto/boto3py3",
+            "demisto/boto3",
+            "demisto/taxii2"
         ],
         "home_page": "https://github.com/regebro/tzlocal",
         "licenses": [
@@ -9126,7 +9126,6 @@
             "demisto/smartsheet",
             "demisto/pyjwt",
             "demisto/stix2",
-            "demisto/taxii2",
             "demisto/bs4",
             "demisto/dxl2",
             "demisto/dempcap",
@@ -9231,11 +9230,12 @@
             "demisto/sharepoint",
             "demisto/bigquery",
             "demisto/distorm3",
-            "demisto/boto3py3",
             "demisto/google-vision-api",
-            "demisto/boto3",
             "demisto/ansible-runner",
-            "demisto/graphql"
+            "demisto/graphql",
+            "demisto/boto3py3",
+            "demisto/boto3",
+            "demisto/taxii2"
         ],
         "home_page": "https://urllib3.readthedocs.io/",
         "licenses": [
@@ -9551,7 +9551,6 @@
             "demisto/smartsheet",
             "demisto/pyjwt",
             "demisto/stix2",
-            "demisto/taxii2",
             "demisto/bs4",
             "demisto/dxl2",
             "demisto/dempcap",
@@ -9656,11 +9655,12 @@
             "demisto/sharepoint",
             "demisto/bigquery",
             "demisto/distorm3",
-            "demisto/boto3py3",
             "demisto/google-vision-api",
-            "demisto/boto3",
             "demisto/ansible-runner",
-            "demisto/graphql"
+            "demisto/graphql",
+            "demisto/boto3py3",
+            "demisto/boto3",
+            "demisto/taxii2"
         ],
         "home_page": "https://github.com/pypa/wheel",
         "licenses": [

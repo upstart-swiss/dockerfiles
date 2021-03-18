@@ -364,7 +364,6 @@
             "demisto/tld",
             "demisto/yolo-coco",
             "demisto/etl2pcap",
-            "demisto/algorithmia",
             "demisto/splunksdk",
             "demisto/cyjax",
             "demisto/pymisp",
@@ -437,14 +436,15 @@
             "demisto/ansible-runner",
             "demisto/graphql",
             "demisto/taxii2",
-            "demisto/genericsql",
             "demisto/oauthlib",
             "demisto/google-kms",
             "demisto/twilio",
-            "demisto/boto3py3",
             "demisto/google-vision-api",
+            "demisto/bigquery",
+            "demisto/boto3py3",
             "demisto/boto3",
-            "demisto/bigquery"
+            "demisto/genericsql",
+            "demisto/algorithmia"
         ],
         "home_page": "https://github.com/Anorov/PySocks",
         "licenses": [
@@ -529,7 +529,6 @@
             "demisto/tld",
             "demisto/yolo-coco",
             "demisto/etl2pcap",
-            "demisto/algorithmia",
             "demisto/splunksdk",
             "demisto/cyjax",
             "demisto/pymisp",
@@ -602,14 +601,15 @@
             "demisto/ansible-runner",
             "demisto/graphql",
             "demisto/taxii2",
-            "demisto/genericsql",
             "demisto/oauthlib",
             "demisto/google-kms",
             "demisto/twilio",
-            "demisto/boto3py3",
             "demisto/google-vision-api",
+            "demisto/bigquery",
+            "demisto/boto3py3",
             "demisto/boto3",
-            "demisto/bigquery"
+            "demisto/genericsql",
+            "demisto/algorithmia"
         ],
         "home_page": "https://github.com/yaml/pyyaml",
         "licenses": [
@@ -668,7 +668,7 @@
         "licenses": [
             "License :: OSI Approved :: MIT License"
         ],
-        "pypi_url": "https://pypi.org/project/sqlalchemy/",
+        "pypi_url": "https://pypi.org/project/SQLAlchemy/",
         "summary": "Database Abstraction Library"
     },
     "SecretStorage": {
@@ -773,6 +773,18 @@
         ],
         "pypi_url": "https://pypi.org/project/algorithmia/",
         "summary": "Algorithmia Python Client"
+    },
+    "algorithmia-adk": {
+        "author": "Algorithmia support@algorithmia.com",
+        "docker_images": [
+            "demisto/algorithmia"
+        ],
+        "home_page": "http://github.com/algorithmiaio/algorithmia-adk-python",
+        "licenses": [
+            "License :: OSI Approved :: MIT License"
+        ],
+        "pypi_url": "https://pypi.org/project/algorithmia-adk/",
+        "summary": "Algorithmia Python ADK client"
     },
     "algorithmia-api-client": {
         "author": "Algorithmia Support Team support@algorithmia.com",
@@ -1585,7 +1597,6 @@
             "demisto/tld",
             "demisto/yolo-coco",
             "demisto/etl2pcap",
-            "demisto/algorithmia",
             "demisto/splunksdk",
             "demisto/cyjax",
             "demisto/pymisp",
@@ -1658,14 +1669,15 @@
             "demisto/ansible-runner",
             "demisto/graphql",
             "demisto/taxii2",
-            "demisto/genericsql",
             "demisto/oauthlib",
             "demisto/google-kms",
             "demisto/twilio",
-            "demisto/boto3py3",
             "demisto/google-vision-api",
+            "demisto/bigquery",
+            "demisto/boto3py3",
             "demisto/boto3",
-            "demisto/bigquery"
+            "demisto/genericsql",
+            "demisto/algorithmia"
         ],
         "home_page": "https://certifi.io/",
         "licenses": [
@@ -1799,7 +1811,6 @@
             "demisto/tld",
             "demisto/yolo-coco",
             "demisto/etl2pcap",
-            "demisto/algorithmia",
             "demisto/splunksdk",
             "demisto/cyjax",
             "demisto/pymisp",
@@ -1872,14 +1883,15 @@
             "demisto/ansible-runner",
             "demisto/graphql",
             "demisto/taxii2",
-            "demisto/genericsql",
             "demisto/oauthlib",
             "demisto/google-kms",
             "demisto/twilio",
-            "demisto/boto3py3",
             "demisto/google-vision-api",
+            "demisto/bigquery",
+            "demisto/boto3py3",
             "demisto/boto3",
-            "demisto/bigquery"
+            "demisto/genericsql",
+            "demisto/algorithmia"
         ],
         "home_page": "https://github.com/chardet/chardet",
         "licenses": [
@@ -2297,7 +2309,6 @@
             "demisto/tld",
             "demisto/yolo-coco",
             "demisto/etl2pcap",
-            "demisto/algorithmia",
             "demisto/splunksdk",
             "demisto/cyjax",
             "demisto/pymisp",
@@ -2370,14 +2381,15 @@
             "demisto/ansible-runner",
             "demisto/graphql",
             "demisto/taxii2",
-            "demisto/genericsql",
             "demisto/oauthlib",
             "demisto/google-kms",
             "demisto/twilio",
-            "demisto/boto3py3",
             "demisto/google-vision-api",
+            "demisto/bigquery",
+            "demisto/boto3py3",
             "demisto/boto3",
-            "demisto/bigquery"
+            "demisto/genericsql",
+            "demisto/algorithmia"
         ],
         "home_page": "https://github.com/scrapinghub/dateparser",
         "licenses": [
@@ -3062,7 +3074,6 @@
             "demisto/tld",
             "demisto/yolo-coco",
             "demisto/etl2pcap",
-            "demisto/algorithmia",
             "demisto/splunksdk",
             "demisto/cyjax",
             "demisto/pymisp",
@@ -3135,14 +3146,15 @@
             "demisto/ansible-runner",
             "demisto/graphql",
             "demisto/taxii2",
-            "demisto/genericsql",
             "demisto/oauthlib",
             "demisto/google-kms",
             "demisto/twilio",
-            "demisto/boto3py3",
             "demisto/google-vision-api",
+            "demisto/bigquery",
+            "demisto/boto3py3",
             "demisto/boto3",
-            "demisto/bigquery"
+            "demisto/genericsql",
+            "demisto/algorithmia"
         ],
         "home_page": "http://github.com/Suor/funcy",
         "licenses": [
@@ -3839,7 +3851,6 @@
             "demisto/tld",
             "demisto/yolo-coco",
             "demisto/etl2pcap",
-            "demisto/algorithmia",
             "demisto/splunksdk",
             "demisto/cyjax",
             "demisto/pymisp",
@@ -3912,14 +3923,15 @@
             "demisto/ansible-runner",
             "demisto/graphql",
             "demisto/taxii2",
-            "demisto/genericsql",
             "demisto/oauthlib",
             "demisto/google-kms",
             "demisto/twilio",
-            "demisto/boto3py3",
             "demisto/google-vision-api",
+            "demisto/bigquery",
+            "demisto/boto3py3",
             "demisto/boto3",
-            "demisto/bigquery"
+            "demisto/genericsql",
+            "demisto/algorithmia"
         ],
         "home_page": "https://github.com/kjd/idna",
         "licenses": [
@@ -4900,7 +4912,6 @@
             "demisto/tld",
             "demisto/yolo-coco",
             "demisto/etl2pcap",
-            "demisto/algorithmia",
             "demisto/splunksdk",
             "demisto/cyjax",
             "demisto/pymisp",
@@ -4973,14 +4984,15 @@
             "demisto/ansible-runner",
             "demisto/graphql",
             "demisto/taxii2",
-            "demisto/genericsql",
             "demisto/oauthlib",
             "demisto/google-kms",
             "demisto/twilio",
-            "demisto/boto3py3",
             "demisto/google-vision-api",
+            "demisto/bigquery",
+            "demisto/boto3py3",
             "demisto/boto3",
-            "demisto/bigquery"
+            "demisto/genericsql",
+            "demisto/algorithmia"
         ],
         "home_page": "https://www.decalage.info/python/olefileio",
         "licenses": [
@@ -5482,7 +5494,6 @@
             "demisto/tld",
             "demisto/yolo-coco",
             "demisto/etl2pcap",
-            "demisto/algorithmia",
             "demisto/splunksdk",
             "demisto/cyjax",
             "demisto/pymisp",
@@ -5555,14 +5566,15 @@
             "demisto/ansible-runner",
             "demisto/graphql",
             "demisto/taxii2",
-            "demisto/genericsql",
             "demisto/oauthlib",
             "demisto/google-kms",
             "demisto/twilio",
-            "demisto/boto3py3",
             "demisto/google-vision-api",
+            "demisto/bigquery",
+            "demisto/boto3py3",
             "demisto/boto3",
-            "demisto/bigquery"
+            "demisto/genericsql",
+            "demisto/algorithmia"
         ],
         "home_page": "https://pip.pypa.io/",
         "licenses": [
@@ -6425,7 +6437,6 @@
             "demisto/tld",
             "demisto/yolo-coco",
             "demisto/etl2pcap",
-            "demisto/algorithmia",
             "demisto/splunksdk",
             "demisto/cyjax",
             "demisto/pymisp",
@@ -6498,14 +6509,15 @@
             "demisto/ansible-runner",
             "demisto/graphql",
             "demisto/taxii2",
-            "demisto/genericsql",
             "demisto/oauthlib",
             "demisto/google-kms",
             "demisto/twilio",
-            "demisto/boto3py3",
             "demisto/google-vision-api",
+            "demisto/bigquery",
+            "demisto/boto3py3",
             "demisto/boto3",
-            "demisto/bigquery"
+            "demisto/genericsql",
+            "demisto/algorithmia"
         ],
         "home_page": "https://dateutil.readthedocs.io",
         "licenses": [
@@ -6681,7 +6693,6 @@
             "demisto/tld",
             "demisto/yolo-coco",
             "demisto/etl2pcap",
-            "demisto/algorithmia",
             "demisto/splunksdk",
             "demisto/cyjax",
             "demisto/pymisp",
@@ -6754,14 +6765,15 @@
             "demisto/ansible-runner",
             "demisto/graphql",
             "demisto/taxii2",
-            "demisto/genericsql",
             "demisto/oauthlib",
             "demisto/google-kms",
             "demisto/twilio",
-            "demisto/boto3py3",
             "demisto/google-vision-api",
+            "demisto/bigquery",
+            "demisto/boto3py3",
             "demisto/boto3",
-            "demisto/bigquery"
+            "demisto/genericsql",
+            "demisto/algorithmia"
         ],
         "home_page": "http://pythonhosted.org/pytz",
         "licenses": [
@@ -6909,7 +6921,6 @@
             "demisto/tld",
             "demisto/yolo-coco",
             "demisto/etl2pcap",
-            "demisto/algorithmia",
             "demisto/splunksdk",
             "demisto/cyjax",
             "demisto/pymisp",
@@ -6982,14 +6993,15 @@
             "demisto/ansible-runner",
             "demisto/graphql",
             "demisto/taxii2",
-            "demisto/genericsql",
             "demisto/oauthlib",
             "demisto/google-kms",
             "demisto/twilio",
-            "demisto/boto3py3",
             "demisto/google-vision-api",
+            "demisto/bigquery",
+            "demisto/boto3py3",
             "demisto/boto3",
-            "demisto/bigquery"
+            "demisto/genericsql",
+            "demisto/algorithmia"
         ],
         "home_page": "https://bitbucket.org/mrabarnett/mrab-regex",
         "licenses": [
@@ -7090,7 +7102,6 @@
             "demisto/tld",
             "demisto/yolo-coco",
             "demisto/etl2pcap",
-            "demisto/algorithmia",
             "demisto/splunksdk",
             "demisto/cyjax",
             "demisto/pymisp",
@@ -7163,14 +7174,15 @@
             "demisto/ansible-runner",
             "demisto/graphql",
             "demisto/taxii2",
-            "demisto/genericsql",
             "demisto/oauthlib",
             "demisto/google-kms",
             "demisto/twilio",
-            "demisto/boto3py3",
             "demisto/google-vision-api",
+            "demisto/bigquery",
+            "demisto/boto3py3",
             "demisto/boto3",
-            "demisto/bigquery"
+            "demisto/genericsql",
+            "demisto/algorithmia"
         ],
         "home_page": "http://python-requests.org",
         "licenses": [
@@ -7241,7 +7253,6 @@
             "demisto/tld",
             "demisto/yolo-coco",
             "demisto/etl2pcap",
-            "demisto/algorithmia",
             "demisto/splunksdk",
             "demisto/cyjax",
             "demisto/pymisp",
@@ -7314,14 +7325,15 @@
             "demisto/ansible-runner",
             "demisto/graphql",
             "demisto/taxii2",
-            "demisto/genericsql",
             "demisto/oauthlib",
             "demisto/google-kms",
             "demisto/twilio",
-            "demisto/boto3py3",
             "demisto/google-vision-api",
+            "demisto/bigquery",
+            "demisto/boto3py3",
             "demisto/boto3",
-            "demisto/bigquery"
+            "demisto/genericsql",
+            "demisto/algorithmia"
         ],
         "home_page": "http://github.com/dashea/requests-file",
         "licenses": [
@@ -7743,7 +7755,6 @@
             "demisto/tld",
             "demisto/yolo-coco",
             "demisto/etl2pcap",
-            "demisto/algorithmia",
             "demisto/splunksdk",
             "demisto/cyjax",
             "demisto/pymisp",
@@ -7816,14 +7827,15 @@
             "demisto/ansible-runner",
             "demisto/graphql",
             "demisto/taxii2",
-            "demisto/genericsql",
             "demisto/oauthlib",
             "demisto/google-kms",
             "demisto/twilio",
-            "demisto/boto3py3",
             "demisto/google-vision-api",
+            "demisto/bigquery",
+            "demisto/boto3py3",
             "demisto/boto3",
-            "demisto/bigquery"
+            "demisto/genericsql",
+            "demisto/algorithmia"
         ],
         "home_page": "https://github.com/pypa/setuptools",
         "licenses": [
@@ -7968,7 +7980,6 @@
             "demisto/tld",
             "demisto/yolo-coco",
             "demisto/etl2pcap",
-            "demisto/algorithmia",
             "demisto/splunksdk",
             "demisto/cyjax",
             "demisto/pymisp",
@@ -8041,14 +8052,15 @@
             "demisto/ansible-runner",
             "demisto/graphql",
             "demisto/taxii2",
-            "demisto/genericsql",
             "demisto/oauthlib",
             "demisto/google-kms",
             "demisto/twilio",
-            "demisto/boto3py3",
             "demisto/google-vision-api",
+            "demisto/bigquery",
+            "demisto/boto3py3",
             "demisto/boto3",
-            "demisto/bigquery"
+            "demisto/genericsql",
+            "demisto/algorithmia"
         ],
         "home_page": "https://github.com/benjaminp/six",
         "licenses": [
@@ -8664,7 +8676,6 @@
             "demisto/tld",
             "demisto/yolo-coco",
             "demisto/etl2pcap",
-            "demisto/algorithmia",
             "demisto/splunksdk",
             "demisto/cyjax",
             "demisto/pymisp",
@@ -8737,14 +8748,15 @@
             "demisto/ansible-runner",
             "demisto/graphql",
             "demisto/taxii2",
-            "demisto/genericsql",
             "demisto/oauthlib",
             "demisto/google-kms",
             "demisto/twilio",
-            "demisto/boto3py3",
             "demisto/google-vision-api",
+            "demisto/bigquery",
+            "demisto/boto3py3",
             "demisto/boto3",
-            "demisto/bigquery"
+            "demisto/genericsql",
+            "demisto/algorithmia"
         ],
         "home_page": "https://github.com/john-kurkowski/tldextract",
         "licenses": [
@@ -8756,8 +8768,8 @@
     "toml": {
         "author": "William Pearson uiri@xqz.ca",
         "docker_images": [
-            "demisto/algorithmia",
-            "demisto/xsoar-tools"
+            "demisto/xsoar-tools",
+            "demisto/algorithmia"
         ],
         "home_page": "https://github.com/uiri/toml",
         "licenses": [
@@ -8930,7 +8942,6 @@
             "demisto/tld",
             "demisto/yolo-coco",
             "demisto/etl2pcap",
-            "demisto/algorithmia",
             "demisto/splunksdk",
             "demisto/cyjax",
             "demisto/pymisp",
@@ -9003,14 +9014,15 @@
             "demisto/ansible-runner",
             "demisto/graphql",
             "demisto/taxii2",
-            "demisto/genericsql",
             "demisto/oauthlib",
             "demisto/google-kms",
             "demisto/twilio",
-            "demisto/boto3py3",
             "demisto/google-vision-api",
+            "demisto/bigquery",
+            "demisto/boto3py3",
             "demisto/boto3",
-            "demisto/bigquery"
+            "demisto/genericsql",
+            "demisto/algorithmia"
         ],
         "home_page": "https://github.com/regebro/tzlocal",
         "licenses": [
@@ -9155,7 +9167,6 @@
             "demisto/tld",
             "demisto/yolo-coco",
             "demisto/etl2pcap",
-            "demisto/algorithmia",
             "demisto/splunksdk",
             "demisto/cyjax",
             "demisto/pymisp",
@@ -9228,14 +9239,15 @@
             "demisto/ansible-runner",
             "demisto/graphql",
             "demisto/taxii2",
-            "demisto/genericsql",
             "demisto/oauthlib",
             "demisto/google-kms",
             "demisto/twilio",
-            "demisto/boto3py3",
             "demisto/google-vision-api",
+            "demisto/bigquery",
+            "demisto/boto3py3",
             "demisto/boto3",
-            "demisto/bigquery"
+            "demisto/genericsql",
+            "demisto/algorithmia"
         ],
         "home_page": "https://urllib3.readthedocs.io/",
         "licenses": [
@@ -9580,7 +9592,6 @@
             "demisto/tld",
             "demisto/yolo-coco",
             "demisto/etl2pcap",
-            "demisto/algorithmia",
             "demisto/splunksdk",
             "demisto/cyjax",
             "demisto/pymisp",
@@ -9653,14 +9664,15 @@
             "demisto/ansible-runner",
             "demisto/graphql",
             "demisto/taxii2",
-            "demisto/genericsql",
             "demisto/oauthlib",
             "demisto/google-kms",
             "demisto/twilio",
-            "demisto/boto3py3",
             "demisto/google-vision-api",
+            "demisto/bigquery",
+            "demisto/boto3py3",
             "demisto/boto3",
-            "demisto/bigquery"
+            "demisto/genericsql",
+            "demisto/algorithmia"
         ],
         "home_page": "https://github.com/pypa/wheel",
         "licenses": [

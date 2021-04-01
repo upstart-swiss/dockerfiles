@@ -1,49 +1,58 @@
-# `demisto/unzip:1.0.0.18207`
+# `demisto/asana:1.0.0.18225`
 ## Docker Metadata
-- Image Size: `26.17 MB`
-- Image ID: `sha256:1d9ab7756a221dda60f9a9f284ee4978d0caa49b0f45f6f7ae53fa09ff74df7d`
-- Created: `2021-03-31T07:51:58.778423551Z`
+- Image Size: `24.41 MB`
+- Image ID: `sha256:116fc6a10ab8cc3afa1adcdc5d8510f235314b00bf52e1d442bc59431b427c72`
+- Created: `2021-03-31T15:46:25.881405139Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
   - `PATH=/usr/local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin`
   - `LANG=C.UTF-8`
   - `GPG_KEY=E3FF2839C048B25C084DEBE9B26995E310250568`
-  - `PYTHON_VERSION=3.9.2`
-  - `PYTHON_PIP_VERSION=21.0.1`
-  - `PYTHON_GET_PIP_URL=https://github.com/pypa/get-pip/raw/b60e2320d9e8d02348525bd74e871e466afdf77c/get-pip.py`
-  - `PYTHON_GET_PIP_SHA256=c3b81e5d06371e135fb3156dc7d8fd6270735088428c4a9a5ec1f342e2024565`
-  - `DOCKER_IMAGE=demisto/unzip:1.0.0.18207`
+  - `PYTHON_VERSION=3.9.1`
+  - `PYTHON_PIP_VERSION=21.0`
+  - `PYTHON_GET_PIP_URL=https://github.com/pypa/get-pip/raw/8cc88aca7d9775fce279e8b84ef163cf1d3e8a2e/get-pip.py`
+  - `PYTHON_GET_PIP_SHA256=ffb67da2e976f48dd29714fc64812d1ac419eb7d48079737166dd95640d1debd`
+  - `DOCKER_IMAGE=demisto/asana:1.0.0.18225`
 - Labels:
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:1fe26223ffc00e74ed67733d62c4d179b5a35ea2`
-  - `org.opencontainers.image.version:1.0.0.18207`
+  - `org.opencontainers.image.revision:af45ff3c99a3860edff40a75aa12b35e7314725d`
+  - `org.opencontainers.image.version:1.0.0.18225`
 
 - OS Release:
   - `NAME="Alpine Linux"`
   - `ID=alpine`
-  - `VERSION_ID=3.13.3`
-  - `PRETTY_NAME="Alpine Linux v3.13"`
+  - `VERSION_ID=3.12.3`
+  - `PRETTY_NAME="Alpine Linux v3.12"`
   - `HOME_URL="https://alpinelinux.org/"`
   - `BUG_REPORT_URL="https://bugs.alpinelinux.org/"`
 
 ## Docker Trust
 ```
 
-Signatures for demisto/unzip:1.0.0.18207
+Signatures for demisto/asana:1.0.0.18225
 
 SIGNED TAG          DIGEST                                                             SIGNERS
-1.0.0.18207         e766cc4c31a6a76ad854ffc100c99961d051c3e8ed401897681fb3e8caccc2fc   (Repo Admin)
+1.0.0.18225         1134645de777e1a337caba5c02e83f1d5a177eba0c1831e931d85f973b5ad0c7   (Repo Admin)
 
-Administrative keys for demisto/unzip:1.0.0.18207
+Administrative keys for demisto/asana:1.0.0.18225
 
-  Repository Key:	8502dcd9747d860601254c8e2e908005624ef59c37b18c2dd72db1eb8e0d37e3
-  Root Key:	f7ee2f631342ff2873fc4281c1baba874434a8fca0834d6a2c3fa6ee6b04e3be
+  Repository Key:	4d8c8fa5993fef58b2a04c922ab8bc1cb40680e4c6ebc2ef6996960fd06d5335
+  Root Key:	e17133147f596a9018db63997d08e3446fd37709a872a151522cf9856b45b960
 
 ```
 
 ## `Python Packages`
 
+
+### `asana`
+
+* Summary: Asana API client
+* Version: 0.10.3
+* Pypi: https://pypi.org/project/asana/
+* Homepage: http://github.com/asana/python-asana
+* Author: Asana, Inc
+* License :: OSI Approved :: MIT License
 
 ### `certifi`
 
@@ -88,6 +97,15 @@ Administrative keys for demisto/unzip:1.0.0.18207
 * Pypi: https://pypi.org/project/idna/
 * Homepage: https://github.com/kjd/idna
 * Author: Kim Davies kim@cynosure.com.au
+* License :: OSI Approved :: BSD License
+
+### `oauthlib`
+
+* Summary: A generic, spec-compliant, thorough implementation of the OAuth request-signing logic
+* Version: 3.1.0
+* Pypi: https://pypi.org/project/oauthlib/
+* Homepage: https://github.com/oauthlib/oauthlib
+* Author: The OAuthlib Community idan@gazit.me
 * License :: OSI Approved :: BSD License
 
 ### `olefile`
@@ -172,10 +190,19 @@ Administrative keys for demisto/unzip:1.0.0.18207
 * Author: David Shea reallylongword@gmail.com
 * License :: OSI Approved :: Apache Software License
 
+### `requests-oauthlib`
+
+* Summary: OAuthlib authentication support for Requests.
+* Version: 1.3.0
+* Pypi: https://pypi.org/project/requests-oauthlib/
+* Homepage: https://github.com/requests/requests-oauthlib
+* Author: Kenneth Reitz me@kennethreitz.com
+* License :: OSI Approved :: BSD License
+
 ### `setuptools`
 
 * Summary: Easily download, build, install, upgrade, and uninstall Python packages
-* Version: 54.2.0
+* Version: 52.0.0
 * Pypi: https://pypi.org/project/setuptools/
 * Homepage: https://github.com/pypa/setuptools
 * Author: Python Packaging Authority distutils-sig@python.org
@@ -211,7 +238,7 @@ Administrative keys for demisto/unzip:1.0.0.18207
 ### `urllib3`
 
 * Summary: HTTP library with thread-safe connection pooling, file post, and more.
-* Version: 1.26.3
+* Version: 1.26.4
 * Pypi: https://pypi.org/project/urllib3/
 * Homepage: https://urllib3.readthedocs.io/
 * Author: Andrey Petrov andrey.petrov@shazow.net
@@ -228,43 +255,39 @@ Administrative keys for demisto/unzip:1.0.0.18207
 
 ## `OS Packages`
 
-* .python-rundeps-20210326.084248 noarch {.python-rundeps}
-* alpine-baselayout-3.2.0-r8 x86_64 {alpine-baselayout}
+* .python-rundeps-20201217.020155 noarch {.python-rundeps}
+* alpine-baselayout-3.2.0-r7 x86_64 {alpine-baselayout}
 * alpine-keys-2.2-r0 x86_64 {alpine-keys}
-* apk-tools-2.12.1-r0 x86_64 {apk-tools}
-* busybox-1.32.1-r3 x86_64 {busybox}
-* ca-certificates-20191127-r5 x86_64 {ca-certificates}
-* ca-certificates-bundle-20191127-r5 x86_64 {ca-certificates}
-* expat-2.2.10-r1 x86_64 {expat}
-* gdbm-1.19-r0 x86_64 {gdbm}
-* keyutils-libs-1.6.3-r0 x86_64 {keyutils}
+* apk-tools-2.10.5-r1 x86_64 {apk-tools}
+* busybox-1.31.1-r19 x86_64 {busybox}
+* ca-certificates-20191127-r4 x86_64 {ca-certificates}
+* ca-certificates-bundle-20191127-r4 x86_64 {ca-certificates}
+* expat-2.2.9-r1 x86_64 {expat}
+* gdbm-1.13-r1 x86_64 {gdbm}
+* keyutils-libs-1.6.1-r1 x86_64 {keyutils}
 * krb5-conf-1.0-r2 x86_64 {krb5-conf}
-* krb5-libs-1.18.3-r1 x86_64 {krb5}
+* krb5-libs-1.18.3-r0 x86_64 {krb5}
 * libbz2-1.0.8-r1 x86_64 {bzip2}
 * libc-utils-0.7.2-r3 x86_64 {libc-dev}
-* libcom_err-1.45.7-r0 x86_64 {e2fsprogs}
-* libcrypto1.1-1.1.1k-r0 x86_64 {openssl}
+* libcom_err-1.45.6-r0 x86_64 {e2fsprogs}
+* libcrypto1.1-1.1.1i-r0 x86_64 {openssl}
 * libffi-3.3-r2 x86_64 {libffi}
-* libgcc-10.2.1_pre1-r3 x86_64 {gcc}
-* libintl-0.20.2-r2 x86_64 {gettext}
-* libnsl-1.3.0-r0 x86_64 {libnsl}
-* libssl1.1-1.1.1k-r0 x86_64 {openssl}
-* libstdc++-10.2.1_pre1-r3 x86_64 {gcc}
-* libtirpc-1.3.1-r0 x86_64 {libtirpc}
-* libtirpc-conf-1.3.1-r0 x86_64 {libtirpc}
+* libintl-0.20.2-r0 x86_64 {gettext}
+* libnsl-1.2.0-r1 x86_64 {libnsl}
+* libssl1.1-1.1.1i-r0 x86_64 {openssl}
+* libtirpc-1.2.6-r0 x86_64 {libtirpc}
+* libtirpc-conf-1.2.6-r0 x86_64 {libtirpc}
 * libtls-standalone-2.9.1-r1 x86_64 {libtls-standalone}
-* libuuid-2.36.1-r1 x86_64 {util-linux}
+* libuuid-2.35.2-r0 x86_64 {util-linux}
 * libverto-0.3.1-r1 x86_64 {libverto}
-* musl-1.2.2-r0 x86_64 {musl}
-* musl-utils-1.2.2-r0 x86_64 {musl}
-* ncurses-libs-6.2_p20210109-r0 x86_64 {ncurses}
-* ncurses-terminfo-base-6.2_p20210109-r0 x86_64 {ncurses}
-* p7zip-16.02-r4 x86_64 {p7zip}
-* readline-8.1.0-r0 x86_64 {readline}
-* scanelf-1.2.8-r0 x86_64 {pax-utils}
-* sqlite-libs-3.34.1-r0 x86_64 {sqlite}
-* ssl_client-1.32.1-r3 x86_64 {busybox}
-* tzdata-2021a-r0 x86_64 {tzdata}
-* unrar-6.0.3-r0 x86_64 {unrar}
+* musl-1.1.24-r10 x86_64 {musl}
+* musl-utils-1.1.24-r10 x86_64 {musl}
+* ncurses-libs-6.2_p20200523-r0 x86_64 {ncurses}
+* ncurses-terminfo-base-6.2_p20200523-r0 x86_64 {ncurses}
+* readline-8.0.4-r0 x86_64 {readline}
+* scanelf-1.2.6-r0 x86_64 {pax-utils}
+* sqlite-libs-3.32.1-r0 x86_64 {sqlite}
+* ssl_client-1.31.1-r19 x86_64 {busybox}
+* tzdata-2020f-r0 x86_64 {tzdata}
 * xz-libs-5.2.5-r0 x86_64 {xz}
 * zlib-1.2.11-r3 x86_64 {zlib}

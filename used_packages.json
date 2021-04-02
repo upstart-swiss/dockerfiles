@@ -401,7 +401,6 @@
             "demisto/devo",
             "demisto/blueliv",
             "demisto/pyjwt",
-            "demisto/google-cloud-translate",
             "demisto/ntlm",
             "demisto/dxl2",
             "demisto/netmiko",
@@ -423,11 +422,9 @@
             "demisto/sane-doc-reports",
             "demisto/tld",
             "demisto/stix2",
-            "demisto/boto3py3",
             "demisto/google-vision-api",
             "demisto/slack",
             "demisto/googleapi-python3",
-            "demisto/boto3",
             "demisto/google-api-py3",
             "demisto/vertica",
             "demisto/readpdf",
@@ -448,7 +445,10 @@
             "demisto/smartsheet",
             "demisto/smbprotocol",
             "demisto/opencv",
-            "demisto/asana"
+            "demisto/asana",
+            "demisto/boto3py3",
+            "demisto/boto3",
+            "demisto/google-cloud-translate"
         ],
         "home_page": "https://github.com/Anorov/PySocks",
         "licenses": [
@@ -569,7 +569,6 @@
             "demisto/devo",
             "demisto/blueliv",
             "demisto/pyjwt",
-            "demisto/google-cloud-translate",
             "demisto/ntlm",
             "demisto/dxl2",
             "demisto/netmiko",
@@ -591,11 +590,9 @@
             "demisto/sane-doc-reports",
             "demisto/tld",
             "demisto/stix2",
-            "demisto/boto3py3",
             "demisto/google-vision-api",
             "demisto/slack",
             "demisto/googleapi-python3",
-            "demisto/boto3",
             "demisto/google-api-py3",
             "demisto/vertica",
             "demisto/readpdf",
@@ -616,7 +613,10 @@
             "demisto/smartsheet",
             "demisto/smbprotocol",
             "demisto/opencv",
-            "demisto/asana"
+            "demisto/asana",
+            "demisto/boto3py3",
+            "demisto/boto3",
+            "demisto/google-cloud-translate"
         ],
         "home_page": "https://github.com/yaml/pyyaml",
         "licenses": [
@@ -1491,14 +1491,14 @@
             "demisto/google-api",
             "demisto/bigquery",
             "demisto/google-kms",
-            "demisto/google-cloud-translate",
             "demisto/google-k8s-engine",
             "demisto/resilient",
             "demisto/ansible-runner",
             "demisto/google-vision-api",
             "demisto/googleapi-python3",
             "demisto/google-api-py3",
-            "demisto/xsoar-tools"
+            "demisto/xsoar-tools",
+            "demisto/google-cloud-translate"
         ],
         "home_page": "https://github.com/tkem/cachetools",
         "licenses": [
@@ -1652,7 +1652,6 @@
             "demisto/devo",
             "demisto/blueliv",
             "demisto/pyjwt",
-            "demisto/google-cloud-translate",
             "demisto/ntlm",
             "demisto/dxl2",
             "demisto/netmiko",
@@ -1674,11 +1673,9 @@
             "demisto/sane-doc-reports",
             "demisto/tld",
             "demisto/stix2",
-            "demisto/boto3py3",
             "demisto/google-vision-api",
             "demisto/slack",
             "demisto/googleapi-python3",
-            "demisto/boto3",
             "demisto/google-api-py3",
             "demisto/vertica",
             "demisto/readpdf",
@@ -1699,7 +1696,10 @@
             "demisto/smartsheet",
             "demisto/smbprotocol",
             "demisto/opencv",
-            "demisto/asana"
+            "demisto/asana",
+            "demisto/boto3py3",
+            "demisto/boto3",
+            "demisto/google-cloud-translate"
         ],
         "home_page": "https://certifi.io/",
         "licenses": [
@@ -1869,7 +1869,6 @@
             "demisto/devo",
             "demisto/blueliv",
             "demisto/pyjwt",
-            "demisto/google-cloud-translate",
             "demisto/ntlm",
             "demisto/dxl2",
             "demisto/netmiko",
@@ -1891,11 +1890,9 @@
             "demisto/sane-doc-reports",
             "demisto/tld",
             "demisto/stix2",
-            "demisto/boto3py3",
             "demisto/google-vision-api",
             "demisto/slack",
             "demisto/googleapi-python3",
-            "demisto/boto3",
             "demisto/google-api-py3",
             "demisto/vertica",
             "demisto/readpdf",
@@ -1916,7 +1913,10 @@
             "demisto/smartsheet",
             "demisto/smbprotocol",
             "demisto/opencv",
-            "demisto/asana"
+            "demisto/asana",
+            "demisto/boto3py3",
+            "demisto/boto3",
+            "demisto/google-cloud-translate"
         ],
         "home_page": "https://github.com/chardet/chardet",
         "licenses": [
@@ -2370,7 +2370,6 @@
             "demisto/devo",
             "demisto/blueliv",
             "demisto/pyjwt",
-            "demisto/google-cloud-translate",
             "demisto/ntlm",
             "demisto/dxl2",
             "demisto/netmiko",
@@ -2392,11 +2391,9 @@
             "demisto/sane-doc-reports",
             "demisto/tld",
             "demisto/stix2",
-            "demisto/boto3py3",
             "demisto/google-vision-api",
             "demisto/slack",
             "demisto/googleapi-python3",
-            "demisto/boto3",
             "demisto/google-api-py3",
             "demisto/vertica",
             "demisto/readpdf",
@@ -2417,7 +2414,10 @@
             "demisto/smartsheet",
             "demisto/smbprotocol",
             "demisto/opencv",
-            "demisto/asana"
+            "demisto/asana",
+            "demisto/boto3py3",
+            "demisto/boto3",
+            "demisto/google-cloud-translate"
         ],
         "home_page": "https://github.com/scrapinghub/dateparser",
         "licenses": [
@@ -3139,7 +3139,6 @@
             "demisto/devo",
             "demisto/blueliv",
             "demisto/pyjwt",
-            "demisto/google-cloud-translate",
             "demisto/ntlm",
             "demisto/dxl2",
             "demisto/netmiko",
@@ -3161,11 +3160,9 @@
             "demisto/sane-doc-reports",
             "demisto/tld",
             "demisto/stix2",
-            "demisto/boto3py3",
             "demisto/google-vision-api",
             "demisto/slack",
             "demisto/googleapi-python3",
-            "demisto/boto3",
             "demisto/google-api-py3",
             "demisto/vertica",
             "demisto/readpdf",
@@ -3186,7 +3183,10 @@
             "demisto/smartsheet",
             "demisto/smbprotocol",
             "demisto/opencv",
-            "demisto/asana"
+            "demisto/asana",
+            "demisto/boto3py3",
+            "demisto/boto3",
+            "demisto/google-cloud-translate"
         ],
         "home_page": "http://github.com/Suor/funcy",
         "licenses": [
@@ -3329,12 +3329,12 @@
             "demisto/google-api",
             "demisto/bigquery",
             "demisto/google-kms",
-            "demisto/google-cloud-translate",
             "demisto/google-k8s-engine",
             "demisto/google-vision-api",
             "demisto/googleapi-python3",
             "demisto/google-api-py3",
-            "demisto/xsoar-tools"
+            "demisto/xsoar-tools",
+            "demisto/google-cloud-translate"
         ],
         "home_page": "https://github.com/GoogleCloudPlatform/google-cloud-python",
         "licenses": [
@@ -3370,13 +3370,13 @@
             "demisto/google-api",
             "demisto/bigquery",
             "demisto/google-kms",
-            "demisto/google-cloud-translate",
             "demisto/google-k8s-engine",
             "demisto/ansible-runner",
             "demisto/google-vision-api",
             "demisto/googleapi-python3",
             "demisto/google-api-py3",
-            "demisto/xsoar-tools"
+            "demisto/xsoar-tools",
+            "demisto/google-cloud-translate"
         ],
         "home_page": "https://github.com/GoogleCloudPlatform/google-auth-library-python",
         "licenses": [
@@ -3446,8 +3446,8 @@
             "demisto/gvault",
             "demisto/google-api",
             "demisto/bigquery",
-            "demisto/google-cloud-translate",
-            "demisto/xsoar-tools"
+            "demisto/xsoar-tools",
+            "demisto/google-cloud-translate"
         ],
         "home_page": "https://github.com/GoogleCloudPlatform/google-cloud-python",
         "licenses": [
@@ -3581,12 +3581,12 @@
             "demisto/google-api",
             "demisto/bigquery",
             "demisto/google-kms",
-            "demisto/google-cloud-translate",
             "demisto/google-k8s-engine",
             "demisto/google-vision-api",
             "demisto/googleapi-python3",
             "demisto/google-api-py3",
-            "demisto/xsoar-tools"
+            "demisto/xsoar-tools",
+            "demisto/google-cloud-translate"
         ],
         "home_page": "https://github.com/googleapis/googleapis",
         "licenses": [
@@ -3686,9 +3686,9 @@
             "demisto/dl-languages",
             "demisto/bigquery",
             "demisto/google-kms",
-            "demisto/google-cloud-translate",
             "demisto/google-k8s-engine",
-            "demisto/google-vision-api"
+            "demisto/google-vision-api",
+            "demisto/google-cloud-translate"
         ],
         "home_page": "https://grpc.io",
         "licenses": [
@@ -3919,7 +3919,6 @@
             "demisto/devo",
             "demisto/blueliv",
             "demisto/pyjwt",
-            "demisto/google-cloud-translate",
             "demisto/ntlm",
             "demisto/dxl2",
             "demisto/netmiko",
@@ -3941,11 +3940,9 @@
             "demisto/sane-doc-reports",
             "demisto/tld",
             "demisto/stix2",
-            "demisto/boto3py3",
             "demisto/google-vision-api",
             "demisto/slack",
             "demisto/googleapi-python3",
-            "demisto/boto3",
             "demisto/google-api-py3",
             "demisto/vertica",
             "demisto/readpdf",
@@ -3966,7 +3963,10 @@
             "demisto/smartsheet",
             "demisto/smbprotocol",
             "demisto/opencv",
-            "demisto/asana"
+            "demisto/asana",
+            "demisto/boto3py3",
+            "demisto/boto3",
+            "demisto/google-cloud-translate"
         ],
         "home_page": "https://github.com/kjd/idna",
         "licenses": [
@@ -4202,9 +4202,9 @@
             "demisto/python_pancloud_v2",
             "demisto/python_pancloud",
             "demisto/ansible-runner",
+            "demisto/threatconnect-tcex",
             "demisto/boto3py3",
-            "demisto/boto3",
-            "demisto/threatconnect-tcex"
+            "demisto/boto3"
         ],
         "home_page": "https://github.com/jmespath/jmespath.py",
         "licenses": [
@@ -4386,7 +4386,6 @@
         "docker_images": [
             "demisto/google-cloud-securitycenter",
             "demisto/google-kms",
-            "demisto/google-cloud-translate",
             "demisto/google-k8s-engine"
         ],
         "home_page": "https://github.com/Instagram/LibCST",
@@ -4716,7 +4715,6 @@
         "docker_images": [
             "demisto/google-cloud-securitycenter",
             "demisto/google-kms",
-            "demisto/google-cloud-translate",
             "demisto/google-k8s-engine",
             "demisto/xsoar-tools"
         ],
@@ -5010,7 +5008,6 @@
             "demisto/devo",
             "demisto/blueliv",
             "demisto/pyjwt",
-            "demisto/google-cloud-translate",
             "demisto/ntlm",
             "demisto/dxl2",
             "demisto/netmiko",
@@ -5032,11 +5029,9 @@
             "demisto/sane-doc-reports",
             "demisto/tld",
             "demisto/stix2",
-            "demisto/boto3py3",
             "demisto/google-vision-api",
             "demisto/slack",
             "demisto/googleapi-python3",
-            "demisto/boto3",
             "demisto/google-api-py3",
             "demisto/vertica",
             "demisto/readpdf",
@@ -5057,7 +5052,10 @@
             "demisto/smartsheet",
             "demisto/smbprotocol",
             "demisto/opencv",
-            "demisto/asana"
+            "demisto/asana",
+            "demisto/boto3py3",
+            "demisto/boto3",
+            "demisto/google-cloud-translate"
         ],
         "home_page": "https://www.decalage.info/python/olefileio",
         "licenses": [
@@ -5199,13 +5197,13 @@
             "demisto/google-api",
             "demisto/bigquery",
             "demisto/google-kms",
-            "demisto/google-cloud-translate",
             "demisto/google-k8s-engine",
             "demisto/ansible-runner",
             "demisto/google-vision-api",
             "demisto/googleapi-python3",
             "demisto/google-api-py3",
-            "demisto/xsoar-tools"
+            "demisto/xsoar-tools",
+            "demisto/google-cloud-translate"
         ],
         "home_page": "https://github.com/pypa/packaging",
         "licenses": [
@@ -5596,7 +5594,6 @@
             "demisto/devo",
             "demisto/blueliv",
             "demisto/pyjwt",
-            "demisto/google-cloud-translate",
             "demisto/ntlm",
             "demisto/dxl2",
             "demisto/netmiko",
@@ -5618,11 +5615,9 @@
             "demisto/sane-doc-reports",
             "demisto/tld",
             "demisto/stix2",
-            "demisto/boto3py3",
             "demisto/google-vision-api",
             "demisto/slack",
             "demisto/googleapi-python3",
-            "demisto/boto3",
             "demisto/google-api-py3",
             "demisto/vertica",
             "demisto/readpdf",
@@ -5643,7 +5638,10 @@
             "demisto/smartsheet",
             "demisto/smbprotocol",
             "demisto/opencv",
-            "demisto/asana"
+            "demisto/asana",
+            "demisto/boto3py3",
+            "demisto/boto3",
+            "demisto/google-cloud-translate"
         ],
         "home_page": "https://pip.pypa.io/",
         "licenses": [
@@ -5772,8 +5770,8 @@
             "demisto/google-cloud-securitycenter",
             "demisto/bigquery",
             "demisto/google-kms",
-            "demisto/google-cloud-translate",
-            "demisto/google-k8s-engine"
+            "demisto/google-k8s-engine",
+            "demisto/google-cloud-translate"
         ],
         "home_page": "https://github.com/googleapis/proto-plus-python.git",
         "licenses": [
@@ -5793,12 +5791,12 @@
             "demisto/google-api",
             "demisto/bigquery",
             "demisto/google-kms",
-            "demisto/google-cloud-translate",
             "demisto/google-k8s-engine",
             "demisto/google-vision-api",
             "demisto/googleapi-python3",
             "demisto/google-api-py3",
-            "demisto/xsoar-tools"
+            "demisto/xsoar-tools",
+            "demisto/google-cloud-translate"
         ],
         "home_page": "https://developers.google.com/protocol-buffers/",
         "licenses": [
@@ -5951,14 +5949,14 @@
             "demisto/google-api",
             "demisto/bigquery",
             "demisto/google-kms",
-            "demisto/google-cloud-translate",
             "demisto/google-k8s-engine",
             "demisto/smb",
             "demisto/ansible-runner",
             "demisto/google-vision-api",
             "demisto/googleapi-python3",
             "demisto/google-api-py3",
-            "demisto/xsoar-tools"
+            "demisto/xsoar-tools",
+            "demisto/google-cloud-translate"
         ],
         "home_page": "https://github.com/etingof/pyasn1",
         "licenses": [
@@ -5978,13 +5976,13 @@
             "demisto/google-api",
             "demisto/bigquery",
             "demisto/google-kms",
-            "demisto/google-cloud-translate",
             "demisto/google-k8s-engine",
             "demisto/ansible-runner",
             "demisto/google-vision-api",
             "demisto/googleapi-python3",
             "demisto/google-api-py3",
-            "demisto/xsoar-tools"
+            "demisto/xsoar-tools",
+            "demisto/google-cloud-translate"
         ],
         "home_page": "https://github.com/etingof/pyasn1-modules",
         "licenses": [
@@ -6318,7 +6316,6 @@
             "demisto/google-api",
             "demisto/bigquery",
             "demisto/google-kms",
-            "demisto/google-cloud-translate",
             "demisto/google-k8s-engine",
             "demisto/ansible-runner",
             "demisto/sane-doc-reports",
@@ -6326,7 +6323,8 @@
             "demisto/googleapi-python3",
             "demisto/google-api-py3",
             "demisto/xsoar-tools",
-            "demisto/matplotlib"
+            "demisto/matplotlib",
+            "demisto/google-cloud-translate"
         ],
         "home_page": "https://github.com/pyparsing/pyparsing/",
         "licenses": [
@@ -6555,7 +6553,6 @@
             "demisto/devo",
             "demisto/blueliv",
             "demisto/pyjwt",
-            "demisto/google-cloud-translate",
             "demisto/ntlm",
             "demisto/dxl2",
             "demisto/netmiko",
@@ -6577,11 +6574,9 @@
             "demisto/sane-doc-reports",
             "demisto/tld",
             "demisto/stix2",
-            "demisto/boto3py3",
             "demisto/google-vision-api",
             "demisto/slack",
             "demisto/googleapi-python3",
-            "demisto/boto3",
             "demisto/google-api-py3",
             "demisto/vertica",
             "demisto/readpdf",
@@ -6602,7 +6597,10 @@
             "demisto/smartsheet",
             "demisto/smbprotocol",
             "demisto/opencv",
-            "demisto/asana"
+            "demisto/asana",
+            "demisto/boto3py3",
+            "demisto/boto3",
+            "demisto/google-cloud-translate"
         ],
         "home_page": "https://dateutil.readthedocs.io",
         "licenses": [
@@ -6814,7 +6812,6 @@
             "demisto/devo",
             "demisto/blueliv",
             "demisto/pyjwt",
-            "demisto/google-cloud-translate",
             "demisto/ntlm",
             "demisto/dxl2",
             "demisto/netmiko",
@@ -6836,11 +6833,9 @@
             "demisto/sane-doc-reports",
             "demisto/tld",
             "demisto/stix2",
-            "demisto/boto3py3",
             "demisto/google-vision-api",
             "demisto/slack",
             "demisto/googleapi-python3",
-            "demisto/boto3",
             "demisto/google-api-py3",
             "demisto/vertica",
             "demisto/readpdf",
@@ -6861,7 +6856,10 @@
             "demisto/smartsheet",
             "demisto/smbprotocol",
             "demisto/opencv",
-            "demisto/asana"
+            "demisto/asana",
+            "demisto/boto3py3",
+            "demisto/boto3",
+            "demisto/google-cloud-translate"
         ],
         "home_page": "http://pythonhosted.org/pytz",
         "licenses": [
@@ -7045,7 +7043,6 @@
             "demisto/devo",
             "demisto/blueliv",
             "demisto/pyjwt",
-            "demisto/google-cloud-translate",
             "demisto/ntlm",
             "demisto/dxl2",
             "demisto/netmiko",
@@ -7067,11 +7064,9 @@
             "demisto/sane-doc-reports",
             "demisto/tld",
             "demisto/stix2",
-            "demisto/boto3py3",
             "demisto/google-vision-api",
             "demisto/slack",
             "demisto/googleapi-python3",
-            "demisto/boto3",
             "demisto/google-api-py3",
             "demisto/vertica",
             "demisto/readpdf",
@@ -7092,7 +7087,10 @@
             "demisto/smartsheet",
             "demisto/smbprotocol",
             "demisto/opencv",
-            "demisto/asana"
+            "demisto/asana",
+            "demisto/boto3py3",
+            "demisto/boto3",
+            "demisto/google-cloud-translate"
         ],
         "home_page": "https://bitbucket.org/mrabarnett/mrab-regex",
         "licenses": [
@@ -7229,7 +7227,6 @@
             "demisto/devo",
             "demisto/blueliv",
             "demisto/pyjwt",
-            "demisto/google-cloud-translate",
             "demisto/ntlm",
             "demisto/dxl2",
             "demisto/netmiko",
@@ -7251,11 +7248,9 @@
             "demisto/sane-doc-reports",
             "demisto/tld",
             "demisto/stix2",
-            "demisto/boto3py3",
             "demisto/google-vision-api",
             "demisto/slack",
             "demisto/googleapi-python3",
-            "demisto/boto3",
             "demisto/google-api-py3",
             "demisto/vertica",
             "demisto/readpdf",
@@ -7276,7 +7271,10 @@
             "demisto/smartsheet",
             "demisto/smbprotocol",
             "demisto/opencv",
-            "demisto/asana"
+            "demisto/asana",
+            "demisto/boto3py3",
+            "demisto/boto3",
+            "demisto/google-cloud-translate"
         ],
         "home_page": "http://python-requests.org",
         "licenses": [
@@ -7383,7 +7381,6 @@
             "demisto/devo",
             "demisto/blueliv",
             "demisto/pyjwt",
-            "demisto/google-cloud-translate",
             "demisto/ntlm",
             "demisto/dxl2",
             "demisto/netmiko",
@@ -7405,11 +7402,9 @@
             "demisto/sane-doc-reports",
             "demisto/tld",
             "demisto/stix2",
-            "demisto/boto3py3",
             "demisto/google-vision-api",
             "demisto/slack",
             "demisto/googleapi-python3",
-            "demisto/boto3",
             "demisto/google-api-py3",
             "demisto/vertica",
             "demisto/readpdf",
@@ -7430,7 +7425,10 @@
             "demisto/smartsheet",
             "demisto/smbprotocol",
             "demisto/opencv",
-            "demisto/asana"
+            "demisto/asana",
+            "demisto/boto3py3",
+            "demisto/boto3",
+            "demisto/google-cloud-translate"
         ],
         "home_page": "http://github.com/dashea/requests-file",
         "licenses": [
@@ -7592,13 +7590,13 @@
             "demisto/google-api",
             "demisto/bigquery",
             "demisto/google-kms",
-            "demisto/google-cloud-translate",
             "demisto/google-k8s-engine",
             "demisto/ansible-runner",
             "demisto/google-vision-api",
             "demisto/googleapi-python3",
             "demisto/google-api-py3",
-            "demisto/xsoar-tools"
+            "demisto/xsoar-tools",
+            "demisto/google-cloud-translate"
         ],
         "home_page": "https://stuvel.eu/rsa",
         "licenses": [
@@ -7902,7 +7900,6 @@
             "demisto/devo",
             "demisto/blueliv",
             "demisto/pyjwt",
-            "demisto/google-cloud-translate",
             "demisto/ntlm",
             "demisto/dxl2",
             "demisto/netmiko",
@@ -7924,11 +7921,9 @@
             "demisto/sane-doc-reports",
             "demisto/tld",
             "demisto/stix2",
-            "demisto/boto3py3",
             "demisto/google-vision-api",
             "demisto/slack",
             "demisto/googleapi-python3",
-            "demisto/boto3",
             "demisto/google-api-py3",
             "demisto/vertica",
             "demisto/readpdf",
@@ -7949,7 +7944,10 @@
             "demisto/smartsheet",
             "demisto/smbprotocol",
             "demisto/opencv",
-            "demisto/asana"
+            "demisto/asana",
+            "demisto/boto3py3",
+            "demisto/boto3",
+            "demisto/google-cloud-translate"
         ],
         "home_page": "https://github.com/pypa/setuptools",
         "licenses": [
@@ -8130,7 +8128,6 @@
             "demisto/devo",
             "demisto/blueliv",
             "demisto/pyjwt",
-            "demisto/google-cloud-translate",
             "demisto/ntlm",
             "demisto/dxl2",
             "demisto/netmiko",
@@ -8152,11 +8149,9 @@
             "demisto/sane-doc-reports",
             "demisto/tld",
             "demisto/stix2",
-            "demisto/boto3py3",
             "demisto/google-vision-api",
             "demisto/slack",
             "demisto/googleapi-python3",
-            "demisto/boto3",
             "demisto/google-api-py3",
             "demisto/vertica",
             "demisto/readpdf",
@@ -8177,7 +8172,10 @@
             "demisto/smartsheet",
             "demisto/smbprotocol",
             "demisto/opencv",
-            "demisto/asana"
+            "demisto/asana",
+            "demisto/boto3py3",
+            "demisto/boto3",
+            "demisto/google-cloud-translate"
         ],
         "home_page": "https://github.com/benjaminp/six",
         "licenses": [
@@ -8841,7 +8839,6 @@
             "demisto/devo",
             "demisto/blueliv",
             "demisto/pyjwt",
-            "demisto/google-cloud-translate",
             "demisto/ntlm",
             "demisto/dxl2",
             "demisto/netmiko",
@@ -8863,11 +8860,9 @@
             "demisto/sane-doc-reports",
             "demisto/tld",
             "demisto/stix2",
-            "demisto/boto3py3",
             "demisto/google-vision-api",
             "demisto/slack",
             "demisto/googleapi-python3",
-            "demisto/boto3",
             "demisto/google-api-py3",
             "demisto/vertica",
             "demisto/readpdf",
@@ -8888,7 +8883,10 @@
             "demisto/smartsheet",
             "demisto/smbprotocol",
             "demisto/opencv",
-            "demisto/asana"
+            "demisto/asana",
+            "demisto/boto3py3",
+            "demisto/boto3",
+            "demisto/google-cloud-translate"
         ],
         "home_page": "https://github.com/john-kurkowski/tldextract",
         "licenses": [
@@ -8971,7 +8969,6 @@
             "demisto/google-cloud-securitycenter",
             "demisto/aiohttp",
             "demisto/google-kms",
-            "demisto/google-cloud-translate",
             "demisto/google-k8s-engine",
             "demisto/slack",
             "demisto/xsoar-tools"
@@ -8988,7 +8985,6 @@
         "docker_images": [
             "demisto/google-cloud-securitycenter",
             "demisto/google-kms",
-            "demisto/google-cloud-translate",
             "demisto/google-k8s-engine"
         ],
         "home_page": "https://github.com/ilevkivskyi/typing_inspect",
@@ -9111,7 +9107,6 @@
             "demisto/devo",
             "demisto/blueliv",
             "demisto/pyjwt",
-            "demisto/google-cloud-translate",
             "demisto/ntlm",
             "demisto/dxl2",
             "demisto/netmiko",
@@ -9133,11 +9128,9 @@
             "demisto/sane-doc-reports",
             "demisto/tld",
             "demisto/stix2",
-            "demisto/boto3py3",
             "demisto/google-vision-api",
             "demisto/slack",
             "demisto/googleapi-python3",
-            "demisto/boto3",
             "demisto/google-api-py3",
             "demisto/vertica",
             "demisto/readpdf",
@@ -9158,7 +9151,10 @@
             "demisto/smartsheet",
             "demisto/smbprotocol",
             "demisto/opencv",
-            "demisto/asana"
+            "demisto/asana",
+            "demisto/boto3py3",
+            "demisto/boto3",
+            "demisto/google-cloud-translate"
         ],
         "home_page": "https://github.com/regebro/tzlocal",
         "licenses": [
@@ -9339,7 +9335,6 @@
             "demisto/devo",
             "demisto/blueliv",
             "demisto/pyjwt",
-            "demisto/google-cloud-translate",
             "demisto/ntlm",
             "demisto/dxl2",
             "demisto/netmiko",
@@ -9361,11 +9356,9 @@
             "demisto/sane-doc-reports",
             "demisto/tld",
             "demisto/stix2",
-            "demisto/boto3py3",
             "demisto/google-vision-api",
             "demisto/slack",
             "demisto/googleapi-python3",
-            "demisto/boto3",
             "demisto/google-api-py3",
             "demisto/vertica",
             "demisto/readpdf",
@@ -9386,7 +9379,10 @@
             "demisto/smartsheet",
             "demisto/smbprotocol",
             "demisto/opencv",
-            "demisto/asana"
+            "demisto/asana",
+            "demisto/boto3py3",
+            "demisto/boto3",
+            "demisto/google-cloud-translate"
         ],
         "home_page": "https://urllib3.readthedocs.io/",
         "licenses": [
@@ -9767,7 +9763,6 @@
             "demisto/devo",
             "demisto/blueliv",
             "demisto/pyjwt",
-            "demisto/google-cloud-translate",
             "demisto/ntlm",
             "demisto/dxl2",
             "demisto/netmiko",
@@ -9789,11 +9784,9 @@
             "demisto/sane-doc-reports",
             "demisto/tld",
             "demisto/stix2",
-            "demisto/boto3py3",
             "demisto/google-vision-api",
             "demisto/slack",
             "demisto/googleapi-python3",
-            "demisto/boto3",
             "demisto/google-api-py3",
             "demisto/vertica",
             "demisto/readpdf",
@@ -9814,7 +9807,10 @@
             "demisto/smartsheet",
             "demisto/smbprotocol",
             "demisto/opencv",
-            "demisto/asana"
+            "demisto/asana",
+            "demisto/boto3py3",
+            "demisto/boto3",
+            "demisto/google-cloud-translate"
         ],
         "home_page": "https://github.com/pypa/wheel",
         "licenses": [

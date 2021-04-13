@@ -118,10 +118,10 @@
             "demisto/taxii-server",
             "demisto/xsoar-tools",
             "demisto/greynoise",
-            "demisto/dl-languages",
             "demisto/ml",
+            "demisto/ansible-runner",
             "demisto/sklearn",
-            "demisto/ansible-runner"
+            "demisto/dl-languages"
         ],
         "home_page": "https://palletsprojects.com/p/jinja/",
         "licenses": [
@@ -151,10 +151,10 @@
             "demisto/taxii-server",
             "demisto/xsoar-tools",
             "demisto/greynoise",
-            "demisto/dl-languages",
             "demisto/ml",
+            "demisto/ansible-runner",
             "demisto/sklearn",
-            "demisto/ansible-runner"
+            "demisto/dl-languages"
         ],
         "home_page": "https://palletsprojects.com/p/markupsafe/",
         "licenses": [
@@ -180,10 +180,10 @@
         "docker_images": [
             "demisto/dl",
             "demisto/matplotlib",
-            "demisto/dl-languages",
             "demisto/sane-doc-reports",
             "demisto/chromium",
-            "demisto/ml"
+            "demisto/ml",
+            "demisto/dl-languages"
         ],
         "home_page": "http://python-pillow.org",
         "licenses": [
@@ -292,7 +292,6 @@
             "demisto/xml-feed",
             "demisto/tidy",
             "demisto/pyjarm",
-            "demisto/pandas",
             "demisto/oauthlib",
             "demisto/imap",
             "demisto/lacework",
@@ -379,7 +378,6 @@
             "demisto/py2-exchangelib",
             "demisto/fasttext",
             "demisto/twilio",
-            "demisto/dl-languages",
             "demisto/minio",
             "demisto/carbon-black-cloud",
             "demisto/python3",
@@ -387,13 +385,10 @@
             "demisto/python3-deb",
             "demisto/sane-pdf-reports",
             "demisto/chromium",
-            "demisto/boto3py3",
             "demisto/google-vision-api",
             "demisto/office-utils",
-            "demisto/fetch-data",
             "demisto/ml",
             "demisto/googleapi-python3",
-            "demisto/boto3",
             "demisto/genericsql",
             "demisto/google-api-py3",
             "demisto/nltk",
@@ -401,7 +396,6 @@
             "demisto/bigquery",
             "demisto/pcap-http-extractor",
             "demisto/trustar",
-            "demisto/sklearn",
             "demisto/yarapy",
             "demisto/google-kms",
             "demisto/devo",
@@ -411,7 +405,13 @@
             "demisto/google-k8s-engine",
             "demisto/ansible-runner",
             "demisto/distorm3",
-            "demisto/sharepoint"
+            "demisto/sharepoint",
+            "demisto/boto3py3",
+            "demisto/fetch-data",
+            "demisto/boto3",
+            "demisto/pandas",
+            "demisto/sklearn",
+            "demisto/dl-languages"
         ],
         "home_page": "https://github.com/Anorov/PySocks",
         "licenses": [
@@ -424,8 +424,8 @@
         "author": "",
         "docker_images": [
             "demisto/dl",
-            "demisto/dl-languages",
-            "demisto/ml"
+            "demisto/ml",
+            "demisto/dl-languages"
         ],
         "home_page": "https://github.com/PyWavelets/pywt",
         "licenses": [
@@ -461,7 +461,6 @@
             "demisto/xml-feed",
             "demisto/tidy",
             "demisto/pyjarm",
-            "demisto/pandas",
             "demisto/oauthlib",
             "demisto/imap",
             "demisto/lacework",
@@ -549,7 +548,6 @@
             "demisto/py2-exchangelib",
             "demisto/fasttext",
             "demisto/twilio",
-            "demisto/dl-languages",
             "demisto/minio",
             "demisto/carbon-black-cloud",
             "demisto/python3",
@@ -557,13 +555,10 @@
             "demisto/python3-deb",
             "demisto/sane-pdf-reports",
             "demisto/chromium",
-            "demisto/boto3py3",
             "demisto/google-vision-api",
             "demisto/office-utils",
-            "demisto/fetch-data",
             "demisto/ml",
             "demisto/googleapi-python3",
-            "demisto/boto3",
             "demisto/genericsql",
             "demisto/google-api-py3",
             "demisto/nltk",
@@ -571,7 +566,6 @@
             "demisto/bigquery",
             "demisto/pcap-http-extractor",
             "demisto/trustar",
-            "demisto/sklearn",
             "demisto/yarapy",
             "demisto/google-kms",
             "demisto/devo",
@@ -581,7 +575,13 @@
             "demisto/google-k8s-engine",
             "demisto/ansible-runner",
             "demisto/distorm3",
-            "demisto/sharepoint"
+            "demisto/sharepoint",
+            "demisto/boto3py3",
+            "demisto/fetch-data",
+            "demisto/boto3",
+            "demisto/pandas",
+            "demisto/sklearn",
+            "demisto/dl-languages"
         ],
         "home_page": "https://github.com/yaml/pyyaml",
         "licenses": [
@@ -1091,9 +1091,9 @@
             "demisto/pymisp",
             "demisto/aiohttp",
             "demisto/argus-toolbelt",
-            "demisto/dl-languages",
             "demisto/ml",
-            "demisto/sklearn"
+            "demisto/sklearn",
+            "demisto/dl-languages"
         ],
         "home_page": "https://www.attrs.org/",
         "licenses": [
@@ -1309,8 +1309,8 @@
         "author": "Matthew Honnibal matt@explosion.ai",
         "docker_images": [
             "demisto/dl",
-            "demisto/dl-languages",
-            "demisto/ml"
+            "demisto/ml",
+            "demisto/dl-languages"
         ],
         "home_page": "https://github.com/explosion/cython-blis",
         "licenses": [
@@ -1459,8 +1459,8 @@
     "catalogue": {
         "author": "Explosion contact@explosion.ai",
         "docker_images": [
-            "demisto/dl-languages",
-            "demisto/ml"
+            "demisto/ml",
+            "demisto/dl-languages"
         ],
         "home_page": "https://github.com/explosion/catalogue",
         "licenses": [
@@ -1472,8 +1472,8 @@
     "catboost": {
         "author": "CatBoost Developers",
         "docker_images": [
-            "demisto/dl-languages",
-            "demisto/ml"
+            "demisto/ml",
+            "demisto/dl-languages"
         ],
         "home_page": "https://catboost.ai",
         "licenses": [
@@ -1530,7 +1530,6 @@
             "demisto/xml-feed",
             "demisto/tidy",
             "demisto/pyjarm",
-            "demisto/pandas",
             "demisto/oauthlib",
             "demisto/imap",
             "demisto/lacework",
@@ -1618,7 +1617,6 @@
             "demisto/py2-exchangelib",
             "demisto/fasttext",
             "demisto/twilio",
-            "demisto/dl-languages",
             "demisto/minio",
             "demisto/carbon-black-cloud",
             "demisto/python3",
@@ -1626,13 +1624,10 @@
             "demisto/python3-deb",
             "demisto/sane-pdf-reports",
             "demisto/chromium",
-            "demisto/boto3py3",
             "demisto/google-vision-api",
             "demisto/office-utils",
-            "demisto/fetch-data",
             "demisto/ml",
             "demisto/googleapi-python3",
-            "demisto/boto3",
             "demisto/genericsql",
             "demisto/google-api-py3",
             "demisto/nltk",
@@ -1640,7 +1635,6 @@
             "demisto/bigquery",
             "demisto/pcap-http-extractor",
             "demisto/trustar",
-            "demisto/sklearn",
             "demisto/yarapy",
             "demisto/google-kms",
             "demisto/devo",
@@ -1650,7 +1644,13 @@
             "demisto/google-k8s-engine",
             "demisto/ansible-runner",
             "demisto/distorm3",
-            "demisto/sharepoint"
+            "demisto/sharepoint",
+            "demisto/boto3py3",
+            "demisto/fetch-data",
+            "demisto/boto3",
+            "demisto/pandas",
+            "demisto/sklearn",
+            "demisto/dl-languages"
         ],
         "home_page": "https://certifi.io/",
         "licenses": [
@@ -1749,7 +1749,6 @@
             "demisto/xml-feed",
             "demisto/tidy",
             "demisto/pyjarm",
-            "demisto/pandas",
             "demisto/oauthlib",
             "demisto/imap",
             "demisto/lacework",
@@ -1837,7 +1836,6 @@
             "demisto/py2-exchangelib",
             "demisto/fasttext",
             "demisto/twilio",
-            "demisto/dl-languages",
             "demisto/minio",
             "demisto/carbon-black-cloud",
             "demisto/python3",
@@ -1845,13 +1843,10 @@
             "demisto/python3-deb",
             "demisto/sane-pdf-reports",
             "demisto/chromium",
-            "demisto/boto3py3",
             "demisto/google-vision-api",
             "demisto/office-utils",
-            "demisto/fetch-data",
             "demisto/ml",
             "demisto/googleapi-python3",
-            "demisto/boto3",
             "demisto/genericsql",
             "demisto/google-api-py3",
             "demisto/nltk",
@@ -1859,7 +1854,6 @@
             "demisto/bigquery",
             "demisto/pcap-http-extractor",
             "demisto/trustar",
-            "demisto/sklearn",
             "demisto/yarapy",
             "demisto/google-kms",
             "demisto/devo",
@@ -1869,7 +1863,13 @@
             "demisto/google-k8s-engine",
             "demisto/ansible-runner",
             "demisto/distorm3",
-            "demisto/sharepoint"
+            "demisto/sharepoint",
+            "demisto/boto3py3",
+            "demisto/fetch-data",
+            "demisto/boto3",
+            "demisto/pandas",
+            "demisto/sklearn",
+            "demisto/dl-languages"
         ],
         "home_page": "https://github.com/chardet/chardet",
         "licenses": [
@@ -1901,13 +1901,13 @@
             "demisto/xsoar-tools",
             "demisto/fastapi",
             "demisto/greynoise",
-            "demisto/dl-languages",
             "demisto/sane-doc-reports",
-            "demisto/fetch-data",
             "demisto/ml",
             "demisto/nltk",
+            "demisto/devo",
+            "demisto/fetch-data",
             "demisto/sklearn",
-            "demisto/devo"
+            "demisto/dl-languages"
         ],
         "home_page": "https://palletsprojects.com/p/click/",
         "licenses": [
@@ -2161,9 +2161,9 @@
         "docker_images": [
             "demisto/dl",
             "demisto/matplotlib",
-            "demisto/dl-languages",
             "demisto/sane-doc-reports",
-            "demisto/ml"
+            "demisto/ml",
+            "demisto/dl-languages"
         ],
         "home_page": "http://github.com/matplotlib/cycler",
         "licenses": [
@@ -2188,8 +2188,8 @@
         "author": "Matthew Honnibal matt@explosion.ai",
         "docker_images": [
             "demisto/dl",
-            "demisto/dl-languages",
-            "demisto/ml"
+            "demisto/ml",
+            "demisto/dl-languages"
         ],
         "home_page": "https://github.com/explosion/cymem",
         "licenses": [
@@ -2252,7 +2252,6 @@
             "demisto/xml-feed",
             "demisto/tidy",
             "demisto/pyjarm",
-            "demisto/pandas",
             "demisto/oauthlib",
             "demisto/imap",
             "demisto/lacework",
@@ -2340,7 +2339,6 @@
             "demisto/py2-exchangelib",
             "demisto/fasttext",
             "demisto/twilio",
-            "demisto/dl-languages",
             "demisto/minio",
             "demisto/carbon-black-cloud",
             "demisto/python3",
@@ -2348,13 +2346,10 @@
             "demisto/python3-deb",
             "demisto/sane-pdf-reports",
             "demisto/chromium",
-            "demisto/boto3py3",
             "demisto/google-vision-api",
             "demisto/office-utils",
-            "demisto/fetch-data",
             "demisto/ml",
             "demisto/googleapi-python3",
-            "demisto/boto3",
             "demisto/genericsql",
             "demisto/google-api-py3",
             "demisto/nltk",
@@ -2362,7 +2357,6 @@
             "demisto/bigquery",
             "demisto/pcap-http-extractor",
             "demisto/trustar",
-            "demisto/sklearn",
             "demisto/yarapy",
             "demisto/google-kms",
             "demisto/devo",
@@ -2372,7 +2366,13 @@
             "demisto/google-k8s-engine",
             "demisto/ansible-runner",
             "demisto/distorm3",
-            "demisto/sharepoint"
+            "demisto/sharepoint",
+            "demisto/boto3py3",
+            "demisto/fetch-data",
+            "demisto/boto3",
+            "demisto/pandas",
+            "demisto/sklearn",
+            "demisto/dl-languages"
         ],
         "home_page": "https://github.com/scrapinghub/dateparser",
         "licenses": [
@@ -2399,10 +2399,10 @@
         "docker_images": [
             "demisto/dl",
             "demisto/xsoar-tools",
-            "demisto/dl-languages",
             "demisto/carbon-black-cloud",
             "demisto/ml",
-            "demisto/sklearn"
+            "demisto/sklearn",
+            "demisto/dl-languages"
         ],
         "home_page": "https://github.com/micheles/decorator",
         "licenses": [
@@ -2515,9 +2515,9 @@
         "author": "Mike McKerns",
         "docker_images": [
             "demisto/xgboost",
-            "demisto/dl-languages",
             "demisto/ml",
-            "demisto/sklearn"
+            "demisto/sklearn",
+            "demisto/dl-languages"
         ],
         "home_page": "https://pypi.org/project/dill",
         "licenses": [
@@ -2742,9 +2742,9 @@
         "author": "Mikhail Korobov, Konstantin Lopuhin kmike84@gmail.com, kostia.lopuhin@gmail.com",
         "docker_images": [
             "demisto/xgboost",
-            "demisto/dl-languages",
             "demisto/ml",
-            "demisto/sklearn"
+            "demisto/sklearn",
+            "demisto/dl-languages"
         ],
         "home_page": "https://github.com/TeamHG-Memex/eli5",
         "licenses": [
@@ -2769,8 +2769,8 @@
         "author": "Explosion AI contact@explosion.ai",
         "docker_images": [
             "demisto/dl",
-            "demisto/dl-languages",
-            "demisto/ml"
+            "demisto/ml",
+            "demisto/dl-languages"
         ],
         "home_page": "https://explosion.ai",
         "licenses": [
@@ -2903,8 +2903,8 @@
         "docker_images": [
             "demisto/dl",
             "demisto/fasttext",
-            "demisto/dl-languages",
-            "demisto/ml"
+            "demisto/ml",
+            "demisto/dl-languages"
         ],
         "home_page": "https://github.com/facebookresearch/fastText",
         "licenses": [
@@ -2989,8 +2989,8 @@
     "fsspec": {
         "author": "",
         "docker_images": [
-            "demisto/dl-languages",
-            "demisto/ml"
+            "demisto/ml",
+            "demisto/dl-languages"
         ],
         "home_page": "http://github.com/intake/filesystem_spec",
         "licenses": [
@@ -3025,7 +3025,6 @@
             "demisto/xml-feed",
             "demisto/tidy",
             "demisto/pyjarm",
-            "demisto/pandas",
             "demisto/oauthlib",
             "demisto/imap",
             "demisto/lacework",
@@ -3112,7 +3111,6 @@
             "demisto/py2-exchangelib",
             "demisto/fasttext",
             "demisto/twilio",
-            "demisto/dl-languages",
             "demisto/minio",
             "demisto/carbon-black-cloud",
             "demisto/python3",
@@ -3120,13 +3118,10 @@
             "demisto/python3-deb",
             "demisto/sane-pdf-reports",
             "demisto/chromium",
-            "demisto/boto3py3",
             "demisto/google-vision-api",
             "demisto/office-utils",
-            "demisto/fetch-data",
             "demisto/ml",
             "demisto/googleapi-python3",
-            "demisto/boto3",
             "demisto/genericsql",
             "demisto/google-api-py3",
             "demisto/nltk",
@@ -3134,7 +3129,6 @@
             "demisto/bigquery",
             "demisto/pcap-http-extractor",
             "demisto/trustar",
-            "demisto/sklearn",
             "demisto/yarapy",
             "demisto/google-kms",
             "demisto/devo",
@@ -3144,7 +3138,13 @@
             "demisto/google-k8s-engine",
             "demisto/ansible-runner",
             "demisto/distorm3",
-            "demisto/sharepoint"
+            "demisto/sharepoint",
+            "demisto/boto3py3",
+            "demisto/fetch-data",
+            "demisto/boto3",
+            "demisto/pandas",
+            "demisto/sklearn",
+            "demisto/dl-languages"
         ],
         "home_page": "http://github.com/Suor/funcy",
         "licenses": [
@@ -3553,9 +3553,9 @@
         "author": "Sebastian Bank sebastian.bank@uni-leipzig.de",
         "docker_images": [
             "demisto/xgboost",
-            "demisto/dl-languages",
             "demisto/ml",
-            "demisto/sklearn"
+            "demisto/sklearn",
+            "demisto/dl-languages"
         ],
         "home_page": "https://github.com/xflr6/graphviz",
         "licenses": [
@@ -3761,7 +3761,6 @@
             "demisto/xml-feed",
             "demisto/tidy",
             "demisto/pyjarm",
-            "demisto/pandas",
             "demisto/oauthlib",
             "demisto/imap",
             "demisto/lacework",
@@ -3849,7 +3848,6 @@
             "demisto/py2-exchangelib",
             "demisto/fasttext",
             "demisto/twilio",
-            "demisto/dl-languages",
             "demisto/minio",
             "demisto/carbon-black-cloud",
             "demisto/python3",
@@ -3857,13 +3855,10 @@
             "demisto/python3-deb",
             "demisto/sane-pdf-reports",
             "demisto/chromium",
-            "demisto/boto3py3",
             "demisto/google-vision-api",
             "demisto/office-utils",
-            "demisto/fetch-data",
             "demisto/ml",
             "demisto/googleapi-python3",
-            "demisto/boto3",
             "demisto/genericsql",
             "demisto/google-api-py3",
             "demisto/nltk",
@@ -3871,7 +3866,6 @@
             "demisto/bigquery",
             "demisto/pcap-http-extractor",
             "demisto/trustar",
-            "demisto/sklearn",
             "demisto/yarapy",
             "demisto/google-kms",
             "demisto/devo",
@@ -3881,7 +3875,13 @@
             "demisto/google-k8s-engine",
             "demisto/ansible-runner",
             "demisto/distorm3",
-            "demisto/sharepoint"
+            "demisto/sharepoint",
+            "demisto/boto3py3",
+            "demisto/fetch-data",
+            "demisto/boto3",
+            "demisto/pandas",
+            "demisto/sklearn",
+            "demisto/dl-languages"
         ],
         "home_page": "https://github.com/kjd/idna",
         "licenses": [
@@ -3905,8 +3905,8 @@
     "imageio": {
         "author": "imageio contributors almar.klein@gmail.com",
         "docker_images": [
-            "demisto/dl-languages",
-            "demisto/ml"
+            "demisto/ml",
+            "demisto/dl-languages"
         ],
         "home_page": "https://github.com/imageio/imageio",
         "licenses": [
@@ -4117,9 +4117,9 @@
             "demisto/threatconnect-tcex",
             "demisto/python_pancloud",
             "demisto/python_pancloud_v2",
+            "demisto/ansible-runner",
             "demisto/boto3py3",
-            "demisto/boto3",
-            "demisto/ansible-runner"
+            "demisto/boto3"
         ],
         "home_page": "https://github.com/jmespath/jmespath.py",
         "licenses": [
@@ -4133,11 +4133,11 @@
         "docker_images": [
             "demisto/xgboost",
             "demisto/xsoar-tools",
-            "demisto/dl-languages",
-            "demisto/fetch-data",
             "demisto/ml",
             "demisto/nltk",
-            "demisto/sklearn"
+            "demisto/fetch-data",
+            "demisto/sklearn",
+            "demisto/dl-languages"
         ],
         "home_page": "https://joblib.readthedocs.io",
         "licenses": [
@@ -4213,9 +4213,9 @@
         "author": "The Nucleic Development Team sccolbert@gmail.com",
         "docker_images": [
             "demisto/matplotlib",
-            "demisto/dl-languages",
             "demisto/sane-doc-reports",
-            "demisto/ml"
+            "demisto/ml",
+            "demisto/dl-languages"
         ],
         "home_page": "https://github.com/nucleic/kiwi",
         "licenses": [
@@ -4327,8 +4327,8 @@
         "author": "Marco Tulio Ribeiro marcotcr@gmail.com",
         "docker_images": [
             "demisto/dl",
-            "demisto/dl-languages",
-            "demisto/ml"
+            "demisto/ml",
+            "demisto/dl-languages"
         ],
         "home_page": "http://github.com/marcotcr/lime",
         "licenses": [
@@ -4467,9 +4467,9 @@
         "docker_images": [
             "demisto/dl",
             "demisto/matplotlib",
-            "demisto/dl-languages",
             "demisto/sane-doc-reports",
-            "demisto/ml"
+            "demisto/ml",
+            "demisto/dl-languages"
         ],
         "home_page": "https://matplotlib.org",
         "licenses": [
@@ -4615,8 +4615,8 @@
         "author": "Matthew Honnibal matt@explosion.ai",
         "docker_images": [
             "demisto/dl",
-            "demisto/dl-languages",
-            "demisto/ml"
+            "demisto/ml",
+            "demisto/dl-languages"
         ],
         "home_page": "https://github.com/explosion/murmurhash",
         "licenses": [
@@ -4698,9 +4698,9 @@
         "docker_images": [
             "demisto/dl",
             "demisto/xsoar-tools",
-            "demisto/dl-languages",
             "demisto/ml",
-            "demisto/sklearn"
+            "demisto/sklearn",
+            "demisto/dl-languages"
         ],
         "home_page": "http://networkx.github.io/",
         "licenses": [
@@ -4726,11 +4726,11 @@
         "docker_images": [
             "demisto/dl",
             "demisto/xsoar-tools",
-            "demisto/dl-languages",
-            "demisto/fetch-data",
             "demisto/ml",
             "demisto/nltk",
-            "demisto/sklearn"
+            "demisto/fetch-data",
+            "demisto/sklearn",
+            "demisto/dl-languages"
         ],
         "home_page": "http://nltk.org/",
         "licenses": [
@@ -4772,18 +4772,18 @@
             "demisto/yolo-coco",
             "demisto/xgboost",
             "demisto/unifi-video",
-            "demisto/pandas",
             "demisto/xsoar-tools",
             "demisto/matplotlib",
             "demisto/opencv",
             "demisto/fasttext",
-            "demisto/dl-languages",
             "demisto/sane-doc-reports",
             "demisto/chromium",
-            "demisto/fetch-data",
             "demisto/ml",
+            "demisto/devo",
+            "demisto/fetch-data",
+            "demisto/pandas",
             "demisto/sklearn",
-            "demisto/devo"
+            "demisto/dl-languages"
         ],
         "home_page": "https://www.numpy.org",
         "licenses": [
@@ -4862,7 +4862,6 @@
             "demisto/xml-feed",
             "demisto/tidy",
             "demisto/pyjarm",
-            "demisto/pandas",
             "demisto/oauthlib",
             "demisto/imap",
             "demisto/lacework",
@@ -4950,7 +4949,6 @@
             "demisto/py2-exchangelib",
             "demisto/fasttext",
             "demisto/twilio",
-            "demisto/dl-languages",
             "demisto/minio",
             "demisto/carbon-black-cloud",
             "demisto/python3",
@@ -4958,13 +4956,10 @@
             "demisto/python3-deb",
             "demisto/sane-pdf-reports",
             "demisto/chromium",
-            "demisto/boto3py3",
             "demisto/google-vision-api",
             "demisto/office-utils",
-            "demisto/fetch-data",
             "demisto/ml",
             "demisto/googleapi-python3",
-            "demisto/boto3",
             "demisto/genericsql",
             "demisto/google-api-py3",
             "demisto/nltk",
@@ -4972,7 +4967,6 @@
             "demisto/bigquery",
             "demisto/pcap-http-extractor",
             "demisto/trustar",
-            "demisto/sklearn",
             "demisto/yarapy",
             "demisto/google-kms",
             "demisto/devo",
@@ -4982,7 +4976,13 @@
             "demisto/google-k8s-engine",
             "demisto/ansible-runner",
             "demisto/distorm3",
-            "demisto/sharepoint"
+            "demisto/sharepoint",
+            "demisto/boto3py3",
+            "demisto/fetch-data",
+            "demisto/boto3",
+            "demisto/pandas",
+            "demisto/sklearn",
+            "demisto/dl-languages"
         ],
         "home_page": "https://www.decalage.info/python/olefileio",
         "licenses": [
@@ -5110,7 +5110,6 @@
             "demisto/xsoar-tools",
             "demisto/gvault",
             "demisto/google-api",
-            "demisto/dl-languages",
             "demisto/google-vision-api",
             "demisto/ml",
             "demisto/googleapi-python3",
@@ -5119,7 +5118,8 @@
             "demisto/google-kms",
             "demisto/google-cloud-translate",
             "demisto/google-k8s-engine",
-            "demisto/ansible-runner"
+            "demisto/ansible-runner",
+            "demisto/dl-languages"
         ],
         "home_page": "https://github.com/pypa/packaging",
         "licenses": [
@@ -5165,13 +5165,13 @@
             "demisto/panads3",
             "demisto/dl",
             "demisto/xgboost",
-            "demisto/pandas",
             "demisto/xsoar-tools",
-            "demisto/dl-languages",
-            "demisto/fetch-data",
             "demisto/ml",
+            "demisto/devo",
+            "demisto/fetch-data",
+            "demisto/pandas",
             "demisto/sklearn",
-            "demisto/devo"
+            "demisto/dl-languages"
         ],
         "home_page": "http://pandas.pydata.org",
         "licenses": [
@@ -5245,8 +5245,8 @@
     "pathy": {
         "author": "Justin DuJardin justin@explosion.ai",
         "docker_images": [
-            "demisto/dl-languages",
-            "demisto/ml"
+            "demisto/ml",
+            "demisto/dl-languages"
         ],
         "home_page": "https://github.com/justindujardin/pathy",
         "licenses": [
@@ -5453,7 +5453,6 @@
             "demisto/xml-feed",
             "demisto/tidy",
             "demisto/pyjarm",
-            "demisto/pandas",
             "demisto/oauthlib",
             "demisto/imap",
             "demisto/lacework",
@@ -5541,7 +5540,6 @@
             "demisto/py2-exchangelib",
             "demisto/fasttext",
             "demisto/twilio",
-            "demisto/dl-languages",
             "demisto/minio",
             "demisto/carbon-black-cloud",
             "demisto/python3",
@@ -5549,13 +5547,10 @@
             "demisto/python3-deb",
             "demisto/sane-pdf-reports",
             "demisto/chromium",
-            "demisto/boto3py3",
             "demisto/google-vision-api",
             "demisto/office-utils",
-            "demisto/fetch-data",
             "demisto/ml",
             "demisto/googleapi-python3",
-            "demisto/boto3",
             "demisto/genericsql",
             "demisto/google-api-py3",
             "demisto/nltk",
@@ -5563,7 +5558,6 @@
             "demisto/bigquery",
             "demisto/pcap-http-extractor",
             "demisto/trustar",
-            "demisto/sklearn",
             "demisto/yarapy",
             "demisto/google-kms",
             "demisto/devo",
@@ -5573,7 +5567,13 @@
             "demisto/google-k8s-engine",
             "demisto/ansible-runner",
             "demisto/distorm3",
-            "demisto/sharepoint"
+            "demisto/sharepoint",
+            "demisto/boto3py3",
+            "demisto/fetch-data",
+            "demisto/boto3",
+            "demisto/pandas",
+            "demisto/sklearn",
+            "demisto/dl-languages"
         ],
         "home_page": "https://pip.pypa.io/",
         "licenses": [
@@ -5609,8 +5609,8 @@
     "plotly": {
         "author": "Chris P chris@plot.ly",
         "docker_images": [
-            "demisto/dl-languages",
-            "demisto/ml"
+            "demisto/ml",
+            "demisto/dl-languages"
         ],
         "home_page": "https://plotly.com/python/",
         "licenses": [
@@ -5647,8 +5647,8 @@
         "author": "Matthew Honnibal matt@explosion.ai",
         "docker_images": [
             "demisto/dl",
-            "demisto/dl-languages",
-            "demisto/ml"
+            "demisto/ml",
+            "demisto/dl-languages"
         ],
         "home_page": "https://github.com/explosion/preshed",
         "licenses": [
@@ -5934,8 +5934,8 @@
         "docker_images": [
             "demisto/dl",
             "demisto/fasttext",
-            "demisto/dl-languages",
-            "demisto/ml"
+            "demisto/ml",
+            "demisto/dl-languages"
         ],
         "home_page": "https://github.com/pybind/pybind11",
         "licenses": [
@@ -6025,8 +6025,8 @@
         "author": "Dwayne C. Litzenberger dlitz@dlitz.net",
         "docker_images": [
             "demisto/dl",
-            "demisto/dl-languages",
-            "demisto/ml"
+            "demisto/ml",
+            "demisto/dl-languages"
         ],
         "home_page": "http://www.pycrypto.org/",
         "licenses": [
@@ -6084,8 +6084,8 @@
         "author": "Samuel Colvin s@muelcolvin.com",
         "docker_images": [
             "demisto/fastapi",
-            "demisto/dl-languages",
-            "demisto/ml"
+            "demisto/ml",
+            "demisto/dl-languages"
         ],
         "home_page": "https://github.com/samuelcolvin/pydantic",
         "licenses": [
@@ -6242,7 +6242,6 @@
             "demisto/matplotlib",
             "demisto/gvault",
             "demisto/google-api",
-            "demisto/dl-languages",
             "demisto/sane-doc-reports",
             "demisto/google-vision-api",
             "demisto/ml",
@@ -6252,7 +6251,8 @@
             "demisto/google-kms",
             "demisto/google-cloud-translate",
             "demisto/google-k8s-engine",
-            "demisto/ansible-runner"
+            "demisto/ansible-runner",
+            "demisto/dl-languages"
         ],
         "home_page": "https://github.com/pyparsing/pyparsing/",
         "licenses": [
@@ -6410,7 +6410,6 @@
             "demisto/xml-feed",
             "demisto/tidy",
             "demisto/pyjarm",
-            "demisto/pandas",
             "demisto/oauthlib",
             "demisto/imap",
             "demisto/lacework",
@@ -6498,7 +6497,6 @@
             "demisto/py2-exchangelib",
             "demisto/fasttext",
             "demisto/twilio",
-            "demisto/dl-languages",
             "demisto/minio",
             "demisto/carbon-black-cloud",
             "demisto/python3",
@@ -6506,13 +6504,10 @@
             "demisto/python3-deb",
             "demisto/sane-pdf-reports",
             "demisto/chromium",
-            "demisto/boto3py3",
             "demisto/google-vision-api",
             "demisto/office-utils",
-            "demisto/fetch-data",
             "demisto/ml",
             "demisto/googleapi-python3",
-            "demisto/boto3",
             "demisto/genericsql",
             "demisto/google-api-py3",
             "demisto/nltk",
@@ -6520,7 +6515,6 @@
             "demisto/bigquery",
             "demisto/pcap-http-extractor",
             "demisto/trustar",
-            "demisto/sklearn",
             "demisto/yarapy",
             "demisto/google-kms",
             "demisto/devo",
@@ -6530,7 +6524,13 @@
             "demisto/google-k8s-engine",
             "demisto/ansible-runner",
             "demisto/distorm3",
-            "demisto/sharepoint"
+            "demisto/sharepoint",
+            "demisto/boto3py3",
+            "demisto/fetch-data",
+            "demisto/boto3",
+            "demisto/pandas",
+            "demisto/sklearn",
+            "demisto/dl-languages"
         ],
         "home_page": "https://dateutil.readthedocs.io",
         "licenses": [
@@ -6671,7 +6671,6 @@
             "demisto/xml-feed",
             "demisto/tidy",
             "demisto/pyjarm",
-            "demisto/pandas",
             "demisto/oauthlib",
             "demisto/imap",
             "demisto/lacework",
@@ -6759,7 +6758,6 @@
             "demisto/py2-exchangelib",
             "demisto/fasttext",
             "demisto/twilio",
-            "demisto/dl-languages",
             "demisto/minio",
             "demisto/carbon-black-cloud",
             "demisto/python3",
@@ -6767,13 +6765,10 @@
             "demisto/python3-deb",
             "demisto/sane-pdf-reports",
             "demisto/chromium",
-            "demisto/boto3py3",
             "demisto/google-vision-api",
             "demisto/office-utils",
-            "demisto/fetch-data",
             "demisto/ml",
             "demisto/googleapi-python3",
-            "demisto/boto3",
             "demisto/genericsql",
             "demisto/google-api-py3",
             "demisto/nltk",
@@ -6781,7 +6776,6 @@
             "demisto/bigquery",
             "demisto/pcap-http-extractor",
             "demisto/trustar",
-            "demisto/sklearn",
             "demisto/yarapy",
             "demisto/google-kms",
             "demisto/devo",
@@ -6791,7 +6785,13 @@
             "demisto/google-k8s-engine",
             "demisto/ansible-runner",
             "demisto/distorm3",
-            "demisto/sharepoint"
+            "demisto/sharepoint",
+            "demisto/boto3py3",
+            "demisto/fetch-data",
+            "demisto/boto3",
+            "demisto/pandas",
+            "demisto/sklearn",
+            "demisto/dl-languages"
         ],
         "home_page": "http://pythonhosted.org/pytz",
         "licenses": [
@@ -6904,7 +6904,6 @@
             "demisto/xml-feed",
             "demisto/tidy",
             "demisto/pyjarm",
-            "demisto/pandas",
             "demisto/oauthlib",
             "demisto/imap",
             "demisto/lacework",
@@ -6992,7 +6991,6 @@
             "demisto/py2-exchangelib",
             "demisto/fasttext",
             "demisto/twilio",
-            "demisto/dl-languages",
             "demisto/minio",
             "demisto/carbon-black-cloud",
             "demisto/python3",
@@ -7000,13 +6998,10 @@
             "demisto/python3-deb",
             "demisto/sane-pdf-reports",
             "demisto/chromium",
-            "demisto/boto3py3",
             "demisto/google-vision-api",
             "demisto/office-utils",
-            "demisto/fetch-data",
             "demisto/ml",
             "demisto/googleapi-python3",
-            "demisto/boto3",
             "demisto/genericsql",
             "demisto/google-api-py3",
             "demisto/nltk",
@@ -7014,7 +7009,6 @@
             "demisto/bigquery",
             "demisto/pcap-http-extractor",
             "demisto/trustar",
-            "demisto/sklearn",
             "demisto/yarapy",
             "demisto/google-kms",
             "demisto/devo",
@@ -7024,7 +7018,13 @@
             "demisto/google-k8s-engine",
             "demisto/ansible-runner",
             "demisto/distorm3",
-            "demisto/sharepoint"
+            "demisto/sharepoint",
+            "demisto/boto3py3",
+            "demisto/fetch-data",
+            "demisto/boto3",
+            "demisto/pandas",
+            "demisto/sklearn",
+            "demisto/dl-languages"
         ],
         "home_page": "https://bitbucket.org/mrabarnett/mrab-regex",
         "licenses": [
@@ -7090,7 +7090,6 @@
             "demisto/xml-feed",
             "demisto/tidy",
             "demisto/pyjarm",
-            "demisto/pandas",
             "demisto/oauthlib",
             "demisto/imap",
             "demisto/lacework",
@@ -7178,7 +7177,6 @@
             "demisto/py2-exchangelib",
             "demisto/fasttext",
             "demisto/twilio",
-            "demisto/dl-languages",
             "demisto/minio",
             "demisto/carbon-black-cloud",
             "demisto/python3",
@@ -7186,13 +7184,10 @@
             "demisto/python3-deb",
             "demisto/sane-pdf-reports",
             "demisto/chromium",
-            "demisto/boto3py3",
             "demisto/google-vision-api",
             "demisto/office-utils",
-            "demisto/fetch-data",
             "demisto/ml",
             "demisto/googleapi-python3",
-            "demisto/boto3",
             "demisto/genericsql",
             "demisto/google-api-py3",
             "demisto/nltk",
@@ -7200,7 +7195,6 @@
             "demisto/bigquery",
             "demisto/pcap-http-extractor",
             "demisto/trustar",
-            "demisto/sklearn",
             "demisto/yarapy",
             "demisto/google-kms",
             "demisto/devo",
@@ -7210,7 +7204,13 @@
             "demisto/google-k8s-engine",
             "demisto/ansible-runner",
             "demisto/distorm3",
-            "demisto/sharepoint"
+            "demisto/sharepoint",
+            "demisto/boto3py3",
+            "demisto/fetch-data",
+            "demisto/boto3",
+            "demisto/pandas",
+            "demisto/sklearn",
+            "demisto/dl-languages"
         ],
         "home_page": "http://python-requests.org",
         "licenses": [
@@ -7248,7 +7248,6 @@
             "demisto/xml-feed",
             "demisto/tidy",
             "demisto/pyjarm",
-            "demisto/pandas",
             "demisto/oauthlib",
             "demisto/imap",
             "demisto/lacework",
@@ -7334,7 +7333,6 @@
             "demisto/py2-exchangelib",
             "demisto/fasttext",
             "demisto/twilio",
-            "demisto/dl-languages",
             "demisto/minio",
             "demisto/carbon-black-cloud",
             "demisto/python3",
@@ -7342,13 +7340,10 @@
             "demisto/python3-deb",
             "demisto/sane-pdf-reports",
             "demisto/chromium",
-            "demisto/boto3py3",
             "demisto/google-vision-api",
             "demisto/office-utils",
-            "demisto/fetch-data",
             "demisto/ml",
             "demisto/googleapi-python3",
-            "demisto/boto3",
             "demisto/genericsql",
             "demisto/google-api-py3",
             "demisto/nltk",
@@ -7356,7 +7351,6 @@
             "demisto/bigquery",
             "demisto/pcap-http-extractor",
             "demisto/trustar",
-            "demisto/sklearn",
             "demisto/yarapy",
             "demisto/google-kms",
             "demisto/devo",
@@ -7366,7 +7360,13 @@
             "demisto/google-k8s-engine",
             "demisto/ansible-runner",
             "demisto/distorm3",
-            "demisto/sharepoint"
+            "demisto/sharepoint",
+            "demisto/boto3py3",
+            "demisto/fetch-data",
+            "demisto/boto3",
+            "demisto/pandas",
+            "demisto/sklearn",
+            "demisto/dl-languages"
         ],
         "home_page": "http://github.com/dashea/requests-file",
         "licenses": [
@@ -7491,8 +7491,8 @@
     "retrying": {
         "author": "Ray Holder",
         "docker_images": [
-            "demisto/dl-languages",
-            "demisto/ml"
+            "demisto/ml",
+            "demisto/dl-languages"
         ],
         "home_page": "https://github.com/rholder/retrying",
         "licenses": [
@@ -7608,8 +7608,8 @@
         "author": "",
         "docker_images": [
             "demisto/dl",
-            "demisto/dl-languages",
-            "demisto/ml"
+            "demisto/ml",
+            "demisto/dl-languages"
         ],
         "home_page": "https://scikit-image.org",
         "licenses": [
@@ -7625,9 +7625,9 @@
             "demisto/exchange",
             "demisto/dl",
             "demisto/xgboost",
-            "demisto/dl-languages",
             "demisto/ml",
-            "demisto/sklearn"
+            "demisto/sklearn",
+            "demisto/dl-languages"
         ],
         "home_page": "http://scikit-learn.org",
         "licenses": [
@@ -7643,10 +7643,10 @@
             "demisto/exchange",
             "demisto/dl",
             "demisto/xgboost",
-            "demisto/dl-languages",
             "demisto/ml",
+            "demisto/devo",
             "demisto/sklearn",
-            "demisto/devo"
+            "demisto/dl-languages"
         ],
         "home_page": "https://www.scipy.org",
         "licenses": [
@@ -7763,7 +7763,6 @@
             "demisto/xml-feed",
             "demisto/tidy",
             "demisto/pyjarm",
-            "demisto/pandas",
             "demisto/oauthlib",
             "demisto/imap",
             "demisto/lacework",
@@ -7851,7 +7850,6 @@
             "demisto/py2-exchangelib",
             "demisto/fasttext",
             "demisto/twilio",
-            "demisto/dl-languages",
             "demisto/minio",
             "demisto/carbon-black-cloud",
             "demisto/python3",
@@ -7859,13 +7857,10 @@
             "demisto/python3-deb",
             "demisto/sane-pdf-reports",
             "demisto/chromium",
-            "demisto/boto3py3",
             "demisto/google-vision-api",
             "demisto/office-utils",
-            "demisto/fetch-data",
             "demisto/ml",
             "demisto/googleapi-python3",
-            "demisto/boto3",
             "demisto/genericsql",
             "demisto/google-api-py3",
             "demisto/nltk",
@@ -7873,7 +7868,6 @@
             "demisto/bigquery",
             "demisto/pcap-http-extractor",
             "demisto/trustar",
-            "demisto/sklearn",
             "demisto/yarapy",
             "demisto/google-kms",
             "demisto/devo",
@@ -7883,7 +7877,13 @@
             "demisto/google-k8s-engine",
             "demisto/ansible-runner",
             "demisto/distorm3",
-            "demisto/sharepoint"
+            "demisto/sharepoint",
+            "demisto/boto3py3",
+            "demisto/fetch-data",
+            "demisto/boto3",
+            "demisto/pandas",
+            "demisto/sklearn",
+            "demisto/dl-languages"
         ],
         "home_page": "https://github.com/pypa/setuptools",
         "licenses": [
@@ -7993,7 +7993,6 @@
             "demisto/xml-feed",
             "demisto/tidy",
             "demisto/pyjarm",
-            "demisto/pandas",
             "demisto/oauthlib",
             "demisto/imap",
             "demisto/lacework",
@@ -8081,7 +8080,6 @@
             "demisto/py2-exchangelib",
             "demisto/fasttext",
             "demisto/twilio",
-            "demisto/dl-languages",
             "demisto/minio",
             "demisto/carbon-black-cloud",
             "demisto/python3",
@@ -8089,13 +8087,10 @@
             "demisto/python3-deb",
             "demisto/sane-pdf-reports",
             "demisto/chromium",
-            "demisto/boto3py3",
             "demisto/google-vision-api",
             "demisto/office-utils",
-            "demisto/fetch-data",
             "demisto/ml",
             "demisto/googleapi-python3",
-            "demisto/boto3",
             "demisto/genericsql",
             "demisto/google-api-py3",
             "demisto/nltk",
@@ -8103,7 +8098,6 @@
             "demisto/bigquery",
             "demisto/pcap-http-extractor",
             "demisto/trustar",
-            "demisto/sklearn",
             "demisto/yarapy",
             "demisto/google-kms",
             "demisto/devo",
@@ -8113,7 +8107,13 @@
             "demisto/google-k8s-engine",
             "demisto/ansible-runner",
             "demisto/distorm3",
-            "demisto/sharepoint"
+            "demisto/sharepoint",
+            "demisto/boto3py3",
+            "demisto/fetch-data",
+            "demisto/boto3",
+            "demisto/pandas",
+            "demisto/sklearn",
+            "demisto/dl-languages"
         ],
         "home_page": "https://github.com/benjaminp/six",
         "licenses": [
@@ -8150,8 +8150,8 @@
     "smart-open": {
         "author": "Radim Rehurek me@radimrehurek.com",
         "docker_images": [
-            "demisto/dl-languages",
-            "demisto/ml"
+            "demisto/ml",
+            "demisto/dl-languages"
         ],
         "home_page": "https://github.com/piskvorky/smart_open",
         "licenses": [
@@ -8253,8 +8253,8 @@
         "author": "Explosion contact@explosion.ai",
         "docker_images": [
             "demisto/dl",
-            "demisto/dl-languages",
-            "demisto/ml"
+            "demisto/ml",
+            "demisto/dl-languages"
         ],
         "home_page": "https://spacy.io",
         "licenses": [
@@ -8266,8 +8266,8 @@
     "spacy-legacy": {
         "author": "Explosion contact@explosion.ai",
         "docker_images": [
-            "demisto/dl-languages",
-            "demisto/ml"
+            "demisto/ml",
+            "demisto/dl-languages"
         ],
         "home_page": "https://spacy.io",
         "licenses": [
@@ -8292,8 +8292,8 @@
         "author": "Explosion contact@explosion.ai",
         "docker_images": [
             "demisto/dl",
-            "demisto/dl-languages",
-            "demisto/ml"
+            "demisto/ml",
+            "demisto/dl-languages"
         ],
         "home_page": "https://github.com/explosion/srsly",
         "licenses": [
@@ -8499,10 +8499,10 @@
             "demisto/axonius",
             "demisto/pykafka",
             "demisto/xsoar-tools",
-            "demisto/dl-languages",
-            "demisto/fetch-data",
             "demisto/ml",
-            "demisto/sklearn"
+            "demisto/fetch-data",
+            "demisto/sklearn",
+            "demisto/dl-languages"
         ],
         "home_page": "https://bitbucket.org/astanin/python-tabulate",
         "licenses": [
@@ -8575,8 +8575,8 @@
         "author": "Matthew Honnibal matt@explosion.ai",
         "docker_images": [
             "demisto/dl",
-            "demisto/dl-languages",
-            "demisto/ml"
+            "demisto/ml",
+            "demisto/dl-languages"
         ],
         "home_page": "https://github.com/explosion/thinc",
         "licenses": [
@@ -8589,9 +8589,9 @@
         "author": "Thomas Moreau thomas.moreau.2010@gmail.com",
         "docker_images": [
             "demisto/xgboost",
-            "demisto/dl-languages",
             "demisto/ml",
-            "demisto/sklearn"
+            "demisto/sklearn",
+            "demisto/dl-languages"
         ],
         "home_page": "https://github.com/joblib/threadpoolctl",
         "licenses": [
@@ -8617,8 +8617,8 @@
     "tifffile": {
         "author": "Christoph Gohlke cgohlke@uci.edu",
         "docker_images": [
-            "demisto/dl-languages",
-            "demisto/ml"
+            "demisto/ml",
+            "demisto/dl-languages"
         ],
         "home_page": "https://www.lfd.uci.edu/~gohlke/",
         "licenses": [
@@ -8681,7 +8681,6 @@
             "demisto/xml-feed",
             "demisto/tidy",
             "demisto/pyjarm",
-            "demisto/pandas",
             "demisto/oauthlib",
             "demisto/imap",
             "demisto/lacework",
@@ -8767,7 +8766,6 @@
             "demisto/py2-exchangelib",
             "demisto/fasttext",
             "demisto/twilio",
-            "demisto/dl-languages",
             "demisto/minio",
             "demisto/carbon-black-cloud",
             "demisto/python3",
@@ -8775,13 +8773,10 @@
             "demisto/python3-deb",
             "demisto/sane-pdf-reports",
             "demisto/chromium",
-            "demisto/boto3py3",
             "demisto/google-vision-api",
             "demisto/office-utils",
-            "demisto/fetch-data",
             "demisto/ml",
             "demisto/googleapi-python3",
-            "demisto/boto3",
             "demisto/genericsql",
             "demisto/google-api-py3",
             "demisto/nltk",
@@ -8789,7 +8784,6 @@
             "demisto/bigquery",
             "demisto/pcap-http-extractor",
             "demisto/trustar",
-            "demisto/sklearn",
             "demisto/yarapy",
             "demisto/google-kms",
             "demisto/devo",
@@ -8799,7 +8793,13 @@
             "demisto/google-k8s-engine",
             "demisto/ansible-runner",
             "demisto/distorm3",
-            "demisto/sharepoint"
+            "demisto/sharepoint",
+            "demisto/boto3py3",
+            "demisto/fetch-data",
+            "demisto/boto3",
+            "demisto/pandas",
+            "demisto/sklearn",
+            "demisto/dl-languages"
         ],
         "home_page": "https://github.com/john-kurkowski/tldextract",
         "licenses": [
@@ -8824,8 +8824,8 @@
     "torch": {
         "author": "PyTorch Team packages@pytorch.org",
         "docker_images": [
-            "demisto/dl-languages",
-            "demisto/ml"
+            "demisto/ml",
+            "demisto/dl-languages"
         ],
         "home_page": "https://pytorch.org/",
         "licenses": [
@@ -8839,11 +8839,11 @@
         "docker_images": [
             "demisto/dl",
             "demisto/xsoar-tools",
-            "demisto/dl-languages",
-            "demisto/fetch-data",
             "demisto/ml",
             "demisto/nltk",
-            "demisto/sklearn"
+            "demisto/fetch-data",
+            "demisto/sklearn",
+            "demisto/dl-languages"
         ],
         "home_page": "https://github.com/tqdm/tqdm",
         "licenses": [
@@ -8892,8 +8892,8 @@
     "typer": {
         "author": "Sebasti\u00e1n Ram\u00edrez tiangolo@gmail.com",
         "docker_images": [
-            "demisto/dl-languages",
-            "demisto/ml"
+            "demisto/ml",
+            "demisto/dl-languages"
         ],
         "home_page": "https://github.com/tiangolo/typer",
         "licenses": [
@@ -8909,10 +8909,10 @@
             "demisto/xsoar-tools",
             "demisto/aiohttp",
             "demisto/google-cloud-securitycenter",
-            "demisto/dl-languages",
             "demisto/ml",
             "demisto/google-kms",
-            "demisto/google-k8s-engine"
+            "demisto/google-k8s-engine",
+            "demisto/dl-languages"
         ],
         "home_page": "https://github.com/python/typing/blob/master/typing_extensions/README.rst",
         "licenses": [
@@ -8977,7 +8977,6 @@
             "demisto/xml-feed",
             "demisto/tidy",
             "demisto/pyjarm",
-            "demisto/pandas",
             "demisto/oauthlib",
             "demisto/imap",
             "demisto/lacework",
@@ -9065,7 +9064,6 @@
             "demisto/py2-exchangelib",
             "demisto/fasttext",
             "demisto/twilio",
-            "demisto/dl-languages",
             "demisto/minio",
             "demisto/carbon-black-cloud",
             "demisto/python3",
@@ -9073,13 +9071,10 @@
             "demisto/python3-deb",
             "demisto/sane-pdf-reports",
             "demisto/chromium",
-            "demisto/boto3py3",
             "demisto/google-vision-api",
             "demisto/office-utils",
-            "demisto/fetch-data",
             "demisto/ml",
             "demisto/googleapi-python3",
-            "demisto/boto3",
             "demisto/genericsql",
             "demisto/google-api-py3",
             "demisto/nltk",
@@ -9087,7 +9082,6 @@
             "demisto/bigquery",
             "demisto/pcap-http-extractor",
             "demisto/trustar",
-            "demisto/sklearn",
             "demisto/yarapy",
             "demisto/google-kms",
             "demisto/devo",
@@ -9097,7 +9091,13 @@
             "demisto/google-k8s-engine",
             "demisto/ansible-runner",
             "demisto/distorm3",
-            "demisto/sharepoint"
+            "demisto/sharepoint",
+            "demisto/boto3py3",
+            "demisto/fetch-data",
+            "demisto/boto3",
+            "demisto/pandas",
+            "demisto/sklearn",
+            "demisto/dl-languages"
         ],
         "home_page": "https://github.com/regebro/tzlocal",
         "licenses": [
@@ -9207,7 +9207,6 @@
             "demisto/xml-feed",
             "demisto/tidy",
             "demisto/pyjarm",
-            "demisto/pandas",
             "demisto/oauthlib",
             "demisto/imap",
             "demisto/lacework",
@@ -9295,7 +9294,6 @@
             "demisto/py2-exchangelib",
             "demisto/fasttext",
             "demisto/twilio",
-            "demisto/dl-languages",
             "demisto/minio",
             "demisto/carbon-black-cloud",
             "demisto/python3",
@@ -9303,13 +9301,10 @@
             "demisto/python3-deb",
             "demisto/sane-pdf-reports",
             "demisto/chromium",
-            "demisto/boto3py3",
             "demisto/google-vision-api",
             "demisto/office-utils",
-            "demisto/fetch-data",
             "demisto/ml",
             "demisto/googleapi-python3",
-            "demisto/boto3",
             "demisto/genericsql",
             "demisto/google-api-py3",
             "demisto/nltk",
@@ -9317,7 +9312,6 @@
             "demisto/bigquery",
             "demisto/pcap-http-extractor",
             "demisto/trustar",
-            "demisto/sklearn",
             "demisto/yarapy",
             "demisto/google-kms",
             "demisto/devo",
@@ -9327,7 +9321,13 @@
             "demisto/google-k8s-engine",
             "demisto/ansible-runner",
             "demisto/distorm3",
-            "demisto/sharepoint"
+            "demisto/sharepoint",
+            "demisto/boto3py3",
+            "demisto/fetch-data",
+            "demisto/boto3",
+            "demisto/pandas",
+            "demisto/sklearn",
+            "demisto/dl-languages"
         ],
         "home_page": "https://urllib3.readthedocs.io/",
         "licenses": [
@@ -9472,8 +9472,8 @@
         "author": "Ines Montani ines@explosion.ai",
         "docker_images": [
             "demisto/dl",
-            "demisto/dl-languages",
-            "demisto/ml"
+            "demisto/ml",
+            "demisto/dl-languages"
         ],
         "home_page": "https://ines.io",
         "licenses": [
@@ -9650,7 +9650,6 @@
             "demisto/xml-feed",
             "demisto/tidy",
             "demisto/pyjarm",
-            "demisto/pandas",
             "demisto/oauthlib",
             "demisto/imap",
             "demisto/lacework",
@@ -9738,7 +9737,6 @@
             "demisto/py2-exchangelib",
             "demisto/fasttext",
             "demisto/twilio",
-            "demisto/dl-languages",
             "demisto/minio",
             "demisto/carbon-black-cloud",
             "demisto/python3",
@@ -9746,13 +9744,10 @@
             "demisto/python3-deb",
             "demisto/sane-pdf-reports",
             "demisto/chromium",
-            "demisto/boto3py3",
             "demisto/google-vision-api",
             "demisto/office-utils",
-            "demisto/fetch-data",
             "demisto/ml",
             "demisto/googleapi-python3",
-            "demisto/boto3",
             "demisto/genericsql",
             "demisto/google-api-py3",
             "demisto/nltk",
@@ -9760,7 +9755,6 @@
             "demisto/bigquery",
             "demisto/pcap-http-extractor",
             "demisto/trustar",
-            "demisto/sklearn",
             "demisto/yarapy",
             "demisto/google-kms",
             "demisto/devo",
@@ -9770,7 +9764,13 @@
             "demisto/google-k8s-engine",
             "demisto/ansible-runner",
             "demisto/distorm3",
-            "demisto/sharepoint"
+            "demisto/sharepoint",
+            "demisto/boto3py3",
+            "demisto/fetch-data",
+            "demisto/boto3",
+            "demisto/pandas",
+            "demisto/sklearn",
+            "demisto/dl-languages"
         ],
         "home_page": "https://github.com/pypa/wheel",
         "licenses": [
@@ -9929,8 +9929,8 @@
             "demisto/pyotrs",
             "demisto/pymisp",
             "demisto/argus-toolbelt",
-            "demisto/dl-languages",
-            "demisto/ml"
+            "demisto/ml",
+            "demisto/dl-languages"
         ],
         "home_page": "https://github.com/jaraco/zipp",
         "licenses": [

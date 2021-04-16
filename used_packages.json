@@ -311,7 +311,6 @@
             "demisto/pyjwt",
             "demisto/dxl2",
             "demisto/smb",
-            "demisto/resilient",
             "demisto/docxpy",
             "demisto/dempcap",
             "demisto/luminate",
@@ -383,7 +382,6 @@
             "demisto/chromium",
             "demisto/office-utils",
             "demisto/ml",
-            "demisto/genericsql",
             "demisto/nltk",
             "demisto/tesseract",
             "demisto/bigquery",
@@ -403,16 +401,18 @@
             "demisto/pandas",
             "demisto/sklearn",
             "demisto/dl-languages",
-            "demisto/google-vision-api",
             "demisto/googleapi-python3",
             "demisto/google-api-py3",
             "demisto/algorithmia",
-            "demisto/boto3py3",
-            "demisto/boto3",
             "demisto/pykafka",
             "demisto/py42",
             "demisto/xslxwriter",
-            "demisto/polyswarm"
+            "demisto/polyswarm",
+            "demisto/boto3py3",
+            "demisto/google-vision-api",
+            "demisto/boto3",
+            "demisto/genericsql",
+            "demisto/resilient"
         ],
         "home_page": "https://github.com/Anorov/PySocks",
         "licenses": [
@@ -482,7 +482,6 @@
             "demisto/pyjwt",
             "demisto/dxl2",
             "demisto/smb",
-            "demisto/resilient",
             "demisto/docxpy",
             "demisto/dempcap",
             "demisto/luminate",
@@ -554,7 +553,6 @@
             "demisto/chromium",
             "demisto/office-utils",
             "demisto/ml",
-            "demisto/genericsql",
             "demisto/nltk",
             "demisto/tesseract",
             "demisto/bigquery",
@@ -574,16 +572,18 @@
             "demisto/pandas",
             "demisto/sklearn",
             "demisto/dl-languages",
-            "demisto/google-vision-api",
             "demisto/googleapi-python3",
             "demisto/google-api-py3",
             "demisto/algorithmia",
-            "demisto/boto3py3",
-            "demisto/boto3",
             "demisto/pykafka",
             "demisto/py42",
             "demisto/xslxwriter",
-            "demisto/polyswarm"
+            "demisto/polyswarm",
+            "demisto/boto3py3",
+            "demisto/google-vision-api",
+            "demisto/boto3",
+            "demisto/genericsql",
+            "demisto/resilient"
         ],
         "home_page": "https://github.com/yaml/pyyaml",
         "licenses": [
@@ -1423,7 +1423,6 @@
         "author": "Thomas Kemmer tkemmer@computer.org",
         "docker_images": [
             "demisto/axonius",
-            "demisto/resilient",
             "demisto/xsoar-tools",
             "demisto/google-cloud-storage",
             "demisto/greynoise",
@@ -1436,9 +1435,10 @@
             "demisto/google-cloud-translate",
             "demisto/google-k8s-engine",
             "demisto/ansible-runner",
-            "demisto/google-vision-api",
             "demisto/googleapi-python3",
-            "demisto/google-api-py3"
+            "demisto/google-api-py3",
+            "demisto/google-vision-api",
+            "demisto/resilient"
         ],
         "home_page": "https://github.com/tkem/cachetools",
         "licenses": [
@@ -1553,7 +1553,6 @@
             "demisto/pyjwt",
             "demisto/dxl2",
             "demisto/smb",
-            "demisto/resilient",
             "demisto/docxpy",
             "demisto/dempcap",
             "demisto/luminate",
@@ -1625,7 +1624,6 @@
             "demisto/chromium",
             "demisto/office-utils",
             "demisto/ml",
-            "demisto/genericsql",
             "demisto/nltk",
             "demisto/tesseract",
             "demisto/bigquery",
@@ -1645,16 +1643,18 @@
             "demisto/pandas",
             "demisto/sklearn",
             "demisto/dl-languages",
-            "demisto/google-vision-api",
             "demisto/googleapi-python3",
             "demisto/google-api-py3",
             "demisto/algorithmia",
-            "demisto/boto3py3",
-            "demisto/boto3",
             "demisto/pykafka",
             "demisto/py42",
             "demisto/xslxwriter",
-            "demisto/polyswarm"
+            "demisto/polyswarm",
+            "demisto/boto3py3",
+            "demisto/google-vision-api",
+            "demisto/boto3",
+            "demisto/genericsql",
+            "demisto/resilient"
         ],
         "home_page": "https://certifi.io/",
         "licenses": [
@@ -1681,7 +1681,6 @@
             "demisto/tidy",
             "demisto/oauthlib",
             "demisto/py3ews",
-            "demisto/resilient",
             "demisto/slack",
             "demisto/smbprotocol",
             "demisto/crypto",
@@ -1695,7 +1694,8 @@
             "demisto/netmiko",
             "demisto/ansible-runner",
             "demisto/sharepoint",
-            "demisto/google-api-py3"
+            "demisto/google-api-py3",
+            "demisto/resilient"
         ],
         "home_page": "http://cffi.readthedocs.org",
         "licenses": [
@@ -1773,7 +1773,6 @@
             "demisto/pyjwt",
             "demisto/dxl2",
             "demisto/smb",
-            "demisto/resilient",
             "demisto/docxpy",
             "demisto/dempcap",
             "demisto/luminate",
@@ -1845,7 +1844,6 @@
             "demisto/chromium",
             "demisto/office-utils",
             "demisto/ml",
-            "demisto/genericsql",
             "demisto/nltk",
             "demisto/tesseract",
             "demisto/bigquery",
@@ -1865,16 +1863,18 @@
             "demisto/pandas",
             "demisto/sklearn",
             "demisto/dl-languages",
-            "demisto/google-vision-api",
             "demisto/googleapi-python3",
             "demisto/google-api-py3",
             "demisto/algorithmia",
-            "demisto/boto3py3",
-            "demisto/boto3",
             "demisto/pykafka",
             "demisto/py42",
             "demisto/xslxwriter",
-            "demisto/polyswarm"
+            "demisto/polyswarm",
+            "demisto/boto3py3",
+            "demisto/google-vision-api",
+            "demisto/boto3",
+            "demisto/genericsql",
+            "demisto/resilient"
         ],
         "home_page": "https://github.com/chardet/chardet",
         "licenses": [
@@ -2052,10 +2052,10 @@
     "configparser": {
         "author": "\u0141ukasz Langa lukasz@langa.pl",
         "docker_images": [
-            "demisto/resilient",
             "demisto/xsoar-tools",
             "demisto/chromium",
-            "demisto/trustar"
+            "demisto/trustar",
+            "demisto/resilient"
         ],
         "home_page": "https://github.com/jaraco/configparser/",
         "licenses": [
@@ -2108,7 +2108,6 @@
             "demisto/tidy",
             "demisto/oauthlib",
             "demisto/py3ews",
-            "demisto/resilient",
             "demisto/smbprotocol",
             "demisto/crypto",
             "demisto/python_pancloud",
@@ -2120,7 +2119,8 @@
             "demisto/netmiko",
             "demisto/ansible-runner",
             "demisto/sharepoint",
-            "demisto/google-api-py3"
+            "demisto/google-api-py3",
+            "demisto/resilient"
         ],
         "home_page": "https://github.com/pyca/cryptography",
         "licenses": [
@@ -2291,7 +2291,6 @@
             "demisto/pyjwt",
             "demisto/dxl2",
             "demisto/smb",
-            "demisto/resilient",
             "demisto/docxpy",
             "demisto/dempcap",
             "demisto/luminate",
@@ -2363,7 +2362,6 @@
             "demisto/chromium",
             "demisto/office-utils",
             "demisto/ml",
-            "demisto/genericsql",
             "demisto/nltk",
             "demisto/tesseract",
             "demisto/bigquery",
@@ -2383,16 +2381,18 @@
             "demisto/pandas",
             "demisto/sklearn",
             "demisto/dl-languages",
-            "demisto/google-vision-api",
             "demisto/googleapi-python3",
             "demisto/google-api-py3",
             "demisto/algorithmia",
-            "demisto/boto3py3",
-            "demisto/boto3",
             "demisto/pykafka",
             "demisto/py42",
             "demisto/xslxwriter",
-            "demisto/polyswarm"
+            "demisto/polyswarm",
+            "demisto/boto3py3",
+            "demisto/google-vision-api",
+            "demisto/boto3",
+            "demisto/genericsql",
+            "demisto/resilient"
         ],
         "home_page": "https://github.com/scrapinghub/dateparser",
         "licenses": [
@@ -2832,8 +2832,8 @@
             "demisto/threatconnect",
             "demisto/py-ews",
             "demisto/threatconnect-sdk",
-            "demisto/resilient",
-            "demisto/py2-exchangelib"
+            "demisto/py2-exchangelib",
+            "demisto/resilient"
         ],
         "home_page": "https://bitbucket.org/stoneleaf/enum34",
         "licenses": [
@@ -3064,7 +3064,6 @@
             "demisto/pyjwt",
             "demisto/dxl2",
             "demisto/smb",
-            "demisto/resilient",
             "demisto/docxpy",
             "demisto/dempcap",
             "demisto/luminate",
@@ -3136,7 +3135,6 @@
             "demisto/chromium",
             "demisto/office-utils",
             "demisto/ml",
-            "demisto/genericsql",
             "demisto/nltk",
             "demisto/tesseract",
             "demisto/bigquery",
@@ -3156,16 +3154,18 @@
             "demisto/pandas",
             "demisto/sklearn",
             "demisto/dl-languages",
-            "demisto/google-vision-api",
             "demisto/googleapi-python3",
             "demisto/google-api-py3",
             "demisto/algorithmia",
-            "demisto/boto3py3",
-            "demisto/boto3",
             "demisto/pykafka",
             "demisto/py42",
             "demisto/xslxwriter",
-            "demisto/polyswarm"
+            "demisto/polyswarm",
+            "demisto/boto3py3",
+            "demisto/google-vision-api",
+            "demisto/boto3",
+            "demisto/genericsql",
+            "demisto/resilient"
         ],
         "home_page": "http://github.com/Suor/funcy",
         "licenses": [
@@ -3299,9 +3299,9 @@
             "demisto/google-kms",
             "demisto/google-cloud-translate",
             "demisto/google-k8s-engine",
-            "demisto/google-vision-api",
             "demisto/googleapi-python3",
-            "demisto/google-api-py3"
+            "demisto/google-api-py3",
+            "demisto/google-vision-api"
         ],
         "home_page": "https://github.com/GoogleCloudPlatform/google-cloud-python",
         "licenses": [
@@ -3315,9 +3315,9 @@
         "docker_images": [
             "demisto/gvault",
             "demisto/google-api",
-            "demisto/google-vision-api",
             "demisto/googleapi-python3",
-            "demisto/google-api-py3"
+            "demisto/google-api-py3",
+            "demisto/google-vision-api"
         ],
         "home_page": "http://github.com/google/google-api-python-client/",
         "licenses": [
@@ -3339,9 +3339,9 @@
             "demisto/google-cloud-translate",
             "demisto/google-k8s-engine",
             "demisto/ansible-runner",
-            "demisto/google-vision-api",
             "demisto/googleapi-python3",
-            "demisto/google-api-py3"
+            "demisto/google-api-py3",
+            "demisto/google-vision-api"
         ],
         "home_page": "https://github.com/GoogleCloudPlatform/google-auth-library-python",
         "licenses": [
@@ -3355,9 +3355,9 @@
         "docker_images": [
             "demisto/gvault",
             "demisto/google-api",
-            "demisto/google-vision-api",
             "demisto/googleapi-python3",
-            "demisto/google-api-py3"
+            "demisto/google-api-py3",
+            "demisto/google-vision-api"
         ],
         "home_page": "https://github.com/GoogleCloudPlatform/google-auth-library-python-httplib2",
         "licenses": [
@@ -3534,9 +3534,9 @@
             "demisto/google-kms",
             "demisto/google-cloud-translate",
             "demisto/google-k8s-engine",
-            "demisto/google-vision-api",
             "demisto/googleapi-python3",
-            "demisto/google-api-py3"
+            "demisto/google-api-py3",
+            "demisto/google-vision-api"
         ],
         "home_page": "https://github.com/googleapis/googleapis",
         "licenses": [
@@ -3700,9 +3700,9 @@
             "demisto/gvault",
             "demisto/google-api",
             "demisto/bigquery",
-            "demisto/google-vision-api",
             "demisto/googleapi-python3",
-            "demisto/google-api-py3"
+            "demisto/google-api-py3",
+            "demisto/google-vision-api"
         ],
         "home_page": "https://github.com/httplib2/httplib2",
         "licenses": [
@@ -3803,7 +3803,6 @@
             "demisto/pyjwt",
             "demisto/dxl2",
             "demisto/smb",
-            "demisto/resilient",
             "demisto/docxpy",
             "demisto/dempcap",
             "demisto/luminate",
@@ -3875,7 +3874,6 @@
             "demisto/chromium",
             "demisto/office-utils",
             "demisto/ml",
-            "demisto/genericsql",
             "demisto/nltk",
             "demisto/tesseract",
             "demisto/bigquery",
@@ -3895,16 +3893,18 @@
             "demisto/pandas",
             "demisto/sklearn",
             "demisto/dl-languages",
-            "demisto/google-vision-api",
             "demisto/googleapi-python3",
             "demisto/google-api-py3",
             "demisto/algorithmia",
-            "demisto/boto3py3",
-            "demisto/boto3",
             "demisto/pykafka",
             "demisto/py42",
             "demisto/xslxwriter",
-            "demisto/polyswarm"
+            "demisto/polyswarm",
+            "demisto/boto3py3",
+            "demisto/google-vision-api",
+            "demisto/boto3",
+            "demisto/genericsql",
+            "demisto/resilient"
         ],
         "home_page": "https://github.com/kjd/idna",
         "licenses": [
@@ -4020,8 +4020,8 @@
             "demisto/exchangelib",
             "demisto/ews",
             "demisto/py-ews",
-            "demisto/resilient",
-            "demisto/py2-exchangelib"
+            "demisto/py2-exchangelib",
+            "demisto/resilient"
         ],
         "home_page": "https://github.com/phihag/ipaddress",
         "licenses": [
@@ -4821,9 +4821,9 @@
             "demisto/gvault",
             "demisto/google-api",
             "demisto/bigquery",
-            "demisto/google-vision-api",
             "demisto/googleapi-python3",
-            "demisto/google-api-py3"
+            "demisto/google-api-py3",
+            "demisto/google-vision-api"
         ],
         "home_page": "http://github.com/google/oauth2client/",
         "licenses": [
@@ -4905,7 +4905,6 @@
             "demisto/pyjwt",
             "demisto/dxl2",
             "demisto/smb",
-            "demisto/resilient",
             "demisto/docxpy",
             "demisto/dempcap",
             "demisto/luminate",
@@ -4977,7 +4976,6 @@
             "demisto/chromium",
             "demisto/office-utils",
             "demisto/ml",
-            "demisto/genericsql",
             "demisto/nltk",
             "demisto/tesseract",
             "demisto/bigquery",
@@ -4997,16 +4995,18 @@
             "demisto/pandas",
             "demisto/sklearn",
             "demisto/dl-languages",
-            "demisto/google-vision-api",
             "demisto/googleapi-python3",
             "demisto/google-api-py3",
             "demisto/algorithmia",
-            "demisto/boto3py3",
-            "demisto/boto3",
             "demisto/pykafka",
             "demisto/py42",
             "demisto/xslxwriter",
-            "demisto/polyswarm"
+            "demisto/polyswarm",
+            "demisto/boto3py3",
+            "demisto/google-vision-api",
+            "demisto/boto3",
+            "demisto/genericsql",
+            "demisto/resilient"
         ],
         "home_page": "https://www.decalage.info/python/olefileio",
         "licenses": [
@@ -5141,9 +5141,9 @@
             "demisto/google-k8s-engine",
             "demisto/ansible-runner",
             "demisto/dl-languages",
-            "demisto/google-vision-api",
             "demisto/googleapi-python3",
-            "demisto/google-api-py3"
+            "demisto/google-api-py3",
+            "demisto/google-vision-api"
         ],
         "home_page": "https://github.com/pypa/packaging",
         "licenses": [
@@ -5497,7 +5497,6 @@
             "demisto/pyjwt",
             "demisto/dxl2",
             "demisto/smb",
-            "demisto/resilient",
             "demisto/docxpy",
             "demisto/dempcap",
             "demisto/luminate",
@@ -5569,7 +5568,6 @@
             "demisto/chromium",
             "demisto/office-utils",
             "demisto/ml",
-            "demisto/genericsql",
             "demisto/nltk",
             "demisto/tesseract",
             "demisto/bigquery",
@@ -5589,16 +5587,18 @@
             "demisto/pandas",
             "demisto/sklearn",
             "demisto/dl-languages",
-            "demisto/google-vision-api",
             "demisto/googleapi-python3",
             "demisto/google-api-py3",
             "demisto/algorithmia",
-            "demisto/boto3py3",
-            "demisto/boto3",
             "demisto/pykafka",
             "demisto/py42",
             "demisto/xslxwriter",
-            "demisto/polyswarm"
+            "demisto/polyswarm",
+            "demisto/boto3py3",
+            "demisto/google-vision-api",
+            "demisto/boto3",
+            "demisto/genericsql",
+            "demisto/resilient"
         ],
         "home_page": "https://pip.pypa.io/",
         "licenses": [
@@ -5773,9 +5773,9 @@
             "demisto/google-kms",
             "demisto/google-cloud-translate",
             "demisto/google-k8s-engine",
-            "demisto/google-vision-api",
             "demisto/googleapi-python3",
-            "demisto/google-api-py3"
+            "demisto/google-api-py3",
+            "demisto/google-vision-api"
         ],
         "home_page": "https://developers.google.com/protocol-buffers/",
         "licenses": [
@@ -5931,9 +5931,9 @@
             "demisto/google-cloud-translate",
             "demisto/google-k8s-engine",
             "demisto/ansible-runner",
-            "demisto/google-vision-api",
             "demisto/googleapi-python3",
-            "demisto/google-api-py3"
+            "demisto/google-api-py3",
+            "demisto/google-vision-api"
         ],
         "home_page": "https://github.com/etingof/pyasn1",
         "licenses": [
@@ -5955,9 +5955,9 @@
             "demisto/google-cloud-translate",
             "demisto/google-k8s-engine",
             "demisto/ansible-runner",
-            "demisto/google-vision-api",
             "demisto/googleapi-python3",
-            "demisto/google-api-py3"
+            "demisto/google-api-py3",
+            "demisto/google-vision-api"
         ],
         "home_page": "https://github.com/etingof/pyasn1-modules",
         "licenses": [
@@ -6047,7 +6047,6 @@
             "demisto/tidy",
             "demisto/oauthlib",
             "demisto/py3ews",
-            "demisto/resilient",
             "demisto/slack",
             "demisto/smbprotocol",
             "demisto/crypto",
@@ -6061,7 +6060,8 @@
             "demisto/netmiko",
             "demisto/ansible-runner",
             "demisto/sharepoint",
-            "demisto/google-api-py3"
+            "demisto/google-api-py3",
+            "demisto/resilient"
         ],
         "home_page": "https://github.com/eliben/pycparser",
         "licenses": [
@@ -6299,9 +6299,9 @@
             "demisto/google-k8s-engine",
             "demisto/ansible-runner",
             "demisto/dl-languages",
-            "demisto/google-vision-api",
             "demisto/googleapi-python3",
-            "demisto/google-api-py3"
+            "demisto/google-api-py3",
+            "demisto/google-vision-api"
         ],
         "home_page": "https://github.com/pyparsing/pyparsing/",
         "licenses": [
@@ -6479,7 +6479,6 @@
             "demisto/pyjwt",
             "demisto/dxl2",
             "demisto/smb",
-            "demisto/resilient",
             "demisto/docxpy",
             "demisto/dempcap",
             "demisto/luminate",
@@ -6551,7 +6550,6 @@
             "demisto/chromium",
             "demisto/office-utils",
             "demisto/ml",
-            "demisto/genericsql",
             "demisto/nltk",
             "demisto/tesseract",
             "demisto/bigquery",
@@ -6571,16 +6569,18 @@
             "demisto/pandas",
             "demisto/sklearn",
             "demisto/dl-languages",
-            "demisto/google-vision-api",
             "demisto/googleapi-python3",
             "demisto/google-api-py3",
             "demisto/algorithmia",
-            "demisto/boto3py3",
-            "demisto/boto3",
             "demisto/pykafka",
             "demisto/py42",
             "demisto/xslxwriter",
-            "demisto/polyswarm"
+            "demisto/polyswarm",
+            "demisto/boto3py3",
+            "demisto/google-vision-api",
+            "demisto/boto3",
+            "demisto/genericsql",
+            "demisto/resilient"
         ],
         "home_page": "https://dateutil.readthedocs.io",
         "licenses": [
@@ -6741,7 +6741,6 @@
             "demisto/pyjwt",
             "demisto/dxl2",
             "demisto/smb",
-            "demisto/resilient",
             "demisto/docxpy",
             "demisto/dempcap",
             "demisto/luminate",
@@ -6813,7 +6812,6 @@
             "demisto/chromium",
             "demisto/office-utils",
             "demisto/ml",
-            "demisto/genericsql",
             "demisto/nltk",
             "demisto/tesseract",
             "demisto/bigquery",
@@ -6833,16 +6831,18 @@
             "demisto/pandas",
             "demisto/sklearn",
             "demisto/dl-languages",
-            "demisto/google-vision-api",
             "demisto/googleapi-python3",
             "demisto/google-api-py3",
             "demisto/algorithmia",
-            "demisto/boto3py3",
-            "demisto/boto3",
             "demisto/pykafka",
             "demisto/py42",
             "demisto/xslxwriter",
-            "demisto/polyswarm"
+            "demisto/polyswarm",
+            "demisto/boto3py3",
+            "demisto/google-vision-api",
+            "demisto/boto3",
+            "demisto/genericsql",
+            "demisto/resilient"
         ],
         "home_page": "http://pythonhosted.org/pytz",
         "licenses": [
@@ -6975,7 +6975,6 @@
             "demisto/pyjwt",
             "demisto/dxl2",
             "demisto/smb",
-            "demisto/resilient",
             "demisto/docxpy",
             "demisto/dempcap",
             "demisto/luminate",
@@ -7047,7 +7046,6 @@
             "demisto/chromium",
             "demisto/office-utils",
             "demisto/ml",
-            "demisto/genericsql",
             "demisto/nltk",
             "demisto/tesseract",
             "demisto/bigquery",
@@ -7067,16 +7065,18 @@
             "demisto/pandas",
             "demisto/sklearn",
             "demisto/dl-languages",
-            "demisto/google-vision-api",
             "demisto/googleapi-python3",
             "demisto/google-api-py3",
             "demisto/algorithmia",
-            "demisto/boto3py3",
-            "demisto/boto3",
             "demisto/pykafka",
             "demisto/py42",
             "demisto/xslxwriter",
-            "demisto/polyswarm"
+            "demisto/polyswarm",
+            "demisto/boto3py3",
+            "demisto/google-vision-api",
+            "demisto/boto3",
+            "demisto/genericsql",
+            "demisto/resilient"
         ],
         "home_page": "https://bitbucket.org/mrabarnett/mrab-regex",
         "licenses": [
@@ -7162,7 +7162,6 @@
             "demisto/pyjwt",
             "demisto/dxl2",
             "demisto/smb",
-            "demisto/resilient",
             "demisto/docxpy",
             "demisto/dempcap",
             "demisto/luminate",
@@ -7234,7 +7233,6 @@
             "demisto/chromium",
             "demisto/office-utils",
             "demisto/ml",
-            "demisto/genericsql",
             "demisto/nltk",
             "demisto/tesseract",
             "demisto/bigquery",
@@ -7254,16 +7252,18 @@
             "demisto/pandas",
             "demisto/sklearn",
             "demisto/dl-languages",
-            "demisto/google-vision-api",
             "demisto/googleapi-python3",
             "demisto/google-api-py3",
             "demisto/algorithmia",
-            "demisto/boto3py3",
-            "demisto/boto3",
             "demisto/pykafka",
             "demisto/py42",
             "demisto/xslxwriter",
-            "demisto/polyswarm"
+            "demisto/polyswarm",
+            "demisto/boto3py3",
+            "demisto/google-vision-api",
+            "demisto/boto3",
+            "demisto/genericsql",
+            "demisto/resilient"
         ],
         "home_page": "http://python-requests.org",
         "licenses": [
@@ -7319,7 +7319,6 @@
             "demisto/pyjwt",
             "demisto/dxl2",
             "demisto/smb",
-            "demisto/resilient",
             "demisto/docxpy",
             "demisto/dempcap",
             "demisto/luminate",
@@ -7391,7 +7390,6 @@
             "demisto/chromium",
             "demisto/office-utils",
             "demisto/ml",
-            "demisto/genericsql",
             "demisto/nltk",
             "demisto/tesseract",
             "demisto/bigquery",
@@ -7411,16 +7409,18 @@
             "demisto/pandas",
             "demisto/sklearn",
             "demisto/dl-languages",
-            "demisto/google-vision-api",
             "demisto/googleapi-python3",
             "demisto/google-api-py3",
             "demisto/algorithmia",
-            "demisto/boto3py3",
-            "demisto/boto3",
             "demisto/pykafka",
             "demisto/py42",
             "demisto/xslxwriter",
-            "demisto/polyswarm"
+            "demisto/polyswarm",
+            "demisto/boto3py3",
+            "demisto/google-vision-api",
+            "demisto/boto3",
+            "demisto/genericsql",
+            "demisto/resilient"
         ],
         "home_page": "http://github.com/dashea/requests-file",
         "licenses": [
@@ -7506,10 +7506,10 @@
     "requests-toolbelt": {
         "author": "Ian Cordasco, Cory Benfield graffatcolmingov@gmail.com",
         "docker_images": [
-            "demisto/resilient",
             "demisto/zeep",
             "demisto/smartsheet",
-            "demisto/sharepoint"
+            "demisto/sharepoint",
+            "demisto/resilient"
         ],
         "home_page": "https://toolbelt.readthedocs.org",
         "licenses": [
@@ -7582,9 +7582,9 @@
             "demisto/google-cloud-translate",
             "demisto/google-k8s-engine",
             "demisto/ansible-runner",
-            "demisto/google-vision-api",
             "demisto/googleapi-python3",
-            "demisto/google-api-py3"
+            "demisto/google-api-py3",
+            "demisto/google-vision-api"
         ],
         "home_page": "https://stuvel.eu/rsa",
         "licenses": [
@@ -7837,7 +7837,6 @@
             "demisto/pyjwt",
             "demisto/dxl2",
             "demisto/smb",
-            "demisto/resilient",
             "demisto/docxpy",
             "demisto/dempcap",
             "demisto/luminate",
@@ -7909,7 +7908,6 @@
             "demisto/chromium",
             "demisto/office-utils",
             "demisto/ml",
-            "demisto/genericsql",
             "demisto/nltk",
             "demisto/tesseract",
             "demisto/bigquery",
@@ -7929,16 +7927,18 @@
             "demisto/pandas",
             "demisto/sklearn",
             "demisto/dl-languages",
-            "demisto/google-vision-api",
             "demisto/googleapi-python3",
             "demisto/google-api-py3",
             "demisto/algorithmia",
-            "demisto/boto3py3",
-            "demisto/boto3",
             "demisto/pykafka",
             "demisto/py42",
             "demisto/xslxwriter",
-            "demisto/polyswarm"
+            "demisto/polyswarm",
+            "demisto/boto3py3",
+            "demisto/google-vision-api",
+            "demisto/boto3",
+            "demisto/genericsql",
+            "demisto/resilient"
         ],
         "home_page": "https://github.com/pypa/setuptools",
         "licenses": [
@@ -8068,7 +8068,6 @@
             "demisto/pyjwt",
             "demisto/dxl2",
             "demisto/smb",
-            "demisto/resilient",
             "demisto/docxpy",
             "demisto/dempcap",
             "demisto/luminate",
@@ -8140,7 +8139,6 @@
             "demisto/chromium",
             "demisto/office-utils",
             "demisto/ml",
-            "demisto/genericsql",
             "demisto/nltk",
             "demisto/tesseract",
             "demisto/bigquery",
@@ -8160,16 +8158,18 @@
             "demisto/pandas",
             "demisto/sklearn",
             "demisto/dl-languages",
-            "demisto/google-vision-api",
             "demisto/googleapi-python3",
             "demisto/google-api-py3",
             "demisto/algorithmia",
-            "demisto/boto3py3",
-            "demisto/boto3",
             "demisto/pykafka",
             "demisto/py42",
             "demisto/xslxwriter",
-            "demisto/polyswarm"
+            "demisto/polyswarm",
+            "demisto/boto3py3",
+            "demisto/google-vision-api",
+            "demisto/boto3",
+            "demisto/genericsql",
+            "demisto/resilient"
         ],
         "home_page": "https://github.com/benjaminp/six",
         "licenses": [
@@ -8755,7 +8755,6 @@
             "demisto/pyjwt",
             "demisto/dxl2",
             "demisto/smb",
-            "demisto/resilient",
             "demisto/docxpy",
             "demisto/dempcap",
             "demisto/luminate",
@@ -8827,7 +8826,6 @@
             "demisto/chromium",
             "demisto/office-utils",
             "demisto/ml",
-            "demisto/genericsql",
             "demisto/nltk",
             "demisto/tesseract",
             "demisto/bigquery",
@@ -8847,16 +8845,18 @@
             "demisto/pandas",
             "demisto/sklearn",
             "demisto/dl-languages",
-            "demisto/google-vision-api",
             "demisto/googleapi-python3",
             "demisto/google-api-py3",
             "demisto/algorithmia",
-            "demisto/boto3py3",
-            "demisto/boto3",
             "demisto/pykafka",
             "demisto/py42",
             "demisto/xslxwriter",
-            "demisto/polyswarm"
+            "demisto/polyswarm",
+            "demisto/boto3py3",
+            "demisto/google-vision-api",
+            "demisto/boto3",
+            "demisto/genericsql",
+            "demisto/resilient"
         ],
         "home_page": "https://github.com/john-kurkowski/tldextract",
         "licenses": [
@@ -9054,7 +9054,6 @@
             "demisto/pyjwt",
             "demisto/dxl2",
             "demisto/smb",
-            "demisto/resilient",
             "demisto/docxpy",
             "demisto/dempcap",
             "demisto/luminate",
@@ -9126,7 +9125,6 @@
             "demisto/chromium",
             "demisto/office-utils",
             "demisto/ml",
-            "demisto/genericsql",
             "demisto/nltk",
             "demisto/tesseract",
             "demisto/bigquery",
@@ -9146,16 +9144,18 @@
             "demisto/pandas",
             "demisto/sklearn",
             "demisto/dl-languages",
-            "demisto/google-vision-api",
             "demisto/googleapi-python3",
             "demisto/google-api-py3",
             "demisto/algorithmia",
-            "demisto/boto3py3",
-            "demisto/boto3",
             "demisto/pykafka",
             "demisto/py42",
             "demisto/xslxwriter",
-            "demisto/polyswarm"
+            "demisto/polyswarm",
+            "demisto/boto3py3",
+            "demisto/google-vision-api",
+            "demisto/boto3",
+            "demisto/genericsql",
+            "demisto/resilient"
         ],
         "home_page": "https://github.com/regebro/tzlocal",
         "licenses": [
@@ -9205,9 +9205,9 @@
         "docker_images": [
             "demisto/gvault",
             "demisto/google-api",
-            "demisto/google-vision-api",
             "demisto/googleapi-python3",
-            "demisto/google-api-py3"
+            "demisto/google-api-py3",
+            "demisto/google-vision-api"
         ],
         "home_page": "https://uritemplate.readthedocs.org",
         "licenses": [
@@ -9285,7 +9285,6 @@
             "demisto/pyjwt",
             "demisto/dxl2",
             "demisto/smb",
-            "demisto/resilient",
             "demisto/docxpy",
             "demisto/dempcap",
             "demisto/luminate",
@@ -9357,7 +9356,6 @@
             "demisto/chromium",
             "demisto/office-utils",
             "demisto/ml",
-            "demisto/genericsql",
             "demisto/nltk",
             "demisto/tesseract",
             "demisto/bigquery",
@@ -9377,16 +9375,18 @@
             "demisto/pandas",
             "demisto/sklearn",
             "demisto/dl-languages",
-            "demisto/google-vision-api",
             "demisto/googleapi-python3",
             "demisto/google-api-py3",
             "demisto/algorithmia",
-            "demisto/boto3py3",
-            "demisto/boto3",
             "demisto/pykafka",
             "demisto/py42",
             "demisto/xslxwriter",
-            "demisto/polyswarm"
+            "demisto/polyswarm",
+            "demisto/boto3py3",
+            "demisto/google-vision-api",
+            "demisto/boto3",
+            "demisto/genericsql",
+            "demisto/resilient"
         ],
         "home_page": "https://urllib3.readthedocs.io/",
         "licenses": [
@@ -9729,7 +9729,6 @@
             "demisto/pyjwt",
             "demisto/dxl2",
             "demisto/smb",
-            "demisto/resilient",
             "demisto/docxpy",
             "demisto/dempcap",
             "demisto/luminate",
@@ -9801,7 +9800,6 @@
             "demisto/chromium",
             "demisto/office-utils",
             "demisto/ml",
-            "demisto/genericsql",
             "demisto/nltk",
             "demisto/tesseract",
             "demisto/bigquery",
@@ -9821,16 +9819,18 @@
             "demisto/pandas",
             "demisto/sklearn",
             "demisto/dl-languages",
-            "demisto/google-vision-api",
             "demisto/googleapi-python3",
             "demisto/google-api-py3",
             "demisto/algorithmia",
-            "demisto/boto3py3",
-            "demisto/boto3",
             "demisto/pykafka",
             "demisto/py42",
             "demisto/xslxwriter",
-            "demisto/polyswarm"
+            "demisto/polyswarm",
+            "demisto/boto3py3",
+            "demisto/google-vision-api",
+            "demisto/boto3",
+            "demisto/genericsql",
+            "demisto/resilient"
         ],
         "home_page": "https://github.com/pypa/wheel",
         "licenses": [

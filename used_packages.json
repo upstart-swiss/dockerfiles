@@ -181,9 +181,9 @@
             "demisto/dl",
             "demisto/matplotlib",
             "demisto/sane-doc-reports",
-            "demisto/chromium",
             "demisto/ml",
-            "demisto/dl-languages"
+            "demisto/dl-languages",
+            "demisto/chromium"
         ],
         "home_page": "http://python-pillow.org",
         "licenses": [
@@ -379,7 +379,6 @@
             "demisto/sane-doc-reports",
             "demisto/python3-deb",
             "demisto/sane-pdf-reports",
-            "demisto/chromium",
             "demisto/office-utils",
             "demisto/ml",
             "demisto/nltk",
@@ -411,8 +410,9 @@
             "demisto/boto3py3",
             "demisto/google-vision-api",
             "demisto/boto3",
-            "demisto/genericsql",
-            "demisto/resilient"
+            "demisto/resilient",
+            "demisto/chromium",
+            "demisto/genericsql"
         ],
         "home_page": "https://github.com/Anorov/PySocks",
         "licenses": [
@@ -550,7 +550,6 @@
             "demisto/sane-doc-reports",
             "demisto/python3-deb",
             "demisto/sane-pdf-reports",
-            "demisto/chromium",
             "demisto/office-utils",
             "demisto/ml",
             "demisto/nltk",
@@ -582,8 +581,9 @@
             "demisto/boto3py3",
             "demisto/google-vision-api",
             "demisto/boto3",
-            "demisto/genericsql",
-            "demisto/resilient"
+            "demisto/resilient",
+            "demisto/chromium",
+            "demisto/genericsql"
         ],
         "home_page": "https://github.com/yaml/pyyaml",
         "licenses": [
@@ -1621,7 +1621,6 @@
             "demisto/sane-doc-reports",
             "demisto/python3-deb",
             "demisto/sane-pdf-reports",
-            "demisto/chromium",
             "demisto/office-utils",
             "demisto/ml",
             "demisto/nltk",
@@ -1653,8 +1652,9 @@
             "demisto/boto3py3",
             "demisto/google-vision-api",
             "demisto/boto3",
-            "demisto/genericsql",
-            "demisto/resilient"
+            "demisto/resilient",
+            "demisto/chromium",
+            "demisto/genericsql"
         ],
         "home_page": "https://certifi.io/",
         "licenses": [
@@ -1841,7 +1841,6 @@
             "demisto/sane-doc-reports",
             "demisto/python3-deb",
             "demisto/sane-pdf-reports",
-            "demisto/chromium",
             "demisto/office-utils",
             "demisto/ml",
             "demisto/nltk",
@@ -1873,8 +1872,9 @@
             "demisto/boto3py3",
             "demisto/google-vision-api",
             "demisto/boto3",
-            "demisto/genericsql",
-            "demisto/resilient"
+            "demisto/resilient",
+            "demisto/chromium",
+            "demisto/genericsql"
         ],
         "home_page": "https://github.com/chardet/chardet",
         "licenses": [
@@ -2002,8 +2002,8 @@
             "demisto/threatconnect-tcex",
             "demisto/xsoar-tools",
             "demisto/greynoise",
-            "demisto/chromium",
-            "demisto/polyswarm"
+            "demisto/polyswarm",
+            "demisto/chromium"
         ],
         "home_page": "https://github.com/tartley/colorama",
         "licenses": [
@@ -2053,9 +2053,9 @@
         "author": "\u0141ukasz Langa lukasz@langa.pl",
         "docker_images": [
             "demisto/xsoar-tools",
-            "demisto/chromium",
             "demisto/trustar",
-            "demisto/resilient"
+            "demisto/resilient",
+            "demisto/chromium"
         ],
         "home_page": "https://github.com/jaraco/configparser/",
         "licenses": [
@@ -2359,7 +2359,6 @@
             "demisto/sane-doc-reports",
             "demisto/python3-deb",
             "demisto/sane-pdf-reports",
-            "demisto/chromium",
             "demisto/office-utils",
             "demisto/ml",
             "demisto/nltk",
@@ -2391,8 +2390,9 @@
             "demisto/boto3py3",
             "demisto/google-vision-api",
             "demisto/boto3",
-            "demisto/genericsql",
-            "demisto/resilient"
+            "demisto/resilient",
+            "demisto/chromium",
+            "demisto/genericsql"
         ],
         "home_page": "https://github.com/scrapinghub/dateparser",
         "licenses": [
@@ -3132,7 +3132,6 @@
             "demisto/sane-doc-reports",
             "demisto/python3-deb",
             "demisto/sane-pdf-reports",
-            "demisto/chromium",
             "demisto/office-utils",
             "demisto/ml",
             "demisto/nltk",
@@ -3164,8 +3163,9 @@
             "demisto/boto3py3",
             "demisto/google-vision-api",
             "demisto/boto3",
-            "demisto/genericsql",
-            "demisto/resilient"
+            "demisto/resilient",
+            "demisto/chromium",
+            "demisto/genericsql"
         ],
         "home_page": "http://github.com/Suor/funcy",
         "licenses": [
@@ -3871,7 +3871,6 @@
             "demisto/sane-doc-reports",
             "demisto/python3-deb",
             "demisto/sane-pdf-reports",
-            "demisto/chromium",
             "demisto/office-utils",
             "demisto/ml",
             "demisto/nltk",
@@ -3903,8 +3902,9 @@
             "demisto/boto3py3",
             "demisto/google-vision-api",
             "demisto/boto3",
-            "demisto/genericsql",
-            "demisto/resilient"
+            "demisto/resilient",
+            "demisto/chromium",
+            "demisto/genericsql"
         ],
         "home_page": "https://github.com/kjd/idna",
         "licenses": [
@@ -4800,13 +4800,13 @@
             "demisto/opencv",
             "demisto/fasttext",
             "demisto/sane-doc-reports",
-            "demisto/chromium",
             "demisto/ml",
             "demisto/devo",
             "demisto/fetch-data",
             "demisto/pandas",
             "demisto/sklearn",
-            "demisto/dl-languages"
+            "demisto/dl-languages",
+            "demisto/chromium"
         ],
         "home_page": "https://www.numpy.org",
         "licenses": [
@@ -4973,7 +4973,6 @@
             "demisto/sane-doc-reports",
             "demisto/python3-deb",
             "demisto/sane-pdf-reports",
-            "demisto/chromium",
             "demisto/office-utils",
             "demisto/ml",
             "demisto/nltk",
@@ -5005,8 +5004,9 @@
             "demisto/boto3py3",
             "demisto/google-vision-api",
             "demisto/boto3",
-            "demisto/genericsql",
-            "demisto/resilient"
+            "demisto/resilient",
+            "demisto/chromium",
+            "demisto/genericsql"
         ],
         "home_page": "https://www.decalage.info/python/olefileio",
         "licenses": [
@@ -5565,7 +5565,6 @@
             "demisto/sane-doc-reports",
             "demisto/python3-deb",
             "demisto/sane-pdf-reports",
-            "demisto/chromium",
             "demisto/office-utils",
             "demisto/ml",
             "demisto/nltk",
@@ -5597,8 +5596,9 @@
             "demisto/boto3py3",
             "demisto/google-vision-api",
             "demisto/boto3",
-            "demisto/genericsql",
-            "demisto/resilient"
+            "demisto/resilient",
+            "demisto/chromium",
+            "demisto/genericsql"
         ],
         "home_page": "https://pip.pypa.io/",
         "licenses": [
@@ -6547,7 +6547,6 @@
             "demisto/sane-doc-reports",
             "demisto/python3-deb",
             "demisto/sane-pdf-reports",
-            "demisto/chromium",
             "demisto/office-utils",
             "demisto/ml",
             "demisto/nltk",
@@ -6579,8 +6578,9 @@
             "demisto/boto3py3",
             "demisto/google-vision-api",
             "demisto/boto3",
-            "demisto/genericsql",
-            "demisto/resilient"
+            "demisto/resilient",
+            "demisto/chromium",
+            "demisto/genericsql"
         ],
         "home_page": "https://dateutil.readthedocs.io",
         "licenses": [
@@ -6809,7 +6809,6 @@
             "demisto/sane-doc-reports",
             "demisto/python3-deb",
             "demisto/sane-pdf-reports",
-            "demisto/chromium",
             "demisto/office-utils",
             "demisto/ml",
             "demisto/nltk",
@@ -6841,8 +6840,9 @@
             "demisto/boto3py3",
             "demisto/google-vision-api",
             "demisto/boto3",
-            "demisto/genericsql",
-            "demisto/resilient"
+            "demisto/resilient",
+            "demisto/chromium",
+            "demisto/genericsql"
         ],
         "home_page": "http://pythonhosted.org/pytz",
         "licenses": [
@@ -7043,7 +7043,6 @@
             "demisto/sane-doc-reports",
             "demisto/python3-deb",
             "demisto/sane-pdf-reports",
-            "demisto/chromium",
             "demisto/office-utils",
             "demisto/ml",
             "demisto/nltk",
@@ -7075,8 +7074,9 @@
             "demisto/boto3py3",
             "demisto/google-vision-api",
             "demisto/boto3",
-            "demisto/genericsql",
-            "demisto/resilient"
+            "demisto/resilient",
+            "demisto/chromium",
+            "demisto/genericsql"
         ],
         "home_page": "https://bitbucket.org/mrabarnett/mrab-regex",
         "licenses": [
@@ -7230,7 +7230,6 @@
             "demisto/sane-doc-reports",
             "demisto/python3-deb",
             "demisto/sane-pdf-reports",
-            "demisto/chromium",
             "demisto/office-utils",
             "demisto/ml",
             "demisto/nltk",
@@ -7262,8 +7261,9 @@
             "demisto/boto3py3",
             "demisto/google-vision-api",
             "demisto/boto3",
-            "demisto/genericsql",
-            "demisto/resilient"
+            "demisto/resilient",
+            "demisto/chromium",
+            "demisto/genericsql"
         ],
         "home_page": "http://python-requests.org",
         "licenses": [
@@ -7387,7 +7387,6 @@
             "demisto/sane-doc-reports",
             "demisto/python3-deb",
             "demisto/sane-pdf-reports",
-            "demisto/chromium",
             "demisto/office-utils",
             "demisto/ml",
             "demisto/nltk",
@@ -7419,8 +7418,9 @@
             "demisto/boto3py3",
             "demisto/google-vision-api",
             "demisto/boto3",
-            "demisto/genericsql",
-            "demisto/resilient"
+            "demisto/resilient",
+            "demisto/chromium",
+            "demisto/genericsql"
         ],
         "home_page": "http://github.com/dashea/requests-file",
         "licenses": [
@@ -7905,7 +7905,6 @@
             "demisto/sane-doc-reports",
             "demisto/python3-deb",
             "demisto/sane-pdf-reports",
-            "demisto/chromium",
             "demisto/office-utils",
             "demisto/ml",
             "demisto/nltk",
@@ -7937,8 +7936,9 @@
             "demisto/boto3py3",
             "demisto/google-vision-api",
             "demisto/boto3",
-            "demisto/genericsql",
-            "demisto/resilient"
+            "demisto/resilient",
+            "demisto/chromium",
+            "demisto/genericsql"
         ],
         "home_page": "https://github.com/pypa/setuptools",
         "licenses": [
@@ -8136,7 +8136,6 @@
             "demisto/sane-doc-reports",
             "demisto/python3-deb",
             "demisto/sane-pdf-reports",
-            "demisto/chromium",
             "demisto/office-utils",
             "demisto/ml",
             "demisto/nltk",
@@ -8168,8 +8167,9 @@
             "demisto/boto3py3",
             "demisto/google-vision-api",
             "demisto/boto3",
-            "demisto/genericsql",
-            "demisto/resilient"
+            "demisto/resilient",
+            "demisto/chromium",
+            "demisto/genericsql"
         ],
         "home_page": "https://github.com/benjaminp/six",
         "licenses": [
@@ -8823,7 +8823,6 @@
             "demisto/sane-doc-reports",
             "demisto/python3-deb",
             "demisto/sane-pdf-reports",
-            "demisto/chromium",
             "demisto/office-utils",
             "demisto/ml",
             "demisto/nltk",
@@ -8855,8 +8854,9 @@
             "demisto/boto3py3",
             "demisto/google-vision-api",
             "demisto/boto3",
-            "demisto/genericsql",
-            "demisto/resilient"
+            "demisto/resilient",
+            "demisto/chromium",
+            "demisto/genericsql"
         ],
         "home_page": "https://github.com/john-kurkowski/tldextract",
         "licenses": [
@@ -9122,7 +9122,6 @@
             "demisto/sane-doc-reports",
             "demisto/python3-deb",
             "demisto/sane-pdf-reports",
-            "demisto/chromium",
             "demisto/office-utils",
             "demisto/ml",
             "demisto/nltk",
@@ -9154,8 +9153,9 @@
             "demisto/boto3py3",
             "demisto/google-vision-api",
             "demisto/boto3",
-            "demisto/genericsql",
-            "demisto/resilient"
+            "demisto/resilient",
+            "demisto/chromium",
+            "demisto/genericsql"
         ],
         "home_page": "https://github.com/regebro/tzlocal",
         "licenses": [
@@ -9353,7 +9353,6 @@
             "demisto/sane-doc-reports",
             "demisto/python3-deb",
             "demisto/sane-pdf-reports",
-            "demisto/chromium",
             "demisto/office-utils",
             "demisto/ml",
             "demisto/nltk",
@@ -9385,8 +9384,9 @@
             "demisto/boto3py3",
             "demisto/google-vision-api",
             "demisto/boto3",
-            "demisto/genericsql",
-            "demisto/resilient"
+            "demisto/resilient",
+            "demisto/chromium",
+            "demisto/genericsql"
         ],
         "home_page": "https://urllib3.readthedocs.io/",
         "licenses": [
@@ -9797,7 +9797,6 @@
             "demisto/sane-doc-reports",
             "demisto/python3-deb",
             "demisto/sane-pdf-reports",
-            "demisto/chromium",
             "demisto/office-utils",
             "demisto/ml",
             "demisto/nltk",
@@ -9829,8 +9828,9 @@
             "demisto/boto3py3",
             "demisto/google-vision-api",
             "demisto/boto3",
-            "demisto/genericsql",
-            "demisto/resilient"
+            "demisto/resilient",
+            "demisto/chromium",
+            "demisto/genericsql"
         ],
         "home_page": "https://github.com/pypa/wheel",
         "licenses": [

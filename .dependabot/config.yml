@@ -2015,6 +2015,34 @@ update_configs:
         update_type: all
 
   - package_manager: python
+    directory: /docker/asana
+    update_schedule: live
+    automerged_updates:
+    - match:
+        update_type: semver:minor
+  - package_manager: docker
+    directory: /docker/asana
+    update_schedule: daily
+    automerged_updates:
+    - match:
+        dependency_name: demisto/*
+        update_type: all
+
+  - package_manager: python
+    directory: /docker/reversinglabs-sdk-py3
+    update_schedule: live
+    automerged_updates:
+    - match:
+        update_type: semver:minor
+  - package_manager: docker
+    directory: /docker/reversinglabs-sdk-py3
+    update_schedule: daily
+    automerged_updates:
+    - match:
+        dependency_name: demisto/*
+        update_type: all
+
+  - package_manager: python
     directory: /docker/tableau
     update_schedule: live
     automerged_updates:
@@ -2022,6 +2050,47 @@ update_configs:
         update_type: semver:minor
   - package_manager: docker
     directory: /docker/tableau
+    update_schedule: daily
+    automerged_updates:
+    - match:
+        dependency_name: demisto/*
+        update_type: all
+
+  - package_manager: python
+    directory: /docker/carbon-black-cloud
+    update_schedule: live
+    automerged_updates:
+    - match:
+        update_type: semver:minor
+  - package_manager: docker
+    directory: /docker/carbon-black-cloud
+    update_schedule: daily
+    automerged_updates:
+    - match:
+        dependency_name: demisto/*
+        update_type: all
+
+  - package_manager: python
+    directory: /docker/minio
+    update_schedule: live
+    automerged_updates:
+    - match:
+        update_type: semver:minor
+  - package_manager: docker
+    directory: /docker/minio
+    update_schedule: daily
+    automerged_updates:
+    - match:
+        dependency_name: demisto/*
+        update_type: all
+  - package_manager: python
+    directory: /docker/polyswarm
+    update_schedule: live
+    automerged_updates:
+    - match:
+        update_type: semver:minor
+  - package_manager: docker
+    directory: /docker/polyswarm
     update_schedule: daily
     automerged_updates:
     - match:

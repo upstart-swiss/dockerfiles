@@ -1,28 +1,28 @@
-# `demisto/pymongo:1.0.0.19143`
+# `demisto/solarwinds-orionsdk:1.0.0.19062`
 ## Docker Metadata
-- Image Size: `24.22 MB`
-- Image ID: `sha256:bc89bc38e096cb78dc1fcf7e70265ba257ba44a16a4ca38a19b2f4aee60dbfc5`
-- Created: `2021-04-21T19:53:22.451982861Z`
+- Image Size: `23.67 MB`
+- Image ID: `sha256:5c75b1ecd0ee84b9ab1043da26dbd8cf2e5ce31a85d834663f1310a119e3697d`
+- Created: `2021-04-21T10:47:05.047824582Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
   - `PATH=/usr/local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin`
   - `LANG=C.UTF-8`
   - `GPG_KEY=E3FF2839C048B25C084DEBE9B26995E310250568`
-  - `PYTHON_VERSION=3.9.4`
+  - `PYTHON_VERSION=3.9.2`
   - `PYTHON_PIP_VERSION=21.0.1`
-  - `PYTHON_GET_PIP_URL=https://github.com/pypa/get-pip/raw/29f37dbe6b3842ccd52d61816a3044173962ebeb/public/get-pip.py`
-  - `PYTHON_GET_PIP_SHA256=e03eb8a33d3b441ff484c56a436ff10680479d4bd14e59268e67977ed40904de`
-  - `DOCKER_IMAGE=demisto/pymongo:1.0.0.19143`
+  - `PYTHON_GET_PIP_URL=https://github.com/pypa/get-pip/raw/b60e2320d9e8d02348525bd74e871e466afdf77c/get-pip.py`
+  - `PYTHON_GET_PIP_SHA256=c3b81e5d06371e135fb3156dc7d8fd6270735088428c4a9a5ec1f342e2024565`
+  - `DOCKER_IMAGE=demisto/solarwinds-orionsdk:1.0.0.19062`
 - Labels:
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:d84029435f8aec695f8578453625a985f2cd4fd7`
-  - `org.opencontainers.image.version:1.0.0.19143`
+  - `org.opencontainers.image.revision:41a6c0180305855cac839079782f4c6784950af5`
+  - `org.opencontainers.image.version:1.0.0.19062`
 
 - OS Release:
   - `NAME="Alpine Linux"`
   - `ID=alpine`
-  - `VERSION_ID=3.13.4`
+  - `VERSION_ID=3.13.3`
   - `PRETTY_NAME="Alpine Linux v3.13"`
   - `HOME_URL="https://alpinelinux.org/"`
   - `BUG_REPORT_URL="https://bugs.alpinelinux.org/"`
@@ -30,15 +30,15 @@
 ## Docker Trust
 ```
 
-Signatures for demisto/pymongo:1.0.0.19143
+Signatures for demisto/solarwinds-orionsdk:1.0.0.19062
 
 SIGNED TAG          DIGEST                                                             SIGNERS
-1.0.0.19143         c3242bd4b37759d8f6e5816b82510203479e53e7c59b122b6c9e269e03720b4c   (Repo Admin)
+1.0.0.19062         b642c0ca6638681c62f60d0cfd2376aca1d534552d1c0b0a310aa58d31980c81   (Repo Admin)
 
-Administrative keys for demisto/pymongo:1.0.0.19143
+Administrative keys for demisto/solarwinds-orionsdk:1.0.0.19062
 
-  Repository Key:	cbd9bc88a36f4d80f05438ad8bb8f5a45b22be3d5204e7c66d0ff60b2f2a4548
-  Root Key:	1bfb956d6094f343a0911bfd079ccc2b68cc6c140b7e360299c8f57affb3a408
+  Repository Key:	6e386352fcb5ede531f59a2f8b6e1b06eb440ef0891bc35ee80978b3f58643f6
+  Root Key:	7191626a53f20e809586f3d578e827c6523d1d0e5d777ef9ee08ed2d9e94c050
 
 ```
 
@@ -99,6 +99,15 @@ Administrative keys for demisto/pymongo:1.0.0.19143
 * Author: Philippe Lagadec nospam@decalage.info
 * License :: OSI Approved :: BSD License
 
+### `orionsdk`
+
+* Summary: Python API for the SolarWinds Orion SDK
+* Version: 0.3.0
+* Pypi: https://pypi.org/project/orionsdk/
+* Homepage: http://github.com/solarwinds/orionsdk-python
+* Author: SolarWinds dan.jagnow@solarwinds.com
+* License :: OSI Approved :: Apache Software License
+
 ### `pip`
 
 * Summary: The PyPA recommended tool for installing Python packages.
@@ -107,15 +116,6 @@ Administrative keys for demisto/pymongo:1.0.0.19143
 * Homepage: https://pip.pypa.io/
 * Author: The pip developers distutils-sig@python.org
 * License :: OSI Approved :: MIT License
-
-### `pymongo`
-
-* Summary: Python driver for MongoDB <http://www.mongodb.org>
-* Version: 3.11.3
-* Pypi: https://pypi.org/project/pymongo/
-* Homepage: http://github.com/mongodb/mongo-python-driver
-* Author: Bernie Hackett bernie@mongodb.com
-* License :: OSI Approved :: Apache Software License
 
 ### `PySocks`
 
@@ -139,7 +139,7 @@ Administrative keys for demisto/pymongo:1.0.0.19143
 ### `pytz`
 
 * Summary: World timezone definitions, modern and historical
-* Version: 2021.1
+* Version: 2020.5
 * Pypi: https://pypi.org/project/pytz/
 * Homepage: http://pythonhosted.org/pytz
 * Author: Stuart Bishop stuart@stuartbishop.net
@@ -157,7 +157,7 @@ Administrative keys for demisto/pymongo:1.0.0.19143
 ### `regex`
 
 * Summary: Alternative regular expression module, to replace re.
-* Version: 2021.4.4
+* Version: 2020.11.13
 * Pypi: https://pypi.org/project/regex/
 * Homepage: https://bitbucket.org/mrabarnett/mrab-regex
 * Author: Matthew Barnett regex@mrabarnett.plus.com
@@ -237,11 +237,11 @@ Administrative keys for demisto/pymongo:1.0.0.19143
 
 ## `OS Packages`
 
-* .python-rundeps-20210405.183424 noarch {.python-rundeps}
+* .python-rundeps-20210326.084248 noarch {.python-rundeps}
 * alpine-baselayout-3.2.0-r8 x86_64 {alpine-baselayout}
 * alpine-keys-2.2-r0 x86_64 {alpine-keys}
-* apk-tools-2.12.4-r2 x86_64 {apk-tools}
-* busybox-1.32.1-r5 x86_64 {busybox}
+* apk-tools-2.12.1-r0 x86_64 {apk-tools}
+* busybox-1.32.1-r3 x86_64 {busybox}
 * ca-certificates-20191127-r5 x86_64 {ca-certificates}
 * ca-certificates-bundle-20191127-r5 x86_64 {ca-certificates}
 * expat-2.2.10-r1 x86_64 {expat}
@@ -269,7 +269,7 @@ Administrative keys for demisto/pymongo:1.0.0.19143
 * readline-8.1.0-r0 x86_64 {readline}
 * scanelf-1.2.8-r0 x86_64 {pax-utils}
 * sqlite-libs-3.34.1-r0 x86_64 {sqlite}
-* ssl_client-1.32.1-r5 x86_64 {busybox}
+* ssl_client-1.32.1-r3 x86_64 {busybox}
 * tzdata-2021a-r0 x86_64 {tzdata}
 * xz-libs-5.2.5-r0 x86_64 {xz}
 * zlib-1.2.11-r3 x86_64 {zlib}

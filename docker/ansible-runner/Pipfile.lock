@@ -116,11 +116,11 @@
         },
         "ansible-runner": {
             "hashes": [
-                "sha256:1bb56f9061c3238d89ec8871bc842f5b8d0e868f892347e8455c98d5b6fa58a1",
-                "sha256:2959940ae0a6f2a8828ec34f1f8ed56244b11614f841a7dc8fe12faea12036f7"
+                "sha256:5996a50b2cc709b0f65f77a76ba301a81ca72fe9e7581e947d8d66a15d662220",
+                "sha256:cca8cc10cce033fb54f990129cbd49574063ad173e0c399e9ce7506d64527edf"
             ],
             "index": "pypi",
-            "version": "==1.4.7"
+            "version": "==2.0.1"
         },
         "azure-common": {
             "hashes": [

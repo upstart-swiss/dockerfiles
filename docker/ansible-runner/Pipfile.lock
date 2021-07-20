@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "f5081a76e0349440eb04daaa677b1886c1732a4c74fc5683bfaa13f12aae9087"
+            "sha256": "5aae4f14364156488356ed5bbe4cc5acd2c0147c005854258cc6cbeeb1020bdf"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -31,10 +31,10 @@
         },
         "aliyun-python-sdk-ecs": {
             "hashes": [
-                "sha256:8246e5342c9ed6844f3956b3e97221ca4718cf45032bfdb4f45f9276a95909dd",
-                "sha256:fba19b2da20186daebe84b95202347525abf8338ecc2e441c5dc71a12cca7f80"
+                "sha256:64a89b8e9cb0dd7b585ecf6840c9f2e307a351b7ed772d0348220d4243c66f1a",
+                "sha256:81afc0402a13ffe30c5a03a225406a2536ae6136a290f7e67928c26aa5af0f0d"
             ],
-            "version": "==4.24.3"
+            "version": "==4.24.4"
         },
         "aliyun-python-sdk-ess": {
             "hashes": [
@@ -103,16 +103,16 @@
         },
         "ansible": {
             "hashes": [
-                "sha256:9ff024500116d53c460cb09ea92e3c9404119f100d1d1ff0de69a9dafca561d5"
+                "sha256:aeb0007a18e8914dd3ffe0acb2c4377f2d1f25e01c39e845c6cb8b16bdc1018b"
             ],
             "index": "pypi",
-            "version": "==2.10.7"
+            "version": "==4.3.0"
         },
-        "ansible-base": {
+        "ansible-core": {
             "hashes": [
-                "sha256:bcf114d82a6a62659b43d498169a65cba948ca75bb4ef10e982956157167234b"
+                "sha256:0ced1b4f67197edb27b50934c95d4cb644c6d635d72c7f826c4425dfe4537674"
             ],
-            "version": "==2.10.11"
+            "version": "==2.11.3"
         },
         "ansible-runner": {
             "hashes": [
@@ -253,11 +253,11 @@
         },
         "charset-normalizer": {
             "hashes": [
-                "sha256:3c502a35807c9df35697b0f44b1d65008f83071ff29c69677c7c22573bc5a45a",
-                "sha256:951567c2f7433a70ab63f1be67e5ee05d3925d9423306ecb71a3b272757bcc95"
+                "sha256:88fce3fa5b1a84fdcb3f603d889f723d1dd89b26059d0123ca435570e848d5e1",
+                "sha256:c46c3ace2d744cfbdebceaa3c19ae691f53ae621b39fd7570f59d14fb7f2fd12"
             ],
             "markers": "python_version >= '3'",
-            "version": "==2.0.2"
+            "version": "==2.0.3"
         },
         "crcmod": {
             "hashes": [
@@ -312,10 +312,10 @@
         },
         "google-auth": {
             "hashes": [
-                "sha256:9bd25d835c01ca3dd9045ea0b50f036e3fe3868ee2c5a9773a661925bbdf46ca",
-                "sha256:a756a33978fac611e4f00b69715b80e35467c30cc6262132d29d33a0e398ac55"
+                "sha256:036dd68c1e8baa422b6b61619b8e02793da2e20f55e69514612de6c080468755",
+                "sha256:7665c04f2df13cc938dc7d9066cddb1f8af62b038bc8b2306848c1b23121865f"
             ],
-            "version": "==1.33.0"
+            "version": "==1.33.1"
         },
         "hcloud": {
             "hashes": [
@@ -682,6 +682,13 @@
                 "sha256:b4261601a71fd721a8bd6d7aa1cc1d6a8a93b4a9f5e96626f8e4d91e8beeaa6a"
             ],
             "version": "==1.3.0"
+        },
+        "resolvelib": {
+            "hashes": [
+                "sha256:123de56548c90df85137425a3f51eb93df89e2ba719aeb6a8023c032758be950",
+                "sha256:b0143b9d074550a6c5163a0f587e49c49017434e3cdfe853941725f5455dd29c"
+            ],
+            "version": "==0.5.5"
         },
         "rsa": {
             "hashes": [
